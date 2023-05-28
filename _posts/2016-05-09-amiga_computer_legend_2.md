@@ -3,6 +3,7 @@ title:  "Amiga电脑传奇（二）"
 categories: history
 permalink: amiga_computer_legend_2.html
 tags: [history]
+hide_sidebar: true
 summary: "Amiga电脑作为1980年代中期最为强大的16位多媒体电脑，在西方电脑爱好者中具有极高的地位，对Demosence文化和电脑音乐也有着不可磨灭的影响，由于历史原因，Amiga电脑在中国极其罕见。爱好者也寥寥无几，希望通过此文能够成为向中文社区介绍Amiga电脑的历史，并和有兴趣的爱好者交流观点看法。"
 ---
 
