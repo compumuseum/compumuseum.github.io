@@ -18,7 +18,7 @@ comments: false
     <textarea rows="5" name="message" id="message" placeholder="Your Message." required=""></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="来自 Computer Museum 的反馈">
   </fieldset>
-  <input type="submit" value="Submit">
+  <input type="submit" value="提交">
 </form>
 
 <style>/* reset */
