@@ -4,7 +4,6 @@ categories: history
 permalink: experience_the_technologies_that_change_writing.html
 tags: [experience, history]
 hide_sidebar: true
-comments: true
 summary: "通过几个话题来展示一系列在信息技术革命之中出现的对写作者和写作这件事情本身产生巨大影响的技术，来给大家一个机会去体验和思考科技与写作之间的关系。同时也带大家参观一下我搭建的这个网页里的电脑博物馆。"
 ---
 
