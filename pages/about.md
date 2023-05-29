@@ -5,7 +5,7 @@ last_updated: May 29, 2023
 permalink: about.html
 topnav: topnav
 hide_sidebar: true
-comments: true
+comments: false
 ---
 
 电脑博物馆 + 家用游戏博物馆 + DOS游戏博物馆 + CPU博物馆 + Flash档案馆是一组服务于教育，公益性的在线博物馆。它坚守人们建设互联网最初的愿景：开放、平等和免费的访问信息。

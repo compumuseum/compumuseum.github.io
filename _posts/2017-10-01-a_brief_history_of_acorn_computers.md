@@ -4,6 +4,7 @@ categories: history
 permalink: a_brief_history_of_acorn_computers.html
 tags: [history]
 hide_sidebar: true
+comments: true
 summary: "在玩树莓派（Raspberry Pi）的过程中，总是会有意无意的接触到一款之前从未听闻的系统，RISC OS。而启发树莓派开发的，则是一款80年代的家用电脑BBC Micro，而这一切都是来自于昔日的英国IT巨人Acorn，而树莓派所使用的ARM处理器的发明者也是Acorn。作为一家企业的Acorn已经不再存在，但其遗产却仍深刻的影响着今天的IT行业。"
 ---
 
@@ -254,6 +255,6 @@ Ellison希望能够在1996年2月发布NC，而在Acorn，NC由Sophie Wilson负�
 
 ---------
 
-出处：<https://zhuanlan.zhihu.com/p/20498012>
+出处：https://zhuanlan.zhihu.com/p/20498012
 
 {% include links.html %}

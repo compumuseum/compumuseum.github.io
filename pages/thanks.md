@@ -6,7 +6,7 @@ permalink: thanks.html
 topnav: topnav
 toc: false
 hide_sidebar: true
-comments: true
+comments: false
 ---
 
 ## Credits and Thanks
