@@ -8,14 +8,14 @@ entries:
   - title: 导航菜单
     output: web
     folderitems:
-    - title: CPU
-      url: /index.html
+    - title: History
+      url: /tag_history.html
       output: web
-    - title: News
-      url: /news.html
+    - title: Experience
+      url: /tag_experience.html
       output: web
-    - title: News Archive
-      url: /news_archive.html
+    - title: Blog
+      url: /tag_blog.html
       output: web
     
 
