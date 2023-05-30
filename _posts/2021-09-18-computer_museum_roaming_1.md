@@ -2,9 +2,9 @@
 title:  "电脑博物馆漫游（一）"
 categories: blog
 permalink: computer_museum_roaming_1.html
-tags: [blog]
+tags: [blog, experience]
 hide_sidebar: true
-summary: ""
+summary: "这些年来随着 V8 引擎等前端技术的发展，以往只用来处理网页特效的 Javascript 代码现在也被用作更多的用途。asm.js、Emscripten 等工具的出现让向浏览器移植模拟器变得更加便利，用 Javascript 编写古董硬件的模拟器，提供一种更加便利的尝试古董电脑的手段。《电脑博物馆漫游》系列文章将带您了解和体验电脑博物馆中的各种古董电脑。"
 ---
 
 我的古董电脑是在开始写作之初的想法就是希望能够建立西方Retrocomputing社区和中文世界之间的联系，也在陆续探索各种更好地向中文社区介绍古董电脑和Retrocomputing文化的方式。
