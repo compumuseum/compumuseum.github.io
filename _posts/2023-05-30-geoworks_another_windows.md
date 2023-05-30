@@ -50,12 +50,17 @@ GEOS开始于为Commodore 64电脑开发的可选的操作系统，它的开发�
 
 **针对不同操作水平的用户提供不同的界面：**DOS并不是为新手准备的简单的操作系统，而GeoWorks Ensemble则努力确保它易于使用，它提供了两种不同的操作层次：“家用电器”和“专业环境”，以及可以跳转到DOS程序的shell，因此如果你想玩《指挥官基恩》（Commander Keen）也是完全没问题的。对于完全没有PC使用经验的人群来说，这种策略堪称完美————它是自带训练机制的。
 
+<div align="center">
+    <a href="../images/dnbwg/geoworks_another_windows_03.png">
+        <img src="../images/dnbwg/geoworks_another_windows_03.png"/>
+    </a>
+</div>
 
 **内置的办公工具：**这款软件包含了一系列应用程序，这些应用程序几乎可以与其它操作系统上找到的各种应用程序相媲美，包括了文字处理软件，日历和电子表格。它还包括了一个打印店风格的横幅制作工具，如果您有一台针式打印机它可能就会派上用场。总体而言这些软件非常适合家庭用户，而Windows历史的初期微软并没有真正重视这些受众。GeoWorks的软件不像Microsoft Bob那样高大上，但使用效果却更好。
 
 <div align="center">
-    <a href="../images/dnbwg/geoworks_another_windows_03.png">
-        <img src="../images/dnbwg/geoworks_another_windows_03.png"/>
+    <a href="../images/dnbwg/geoworks_another_windows_04.jpg">
+        <img src="../images/dnbwg/geoworks_another_windows_04.jpg"/>
     </a>
     <p><b>图片来自：https://www.flickr.com/photos/bossco/8678697129/</b></p>
 </div>
@@ -81,12 +86,113 @@ GEOS和GeoWorks有着非常热情的粉丝群体，特别是在德国的用户�
 ```
 
 <div align="center">
-    <a href="../images/dnbwg/geoworks_another_windows_04.jpg">
-        <img src="../images/dnbwg/geoworks_another_windows_04.jpg"/>
+    <a href="../images/dnbwg/geoworks_another_windows_05.jpg">
+        <img src="../images/dnbwg/geoworks_another_windows_05.jpg"/>
     </a>
 </div>
 
 一款基于Motif的应用软件，它并不是GeoWorks Ensemble的软件，但看起来很类似。
+
+## 让GeoWorks具有独特外观的界面标准
+
+GeoWorks Ensemble是一款为低端家庭用户设计的GUI，但却借鉴了当年若干高端计算架构的DNA————特别是它的界面样式。
+
+GeoWorks的软件即使相对来说用户不多，但它仍然可能是Motif最贴近消费市场的之一，Motif是一种图形用户界面组件工具集，大概在GeoWorks Ensemble开始开发的同时出现。当Windows使用自己内部开发的图形用户界面的同时，GeoWorks则使用了开放软件基金会指定的统一标准，开放软件基金会是一个由若干公司组成团体，其主要的任务是为Unix创建开放标准。
+
+（不过，请不要将“开放标准”误认为是“开源”：在GeoWorks使用Motif工具集的那段时间，Motif是专有的，而且企业用户比如为此支付使用费。）
+
+Motif精巧的界面元素让它很容易带有那个时代的年代感，类似的界面风格也被使用在同时代其他与之竞争的用户界面中，比如Windows 3.1和NeXT。它实际上代表了1991年软件的样式。
+
+<div align="center">
+    <a href="../images/dnbwg/geoworks_another_windows_06.jpg">
+        <img src="../images/dnbwg/geoworks_another_windows_06.jpg"/>
+    </a>
+    <p><b>使用了Motif的Common Desktop Enviroment</b></p>
+</div>
+
+虽然Motif在消费市场上很少出现，但在一段时间里，它也可能是各种Unix实现中使用最为广泛的GUI界面之一。在SGI电脑上使用的Irix操作系统就是基于Motif的（它使用了由Motif发展而来的4Dwm窗口界面，或称为IRIS Extended Motif Window Manager），此外Common Desktop Enviroment也在1990年代被许多不同的Unix电脑使用。
+
+但由于Motif是私有软件，因此它和Linux并算不上是同路人，也因此在后来蓬勃发展开源软件的世界中几乎感受不到它的影响。到了2000年，Motif工具集开放给开源社区使用，但并不是真正意义上的开源并且依赖于非标准的许可协议。直到Motif被创建后25年的2012年，它才真正成为开源软件。
+
+不过到了2012年，虽然Motif仍然由一定粉丝群体，并且被一些工业应用软件所使用，但它已经很大程度上被发展更加迅速的开源接口所取代。你可以选择GNOME或者是KDE Plasma————它们在过去的20年间持续成长并成为更好的选择（另外它们也更加现代）。但Motif及其在Common Desktop Environment中的使用，仍然可以说是为这些替代界面的流行和普及铺平了道路。
+
+而GeoWorks对Motif的使用则相当独特，部分的原因是因为GEOS并不是真正的Unix操作系统，而是独立的运行在DOS之上的，同时它对Motif的使用也要早于其他的场合。
+
+但到了90年代末2000年代初，GeoWorks精美的非Windows外观让位给了仿Windows的外观风格，这简直太糟糕了。
+
+<div align="center">
+    <a href="../images/dnbwg/geoworks_another_windows_07.png">
+        <img src="../images/dnbwg/geoworks_another_windows_07.png"/>
+    </a>
+</div>
+
+## 作为一款操作系统的GeoWorks可能已经死了，但它若干在其他领域却获得了新生
+
+一个关于失败的操作系统的有趣事实是它们通常不会真正地消失，而是出现在某些蒂塔的地方，因为这些软件在特定的环境下仍然是有用的。比如说惨遭Palm放弃的WebOS如今就驱动着LG的智能电视，而正如我们上周所提到的，纽约市已经使用OS/2管理他们的地铁系统将近30年。
+
+GEOS也有着大概相同的结局。就像当一头牛进入到食品加工流程之后会被切割为一百万片，GEOS的某些部分也会出现在各种奇怪产品的配料单中。一些GEOS出现过的地方包括了：
+
+<div align="center">
+    <a href="../images/dnbwg/geoworks_another_windows_08.jpg">
+        <img src="../images/dnbwg/geoworks_another_windows_08.jpg"/>
+    </a>
+</div>
+
+**个人数字助理：**在Palm Computing的创始人杰夫霍金斯（Jeff Hawkins）推出PalmPilot之前，他在精简版的GEOS上进行了初期的实践。1993年问世的Tandy Zoomer并没有成为热销产品，但与GeoWorks、Tandy和卡西欧的合作为霍金斯和他的团队提供了丰富的信息。这帮主他们在几年后推出第一款成功的PDA奠定了基础————虽然新的产品并没有使用GEOS（但GEOS并没有偃旗息鼓，后来惠普也推出了基于GEOS的PDA产品）。
+
+<div align="center">
+    <a href="../images/dnbwg/geoworks_another_windows_09.jpg">
+        <img src="../images/dnbwg/geoworks_another_windows_09.jpg"/>
+    </a>
+</div>
+
+**早期的智能手机：**GEOS在移动革命中的作用并不仅限于Palm。在90年代后期，GEOS操作系统曾经是诺基亚9000通信器（Nokia 9000 Communicator）的重要组成部分，诺基亚9000是最早的智能手机之一，而且是早期智能手机中广受欢迎的一款。它可以进行基本的文字处理，具有图形化的网页浏览器，甚至可以编辑电子表格。对于尝鲜者来说这种体验并不便宜，诺基亚9000发布时售价800美元，而且又大又沉。“当代的只能手机用户可能将电子邮件和网络浏览这些功能看作是理所当然的事情，但诺基亚9000通信器却是第一款能够在单独的设备中提供这些功能的手机”2013年，科技作家Richard Baguley在Medium上写道“它可能是一款庞大笨重的设备，但我们仍然怀念它。”
+
+<div align="center">
+    <a href="../images/dnbwg/geoworks_another_windows_10.jpg">
+        <img src="../images/dnbwg/geoworks_another_windows_10.jpg"/>
+    </a>
+</div>
+
+**电子打字机：**90年代对于打字机制造商来说是个糟糕的时刻，但Brother此时虽然还没有找到迎接互联网革命的正确姿势，但确实也准备了一样新装备：GEOS。Brother开始和GeoWorks合作开发一系列打印机产品，在这些产品上加入基本的文字处理和桌面出版功能。这些产品技术上仍然是打字机，但却能做更多比打字有趣的多的事情。
+
+<div align="center">
+    <a href="../images/dnbwg/geoworks_another_windows_11.jpg">
+        <img src="../images/dnbwg/geoworks_another_windows_11.jpg"/>
+    </a>
+</div>
+
+**原始的上网本：**Brother对GEOS的兴趣不仅限于打字机，正如一份新闻稿中提到，他们将GEOS视为将“计算机推向大众”的机会。1998年，在GEOS已经几乎淡出所有人的视野若干年之后，这家打字机公司发布了一款替代型平台————500美元的GeoBook，这款低功耗的笔记本产品成功的预言了十年后上网本产品的崛起。它可以上网，并且可以使用DOS版GeoWorks的许多软件，但为了维持低价，它没有安装硬盘。就像后来的上网本一样，评测作者不喜欢它们。“在同样的价格上，你可以轻易的找到停产的、翻新的或者二手的Windows电脑，甚至是一部新电脑，而Windows电脑可以做数百种这种电脑做梦也想不到的事情”《纽约时报》在1998年做出这样的负面评价。
+
+（如果你对这款机器感到好奇，这儿有[一篇2017年的评测](https://vintagegeek.wordpress.com/2017/04/21/brother-supernotebook-graphic-runs-geos/)）
+
+我知道如今已经没有这样疯狂的GEOS项目了，但它或许仍运行在某个角落的ATM机上。
+
+**当我写下最初的这篇文章时**，它的结尾有些忧伤，最初写下这篇文章时，GeoWorks正在经历一系列的转手后的迷途中。
+
+但好消息则是，GEOS最终又找到了自己的方向，这值得我们讨论一下它走到这一步之前的过程。
+
+当GeoWorks公司在90年代末解散后，它的技术资产被变卖给一家名为NewDeal的公司，这家公司基于GEOS构建了一套办公软件，这款软件的外观看起来与Windows 95类似，让它丢掉了许多原平台的魅力。
+
+后来，这款操作系统被Ted Turner的儿子所获得，他曾经尝试经营一家名为http://MyTurn.com的廉价电脑公司，而GeoWorks则被视为是其廉价电脑平台的核心。（当Teddy Turner参与2013年国会竞选时人们这段http://MyTurn.com的历史又一次被人们注意到）
+
+但是GeoWorks时间最长的遗产则是在一家名为Breadbox的公司手中，他们基本上将GeoWorks作为一个由志愿者维持的项目，其最终目标是将GEOS变成一个与Android协作的教育软件平台。
+
+但是（正如我在2016年的文章中所指出的那样）这一平台在其维护者Frank S. Fischer意外去世后经历了一次毁灭性的打击。后续的维护者John F. Howard承诺该项目会继续下去，但是“有一些法律问题需要解决”。
+
+这些法律问题在今年早些时候被逐渐解决，而在此之前的一系列工作则将PC版GEOS作为一个GitHub上的开源项目重新发布（这是个好消息！这些年来GEOS经历了许多，但从未开源。）
+
+在一家名为blueway.Softworks的公司的运作下，这款软件在走向开源之前经历了复杂的流程，TechRepublic的记者James Sanders在三月份的报道中提到，这其中包括了与之前的权利持有者之间签订新的协议。
+
+曾经与Breadbox合作过的blueway.Softworks的创始人Falk Rehwagen表示，PC/GEOS中的包含了复杂的许可的和非许可的软件部分，这让PC/GEOS的开源过程比它讲起来要复杂的多。
+
+“因为Breadbox Ensemble使用了经过许可的非自由软件组件，因此我们决定根据许可协议仅仅将其提供给注册用户，来保证这一系统在全世界范围内可用”Rehwagen解释道“于此同时我们将非自由软件的部分分离，并让PC/GEOS的核心成为开源软件，从而形成了#FreeGEOS。”
+
+而其目标，他补充道，是为其提供最先进的功能并提升其支持水平“将平台现代化是最优先的任务。”
+
+PC/GEOS可能不会像Windows 3.1那样接管整个世界，它曾经是一款优秀的DOS外壳，而您上一次使用DOS是什么时候呢？但保持这些系统继续运转却是重要且必须的。
+
+从某些方面来说，GeoWorks是我使用家用电脑的入门平台，我使用它的GUI要早于我使用Windows、MacOS、Linux和Android。它在当代的对话中配得其一席之地————即使仅仅为了证明它可以做到，即使在经过了这些年之后。
 
 ---------
 
