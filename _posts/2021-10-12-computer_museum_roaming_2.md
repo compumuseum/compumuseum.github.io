@@ -92,6 +92,129 @@ CEC-I模拟器的故事从某种程度上反映了国内古董电脑社区较为
 
 <https://github.com/jsdf/pce>
 
+
+## Macintosh IIci
+苹果早期的Macintosh电脑只有黑白显示器、而且没有扩展槽，之所以这样设计，是因为乔布斯认为扩展槽会让用户体验变得复杂，而彩色打印机当时并不普及，彩色显示器无法做到“所见即所得”，因此要求Macintosh团队使用较高分辨率的黑白显示器。1985年，苹果的硬件工程师Michael Dhuey和Brian Berkeley开始秘密设计一款支持彩色屏幕的Macintosh，这就是后来的Macintosh II系列，值得一提的是，当时为他们提供“掩护”的产品经理让-路易·加西（Jean-Louis Gassée）后来创立了Be Inc.并开发了BeOS，并差一点取代NeXT成为苹果新版Mac OS的基础。
+
+<div align="center">
+    <a href="../images/dnbwg/computer_museum_roaming_16.jpg">
+        <img src="../images/dnbwg/computer_museum_roaming_16.jpg"/>
+    </a>
+</div>
+
+1985年下半年，乔布斯被苹果解雇，从此彩色显示的Macintosh II被正式列入开发计划，并于1987年3月正式发售，和IBM PS/2的发售时间相差无几。而这次模拟的机型，是1989年Macintosh II的升级版Macintosh IIci，而操作系统则是发布于1992年的System 7.1。
+
+{{site.data.alerts.tip}}
+<p>体验 <b><a href='{{ "/emularity.html?machine=maciici" | prepend: site.computer_museum_base_url }}' target='_blank'>Macintosh IIci 模拟器</a></b></p>
+{{site.data.alerts.end}}
+
+<div align="center">
+    <a href="../images/dnbwg/computer_museum_roaming_17.png">
+        <img src="../images/dnbwg/computer_museum_roaming_17.png"/>
+    </a>
+</div>
+
+而且这次古董电脑模拟器也提供了中文版System 7.1的模拟器，大家可以体验一下“果味”翻译的起源。
+
+{{site.data.alerts.tip}}
+<p>体验 <b><a href='{{ "/emularity.html?machine=maciicichs" | prepend: site.computer_museum_base_url }}' target='_blank'>Macintosh IIci 模拟器（中文系统）</a></b></p>
+{{site.data.alerts.end}}
+
+
+## IBM PC兼容机和DOS
+
+90年代中期，IBM兼容机在个人电脑大战中的胜利已是势不可挡，在北美，Dell、Gateway等平价兼容机正在和以宏碁、富士通为代表的亚洲厂商奋力争夺市场，而在中国，联想、方正、浪潮等国产品牌也在不断降低电脑市场的价格门槛。而386、486处理器的图形性能也逐渐追上Amiga等使用专用芯片的家用电脑，PC游戏质量一日千里。
+
+<div align="center">
+    <a href="../images/dnbwg/computer_museum_roaming_18.jpg">
+        <img src="../images/dnbwg/computer_museum_roaming_18.jpg"/>
+    </a>
+</div>
+
+而最具里程碑意义的要数1993年的Doom了，3D场景、多人游戏、MOD扩展奠定了90年代3D第一人称射击游戏火爆的基础，并让第一人称射击游戏直到今天仍然是最新的3D图形技术使用最为密集、“显卡杀手”最为集中的游戏类型。利用EM-DOSBox，我们可以在网页里使用DOSBox运行当年流行的DOS游戏：
+
+{{site.data.alerts.tip}}
+<p>体验 <b><a href='{{ "/emularity.html?machine=doom" | prepend: site.computer_museum_base_url }}' target='_blank'>Doom</a></b></p>
+{{site.data.alerts.end}}
+
+<div align="center">
+    <a href="../images/dnbwg/computer_museum_roaming_19.jpg">
+        <img src="../images/dnbwg/computer_museum_roaming_19.jpg"/>
+    </a>
+</div>
+
+而Doom也是最为成功的共享软件，它将1/3的游戏内容（共9关）免费分发给游戏玩家体验，并鼓励玩家们分发传播共享试玩版本。在发布后的两年内，Doom售出了150万份完整版，而玩过试玩版的玩家则多达1500~2000万人。
+
+《仙剑奇侠传》和《金庸群侠传》分别诞生于1995年和1996年，在CS、魔兽等电子竞技游戏火爆之前，这两款游戏代表了中文武侠单机的巅峰。
+
+<div align="center">
+    <a href="../images/dnbwg/computer_museum_roaming_20.jpg">
+        <img src="../images/dnbwg/computer_museum_roaming_20.jpg"/>
+    </a>
+</div>
+
+{{site.data.alerts.tip}}
+<p>体验 <b><a href='{{ "/emularity.html?machine=xianjianpal" | prepend: site.computer_museum_base_url }}' target='_blank'>Doom</a></b></p>
+{{site.data.alerts.end}}
+
+<div align="center">
+    <a href="../images/dnbwg/computer_museum_roaming_21.jpg">
+        <img src="../images/dnbwg/computer_museum_roaming_21.jpg"/>
+    </a>
+</div>
+
+{{site.data.alerts.tip}}
+<p>体验 <b><a href='{{ "/emularity.html?machine=jinyong" | prepend: site.computer_museum_base_url }}' target='_blank'>Doom</a></b></p>
+{{site.data.alerts.end}}
+
+UCDOS是DOS时代最流行的中文DOS环境，最后一版发行于1997年底，此时中文版Windows 3.2和Windows 95已经相当普及，因此UCDOS也制作了一版UCShell程序管理器，模仿Windows 3.2的界面风格，并支持256色显示，但其中运行的程序仍然是标准的DOS程序，并不能像Windows那样支持多任务。
+
+<div align="center">
+    <a href="../images/dnbwg/computer_museum_roaming_22.png">
+        <img src="../images/dnbwg/computer_museum_roaming_22.png"/>
+    </a>
+</div>
+
+UCDOS 7.0也捆绑了1991年发布的WPS 2.2，在Windows 98流行之前，这可能是大多数中国电脑用户学会的第一个软件。
+
+<div align="center">
+    <a href="../images/dnbwg/computer_museum_roaming_23.png">
+        <img src="../images/dnbwg/computer_museum_roaming_23.png"/>
+    </a>
+</div>
+
+{{site.data.alerts.tip}}
+<p>体验 <b><a href='{{ "/emularity.html?machine=ucdos" | prepend: site.computer_museum_base_url }}' target='_blank'>Doom</a></b></p>
+{{site.data.alerts.end}}
+
+而在90年代IT界最重要的变革，则莫过于WWW的诞生和Windows 95的发布了，最后一个网页里的模拟器则是基于v86模拟器的Windows 95：
+
+{{site.data.alerts.tip}}
+<p>体验 <b><a href='{{ "/player.html?machine=netscape" | prepend: site.computer_museum_base_url }}' target='_blank'>Doom</a></b></p>
+{{site.data.alerts.end}}
+
+由于这个模拟器并不能真正的联网，所以我抓取了两个最具有代表性的网站，世界上第一个html网页，1993年由蒂姆•伯纳斯-李（Tim Berners-Lee）为新生的World Wide Web制作的介绍网页，上面的大多数链接也一并抓取下来，都是可以点开的。
+
+<div align="center">
+    <a href="../images/dnbwg/computer_museum_roaming_24.png">
+        <img src="../images/dnbwg/computer_museum_roaming_24.png"/>
+    </a>
+</div>
+
+以及最著名的网页艺术作品之一，1996年由Olia Lialina创作的《我男朋友由战场归来》（My Boyfriend Came Back From The War）:
+
+<div align="center">
+    <a href="../images/dnbwg/computer_museum_roaming_25.png">
+        <img src="../images/dnbwg/computer_museum_roaming_25.png"/>
+    </a>
+</div>
+
+这个Windows 95模拟器使用了当时最为流行的网景浏览器和800x600分辨率，希望能够重新体会当年“驱猫上网”的感觉。
+
+<https://github.com/dreamlayers/em-dosbox>
+
+<https://github.com/copy/v86>
+
 ---------
 
 出处：https://zhuanlan.zhihu.com/p/42973469
