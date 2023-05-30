@@ -2,7 +2,7 @@
 title:  "GeoWorks：另一个Windows"
 categories: history
 permalink: geoworks_another_windows.html
-tags: [history]
+tags: [experience, history]
 hide_sidebar: true
 summary: "在Windows进入大多数电脑用户的生活之前，一个名叫GeoWorks的暴发户曾经试图取代微软的地位，虽然它失败了，但是却为我们带来了美国在线。"
 ---
@@ -110,11 +110,11 @@ Motif精巧的界面元素让它很容易带有那个时代的年代感，类似
     <p><b>使用了Motif的Common Desktop Enviroment</b></p>
 </div>
 
-虽然Motif在消费市场上很少出现，但在一段时间里，它也可能是各种Unix实现中使用最为广泛的GUI界面之一。在SGI电脑上使用的Irix操作系统就是基于Motif的（它使用了由Motif发展而来的4Dwm窗口界面，或称为IRIS Extended Motif Window Manager），此外Common Desktop Enviroment也在1990年代被许多不同的Unix电脑使用。
+虽然Motif在消费市场上很少出现，但在一段时间里，它也可能是各种Unix实现中使用最为广泛的GUI界面之一。在[SGI电脑上使用](https://tedium.co/2018/10/04/sgi-collector-history/)的Irix操作系统就是基于Motif的（它使用了由Motif发展而来的4Dwm窗口界面，或称为[IRIS Extended Motif Window Manager](http://retrogeeks.org/sgi_bookshelves/SGI_Developer/books/UI_Glines/sgi_html/ch03.html)），此外Common Desktop Enviroment也在1990年代[被许多不同的Unix电脑使用](https://guidebookgallery.org/guis/cde)。
 
-但由于Motif是私有软件，因此它和Linux并算不上是同路人，也因此在后来蓬勃发展开源软件的世界中几乎感受不到它的影响。到了2000年，Motif工具集开放给开源社区使用，但并不是真正意义上的开源并且依赖于非标准的许可协议。直到Motif被创建后25年的2012年，它才真正成为开源软件。
+但由于Motif是私有软件，因此它和Linux并算不上是同路人，也因此在后来蓬勃发展开源软件的世界中几乎感受不到它的影响。到了2000年，Motif工具集开放给开源社区使用，但并不是真正意义上的开源并且[依赖于非标准的许可协议](https://www.opengroup.org/openmotif/faq.html)。直到Motif被创建后25年的2012年，[它才真正成为开源软件](https://sourceforge.net/projects/motif/)。
 
-不过到了2012年，虽然Motif仍然由一定粉丝群体，并且被一些工业应用软件所使用，但它已经很大程度上被发展更加迅速的开源接口所取代。你可以选择GNOME或者是KDE Plasma————它们在过去的20年间持续成长并成为更好的选择（另外它们也更加现代）。但Motif及其在Common Desktop Environment中的使用，仍然可以说是为这些替代界面的流行和普及铺平了道路。
+不过到了2012年，虽然Motif仍然由一定粉丝群体，并且被一些工业应用软件所使用，但它已经很大程度上被发展更加迅速的开源接口所取代。你可以选择[GNOME](https://www.gnome.org/)或者是[KDE Plasma](https://kde.org/plasma-desktop)————它们在过去的20年间持续成长并成为更好的选择（另外它们也更加现代）。但Motif及其在Common Desktop Environment中的使用，仍然可以说是为这些替代界面的流行和普及铺平了道路。
 
 而GeoWorks对Motif的使用则相当独特，部分的原因是因为GEOS并不是真正的Unix操作系统，而是独立的运行在DOS之上的，同时它对Motif的使用也要早于其他的场合。
 
@@ -128,7 +128,7 @@ Motif精巧的界面元素让它很容易带有那个时代的年代感，类似
 
 ## 作为一款操作系统的GeoWorks可能已经死了，但它若干在其他领域却获得了新生
 
-一个关于失败的操作系统的有趣事实是它们通常不会真正地消失，而是出现在某些蒂塔的地方，因为这些软件在特定的环境下仍然是有用的。比如说惨遭Palm放弃的WebOS如今就驱动着LG的智能电视，而正如我们上周所提到的，纽约市已经使用OS/2管理他们的地铁系统将近30年。
+一个关于失败的操作系统的有趣事实是它们通常不会真正地消失，而是出现在某些蒂塔的地方，因为这些软件在特定的环境下仍然是有用的。比如说惨遭Palm放弃的WebOS[如今就驱动着LG的智能电视](https://www.lg.com/us/experience-tvs/smart-tv/use)，而正如我们[上周所提到的](https://tedium.co/2019/06/13/nyc-subway-os2-history/)，纽约市已经使用OS/2管理他们的地铁系统将近30年。
 
 GEOS也有着大概相同的结局。就像当一头牛进入到食品加工流程之后会被切割为一百万片，GEOS的某些部分也会出现在各种奇怪产品的配料单中。一些GEOS出现过的地方包括了：
 
@@ -138,7 +138,7 @@ GEOS也有着大概相同的结局。就像当一头牛进入到食品加工流�
     </a>
 </div>
 
-**个人数字助理：**在Palm Computing的创始人杰夫霍金斯（Jeff Hawkins）推出PalmPilot之前，他在精简版的GEOS上进行了初期的实践。1993年问世的Tandy Zoomer并没有成为热销产品，但与GeoWorks、Tandy和卡西欧的合作为霍金斯和他的团队提供了丰富的信息。这帮主他们在几年后推出第一款成功的PDA奠定了基础————虽然新的产品并没有使用GEOS（但GEOS并没有偃旗息鼓，后来惠普也推出了基于GEOS的PDA产品）。
+**个人数字助理：**在Palm Computing的创始人杰夫霍金斯（Jeff Hawkins）推出PalmPilot之前，他在精简版的GEOS上进行了初期的实践。[1993年问世的Tandy Zoomer](https://books.google.com/books?id=2yYT_SOlHzAC&pg=PA29&lpg=PA29#v=onepage&q&f=false)并没有成为热销产品，但与GeoWorks、Tandy和卡西欧的合作为霍金斯和他的团队提供了丰富的信息。这帮主他们在几年后推出第一款成功的PDA奠定了基础————虽然新的产品并没有使用GEOS（但GEOS并没有偃旗息鼓，后来惠普也推出了[基于GEOS的PDA产品](http://www.mgroeber.de/nathan/devices/ogo100.html)）。
 
 <div align="center">
     <a href="../images/dnbwg/geoworks_another_windows_09.jpg">
@@ -146,7 +146,7 @@ GEOS也有着大概相同的结局。就像当一头牛进入到食品加工流�
     </a>
 </div>
 
-**早期的智能手机：**GEOS在移动革命中的作用并不仅限于Palm。在90年代后期，GEOS操作系统曾经是诺基亚9000通信器（Nokia 9000 Communicator）的重要组成部分，诺基亚9000是最早的智能手机之一，而且是早期智能手机中广受欢迎的一款。它可以进行基本的文字处理，具有图形化的网页浏览器，甚至可以编辑电子表格。对于尝鲜者来说这种体验并不便宜，诺基亚9000发布时售价800美元，而且又大又沉。“当代的只能手机用户可能将电子邮件和网络浏览这些功能看作是理所当然的事情，但诺基亚9000通信器却是第一款能够在单独的设备中提供这些功能的手机”2013年，科技作家Richard Baguley在Medium上写道“它可能是一款庞大笨重的设备，但我们仍然怀念它。”
+**早期的智能手机：**GEOS在移动革命中的作用并不仅限于Palm。在90年代后期，GEOS操作系统曾经是[诺基亚9000通信器](http://nokiamuseum.info/nokia-9000/)（Nokia 9000 Communicator）的重要组成部分，诺基亚9000是最早的智能手机之一，而且是早期智能手机中广受欢迎的一款。它可以进行基本的文字处理，具有图形化的网页浏览器，甚至可以编辑电子表格。对于尝鲜者来说这种体验并不便宜，诺基亚9000发布时售价800美元，而且又大又沉。“当代的只能手机用户可能将电子邮件和网络浏览这些功能看作是理所当然的事情，但诺基亚9000通信器却是第一款能够在单独的设备中提供这些功能的手机”2013年，[科技作家Richard Baguley在Medium上写道](https://medium.com/people-gadgets/the-gadget-we-miss-the-nokia-9000-communicator-ef8e8c7047ae#.8cxnq5e1v)“它可能是一款庞大笨重的设备，但我们仍然怀念它。”
 
 <div align="center">
     <a href="../images/dnbwg/geoworks_another_windows_10.jpg">
@@ -154,7 +154,7 @@ GEOS也有着大概相同的结局。就像当一头牛进入到食品加工流�
     </a>
 </div>
 
-**电子打字机：**90年代对于打字机制造商来说是个糟糕的时刻，但Brother此时虽然还没有找到迎接互联网革命的正确姿势，但确实也准备了一样新装备：GEOS。Brother开始和GeoWorks合作开发一系列打印机产品，在这些产品上加入基本的文字处理和桌面出版功能。这些产品技术上仍然是打字机，但却能做更多比打字有趣的多的事情。
+**电子打字机：**90年代对于打字机制造商来说是个糟糕的时刻，但Brother此时虽然还没有找到迎接互联网革命的正确姿势，但确实也准备了一样新装备：GEOS。Brother开始[和GeoWorks合作开发一系列打印机产品](https://groups.google.com/forum/#!searchin/comp.os.geos/brother%2420printer/comp.os.geos/MB9DHIDgOYM/rwDzb8VNwB8J)，在这些产品上加入基本的文字处理和桌面出版功能。这些产品技术上仍然是打字机，但却能做更多比打字有趣的多的事情。
 
 <div align="center">
     <a href="../images/dnbwg/geoworks_another_windows_11.jpg">
@@ -162,7 +162,7 @@ GEOS也有着大概相同的结局。就像当一头牛进入到食品加工流�
     </a>
 </div>
 
-**原始的上网本：**Brother对GEOS的兴趣不仅限于打字机，正如一份新闻稿中提到，他们将GEOS视为将“计算机推向大众”的机会。1998年，在GEOS已经几乎淡出所有人的视野若干年之后，这家打字机公司发布了一款替代型平台————500美元的GeoBook，这款低功耗的笔记本产品成功的预言了十年后上网本产品的崛起。它可以上网，并且可以使用DOS版GeoWorks的许多软件，但为了维持低价，它没有安装硬盘。就像后来的上网本一样，评测作者不喜欢它们。“在同样的价格上，你可以轻易的找到停产的、翻新的或者二手的Windows电脑，甚至是一部新电脑，而Windows电脑可以做数百种这种电脑做梦也想不到的事情”《纽约时报》在1998年做出这样的负面评价。
+**原始的上网本：**Brother对GEOS的兴趣不仅限于打字机，正如[一份新闻稿中提到](https://web.archive.org/web/20050213134542/http://www.brother.com/us-release/internet.html)，他们将GEOS视为将“计算机推向大众”的机会。1998年，在GEOS已经几乎淡出所有人的视野若干年之后，这家打字机公司发布了一款替代型平台————500美元的GeoBook，这款低功耗的笔记本产品成功的预言了十年后上网本产品的崛起。它可以上网，并且可以使用DOS版GeoWorks的许多软件，但为了维持低价，它没有安装硬盘。就像后来的上网本一样，评测作者不喜欢它们。“在同样的价格上，你可以轻易的找到停产的、翻新的或者二手的Windows电脑，甚至是一部新电脑，而Windows电脑可以做数百种这种电脑做梦也想不到的事情”《纽约时报》[在1998年做出这样的负面评价](https://www.nytimes.com/1998/05/26/science/personal-computers-even-at-600-geobook-is-no-bargain-notebook.html)。
 
 （如果你对这款机器感到好奇，这儿有[一篇2017年的评测](https://vintagegeek.wordpress.com/2017/04/21/brother-supernotebook-graphic-runs-geos/)）
 
@@ -172,17 +172,17 @@ GEOS也有着大概相同的结局。就像当一头牛进入到食品加工流�
 
 但好消息则是，GEOS最终又找到了自己的方向，这值得我们讨论一下它走到这一步之前的过程。
 
-当GeoWorks公司在90年代末解散后，它的技术资产被变卖给一家名为NewDeal的公司，这家公司基于GEOS构建了一套办公软件，这款软件的外观看起来与Windows 95类似，让它丢掉了许多原平台的魅力。
+当GeoWorks公司在90年代末解散后，它的技术资产被变卖给一家名为NewDeal的公司，这家公司基于GEOS构建了一套办公软件，这款软件的外观[看起来与Windows 95类似](http://toastytech.com/guis/nd32.html)，让它丢掉了许多原平台的魅力。
 
-后来，这款操作系统被Ted Turner的儿子所获得，他曾经尝试经营一家名为http://MyTurn.com的廉价电脑公司，而GeoWorks则被视为是其廉价电脑平台的核心。（当Teddy Turner参与2013年国会竞选时人们这段http://MyTurn.com的历史又一次被人们注意到）
+后来，这款操作系统被Ted Turner的儿子所获得，他曾经尝试经营一家名为[]MyTurn.com](http://MyTurn.com)的廉价电脑公司，而GeoWorks则被视为是其廉价电脑平台的核心。（当Teddy Turner参与2013年国会竞选时人们这段[]MyTurn.com](http://MyTurn.com)的历史[又一次被人们注意到](http://www.blufftontoday.com/bluffton-news/2013-03-13/turner-hits-back-negative-mailer-accusing-him-scamming-investors)）
 
-但是GeoWorks时间最长的遗产则是在一家名为Breadbox的公司手中，他们基本上将GeoWorks作为一个由志愿者维持的项目，其最终目标是将GEOS变成一个与Android协作的教育软件平台。
+但是GeoWorks时间最长的遗产则是在一家名为Breadbox的公司手中，他们基本上将GeoWorks作为一个由志愿者维持的项目，其最终目标是将GEOS变成一个[与Android协作的教育软件平台](https://web.archive.org/web/20160305164417/http://www.breadbox.com/products-tablet.php)。
 
-但是（正如我在2016年的文章中所指出的那样）这一平台在其维护者Frank S. Fischer意外去世后经历了一次毁灭性的打击。后续的维护者John F. Howard承诺该项目会继续下去，但是“有一些法律问题需要解决”。
+但是（正如我在2016年的文章中所指出的那样）这一平台在其维护者Frank S. Fischer意外去世后经历了一次毁灭性的打击。后续的维护者John F. Howard[承诺该项目会继续下去](https://web.archive.org/web/20160422074455/http://www.breadbox.com/)，但是“有一些法律问题需要解决”。
 
-这些法律问题在今年早些时候被逐渐解决，而在此之前的一系列工作则将PC版GEOS作为一个GitHub上的开源项目重新发布（这是个好消息！这些年来GEOS经历了许多，但从未开源。）
+这些法律问题在今年早些时候被逐渐解决，而在此之前的一系列工作则将PC版GEOS[作为一个GitHub上的开源项目重新发布](https://github.com/bluewaysw/pcgeos)（这是个好消息！这些年来GEOS经历了许多，但从未开源。）
 
-在一家名为blueway.Softworks的公司的运作下，这款软件在走向开源之前经历了复杂的流程，TechRepublic的记者James Sanders在三月份的报道中提到，这其中包括了与之前的权利持有者之间签订新的协议。
+在一家名为blueway.Softworks的公司的运作下，这款软件在走向开源之前经历了复杂的流程，TechRepublic的记者James Sanders[在三月份的报道中](https://www.techrepublic.com/article/how-pcgeos-found-a-5th-life-as-an-open-source-dos-shell/)提到，这其中包括了与之前的权利持有者之间签订新的协议。
 
 曾经与Breadbox合作过的blueway.Softworks的创始人Falk Rehwagen表示，PC/GEOS中的包含了复杂的许可的和非许可的软件部分，这让PC/GEOS的开源过程比它讲起来要复杂的多。
 
