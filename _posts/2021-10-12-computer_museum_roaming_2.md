@@ -34,7 +34,7 @@ summary: "在《电脑博物馆漫游：第一集》推出之后，很多小伙�
 
 特别值得一提的是中华学习机的模拟器的开发过程，早在2011年，国内的开发者zzemu就已经在MESS的基础上开发出CEC-I的模拟器，不过由于种种原因，这段代码始终没有被合并到MESS的主代码库中，直到2017年夏天，美国历史学家Jason Scott将大量关于CEC-I的资料上传到互联网档案馆，MAME的维护者之一R. Belmont（rb6502）才开始尝试将CEC-I模拟器加入到MAME当中。
 
-互联网档案馆的CEC-I资料 <https://archive.org/details/Apple_II_Chinese_Materials_Collection>
+[互联网档案馆的CEC-I资料](https://archive.org/details/Apple_II_Chinese_Materials_Collection)
 
 R. Belmont的blog里记录了开始开发CEC-I的情形 Arbee's WIP Emporium " 跟猴子比丟屎
 
@@ -44,7 +44,7 @@ R. Belmont的blog里记录了开始开发CEC-I的情形 Arbee's WIP Emporium " �
 <p>使用F7/F8切换中英文，F1~F3切换输入法</p>
 {{site.data.alerts.end}}
 
-而今天我们看到的网页版MAME，则是来自于互联网档案工作组的JSMESS项目。<https://wiki.archiveteam.org/index.php?title=Javascript_Mess>
+而今天我们看到的网页版MAME，则是来自于[互联网档案工作组的JSMESS项目](https://wiki.archiveteam.org/index.php?title=Javascript_Mess)。
 
 <div align="center">
     <a href="../images/dnbwg/computer_museum_roaming_13.png">
@@ -54,7 +54,7 @@ R. Belmont的blog里记录了开始开发CEC-I的情形 Arbee's WIP Emporium " �
 
 CEC-I模拟器的故事从某种程度上反映了国内古董电脑社区较为封闭的现状，在西方以及日本的复古电脑社区日渐国际化的背景下，中文世界里的古董电脑社区却几乎处于若干“孤岛”的状态，不仅和国际社区缺乏互动，不同机型的爱好者之间交流也比较欠缺，而这正是“古董电脑室”致力于推动改进的一点。
 
-中华学习机使用手册，网友himskleung扫描。 <http://jsemu.oss-cn-shanghai.aliyuncs.com>
+[中华学习机使用手册](http://jsemu.oss-cn-shanghai.aliyuncs.com/mame/CEC_I_Users_manual.pdf)，网友himskleung扫描。
 
 
 ## Atari ST
@@ -90,7 +90,7 @@ CEC-I模拟器的故事从某种程度上反映了国内古董电脑社区较为
     <p>橘梦乐团是Atari ST的忠实用户</p>
 </div>
 
-<https://github.com/jsdf/pce>
+<span class="label label-info">Github</span><https://github.com/jsdf/pce>
 
 
 ## Macintosh IIci
