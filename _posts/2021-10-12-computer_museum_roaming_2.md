@@ -154,7 +154,7 @@ CEC-I模拟器的故事从某种程度上反映了国内古董电脑社区较为
 </div>
 
 {{site.data.alerts.tip}}
-<p>体验 <b><a href='{{ "/emularity.html?machine=xianjianpal" | prepend: site.computer_museum_base_url }}' target='_blank'>Doom</a></b></p>
+<p>体验 <b><a href='{{ "/emularity.html?machine=xianjianpal" | prepend: site.computer_museum_base_url }}' target='_blank'>仙剑奇侠传</a></b></p>
 {{site.data.alerts.end}}
 
 <div align="center">
@@ -164,7 +164,7 @@ CEC-I模拟器的故事从某种程度上反映了国内古董电脑社区较为
 </div>
 
 {{site.data.alerts.tip}}
-<p>体验 <b><a href='{{ "/emularity.html?machine=jinyong" | prepend: site.computer_museum_base_url }}' target='_blank'>Doom</a></b></p>
+<p>体验 <b><a href='{{ "/emularity.html?machine=jinyong" | prepend: site.computer_museum_base_url }}' target='_blank'>金庸群侠传</a></b></p>
 {{site.data.alerts.end}}
 
 UCDOS是DOS时代最流行的中文DOS环境，最后一版发行于1997年底，此时中文版Windows 3.2和Windows 95已经相当普及，因此UCDOS也制作了一版UCShell程序管理器，模仿Windows 3.2的界面风格，并支持256色显示，但其中运行的程序仍然是标准的DOS程序，并不能像Windows那样支持多任务。
@@ -184,13 +184,13 @@ UCDOS 7.0也捆绑了1991年发布的WPS 2.2，在Windows 98流行之前，这�
 </div>
 
 {{site.data.alerts.tip}}
-<p>体验 <b><a href='{{ "/emularity.html?machine=ucdos" | prepend: site.computer_museum_base_url }}' target='_blank'>Doom</a></b></p>
+<p>体验 <b><a href='{{ "/emularity.html?machine=ucdos" | prepend: site.computer_museum_base_url }}' target='_blank'>UCDOS</a></b></p>
 {{site.data.alerts.end}}
 
 而在90年代IT界最重要的变革，则莫过于WWW的诞生和Windows 95的发布了，最后一个网页里的模拟器则是基于v86模拟器的Windows 95：
 
 {{site.data.alerts.tip}}
-<p>体验 <b><a href='{{ "/player.html?machine=netscape" | prepend: site.computer_museum_base_url }}' target='_blank'>Doom</a></b></p>
+<p>体验 <b><a href='{{ "/player.html?machine=netscape" | prepend: site.computer_museum_base_url }}' target='_blank'>Windows 95</a></b></p>
 {{site.data.alerts.end}}
 
 由于这个模拟器并不能真正的联网，所以我抓取了两个最具有代表性的网站，世界上第一个html网页，1993年由蒂姆•伯纳斯-李（Tim Berners-Lee）为新生的World Wide Web制作的介绍网页，上面的大多数链接也一并抓取下来，都是可以点开的。
