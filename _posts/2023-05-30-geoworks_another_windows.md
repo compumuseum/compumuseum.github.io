@@ -21,9 +21,12 @@ summary: "在Windows进入大多数电脑用户的生活之前，一个名叫Geo
 <b><a href='{{ "/emularity.html?machine=geos" | prepend: site.computer_museum_base_url }}' target='_blank'>PC/GEOS</a></b>
 {{site.data.alerts.end}}
 
-> “GEOS并不是GUI的先锋；大多数的特性已经出现在当时更大型的操作系统中，比如古典Mac系统（尽管不是Windows）。GEOS希望展示的是在廉价、低功耗的日常硬件上运行简单的办公室生产力软件。你并不需要为录入和打印这样的简单工具去购买2000美元的机器。”<br>
-—— OS News作者Kroc Camen 对GEOS（图形环境操作系统 Graphical Environment Operating System）发布和早期成功的讨论。<br>
+```
+“GEOS并不是GUI的先锋；大多数的特性已经出现在当时更大型的操作系统中，比如古典Mac系统（尽管不是Windows）。GEOS希望展示的是在廉价、低功耗的日常硬件上运行简单的办公室生产力软件。你并不需要为录入和打印这样的简单工具去购买2000美元的机器。”
+—— OS News作者Kroc Camen 对GEOS（图形环境操作系统 Graphical Environment Operating System）发布和早期成功的讨论。
+
 GEOS开始于为Commodore 64电脑开发的可选的操作系统，它的开发者名为Berkeley Softworks，请不要将它的开发者与开发了著名的“飞行面包机（Flying Toasters）”屏幕保护程序的Berkeley Systems混淆。由于GEOS功能强大并且可以在很便宜的硬件上运行，因此一度成为C64上最受欢迎的软件之一。最终，这款操作系统在90年代初被以一种更高级的形式迁移到PC上，Berkeley Softworks也改名为GeoWorks。
+```
 
 <div align="center">
     <a href="../images/dnbwg/geoworks_another_windows_01.png">
