@@ -1,5 +1,5 @@
 ---
-title:  "电脑博物馆漫游（一）"
+title:  "电脑博物馆漫游：第一集"
 categories: blog
 permalink: computer_museum_roaming_1.html
 tags: [blog, experience]
