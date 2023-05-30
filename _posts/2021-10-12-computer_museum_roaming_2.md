@@ -14,8 +14,8 @@ summary: "在《电脑博物馆漫游：第一集》推出之后，很多小伙�
 1984年2月16日，邓小平参观上海市展览馆举办的十年科技成果展时，鼓励现场的工作人员“计算机普及要从娃娃做起”。从此开启了中国家用电脑和教育电子市场的大门。作为对领导人号召的响应，中国内地第一款家用电脑中华学习机在不久之后开始立项开发，并在1986年开始生产，中文世界里“学习机”一词的起源于英文“learning kit”，本来是用于训练技术人员的开发板，在台湾，有全亚EDU-80和宏碁小教授一号微处理器学习机。作为小教授一号的后续，宏碁的小教授二号是一款Apple II兼容机，从此“学习机”在许多场合成为平价家用电脑的代称。另外一个将家用电脑称作“学习机”的原因，则可能是相比计算机产品，教育产品能够得到较多的税务优惠。
 
 <div align="center">
-    <a href="../images/dnbwg/computer_museum_roaming_11.png">
-        <img src="../images/dnbwg/computer_museum_roaming_11.png"/>
+    <a href="../images/dnbwg/computer_museum_roaming_11.jpg">
+        <img src="../images/dnbwg/computer_museum_roaming_11.jpg"/>
     </a>
 </div>
 
@@ -26,8 +26,8 @@ summary: "在《电脑博物馆漫游：第一集》推出之后，很多小伙�
 {{site.data.alerts.end}}
 
 <div align="center">
-    <a href="../images/dnbwg/computer_museum_roaming_12.png">
-        <img src="../images/dnbwg/computer_museum_roaming_12.png"/>
+    <a href="../images/dnbwg/computer_museum_roaming_12.jpg">
+        <img src="../images/dnbwg/computer_museum_roaming_12.jpg"/>
     </a>
     <p>图片来自芬兰苹果爱好者对CEC-I的介绍</p>
 </div>
@@ -56,6 +56,41 @@ CEC-I模拟器的故事从某种程度上反映了国内古董电脑社区较为
 
 中华学习机使用手册，网友himskleung扫描。 <http://jsemu.oss-cn-shanghai.aliyuncs.com>
 
+
+## Atari ST
+
+1984年，亲手创办Commodore并让Commodore 64登上8位家用电脑巅峰的Jack Tramiel离开了自己一首创办的公司，转身从时代华纳手中接手了Atari危机的主角Atari。凭借着雄厚的财力和过人的商业头脑，这位奥斯维辛集中营的幸存者在不到一年的时间里就让Atari起死回生，并带来了当年最热门的图形界面16位家用电脑。
+
+<div align="center">
+    <a href="../images/dnbwg/computer_museum_roaming_14.jpg">
+        <img src="../images/dnbwg/computer_museum_roaming_14.jpg"/>
+    </a>
+</div>
+
+和早一年发布的苹果Macintosh一样，Atari ST也使用了摩托罗拉68000处理器，并且具有图形界面，由于和Macintosh的诸多相似之处，很快Atari ST就有了“Jackintosh”的外号。
+
+但Atari ST却并非山寨版Macintosh，相比Macintosh，Atari ST支持更高分辨率的黑白显示器，并且还支持彩色显示，这让Atari ST更加适合游戏等娱乐用途，并且配备了当时相当奢侈的512K内存，价格也只有Macintosh的1/3，而1986年推出的Atari 1040ST，更是成为市面上第一款低于2500美元的内存超过1MB的电脑。
+
+{{site.data.alerts.tip}}
+<p>体验 <b><a href='{{ "/emularity.html?machine=atarist" | prepend: site.computer_museum_base_url }}' target='_blank'>Atari ST 模拟器 （彩显）</a></b></p>
+<p>Atari ST的彩色显示器版本模拟器基于PCE.js，A盘是《模拟城市》，B盘是《上帝也疯狂》</p>
+{{site.data.alerts.end}}
+
+而Atari ST最大的亮点，则是所有的型号都内置有MIDI接口，这让它成为许多音乐人的最爱，相比之前的电脑都需要购买昂贵的MIDI扩展卡，Atari ST简直就是“买MIDI送电脑”，这也让它出现在包括橘梦乐团 (Tangerine Dream)、麦克·欧菲尔德（Michael Oldfield）、流线胖小子（Fatboy Slim）等音乐人的作品中。
+
+{{site.data.alerts.tip}}
+<p>体验 <b><a href='{{ "/emularity.html?machine=ataristmono" | prepend: site.computer_museum_base_url }}' target='_blank'>Atari ST 模拟器 （黑白高分辨率）</a></b></p>
+<p>Atari ST的黑白显示器配置A盘是BASIC和LOGO语言，B盘是Atari ST上最著名的音乐软件Cubase 2.0。</p>
+{{site.data.alerts.end}}
+
+<div align="center">
+    <a href="../images/dnbwg/computer_museum_roaming_15.jpg">
+        <img src="../images/dnbwg/computer_museum_roaming_15.jpg"/>
+    </a>
+    <p>橘梦乐团是Atari ST的忠实用户</p>
+</div>
+
+<https://github.com/jsdf/pce>
 
 ---------
 
