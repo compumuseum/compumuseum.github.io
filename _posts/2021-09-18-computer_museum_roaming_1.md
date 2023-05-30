@@ -28,7 +28,7 @@ summary: "这些年来随着 V8 引擎等前端技术的发展，以往只用来
 体验 <b><a href='{{ "/player.html?machine=apple2" | prepend: site.computer_museum_base_url }}' target='_blank'>Apple II 模拟器</a></b>
 {{site.data.alerts.end}}
 
-<https://github.com/whscullin/apple2js>
+<span class="label label-info">Github</span>  <https://github.com/whscullin/apple2js>
 
 
 ## Apple2jse：Apple IIe
@@ -75,7 +75,7 @@ BBC其中就包括了经典的太空冒险游戏《精英》。
 
 操作提示：点击上方Discs，选择STH Archive，就会有大量游戏可以选择，选中Autoboot，这样选择游戏之后模拟器就会自动重新启动并加载游戏。
 
-<https://github.com/mattgodbolt/jsbeeb>
+<span class="label label-info">Github</span>  <https://github.com/mattgodbolt/jsbeeb>
 
 
 ## ElkJS： Acorn Electron
@@ -96,7 +96,7 @@ Acorn在生产BBC Micro的同时，还开发了一款较为廉价的Electron（�
 
 操作提示：点Game之后直接选择游戏就可以加载。
 
-<https://github.com/dmcoles/elkjs>
+<span class="label label-info">Github</span>  <https://github.com/dmcoles/elkjs>
 
 
 ## JSSpeccy： ZX Spectrum
@@ -123,7 +123,7 @@ ZX Spectrum在欧洲的影响非常广泛，其仿制机型在前苏联国家曾
 
 操作提示：直接从右侧列表中选择游戏就可以玩。
 
-<https://github.com/gasman/jsspeccy2>
+<span class="label label-info">Github</span>  <https://github.com/gasman/jsspeccy2>
 
 
 ## PCjs： IBM PC
@@ -158,7 +158,7 @@ ZX Spectrum在欧洲的影响非常广泛，其仿制机型在前苏联国家曾
 
 操作提示：开机后提示输入日期，输入BASIC SAMPLES.BAS回车，就可以加载演示程序菜单了，然后按照菜单选择即可，菜单项E是Donkey，就是赛车驴游戏。建议大家去[PCjs](https://www.pcjs.org)的官网看一看，有包括Windows 95在内的更丰富的镜像。
 
-<https://github.com/jeffpar/pcjs>
+<span class="label label-info">Github</span>  <https://github.com/jeffpar/pcjs>
 
 
 ## PCE.js： Macintosh Plus
@@ -179,7 +179,7 @@ ZX Spectrum在欧洲的影响非常广泛，其仿制机型在前苏联国家曾
 
 操作提示：英文版和中文版的内容基本上是一样的，App都是英文的，英文版的App放在HD2上。
 
-<https://github.com/jsdf/pce>
+<span class="label label-info">Github</span>  <https://github.com/jsdf/pce>
 
 ---------
 
