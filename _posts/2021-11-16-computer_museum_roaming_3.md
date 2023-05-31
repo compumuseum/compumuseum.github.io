@@ -95,7 +95,7 @@ TRS-80 Model III是TRS-80系列1980年的升级版，除了实时时钟和更快
 
 <span class="label label-info">Github</span>  [rjanicek/vice.js](https://github.com/rjanicek/vice.js/)
 
-[the Versatile Commodore Emulator](https://vice-emu.sourceforge.io/)
+<span class="label label-info">SourceForge</span>  [the Versatile Commodore Emulator](https://vice-emu.sourceforge.io/)
 
 值得一提的是，我在模拟器中加入了许多近年来爱好者开发的独立游戏，这些新作品的存在，向人们证明了复古电脑社区不仅仅是一种怀旧情绪的表达，也是展现当代爱好者们创意和技术的独特平台。
 
