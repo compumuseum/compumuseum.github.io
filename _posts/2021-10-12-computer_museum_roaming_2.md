@@ -59,7 +59,7 @@ CEC-I模拟器的故事从某种程度上反映了国内古董电脑社区较为
 
 ## Atari ST
 
-1984年，亲手创办Commodore并让Commodore 64登上8位家用电脑巅峰的Jack Tramiel离开了自己一首创办的公司，转身从时代华纳手中接手了Atari危机的主角Atari。凭借着雄厚的财力和过人的商业头脑，这位奥斯维辛集中营的幸存者在不到一年的时间里就让Atari起死回生，并带来了当年最热门的图形界面16位家用电脑。
+1984年，亲手创办Commodore并让Commodore 64登上8位家用电脑巅峰的Jack Tramiel离开了自己一手创办的公司，转身从时代华纳手中接手了Atari危机的主角Atari。凭借着雄厚的财力和过人的商业头脑，这位奥斯维辛集中营的幸存者在不到一年的时间里就让Atari起死回生，并带来了当年最热门的图形界面16位家用电脑。
 
 <div align="center">
     <a href="../images/dnbwg/computer_museum_roaming_14.jpg">
@@ -105,7 +105,7 @@ CEC-I模拟器的故事从某种程度上反映了国内古董电脑社区较为
 1985年下半年，乔布斯被苹果解雇，从此彩色显示的Macintosh II被正式列入开发计划，并于1987年3月正式发售，和IBM PS/2的发售时间相差无几。而这次模拟的机型，是1989年Macintosh II的升级版Macintosh IIci，而操作系统则是发布于1992年的System 7.1。
 
 {{site.data.alerts.tip}}
-<p>体验 <b><a href='{{ "/emularity.html?machine=maciici" | prepend: site.computer_museum_base_url }}' target='_blank'>Macintosh IIci 模拟器</a></b></p>
+<p>体验 <b><a href='{{ "/emularity.html?machine=macii" | prepend: site.computer_museum_base_url }}' target='_blank'>Macintosh IIci 模拟器</a></b></p>
 {{site.data.alerts.end}}
 
 <div align="center">
@@ -117,7 +117,7 @@ CEC-I模拟器的故事从某种程度上反映了国内古董电脑社区较为
 而且这次古董电脑模拟器也提供了中文版System 7.1的模拟器，大家可以体验一下“果味”翻译的起源。
 
 {{site.data.alerts.tip}}
-<p>体验 <b><a href='{{ "/emularity.html?machine=maciicichs" | prepend: site.computer_museum_base_url }}' target='_blank'>Macintosh IIci 模拟器（中文系统）</a></b></p>
+<p>体验 <b><a href='{{ "/emularity.html?machine=maciichs" | prepend: site.computer_museum_base_url }}' target='_blank'>Macintosh IIci 模拟器（中文系统）</a></b></p>
 {{site.data.alerts.end}}
 
 
@@ -190,7 +190,7 @@ UCDOS 7.0也捆绑了1991年发布的WPS 2.2，在Windows 98流行之前，这�
 而在90年代IT界最重要的变革，则莫过于WWW的诞生和Windows 95的发布了，最后一个网页里的模拟器则是基于v86模拟器的Windows 95：
 
 {{site.data.alerts.tip}}
-<p>体验 <b><a href='{{ "/player.html?machine=netscape" | prepend: site.computer_museum_base_url }}' target='_blank'>Windows 95</a></b></p>
+<p>体验 <b><a href='{{ "/v86.html?machine=netscape" | prepend: site.computer_museum_base_url }}' target='_blank'>Windows 95</a></b></p>
 {{site.data.alerts.end}}
 
 由于这个模拟器并不能真正的联网，所以我抓取了两个最具有代表性的网站，世界上第一个html网页，1993年由蒂姆•伯纳斯-李（Tim Berners-Lee）为新生的World Wide Web制作的介绍网页，上面的大多数链接也一并抓取下来，都是可以点开的。
