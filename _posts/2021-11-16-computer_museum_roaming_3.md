@@ -148,6 +148,9 @@ CALL SAY(“HELLO”)
 <p>体验 <b><a href='{{ "/player.html?machine=ti99-4a" | prepend: site.computer_museum_base_url }}' target='_blank'>TI-99/4A 模拟器</a></b></p>
 {{site.data.alerts.end}}
 
+
+## Atari
+
 当1976年Atari发布Atari 2600前夕，Atari内部预计2600会有三年左右的市场寿命，而针对Atari 2600的换代产品的开发也开始，到1978年的时候，Atari 2600图形芯片TIA（Television Interface Adaptor – 电视接口适配器）的升级版本CTIA已经接近完成，而此时恰逢1977年Apple、Tandy和Commodore引来家用电脑的畅销，因此Atari的管理层决定使用新的芯片推出一款家用电脑。
 
 <div align="center">
