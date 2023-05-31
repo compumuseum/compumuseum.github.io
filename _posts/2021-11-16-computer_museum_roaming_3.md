@@ -4,7 +4,7 @@ categories: blog
 permalink: computer_museum_roaming_3.html
 tags: [blog, experience]
 hide_sidebar: true
-summary: ""
+summary: "在电脑博物馆漫游系列发布两集之后，这一集我们将会再次回到80年代初8-bit电脑大战烽火连天的时代。"
 ---
 
 在电脑博物馆漫游系列发布两集之后，这一集我们将会再次回到80年代初8-bit电脑大战烽火连天的时代。
@@ -93,7 +93,7 @@ TRS-80 Model III是TRS-80系列1980年的升级版，除了实时时钟和更快
 
 这次网页里的古董电脑博物馆使用的是VICE.js模拟器 ，它移植自PC平台上最为流行的Commodore 64模拟器VICE，这两者都是开源软件。
 
-[rjanicek/vice.js](https://github.com/rjanicek/vice.js/)
+<span class="label label-info">Github</span>  [rjanicek/vice.js](https://github.com/rjanicek/vice.js/)
 
 [the Versatile Commodore Emulator](https://vice-emu.sourceforge.io/)
 
@@ -134,7 +134,7 @@ CALL SAY(“HELLO”)
 
 今天的TI-99社区虽然不大，但仍然有一些高水平的爱好者在参与，比如网页里的古董电脑博物馆使用的JavaScript版模拟器，就是Github上的开源代码
 
-[Rasmus-M/Js99er](https://github.com/Rasmus-M/Js99er)
+<span class="label label-info">Github</span>  [Rasmus-M/Js99er](https://github.com/Rasmus-M/Js99er)
 
 <div align="center">
     <a href="../images/dnbwg/computer_museum_roaming_36.jpg">
@@ -211,7 +211,7 @@ MSX平台的原型主要参考的是Spectravideo发布于1983年的的SV-328电�
 
 这次网页里的古董电脑博物馆提供展示的是WebMSX模拟器，同样也是开源的
 
-[ppeccin/WebMSX](https://github.com/ppeccin/WebMSX)
+<span class="label label-info">Github</span>  [ppeccin/WebMSX](https://github.com/ppeccin/WebMSX)
 
 这款模拟器可以模拟多种不同的MSX型号，可以在界面上进行切换，默认配置是1985年升级后的型号MSX2，MSX2的基本配置与MSX初代相似，但提供了更大的显存，在80年代后期MSX电脑上出现了许多重要的日式RPG游戏，其中许多系列延续至今，比如《合金装备》和《伊苏》。在网页里的古董电脑博物馆的MSX模拟器里也带了这两款的最初版本，大家可以试试看。
 
