@@ -1206,3 +1206,7 @@ h4.panel-title {
     position: relative;
     margin-top: 50px;
 }
+
+.tk-input-image {
+    display: none;
+}
