@@ -1207,6 +1207,6 @@ h4.panel-title {
     margin-top: 50px;
 }
 
-.tk-input-image {
+.tk-input-image[type=file] {
     display: none;
 }
