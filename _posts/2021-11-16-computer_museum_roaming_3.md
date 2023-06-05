@@ -146,6 +146,8 @@ CALL SAY(“HELLO”)
 
 {{site.data.alerts.tip}}
 <p>体验 <b><a href='{{ "/player.html?machine=ti99-4a" | prepend: site.computer_museum_base_url }}' target='_blank'>TI-99/4A 模拟器</a></b></p>
+<p>启动后，按任意键，再按下 2 选择 FOR TI EXTENDED BASIC</p>
+<p>输入 CALL SAY(“HELLO”) 按下回车，可以听到电脑的发音</p>
 {{site.data.alerts.end}}
 
 
