@@ -20,6 +20,8 @@ comments: false
 
 <a href="/flash-archive/"><b>Flash档案馆</b></a>收录了8000多个历史上热门的各类Falsh动画，通过 Ruffle 进行渲染播放，无需安装已经过时的且不再被现代浏览器支持的 Flash 插件。
 
+访问网址：<https://dnbwg.ihonux.com> 或 <https://cm.ihonux.com> 。
+
 <b>Director of the Computer Museum</b>
 
 My name is Honux, and I'm the curator of this museum, a technical fan, senior engineer, and programmer based in Zhengzhou City, Henan Province, China. For more details, see my [iHonux's Projects](https://www.ihonux.com) website.
