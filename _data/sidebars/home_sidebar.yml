@@ -17,6 +17,9 @@ entries:
     - title: Blog
       url: /tag_blog.html
       output: web
+    - title: Computer
+      url: /tag_computer.html
+      output: web
     
 
 # Copyright 2021 Google LLC
