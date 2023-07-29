@@ -169,10 +169,7 @@ ZIP Technology为Apple IIGS开发了三款8 Mhz加速卡，ZipChipGS（Model 150
     <p><b>1992年四月的ZipGS广告，售价149美元</b></p>
 </div>
 
-一名ZipGSX在网上分享了他超频到12.5Mhz的心得：
-
-<https://web.archive.org/web/20141125212436/http://www.cirruscomms.com.au/~mike_stephens/apple2/hardware/ZIP_GSX_Mod/index.html>
-
+一名ZipGSX在网上分享了他超频到12.5Mhz的<a href="https://web.archive.org/web/20141125212436/http://www.cirruscomms.com.au/~mike_stephens/apple2/hardware/ZIP_GSX_Mod/index.html" target="_blank">心得</a>。
 
 ---------
 
