@@ -2,7 +2,7 @@
 title:  "Apple IIGS是一台怎样的电脑？"
 categories: history
 permalink: what_kind_of_computer_is_the_Apple_IIGS.html
-tags: [history, computer]
+tags: [computer, history]
 hide_sidebar: true
 summary: "如果说Macintosh代表的是乔布斯的情怀，那Apple II系列承载的则是沃兹尼亚克的技术理想，这篇文章介绍了最后一款、也是最为先进的Apple II电脑——Apple IIGS。"
 ---
@@ -87,8 +87,8 @@ Apple IIGS最终于1992年12月停产，而Apple IIe则成为Apple II家族最�
 由于65C816既可以作为8-bit处理器，也可以作为16-bit处理器，所以IIGS可以运行的软件分为两类。所有为之前推出的Apple II家族所开发的软件都完全兼容，同时运行速度达到之前的两倍（你也可以利用控制面板手工降速，这个功能内置于Mac OS当中）。
 
 <div align="center">
-    <a href="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_07.jpg">
-        <img src="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_07.jpg"/>
+    <a href="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_07a.jpg">
+        <img src="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_07a.jpg"/>
     </a>
 </div>
 
@@ -97,8 +97,8 @@ Apple IIGS最初的操作系统是ProDOS 16，这是之前ProDOS 8的增强版�
 1988年，针对16位环境开发的GS/OS取代ProDOS 16成为IIGS的默认操作系统。GS/OS有着类似于Mac System 5的Finder、字体和设备驱动。GS/OS的升级一直持续到1993年Mac System 6.0.1发布之后。
 
 <div align="center">
-    <a href="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_08.jpg">
-        <img src="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_08.jpg"/>
+    <a href="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_07.jpg">
+        <img src="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_07.jpg"/>
     </a>
 </div>
 
@@ -123,8 +123,8 @@ Apple IIGS最初的操作系统是ProDOS 16，这是之前ProDOS 8的增强版�
 1988年三月，苹果开始发售预装Apple IIGS内存扩展卡的IIGS机型，将内存增加到512KB，电脑主板自带了256KB，扩展卡上则安装有另外256KB。
 
 <div align="center">
-    <a href="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_09.jpg">
-        <img src="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_09.jpg"/>
+    <a href="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_08.jpg">
+        <img src="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_08.jpg"/>
     </a>
 </div>
 
@@ -137,8 +137,8 @@ IIGS发布两年之后的1989年8月，苹果配合新的IIGS主板，以及预�
 最初的65C816处理器支持4Mhz频率，而之后的版本则支持5Mhz和14Mhz，一些开发者找到了让IIGS运行在比2.8Mhz更快频率的办法，并开发出一系列IIGS加速卡，当然到今天这些加速卡都停产了。
 
 <div align="center">
-    <a href="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_10.jpg">
-        <img src="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_10.jpg"/>
+    <a href="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_09.jpg">
+        <img src="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_09.jpg"/>
     </a>
     <p><b>通过更换主板，可以将Apple IIe升级为IIGS</b></p>
 </div>
@@ -148,8 +148,8 @@ IIGS发布两年之后的1989年8月，苹果配合新的IIGS主板，以及预�
 使用TransWarpGS加速卡可以让Apple IIGS达到原厂配置的两倍，这款加速卡带有更快的CPU和8KB缓存。此外这款加速卡附带的控制面板程序可以设置处理器运行在1 Mhz，2.8 Mhz或者7.0 Mhz等不同频率上。一些改装过的TransWarpGS的频率可以高达18.75 Mhz。Applied Engineering还提供32 KB缓存升级卡，让电脑的平均性能再提高22%。
 
 <div align="center">
-    <a href="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_11.jpg">
-        <img src="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_11.jpg"/>
+    <a href="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_10.jpg">
+        <img src="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_10.jpg"/>
     </a>
     <p><b>技术逆天的苹果发烧友自行开发了TransWarp GS的复刻版</b></p>
 </div>
@@ -159,8 +159,8 @@ IIGS发布两年之后的1989年8月，苹果配合新的IIGS主板，以及预�
 ZIP Technology为Apple IIGS开发了三款8 Mhz加速卡，ZipChipGS（Model 1500）, ZipChipGS Plus（Model 1525），以及ZipGSX（Model 1600）。基本款的ZipChipGS搭载了8 KB缓存，另外两款则搭载了16 KB，和上面提到的TransWarpGS类似，缓存可以升级到32KB或者64KB。高端的ZipGSX还提供10 Mhz和12 Mhz版本。
 
 <div align="center">
-    <a href="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_12.jpg">
-        <img src="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_12.jpg"/>
+    <a href="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_11.jpg">
+        <img src="../images/dnbwg/what_kind_of_computer_is_the_Apple_IIGS_11.jpg"/>
     </a>
     <p><b>1992年四月的ZipGS广告，售价149美元</b></p>
 </div>
