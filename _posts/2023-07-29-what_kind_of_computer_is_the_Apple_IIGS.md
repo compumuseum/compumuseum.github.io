@@ -106,6 +106,10 @@ Apple IIGS最初的操作系统是ProDOS 16，这是之前ProDOS 8的增强版�
 
 如果你对IIGS感兴趣的话，你可以尝试通过KEGS模拟器体验Apple IIGS的软件。运行模拟器首先需要获得IIGS的ROM镜像，有了ROM之后就可以运行在Mac OS X，Win32和大多数的Unix/Linux电脑上运行这款模拟器了。
 
+{{site.data.alerts.tip}}
+<b><a href='{{ "/emularity.html?machine=apple2gs" | prepend: site.computer_museum_base_url }}' target='_blank'>体验 Apple IIGS</a></b>
+{{site.data.alerts.end}}
+
 ## ROM版本
 
 1987年的时候我曾经在一加苹果经销商工作，而在当时最为麻烦的事情之一，就是当苹果升级他们的ROM之后，用户需要将它们的电脑带回商店才能更新ROM芯片，并且升级后的ROM可能会干扰已有软件的运行。有些客户在升级ROM之后仍然需要降级回去，除非他们的软件被修复到可以运行在新的ROM下。
