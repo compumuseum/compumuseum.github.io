@@ -1,5 +1,5 @@
 ---
-title:  "Apple IIGS是一台怎样的电脑？
+title:  "Apple IIGS是一台怎样的电脑？"
 categories: history
 permalink: what_kind_of_computer_is_the_Apple_IIGS.html
 tags: [history, computer]
