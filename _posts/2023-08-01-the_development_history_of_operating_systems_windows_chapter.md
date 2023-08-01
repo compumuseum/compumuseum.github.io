@@ -1,5 +1,5 @@
 ---
-title:  "操作系统的发展史（Windows 篇）"
+title:  "电脑博物馆：操作系统的发展史（Windows 篇）"
 categories: history
 permalink: the_development_history_of_operating_systems_windows_chapter.html
 tags: [history]
@@ -19,7 +19,7 @@ summary: "从1985年Windows 1.0正式诞生到2021年Windows 11诞生，微软�
 Alto的技术非常超前，尤其是它的GUI（Graphic User Interface，图形用户接口）界面和鼠标，都是前所未有的设计。
 
 {{site.data.alerts.tip}}
-<b><a href='{{ "/player.html?machine=salto" | prepend: site.computer_museum_base_url_2 }}' target='_blank'>体验 Xerox Alto</a></b>
+<b><a href='{{ "/player.html?machine=salto" | prepend: site.computer_museum_base_url }}' target='_blank'>体验 Xerox Alto</a></b>
 {{site.data.alerts.end}}
 
 乔布斯对这些设计爱不释手，于是，以很低的价格（施乐公司高层根本没有意识到这些设计的价值），将这些设计买下，并准备应用于自己的PC产品。
