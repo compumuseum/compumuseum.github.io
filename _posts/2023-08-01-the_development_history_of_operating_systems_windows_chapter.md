@@ -4,7 +4,7 @@ categories: history
 permalink: the_development_history_of_operating_systems_windows_chapter.html
 tags: [history]
 hide_sidebar: true
-summary: ""
+summary: "从1985年Windows 1.0正式诞生到2021年Windows 11诞生，微软花了三十六年的时间，从像素化桌面到现在扁平化的界面。让我们来看一下Windows 1.0到Windows11三十六年来的变化吧。"
 ---
 
 1979年，苹果公司创始人史蒂夫·乔布斯（Steve Jobs）来到施乐公司（Xerox）著名的PARC研究所，参观他们的PC原型机——Alto。
@@ -17,6 +17,10 @@ summary: ""
 </div>
 
 Alto的技术非常超前，尤其是它的GUI（Graphic User Interface，图形用户接口）界面和鼠标，都是前所未有的设计。
+
+{{site.data.alerts.tip}}
+<b><a href='{{ "/player.html?machine=salto" | prepend: site.computer_museum_base_url_2 }}' target='_blank'>体验 Xerox Alto</a></b>
+{{site.data.alerts.end}}
 
 乔布斯对这些设计爱不释手，于是，以很低的价格（施乐公司高层根本没有意识到这些设计的价值），将这些设计买下，并准备应用于自己的PC产品。
 
@@ -48,10 +52,14 @@ Apple Lisa的诞生，震撼了所有人，其中就包括微软的比尔·盖�
     <p><b>Windows 1.0 界面</b></p>
 </div>
 
+{{site.data.alerts.tip}}
+<p><b><a href='{{ "/player.html?id=windows100" | prepend: site.computer_museum_base_url_2 }}' target='_blank'>体验 Windows 1.0: Premiere Edition</a></b></p>
+<p><b><a href='{{ "/player.html?id=windows101ega" | prepend: site.computer_museum_base_url_2 }}' target='_blank'>体验 Windows 1.01</a></b></p>
+{{site.data.alerts.end}}
+
 得知受骗，乔布斯怒不可遏，但为时已晚。因为这件事，乔布斯后来和比尔·盖茨一直都不太对付，经常隔空对骂。
 
 前面说过，早期的windows，其实就是套在DOS外面的一个“壳”，只是起到操作界面的作用。最开始，微软把它称之为“界面管理器”。你也可以把它看成DOS下面的一个应用程序。
-
 
 后来，在1.0的基础上，微软又在1987年和1988年先后发布了Windows 2.0及Windows 2.1。这两个版本同样不太成功，经常蓝屏，被用户疯狂吐槽。
 
@@ -61,6 +69,10 @@ Apple Lisa的诞生，震撼了所有人，其中就包括微软的比尔·盖�
     </a>
     <p><b>Windows 2.0</b></p>
 </div>
+
+{{site.data.alerts.tip}}
+<b><a href='{{ "/player.html?id=windows20" | prepend: site.computer_museum_base_url_2 }}' target='_blank'>体验 Windows 2.01</a></b>
+{{site.data.alerts.end}}
 
 痛定思痛，比尔·盖茨觉得，继续在DOS上套壳，肯定不是办法，还是应该重新开发一个全新的内核。
 于是，他到处招兵买马，找来了施乐公司最早做图形界面的一些人，还有VMS系统（当时很牛的一个操作系统）的开发者大卫·卡特勒（David Neil Cutler），以及操作系统顶级高手吉姆·阿尔钦（Jim Allchin）等，一同进行新系统的开发。
