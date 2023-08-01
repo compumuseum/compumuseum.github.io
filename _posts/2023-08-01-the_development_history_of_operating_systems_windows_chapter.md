@@ -102,7 +102,15 @@ Windows 3.0是第一个获得全面成功的Windows版本，在两年内卖出10
 
 它引入了16色图标，拥有更先进的内存管理和界面管理，兼容性和稳定性更强。此外，它还引入了纸牌游戏，增加了娱乐性。
 
+{{site.data.alerts.tip}}
+<b><a href='{{ "/osjs/player.html?os=windows30" | prepend: site.computer_museum_base_url }}' target='_blank'>体验 Windows 3.0</a></b>
+{{site.data.alerts.end}}
+
 而Windows 3.1更是添加了多媒体功能、CD播放器，以及对桌面排版很重要的True Type字体，大大提升了用户使用体验。
+
+{{site.data.alerts.tip}}
+<b><a href='{{ "/osjs/player.html?os=windows31" | prepend: site.computer_museum_base_url }}' target='_blank'>体验 Windows 3.1</a></b>
+{{site.data.alerts.end}}
 
 值得一提的是，在上世纪80年代，除了Windows之外，微软还和IBM合作开发了OS/2系统。
 
@@ -113,6 +121,10 @@ Windows 3.0是第一个获得全面成功的Windows版本，在两年内卖出10
     <p><b>OS/2系统</b></p>
 </div>
 
+{{site.data.alerts.tip}}
+<b><a href='{{ "/player.html?id=os2" | prepend: site.computer_museum_base_url_2 }}' target='_blank'>体验 OS/2系统</a></b>
+{{site.data.alerts.end}}
+
 但是，Windows 3.0的成功，让微软坚定了开发Windows、抛弃OS/2的信心。
 
 1991年5月，比尔·盖茨正式宣布，结束与IBM的OS/2合作伙伴关系，将所有资源都投入到Windows上。
@@ -120,6 +132,12 @@ Windows 3.0是第一个获得全面成功的Windows版本，在两年内卖出10
 那一时期，网络技术高速发展，互联网迅猛崛起。
 
 为了应对这一趋势，1993年11月，微软正式发布了Windows for Workgroups 3.11，重点加强了对网络的支持——包括支持以太网和热门的Novell netware，并利用对等网络的概念构建 Windows工作组网络。
+
+1994年4月14日，微软发布了基于MS-DOS的中文图形界面操作系统Windows 3.2。相信国内有不少Windows的先驱用户就是从这个版本开始接触Windows操作系统的；Windows 3.2相当于Windows 3.1的一个中文版本。由于Windows 3.2消除了语言障碍，降低了学习门槛，因此很快在国内流行了起来，这个版本开始可以播放音频、视频，甚至有了屏幕保护程序和传真。
+
+{{site.data.alerts.tip}}
+<b><a href='{{ "/emularity.html?machine=wps97" | prepend: site.computer_museum_base_url }}' target='_blank'>体验 Windows 3.2 中文版</a></b>
+{{site.data.alerts.end}}
 
 所有这些努力，帮助Windows逐渐在90年代激烈的操作系统竞争中赢得优势，并逐渐构建了强大的“Wintel（Windows+Intel）”体系。
 
@@ -150,6 +168,10 @@ Windows 95的成功，是显而易见的。这套系统在发布后的5周内，
 
 在Windows 95里，开始菜单首次出现，IE浏览器也随该系统出现。它的整体外观，在后来的20多年里，没有太大的变化，在很多用户心里留下了深刻的印象。
 
+{{site.data.alerts.tip}}
+<b><a href='{{ "/osjs/player.html?os=windows95" | prepend: site.computer_museum_base_url }}' target='_blank'>体验 Windows 95</a></b>
+{{site.data.alerts.end}}
+
 和Windows 95同样经典的，还有 1998年6月25日发布的Windows 98，也就是俗称的“瘟酒吧”。
 
 <div align="center">
@@ -158,6 +180,10 @@ Windows 95的成功，是显而易见的。这套系统在发布后的5周内，
     </a>
     <p><b>Windows 98 桌面界面</b></p>
 </div>
+
+{{site.data.alerts.tip}}
+<b><a href='{{ "/osjs/player.html?os=windows98" | prepend: site.computer_museum_base_url }}' target='_blank'>体验 Windows 98</a></b>
+{{site.data.alerts.end}}
 
 Windows 98就是升级版的Windows 95，在界面和工具上有所改进。大家也很熟悉，我就不多介绍了。
 
@@ -179,6 +205,10 @@ Windows 2000共有四个主要版本：Professional（专业版）、Server（�
 很多的IDC数据中心服务器，包括web服务器、电子邮件服务器、ftp服务器等，都采用了Windows 2000 Server，这也迎合了当时互联网的发展需求。
 
 Windows 2000的最大特点是稳定。它升级完善了活动目录功能，增强存储服务，开始支持新型设备，并采用了NTFS 5文件系统，可靠性和安全性有明显的提升。
+
+{{site.data.alerts.tip}}
+<b><a href='{{ "/osjs/player.html?os=windows2000" | prepend: site.computer_museum_base_url }}' target='_blank'>体验 Windows 2000</a></b>
+{{site.data.alerts.end}}
 
 ## Windows Me
 
