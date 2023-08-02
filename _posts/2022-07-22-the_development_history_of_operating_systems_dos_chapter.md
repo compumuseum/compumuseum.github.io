@@ -4,7 +4,7 @@ categories: history
 permalink: the_development_history_of_operating_systems_dos_chapter.html
 tags: [history]
 hide_sidebar: true
-summary: ""
+summary: "DOS是Disk Operation System（磁盘操作系统）的简称，是1985~1995年的个人电脑上使用的一种主要的操作系统。由于早期的DOS系统是由为软公司为IBM的个人电脑开发的，称为MS-DOS。"
 ---
 
 上期提到，20世纪70年代，伴随着计算机技术的成熟，操作系统也进入了一个快速发展阶段。现代操作系统的概念，也在那一时期逐渐形成。
