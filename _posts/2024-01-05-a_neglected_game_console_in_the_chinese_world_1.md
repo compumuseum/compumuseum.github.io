@@ -140,7 +140,7 @@ CreatiVision目前可以查到的游戏共有17款（以及一款BASIC解释器�
 时至今日，昔日的华人电子游戏先锋伟易达已经隐退与教育电子玩具市场，甚少被游戏爱好者提及，但我们在伟易达一些较晚近的产品上仍然能找到其早期产品的影子，如2000年代生产的V.Smile Art Studio就仍然保留了Video Painter“电视画板”的特色。
 
 
-## 参考资料
+## 注释
 
 [1] The timeline of Dick Smith: From humble beginnings to $520 million float and voluntary administration，https://www.smartcompany.com.au/finance/timeline-of-dick-smith/
 
@@ -148,7 +148,7 @@ CreatiVision目前可以查到的游戏共有17款（以及一款BASIC解释器�
 
 [3]《坎登信使邮报，新泽西》（Camden Courier-Post, New Jersey），第68页，1988年11月22日。
 
-[4] Creativemu官网 CreatiVision emulation central，http://www.madrigaldesign.it/
+参考资料：Creativemu官网 CreatiVision emulation central
 
 ---------
 
