@@ -131,8 +131,8 @@ CreatiVision目前可以查到的游戏共有17款（以及一款BASIC解释器�
 对于今天习惯了廉价平板电脑的读者们来说可能很难理解其价值，但如果我们考虑到“手写笔绘图、动画”和“电视输出”这两个元素的话，类似的功能最早出现1981年，售价15万美元的专用视频编辑电脑Quantel Paintbox上；即使到1990年，在专业领域实现这一功能较便宜的方案也需要使用5000美元左右的，基于Amiga电脑，装备有NewTek Video Toaster套件的视频编辑系统。对于家庭录像制作者来说，Vtech Video Painter可能是他们能够使用的最廉价的视频特效工具。
 
 <div align="center">
-    <a href="../images/dnbwg/a_neglected_game_console_in_the_chinese_world_1_11.jpg">
-        <img src="../images/dnbwg/a_neglected_game_console_in_the_chinese_world_1_11.jpg"/>
+    <a href="../images/dnbwg/a_neglected_game_console_in_the_chinese_world_1_12.jpg">
+        <img src="../images/dnbwg/a_neglected_game_console_in_the_chinese_world_1_12.jpg"/>
     </a>
     <p>1986年BBC制作的纪录片《光线绘画》（Painting with Light）中，英国艺术家大卫·霍克尼（David Hockney）展示了使用Quantel Paintbox在电视上绘画</p>
 </div>
