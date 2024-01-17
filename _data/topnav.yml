@@ -6,14 +6,14 @@ topnav:
     - title: 传奇故事
       url: /news.html
     - title: 电脑博物馆
-      external_url: http://museum.ihonux.com:86/
+      external_url: http://pc.retromuseum.org:86/
     - title: 家用游戏博物馆
-      external_url: http://museum.ihonux.com:86/famicn/
+      external_url: http://pc.retromuseum.org:86/famicn/
     - title: DOS游戏博物馆
-      external_url: http://museum.ihonux.com:89/
+      external_url: http://pc.retromuseum.org:89/
     - title: CPU博物馆
       external_url: https://cpu.retromuseum.org/
     - title: Flash档案馆
-      external_url: http://museum.ihonux.com:86/flash-archive/
+      external_url: http://pc.retromuseum.org:86/flash-archive/
 
 # Copyright 2021 Google LLC

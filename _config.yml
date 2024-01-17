@@ -47,8 +47,8 @@ feedback_text: "反馈"
 feedback_link: "contact.html"
 # if you uncomment the previous line, it changes where the feedback link points to
 
-computer_museum_base_url: "http://museum.ihonux.com:86"
-computer_museum_base_url_2: "http://museum.ihonux.com:88"
+computer_museum_base_url: "http://pc.retromuseum.org:86"
+computer_museum_base_url_2: "http://pc.retromuseum.org:88"
 
 highlighter: rouge
 # library used for syntax highlighting
