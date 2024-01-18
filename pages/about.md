@@ -22,7 +22,7 @@ comments: false
 
 <a href="/sb486/"><b>电脑学习机博物馆</b></a>收录了 30 种中外学习机卡带程序，可在线体验。电脑学习机是我国计算机发展的一个重要分支，它是在特殊历史背景下的产物，让无数青少年对计算机的知识有了初步的了解。我们用电脑学习机玩游戏、打字、学编程等，留下了一段青春中最美好的记忆。
 
-访问网址：<https://RetroMeseum.org> 或 <https://cm.ihonux.com> 。
+访问网址：<https://RetroMuseum.org> 或 <https://cm.ihonux.com> 。
 
 <b>Director of the Computer Museum</b>
 
