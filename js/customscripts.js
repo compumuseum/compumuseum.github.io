@@ -1,6 +1,6 @@
 function checkLinks() {
     var ua = navigator.userAgent.toLowerCase();
-    console.log(ua);
+    //console.log(ua);
     if (ua.indexOf("micromessenger") != -1){
         alert("您将要访问的部分，不允许在微信中浏览！如要继续访问，请点击右上角图标，选择“在浏览器打开”！");
         return false;
