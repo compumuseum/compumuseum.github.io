@@ -1,3 +1,15 @@
+function checkLinks() {
+    var ua = navigator.userAgent.toLowerCase();
+    console.log(ua);
+    if (ua.indexOf("micromessenger") != -1){
+        alert("微信");
+        return false;
+    }
+    else{
+        return true;
+    }
+}
+
 $('#mysidebar').height($(".nav").height());
 
 
