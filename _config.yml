@@ -6,7 +6,7 @@ output: web
 topnav_title: 电脑博物馆
 # this appears on the top navigation bar next to the home button
 
-site_title: 在线电脑博物馆 | 计算机博物馆 | Computer Museum
+site_title: 在线电脑博物馆 | 复古电脑博物馆 | 计算机博物馆 | Computer Museum
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: Copyright 2021-2024 Honux

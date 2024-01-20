@@ -2,7 +2,7 @@ function checkLinks() {
     var ua = navigator.userAgent.toLowerCase();
     //console.log(ua);
     if (ua.indexOf("micromessenger") != -1){
-        alert("如要继续访问此部分，请点击右上角图标，选择“在浏览器打开”！");
+        alert("为了您有更好的使用体验，请点击右上角图标，选择“在浏览器打开”！");
         return false;
     }
     else{
@@ -11,7 +11,6 @@ function checkLinks() {
 }
 
 $('#mysidebar').height($(".nav").height());
-
 
 $( document ).ready(function() {
 
