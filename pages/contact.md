@@ -8,7 +8,7 @@ hide_sidebar: true
 comments: false
 ---
 
-<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xqkodbyz" method="post">
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/meqyaqgp" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">姓名</label>
     <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
