@@ -95,7 +95,7 @@ GPD Win在键盘上方集成了适合游戏操作的方向键与微型摇杆，�
 
 [1] Sourceforge上的OPIE官网： Opie
 
-[2] About Us | pdaXrom team
+[2] About Us \| pdaXrom team
 
 [3] Doom9论坛： The Definitive DVD Backup Resource
 
