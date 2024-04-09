@@ -20,6 +20,9 @@ entries:
     - title: Computer
       url: /tag_computer.html
       output: web
+    - title: Story
+      url: /tag_story.html
+      output: web
     
 
 # Copyright 2021 Google LLC
