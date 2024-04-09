@@ -2,7 +2,7 @@
 title:  "Wiki: Apple Lisa 系列"
 categories: history
 permalink: wiki-apple-lisa.html
-tags: [wiki, history]
+tags: [wiki, computer, history]
 hide_sidebar: true
 summary: "Apple Lisa 是苹果电脑公司 1983 年上市的一款个人电子计算机，是第一款搭载图形界面的个人电脑。"
 ---
