@@ -15,10 +15,14 @@ comments: false
 <p><b>copy's home</b>(https://copy.sh)</p>
 <p><b>PCjs Machines</b>(https://pcjs.org/)</p>
 <p><b>Archive.org</b>(https://www.archive.org)</p>
+<p><b>Graphical User Interface Gallery</b>(http://toastytech.com/guis/)</p>
+<p><b>VirtualDesktop.org</b>(http://VirtualDesktop.org)</p>
+<p><b>Steve's Old Computer Museum</b>(http://oldcomputers.net/)</p>
 
 ## Web emulator integration
 
 <p><b>db48x/emularity</b>(https://github.com/db48x/emularity)</p>
+<p><b>nepx/halfix</b>(https://github.com/nepx/halfix)</p>
 
 ## Platform specific emulators used
 
@@ -42,5 +46,9 @@ comments: false
 <p>Xerox Alto: <b>marciot/retroweb-salto-simulator-js</b>(https://github.com/marciot/retroweb-salto-simulator-js)</p>
 <p>NEC PC-9801: <b>yksoft1/np2-em</b>(https://github.com/yksoft1/np2-em)</p>
 <p>SHARP X1 Turbo: <b>yksoft1/xmil</b>(https://github.com/yksoft1/xmil/tree/emscripten)</p>
+<p>Half Life (Xash 3D): <b>Pixelsuft/hl</b>(https://github.com/Pixelsuft/hl)</p>
+<p>Windows XP: <b>Pixelsuft/SandboXP</b>(https://github.com/Pixelsuft/SandboXP)</p>
+<p>DOSBox Demos: <b>Pixelsuft/dosbox-demos</b>(https://github.com/Pixelsuft/dosbox-demos)</p>
+
 
 {% include links.html %}
