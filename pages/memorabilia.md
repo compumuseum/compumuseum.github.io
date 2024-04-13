@@ -10,13 +10,13 @@ comments: false
 
 
 
-- `2024-04-13`     电脑博物馆“<a href="https://computer.retromuseum.org:86/osjs/" target="_blank">操作系统</a>”增加OS/2、Windows NT 4.0、Windows XP等模拟器，增加分类查询功能。<!-- 已收集42个操作系统 -->
-- `2024-04-13`     电脑博物馆增加“<a href="https://computer.retromuseum.org:86/special.html" target="_blank">专题展览</a>”栏目，将“PC专题”、“3D之舞”，以及“实验室”下的“操作系统界面大全”、“史蒂夫的旧电脑博物馆”、“虚拟桌面-Virtual Desktop”、“一些8bit电脑模拟器”等板块都迁移到此板块下。
+- `2024-04-13`     电脑博物馆“<a href="https://computer.retromuseum.org:86/osjs/" target="_blank">操作系统</a>”增加OS/2、Windows NT 4.0、Windows XP、Windows Chicago 73g等模拟器，增加分类查询功能。<!-- 已收集42个操作系统 -->
+- `2024-04-13`     电脑博物馆增加“<a href="https://computer.retromuseum.org:86/special.html" target="_blank">专题展览</a>”栏目，将“PC专题”、“3D之舞”，以及“实验室”栏目下的“操作系统界面大全”、“史蒂夫的旧电脑博物馆”、“虚拟桌面-Virtual Desktop”、“一些8bit电脑模拟器”等板块都迁移到此栏目。
 - `2024-04-13`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/player.html?machine=dosboxdemos" target="_blank">DOSBox专题</a>”板块，“一些8bit电脑模拟器”板块更名为“<a href="https://computer.retromuseum.org:86/player.html?machine=tiny8bit" target="_blank">8-bit模拟器专题</a>”。
-- `2024-04-13`     电脑博物馆“<a href="https://computer.retromuseum.org:86/labs.html" target="_blank">实验室</a>”增加“半条命 Half Life (Xash3D)”3D游戏，通过浏览器WebGL完成3D渲染。
-- `2024-04-13`     电脑博物馆“实验室”缩略图全部更换为较高分辨率图片。
-- `2024-04-13`     电脑博物馆站点增加“TI-57 Programmable Calculator”和“PDP-11/70 with RT-11 4.0”的显示。
-- `2024-04-10`     电脑博物馆站点增加“计算机诗人 1.0”。
+- `2024-04-13`     电脑博物馆“<a href="https://computer.retromuseum.org:86/labs.html" target="_blank">实验室</a>”栏目增加“半条命 Half Life (Xash3D)”3D游戏，通过浏览器WebGL完成3D渲染。
+- `2024-04-13`     电脑博物馆“实验室”栏目缩略图全部更换为较高分辨率图片。
+- `2024-04-13`     电脑博物馆“电脑”栏目增加“TI-57 Programmable Calculator”和“PDP-11/70 with RT-11 4.0”的显示。
+- `2024-04-10`     电脑博物馆“电脑”栏目增加“计算机诗人 1.0”。
 - `2024-01-19`     电脑博物馆网站核心内容全部更换为 https 访问方式。
 - `2024-01-16`     电脑博物馆网站启用 retromuseum.org 全新域名。
 - `2024-01-16`     CPU博物馆站点启用 cpu.retromuseum.org 全新域名。

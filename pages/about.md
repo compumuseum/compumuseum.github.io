@@ -26,8 +26,8 @@ comments: false
 
 <b>Director of the Computer Museum</b>
 
-My name is Honux, and I'm the curator of this museum, a technical fan, senior engineer, and programmer based in Zhengzhou City, Henan Province, China. For more details, see my [iHonux's Projects](https://www.ihonux.com) website.
+My name is Honux, and I'm the curator of this museum, a technical fan, senior engineer and programmer. For more details, see my [iHonux's Projects](https://www.ihonux.com) website.
 
-我叫 Honux，是这个博物馆的馆长，一位技术爱好者、高级工程师和程序员，居住在中国河南省郑州市。有关更多详细信息，请参阅 [iHonux's Projects](https://www.ihonux.com)。
+我叫 Honux，是这个博物馆的馆长，一位技术爱好者、高级工程师和程序员。有关更多详细信息，请参阅 [iHonux's Projects](https://www.ihonux.com)。
 
 {% include links.html %}
