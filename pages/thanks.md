@@ -1,7 +1,7 @@
 ---
 title: 致谢
 keywords: 电脑, 计算机, 博物馆, museum, 古董电脑, retro, 电脑考古, CPU, 处理器, 微处理器, DOS, 游戏, 模拟器, Mac, Apple, 苹果, IBM, BBC, Atari, Xerox, Alto, PDP, TRS, SHARP, PC, ZX81, TI, Commodore, ZX, Spectrum, Laser, Acorn, Windows, MSX, NEC, Macintosh, Acorn, CEC, DOS, GEOS, Amiga, Z80, Psion, HP, UCDOS, WPS, Windows CE, 文曲星, processor, qualification, information, pictures, core, frequency, chip packaging, packaging, cpu info, x86, amd, cyrix, harris, ibm, idt, iit, intel, motorola, nec, sgs, sgs-thomson, siemens, ST, signetics, mhs, ti, texas instruments, ulsi, umc, weitek, zilog, 3002, 4004, 4040, 8008, 808x, 8085, 8088, 8086, 80188, 80186, 80286, 286, 80386, 386, i386, Am386, 386sx, 386dx, 486, i486, 586, 486sx, 486dx, overdrive, 487, pentium, 586, 5x86, 386dlc, 386slc, 486dx2, mmx, ppro, pentium-pro, pro, athlon, duron, z80, dirk oppelt, dirk, oppelt, engineering, sample, samples, core, xeon
-last_updated: May 29, 2023
+last_updated: Apr 14, 2024
 permalink: thanks.html
 topnav: topnav
 toc: false
@@ -49,6 +49,7 @@ comments: false
 <p>Half Life (Xash 3D): <b>Pixelsuft/hl</b>(https://github.com/Pixelsuft/hl)</p>
 <p>Windows XP: <b>Pixelsuft/SandboXP</b>(https://github.com/Pixelsuft/SandboXP)</p>
 <p>DOSBox Demos: <b>Pixelsuft/dosbox-demos</b>(https://github.com/Pixelsuft/dosbox-demos)</p>
-
+<p>Minecraft: <b>PeytonPlayz595/Minecraft-Indev-WebGL</b>(https://github.com/PeytonPlayz595)</p>
+<p>Chess3D: <b>FrenchYann/Chess3D</b>(https://github.com/FrenchYann/Chess3D)</p>
 
 {% include links.html %}
