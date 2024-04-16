@@ -1,14 +1,17 @@
 ---
 title: 大事记
 keywords: 电脑, 计算机, 博物馆, museum, 古董电脑, retro, 电脑考古, CPU, 处理器, 微处理器, DOS, 游戏, 模拟器, Mac, Apple, 苹果, IBM, BBC, Atari, Xerox, Alto, PDP, TRS, SHARP, PC, ZX81, TI, Commodore, ZX, Spectrum, Laser, Acorn, Windows, MSX, NEC, Macintosh, Acorn, CEC, DOS, GEOS, Amiga, Z80, Psion, HP, UCDOS, WPS, Windows CE, 文曲星, processor, qualification, information, pictures, core, frequency, chip packaging, packaging, cpu info, x86, amd, cyrix, harris, ibm, idt, iit, intel, motorola, nec, sgs, sgs-thomson, siemens, ST, signetics, mhs, ti, texas instruments, ulsi, umc, weitek, zilog, 3002, 4004, 4040, 8008, 808x, 8085, 8088, 8086, 80188, 80186, 80286, 286, 80386, 386, i386, Am386, 386sx, 386dx, 486, i486, 586, 486sx, 486dx, overdrive, 487, pentium, 586, 5x86, 386dlc, 386slc, 486dx2, mmx, ppro, pentium-pro, pro, athlon, duron, z80, dirk oppelt, dirk, oppelt, engineering, sample, samples, core, xeon
-last_updated: Apr 14, 2024
+last_updated: Apr 16, 2024
 permalink: memorabilia.html
 topnav: topnav
 hide_sidebar: true
 comments: false
 ---
 
-
+- `2024-04-16`     电脑博物馆“专题展览”中的“PC专题”增加13项游戏：The Hitchhiker's Guide to the Galaxy、Leather Goddesses of Phobos、Planetfall、Zork I: The Great Underground Empire、Zork II: The Wizard of Frobozz、Zork III: The Dungeon Master、Castle Adventure、Eye of the Beholder、Invaders Boot Sector、King's Quest、The Dungeons of Moria、Populous、Trump Castle。
+- `2024-04-16`     电脑博物馆“专题展览”中的“PC专题”增加5项操作系统：QNX 1.1、QNX 1.2、CP/M-86 1.0、MINIX 1.1、IBM PC XENIX 2.0。<!-- 也在“操作系统”进行了显示。 -->
+- `2024-04-15`     电脑博物馆“专题展览”中的“PC专题”增加1项应用软件：Microsoft Visual Basic 1.0。
+- `2024-04-15`     电脑博物馆“专题展览”中的“PC专题”增加12项机型：AT&T 6300 CGA、MPC 1600 CGA、COMPAQ Portable、IBM PC XT (Model 5160)、IBM PC AT (Model 5170) 、Zenith Z-150、DEC PDP-10 (Model KA10)、DEC PDP-11/20、DEC PDP-11/45、TI-42 "MBA"、TI-55 Programmable Calculator和Ohio Scientific Challenger 1P。<!-- 也在站点首页进行了显示。 -->
 - `2024-04-14`     电脑博物馆“<a href="https://computer.retromuseum.org:86/labs.html" target="_blank" onclick="return checkLinks();">实验室</a>”增加“Minecraft Indev (WebGL)”和“国际象棋 Chess 3D (WebGL)”。
 - `2024-04-13`     电脑博物馆“<a href="https://computer.retromuseum.org:86/osjs/" target="_blank" onclick="return checkLinks();">操作系统</a>”增加OS/2、Windows NT 4.0、Windows XP、Windows Chicago 73g等模拟器，增加分类查询功能。<!-- 已收集42个操作系统 -->
 - `2024-04-13`     电脑博物馆增加“<a href="https://computer.retromuseum.org:86/special.html" target="_blank" onclick="return checkLinks();">专题展览</a>”，将“PC专题”、“3D之舞”，以及“实验室”栏目下的“操作系统界面大全”、“史蒂夫的旧电脑博物馆”、“虚拟桌面-Virtual Desktop”、“一些8bit电脑模拟器”等板块都迁移到此栏目。
