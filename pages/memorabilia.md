@@ -9,7 +9,7 @@ comments: false
 ---
 
 
-- `2024-04-19`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/malware/malware.json" target="_blank" onclick="return checkLinks();">DOS游戏博物馆</a>”板块。<!-- 已收集74个病毒例程 -->
+- `2024-04-19`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/malware/malware.json" target="_blank" onclick="return checkLinks();">DOS病毒博物馆</a>”板块。<!-- 已收集74个病毒例程 -->
 - `2024-04-17`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/player.html?machine=icpcw" target="_blank" onclick="return checkLinks();">《电脑报》合订本 1992~2001</a>”板块。
 - `2024-04-16`     电脑博物馆“专题展览”中的“PC专题”增加13项游戏：The Hitchhiker's Guide to the Galaxy、Leather Goddesses of Phobos、Planetfall、Zork I: The Great Underground Empire、Zork II: The Wizard of Frobozz、Zork III: The Dungeon Master、Castle Adventure、Eye of the Beholder、Invaders Boot Sector、King's Quest、The Dungeons of Moria、Populous、Trump Castle。
 - `2024-04-16`     电脑博物馆“专题展览”中的“PC专题”增加5项操作系统：QNX 1.1、QNX 1.2、CP/M-86 1.0、MINIX 1.1、IBM PC XENIX 2.0。<!-- 也在“操作系统”进行了显示。 -->
