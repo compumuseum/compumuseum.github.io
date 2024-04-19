@@ -1,7 +1,7 @@
 ---
 title: 大事记
 keywords: 电脑, 计算机, 博物馆, museum, 古董电脑, retro, 电脑考古, CPU, 处理器, 微处理器, DOS, 游戏, 模拟器, Mac, Apple, 苹果, IBM, BBC, Atari, Xerox, Alto, PDP, TRS, SHARP, PC, ZX81, TI, Commodore, ZX, Spectrum, Laser, Acorn, Windows, MSX, NEC, Macintosh, Acorn, CEC, DOS, GEOS, Amiga, Z80, Psion, HP, UCDOS, WPS, Windows CE, 文曲星, processor, qualification, information, pictures, core, frequency, chip packaging, packaging, cpu info, x86, amd, cyrix, harris, ibm, idt, iit, intel, motorola, nec, sgs, sgs-thomson, siemens, ST, signetics, mhs, ti, texas instruments, ulsi, umc, weitek, zilog, 3002, 4004, 4040, 8008, 808x, 8085, 8088, 8086, 80188, 80186, 80286, 286, 80386, 386, i386, Am386, 386sx, 386dx, 486, i486, 586, 486sx, 486dx, overdrive, 487, pentium, 586, 5x86, 386dlc, 386slc, 486dx2, mmx, ppro, pentium-pro, pro, athlon, duron, z80, dirk oppelt, dirk, oppelt, engineering, sample, samples, core, xeon
-last_updated: Apr 17, 2024
+last_updated: Apr 19, 2024
 permalink: memorabilia.html
 topnav: topnav
 hide_sidebar: true
@@ -9,6 +9,7 @@ comments: false
 ---
 
 
+- `2024-04-19`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/malware/malware.json" target="_blank" onclick="return checkLinks();">DOS游戏博物馆</a>”板块。<!-- 已收集74个病毒例程 -->
 - `2024-04-17`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/player.html?machine=icpcw" target="_blank" onclick="return checkLinks();">《电脑报》合订本 1992~2001</a>”板块。
 - `2024-04-16`     电脑博物馆“专题展览”中的“PC专题”增加13项游戏：The Hitchhiker's Guide to the Galaxy、Leather Goddesses of Phobos、Planetfall、Zork I: The Great Underground Empire、Zork II: The Wizard of Frobozz、Zork III: The Dungeon Master、Castle Adventure、Eye of the Beholder、Invaders Boot Sector、King's Quest、The Dungeons of Moria、Populous、Trump Castle。
 - `2024-04-16`     电脑博物馆“专题展览”中的“PC专题”增加5项操作系统：QNX 1.1、QNX 1.2、CP/M-86 1.0、MINIX 1.1、IBM PC XENIX 2.0。<!-- 也在“操作系统”进行了显示。 -->
