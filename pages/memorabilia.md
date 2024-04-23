@@ -1,7 +1,7 @@
 ---
 title: 大事记
 keywords: 电脑, 计算机, 博物馆, museum, 古董电脑, retro, 电脑考古, CPU, 处理器, 微处理器, DOS, 游戏, 模拟器, Mac, Apple, 苹果, IBM, BBC, Atari, Xerox, Alto, PDP, TRS, SHARP, PC, ZX81, TI, Commodore, ZX, Spectrum, Laser, Acorn, Windows, MSX, NEC, Macintosh, Acorn, CEC, DOS, GEOS, Amiga, Z80, Psion, HP, UCDOS, WPS, Windows CE, 文曲星, processor, qualification, information, pictures, core, frequency, chip packaging, packaging, cpu info, x86, amd, cyrix, harris, ibm, idt, iit, intel, motorola, nec, sgs, sgs-thomson, siemens, ST, signetics, mhs, ti, texas instruments, ulsi, umc, weitek, zilog, 3002, 4004, 4040, 8008, 808x, 8085, 8088, 8086, 80188, 80186, 80286, 286, 80386, 386, i386, Am386, 386sx, 386dx, 486, i486, 586, 486sx, 486dx, overdrive, 487, pentium, 586, 5x86, 386dlc, 386slc, 486dx2, mmx, ppro, pentium-pro, pro, athlon, duron, z80, dirk oppelt, dirk, oppelt, engineering, sample, samples, core, xeon
-last_updated: Apr 19, 2024
+last_updated: Apr 23, 2024
 permalink: memorabilia.html
 topnav: topnav
 hide_sidebar: true
@@ -9,6 +9,9 @@ comments: false
 ---
 
 
+- `2024-04-23`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/win31.json" target="_blank" onclick="return checkLinks();">Windows 3.x 软件专题</a>”板块。<!-- 收集19个软件 -->
+- `2024-04-22`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/dos.json" target="_blank" onclick="return checkLinks();">DOS软件专题</a>”板块。<!-- 收集22个软件 -->
+- `2024-04-22`     电脑博物馆“操作系统”增加“Windows 95 中文版”、“Windows CE 3.0”和“Windows CE.net 4.0”。
 - `2024-04-19`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/malware/malware.json" target="_blank" onclick="return checkLinks();">DOS病毒博物馆</a>”板块。<!-- 已收集74个病毒例程 -->
 - `2024-04-17`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/player.html?machine=icpcw" target="_blank" onclick="return checkLinks();">《电脑报》合订本 1992~2001</a>”板块。
 - `2024-04-16`     电脑博物馆“专题展览”中的“PC专题”增加13项游戏：The Hitchhiker's Guide to the Galaxy、Leather Goddesses of Phobos、Planetfall、Zork I: The Great Underground Empire、Zork II: The Wizard of Frobozz、Zork III: The Dungeon Master、Castle Adventure、Eye of the Beholder、Invaders Boot Sector、King's Quest、The Dungeons of Moria、Populous、Trump Castle。
