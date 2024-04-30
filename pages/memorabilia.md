@@ -9,6 +9,7 @@ comments: false
 ---
 
 
+- `2024-04-29`     电脑博物馆“专题展览”中的“Windows 3.x 软件专题”和“DOS软件专题”增加了大量新的内容。
 - `2024-04-23`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/win31.json" target="_blank" onclick="return checkLinks();">Windows 3.x 软件专题</a>”板块。<!-- 收集19个软件 -->
 - `2024-04-22`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/dos.json" target="_blank" onclick="return checkLinks();">DOS软件专题</a>”板块。<!-- 收集22个软件 -->
 - `2024-04-22`     电脑博物馆“操作系统”增加“Windows 95 中文版”、“Windows CE 3.0”和“Windows CE.net 4.0”。
