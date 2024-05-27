@@ -1,7 +1,7 @@
 ---
 title: 大事记
 keywords: 电脑, 计算机, 博物馆, museum, 古董电脑, retro, 电脑考古, CPU, 处理器, 微处理器, DOS, 游戏, 模拟器, Mac, Apple, 苹果, IBM, BBC, Atari, Xerox, Alto, PDP, TRS, SHARP, PC, ZX81, TI, Commodore, ZX, Spectrum, Laser, Acorn, Windows, MSX, NEC, Macintosh, Acorn, CEC, DOS, GEOS, Amiga, Z80, Psion, HP, UCDOS, WPS, Windows CE, 文曲星, processor, qualification, information, pictures, core, frequency, chip packaging, packaging, cpu info, x86, amd, cyrix, harris, ibm, idt, iit, intel, motorola, nec, sgs, sgs-thomson, siemens, ST, signetics, mhs, ti, texas instruments, ulsi, umc, weitek, zilog, 3002, 4004, 4040, 8008, 808x, 8085, 8088, 8086, 80188, 80186, 80286, 286, 80386, 386, i386, Am386, 386sx, 386dx, 486, i486, 586, 486sx, 486dx, overdrive, 487, pentium, 586, 5x86, 386dlc, 386slc, 486dx2, mmx, ppro, pentium-pro, pro, athlon, duron, z80, dirk oppelt, dirk, oppelt, engineering, sample, samples, core, xeon
-last_updated: Apr 23, 2024
+last_updated: May 27, 2024
 permalink: memorabilia.html
 topnav: topnav
 hide_sidebar: true
@@ -9,7 +9,7 @@ comments: false
 ---
 
 
-- `2024-05-27`     电脑博物馆“电脑学习机”板块中的缩略图提升分辨率。
+- `2024-05-27`     电脑博物馆“电脑学习机”板块中的缩略图提升分辨率；网站首页更新。
 - `2024-05-25`     电脑博物馆“专题展览”中的“<a href="https://computer.retromuseum.org:86/?data=cm/data/mac.json" target="_blank" onclick="return checkLinks();">Apple Macintosh 软件专题</a>”增加大量新的内容。 <!-- 收集的软件增加到100 -->
 - `2024-05-18`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/mac.json" target="_blank" onclick="return checkLinks();">Apple Macintosh 软件专题</a>”板块。 <!-- 收集55个软件 -->
 - `2024-04-29`     电脑博物馆“专题展览”中的“Windows 3.x 软件专题”和“DOS软件专题”增加了大量新的内容。
