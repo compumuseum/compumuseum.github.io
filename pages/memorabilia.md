@@ -9,6 +9,7 @@ comments: false
 ---
 
 
+- `2024-05-27`     电脑博物馆“电脑学习机”板块中的缩略图提升分辨率。
 - `2024-05-25`     电脑博物馆“专题展览”中的“<a href="https://computer.retromuseum.org:86/?data=cm/data/mac.json" target="_blank" onclick="return checkLinks();">Apple Macintosh 软件专题</a>”增加大量新的内容。 <!-- 收集的软件增加到100 -->
 - `2024-05-18`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/mac.json" target="_blank" onclick="return checkLinks();">Apple Macintosh 软件专题</a>”板块。 <!-- 收集55个软件 -->
 - `2024-04-29`     电脑博物馆“专题展览”中的“Windows 3.x 软件专题”和“DOS软件专题”增加了大量新的内容。
@@ -26,7 +27,7 @@ comments: false
 - `2024-04-13`     电脑博物馆增加“<a href="https://computer.retromuseum.org:86/special.html" target="_blank" onclick="return checkLinks();">专题展览</a>”，将“PC专题”、“3D之舞”，以及“实验室”栏目下的“操作系统界面大全”、“史蒂夫的旧电脑博物馆”、“虚拟桌面-Virtual Desktop”、“一些8bit电脑模拟器”等板块都迁移到此栏目。
 - `2024-04-13`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/player.html?machine=dosboxdemos" target="_blank" onclick="return checkLinks();">DOSBox专题</a>”板块，“一些8bit电脑模拟器”板块更名为“<a href="https://computer.retromuseum.org:86/player.html?machine=tiny8bit" target="_blank" onclick="return checkLinks();">8-bit模拟器专题</a>”。
 - `2024-04-13`     电脑博物馆“<a href="https://computer.retromuseum.org:86/labs.html" target="_blank" onclick="return checkLinks();">实验室</a>”增加“半条命 Half Life (Xash3D)”3D游戏，通过浏览器WebGL完成3D渲染。
-- `2024-04-13`     电脑博物馆“实验室”缩略图提升分辨率。
+- `2024-04-13`     电脑博物馆“实验室”板块中的缩略图提升分辨率。
 - `2024-04-13`     电脑博物馆“电脑”增加“TI-57 Programmable Calculator”和“PDP-11/70 with RT-11 4.0”的显示。
 - `2024-04-10`     电脑博物馆“电脑”增加“计算机诗人 1.0”。
 - `2024-01-19`     电脑博物馆网站核心内容全部更换为 https 访问方式。
