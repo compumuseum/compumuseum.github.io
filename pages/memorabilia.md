@@ -9,12 +9,14 @@ comments: false
 ---
 
 
+- `2024-06-01`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/kid.json" target="_blank" onclick="return checkLinks();">儿童教育软件专题</a>”。
+- `2024-05-30`     电脑博物馆“专题展览”中的“<a href="https://computer.retromuseum.org:86/?data=cm/data/dos.json" target="_blank" onclick="return checkLinks();">DOS软件专题</a>”增加大量内容。<!-- 收集的软件增加到107 -->
 - `2024-05-27`     电脑博物馆“电脑学习机”板块中的缩略图提升分辨率；网站首页更新。
 - `2024-05-25`     电脑博物馆“专题展览”中的“<a href="https://computer.retromuseum.org:86/?data=cm/data/mac.json" target="_blank" onclick="return checkLinks();">Apple Macintosh 软件专题</a>”增加大量新的内容。 <!-- 收集的软件增加到100 -->
-- `2024-05-18`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/mac.json" target="_blank" onclick="return checkLinks();">Apple Macintosh 软件专题</a>”板块。 <!-- 收集55个软件 -->
+- `2024-05-18`     电脑博物馆“专题展览”增加“Apple Macintosh 软件专题”板块。 <!-- 收集55个软件 -->
 - `2024-04-29`     电脑博物馆“专题展览”中的“Windows 3.x 软件专题”和“DOS软件专题”增加了大量新的内容。
 - `2024-04-23`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/win31.json" target="_blank" onclick="return checkLinks();">Windows 3.x 软件专题</a>”板块。 <!-- 收集19个软件 -->
-- `2024-04-22`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/dos.json" target="_blank" onclick="return checkLinks();">DOS软件专题</a>”板块。<!-- 收集22个软件 -->
+- `2024-04-22`     电脑博物馆“专题展览”增加“DOS软件专题”板块。<!-- 收集22个软件 -->
 - `2024-04-22`     电脑博物馆“操作系统”增加“Windows 95 中文版”、“Windows CE 3.0”和“Windows CE.net 4.0”。
 - `2024-04-19`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/malware/malware.json" target="_blank" onclick="return checkLinks();">DOS病毒博物馆</a>”板块。<!-- 已收集74个病毒例程 -->
 - `2024-04-17`     电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/player.html?machine=icpcw" target="_blank" onclick="return checkLinks();">《电脑报》合订本 1992~2001</a>”板块。
