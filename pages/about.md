@@ -24,13 +24,13 @@ comments: false
 
 访问网址：<https://RetroMuseum.org> 或 <https://cm.ihonux.com> 。
 
-### Director of the Computer Museum
+<h3> Director of the Computer Museum </h3>
 
 My name is Honux, and I'm the curator of this museum, a technical fan, senior engineer and programmer. For more details, see my [iHonux's Projects](https://www.ihonux.com) website.
 
 我叫 Honux，是这个博物馆的馆长，一位技术爱好者、高级工程师和程序员。有关更多详细信息，请参阅 [iHonux's Projects](https://www.ihonux.com)。
 
-### 微信公众号“复古电脑”
+<h3> 微信公众号“复古电脑” </h3>
 
 ![微信公众号“复古电脑”](/images/wx_mp.jpg)
 
