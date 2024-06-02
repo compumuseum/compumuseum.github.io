@@ -4,6 +4,7 @@ keywords: 电脑, 计算机, 博物馆, museum, 古董电脑, retro, 电脑考�
 last_updated: Jan 16, 2024
 permalink: about.html
 topnav: topnav
+toc: false
 hide_sidebar: true
 comments: false
 ---
