@@ -9,7 +9,7 @@ hide_sidebar: true
 comments: false
 ---
 
-## Credits and Thanks
+### Credits and Thanks
 
 <p><b>compumuseum.com</b>(http://www.compumuseum.com)</p>
 <p><b>copy's home</b>(https://copy.sh)</p>
@@ -21,12 +21,12 @@ comments: false
 <p><b>软件归档站</b>(https://software-archive.tifan.la/)</p>
 <p><b>DOS-Tools and Demos/Intros Website</b>(https://dos-tools.jimdofree.com/)</p>
 
-## Web emulator integration
+### Web emulator integration
 
 <p><b>db48x/emularity</b>(https://github.com/db48x/emularity)</p>
 <p><b>nepx/halfix</b>(https://github.com/nepx/halfix)</p>
 
-## Platform specific emulators used
+### Platform specific emulators used
 
 <p>DOS: <b>dreamlayers/em-dosbox</b>(https://github.com/dreamlayers/em-dosbox)</p>
 <p>IBM PC XT / Atari ST / Macintosh Plus: <b>jsdf/pce</b>(https://github.com/jsdf/pce)</p>
