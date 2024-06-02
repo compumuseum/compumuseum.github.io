@@ -14,9 +14,9 @@ comments: false
 <a href="https://computer.retromuseum.org:86/" onclick="return checkLinks();"><b>复古电脑博物馆</b></a>是一个在线交互式的计算机博物馆，在网页中重现电脑发展史。参观者可通过 JavaScript 仿真模拟器在网页中体验 1970 年代 —— 1990 年代流行的电脑硬件和软件。虽然时空流转，沧海桑田，早已是物是人非，但那些曾经闪亮的程序代码依然在这里跳动着。
 
 - <a href="https://computer.retromuseum.org:86/" onclick="return checkLinks();"><b>电脑</b></a> —— 主要是对一些古董电脑的模拟重现，此外还有一些影响较大的软件展示。
-- <a href="https://computer.retromuseum.org:86/osjs/" onclick="return checkLinks();"><b>操作系统</b></a> —— 对一些曾经流行的操作系统进行模拟重新，主要有Windows、Mac、Linux、Unix、OS/2、DOS、CP/M等。
-- <a href="https://computer.retromuseum.org:86/special.html" onclick="return checkLinks();"><b>专题展览</b></a> —— 各类重现电脑发展历程的专题展览，有Apple Macintosh 软件专题展、儿童教育软件专题展、Windows 3.x 软件专题展、DOS软件专题展、8-bit模拟器专题展、PC专题展、“操作系统界面大全”专题展、“史蒂夫的旧电脑博物馆”专题展、“《电脑报》合订本 1992~2001 ”专题展、“3D之舞：90年代的VRML与3D网页”专题展、“DOS下的艺术：90年代的DOS Demos”专题展等。
-- <a href="https://computer.retromuseum.org:86/labs.html" onclick="return checkLinks();"><b>实验室</b></a> —— 主要展示对一些古老技术的模拟再现，比如：CFido天堂资讯站、瀛海威时空、BBC Ceefax等。此外，还有一些利用当前的新技术对古老软件的模拟再现，比如：半条命 Half Life (Xash3D)、Minecraft Indev (WebGL)等。
+- <a href="https://computer.retromuseum.org:86/osjs/" onclick="return checkLinks();"><b>操作系统</b></a> —— 对一些曾经流行的操作系统进行模拟重现，主要有Windows、Mac、Linux、Unix、OS/2、DOS、CP/M等。
+- <a href="https://computer.retromuseum.org:86/special.html" onclick="return checkLinks();"><b>专题展览</b></a> —— 以电脑发展历程中某些特定领域为专题进行模拟重现，已经上线了Apple Macintosh 软件专题展、儿童教育软件专题展、Windows 3.x 软件专题展、DOS软件专题展、8-bit模拟器专题展、PC专题展、“操作系统界面大全”专题展、“史蒂夫的旧电脑博物馆”专题展、“《电脑报》合订本 1992~2001 ”专题展、“3D之舞：90年代的VRML与3D网页”专题展、“DOS下的艺术：90年代的DOS Demos”专题展等。
+- <a href="https://computer.retromuseum.org:86/labs.html" onclick="return checkLinks();"><b>实验室</b></a> —— 主要展示一些古老技术的模拟再现，比如：CFido天堂资讯站、瀛海威时空、BBC Ceefax等。此外，利用当前的新技术对一些古老软件进行了模拟再现，比如：半条命 Half Life (Xash3D)、Minecraft Indev (WebGL)等。
 
 <a href="https://computer.retromuseum.org:86/famicn/" onclick="return checkLinks();"><b>家用游戏博物馆</b></a>是一个在线交互式的电子游戏博物馆，参观者可通过 JavaScript 仿真模拟器重新体验到那些历史上由中国大陆及港澳台地区开发的，以家用游戏机和掌上游戏机为平台的电子游戏，重温童年的乐趣。
 
@@ -26,9 +26,9 @@ comments: false
 
 <a href="https://computer.retromuseum.org:86/sb486/" onclick="return checkLinks();"><b>电脑学习机博物馆</b></a>收录了 30 种中外学习机卡带程序，可在线体验。电脑学习机是我国计算机发展的一个重要分支，它是在特殊历史背景下的产物，让无数青少年对计算机的知识有了初步的了解。我们用电脑学习机玩游戏、打字、学编程等，留下了一段青春中最美好的记忆。
 
-<a href="https://cpu.retromuseum.org/"><b>CPU博物馆</b></a>是一个致力于传承和推广CPU文化的非盈利性项目，我希望通过这个网站，能让更多的人了解CPU的魅力和价值，也能激发更多的人对CPU的兴趣和热情。在这个网站上，您可以浏览我多年来收集的各种CPU，从最早的Intel 4004到最新的Intel Core，从8位到64位，从单核到多核，从英特尔到AMD，从x86到ARM，从桌面到移动，从商用到工程样品，应有尽有。您可以看到每个CPU的外观、参数、功能、历史、故事和趣闻。您也可以与其他CPU爱好者交流心得和经验，或者向我提出问题和建议。
+<a href="https://cpu.retromuseum.org/"><b>CPU博物馆</b></a>是一个致力于传承和推广 CPU 文化的非盈利性项目，我希望通过这个网站，能让更多的人了解 CPU 的魅力和价值，也能激发更多的人对 CPU 的兴趣和热情。在这个网站上，您可以浏览我多年来收集的各种 CPU，从最早的 Intel 4004 到最新的 Intel Core，从 8 位到 64 位，从单核到多核，从英特尔到 AMD，从 x86 到 ARM，从桌面到移动，从商用到工程样品，应有尽有。您可以看到每个 CPU 的外观、参数、功能、历史、故事和趣闻。您也可以与其他 CPU 爱好者交流心得和经验，或者向我提出问题和建议。
 
-<a href="https://computer.retromuseum.org:86/flash-archive/" onclick="return checkLinks();"><b>Flash档案馆</b></a>收录了8000多个历史上热门的各类Falsh动画，通过 Ruffle 进行渲染播放，无需安装已经过时的且不再被现代浏览器支持的 Flash 插件。
+<a href="https://computer.retromuseum.org:86/flash-archive/" onclick="return checkLinks();"><b>Flash档案馆</b></a>收录了 8000 多个历史上热门的各类 Falsh 动画，通过 Ruffle 进行渲染播放，无需安装已经过时的且不再被现代浏览器支持的 Flash 插件。
 
 访问网址：<https://RetroMuseum.org> 或 <https://cm.ihonux.com> 。
 
@@ -36,9 +36,9 @@ comments: false
 
 ### Director of the Computer Museum
 
-My name is Honux, and I'm the curator of this museum, a technical enthusiast, retro computer culture researcher, senior engineer and programmer.
+My name is Honux, and I'm the curator of this museum, a technical enthusiast, retro computer culture researcher, CPU collector, senior engineer and programmer.
 
-我叫 Honux，是这个博物馆的馆长，一位技术爱好者、复古计算机文化研究者、高级工程师和程序员。
+我叫 Honux，是这个博物馆的馆长，一位技术爱好者、复古计算机文化研究者、CPU收藏者、高级工程师和程序员。
 
 ### 微信公众号“复古电脑”
 
