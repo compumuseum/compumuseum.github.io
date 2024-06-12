@@ -9,7 +9,7 @@ comments: false
 ---
 
 
-- `2024-06-12`     复古电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/apple2js.json" target="_blank" onclick="return checkLinks();">
+- `2024-06-12`     复古电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/apple2gs.json" target="_blank" onclick="return checkLinks();">
 Apple IIGS 软件专题</a>”。<!-- 收集36个软件 -->
 - `2024-06-08`     复古电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/cm/book/" target="_blank" onclick="return checkLinks();">
 中文电脑类报刊杂志图书专题</a>”。
