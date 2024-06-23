@@ -1,7 +1,7 @@
 ---
 title: 关于
 keywords: 电脑, 计算机, 博物馆, museum, 古董电脑, retro, 电脑考古, CPU, 处理器, 微处理器, DOS, 游戏, 模拟器, Mac, Apple, 苹果, IBM, BBC, Atari, Xerox, Alto, PDP, TRS, SHARP, PC, ZX81, TI, Commodore, ZX, Spectrum, Laser, Acorn, Windows, MSX, NEC, Macintosh, Acorn, CEC, DOS, GEOS, Amiga, Z80, Psion, HP, UCDOS, WPS, Windows CE, 文曲星, processor, qualification, information, pictures, core, frequency, chip packaging, packaging, cpu info, x86, amd, cyrix, harris, ibm, idt, iit, intel, motorola, nec, sgs, sgs-thomson, siemens, ST, signetics, mhs, ti, texas instruments, ulsi, umc, weitek, zilog, 3002, 4004, 4040, 8008, 808x, 8085, 8088, 8086, 80188, 80186, 80286, 286, 80386, 386, i386, Am386, 386sx, 386dx, 486, i486, 586, 486sx, 486dx, overdrive, 487, pentium, 586, 5x86, 386dlc, 386slc, 486dx2, mmx, ppro, pentium-pro, pro, athlon, duron, z80, dirk oppelt, dirk, oppelt, engineering, sample, samples, core, xeon
-last_updated: Jun 5, 2024
+last_updated: Jun 23, 2024
 permalink: about.html
 topnav: topnav
 toc: false
@@ -15,7 +15,7 @@ comments: false
 
 - <a href="https://computer.retromuseum.org:86/" onclick="return checkLinks();"><b>电脑</b></a> —— 主要是对一些古董电脑的模拟重现，此外还有一些影响较大的软件展示。
 - <a href="https://computer.retromuseum.org:86/osjs/" onclick="return checkLinks();"><b>操作系统</b></a> —— 对一些曾经流行的操作系统进行模拟重现，主要有Windows、Mac、Linux、Unix、OS/2、DOS、CP/M等。
-- <a href="https://computer.retromuseum.org:86/special.html" onclick="return checkLinks();"><b>专题展览</b></a> —— 以电脑发展历程中某些特定领域为专题进行模拟重现，已经上线了Apple Macintosh 软件专题展、儿童教育软件专题展、Windows 3.x 软件专题展、DOS软件专题展、中华学习机专题、8-bit模拟器专题展、PC专题展、“操作系统界面大全”专题展、“史蒂夫的旧电脑博物馆”专题展、“《电脑报》合订本 1992~2001 ”专题展、“3D之舞：90年代的VRML与3D网页”专题展、“DOS下的艺术：90年代的DOS Demos”专题展等。
+- <a href="https://computer.retromuseum.org:86/special.html" onclick="return checkLinks();"><b>专题展览</b></a> —— 以电脑发展历程中某些特定领域为专题进行模拟重现，已经上线了Apple Macintosh 软件专题展、Apple II软件专题展、Apple IIGS软件专题展、儿童教育软件专题展、Windows 3.x 软件专题展、DOS软件专题展、中华学习机专题、“中文电脑类报刊杂志图书”专题展、PC专题展、8-bit模拟器专题展、“操作系统界面大全”专题展、“史蒂夫的旧电脑博物馆”专题展、“3D之舞：90年代的VRML与3D网页”专题展、“DOS下的艺术：90年代的DOS Demos”专题展等。
 - <a href="https://computer.retromuseum.org:86/labs.html" onclick="return checkLinks();"><b>实验室</b></a> —— 主要展示一些古老技术的模拟再现，比如：CFido天堂资讯站、瀛海威时空、BBC Ceefax等。此外，利用当前的新技术对一些古老软件进行了模拟再现，比如：半条命 Half Life (Xash3D)、Minecraft Indev (WebGL)等。
 
 <a href="https://computer.retromuseum.org:86/famicn/" onclick="return checkLinks();"><b>家用游戏博物馆</b></a>是一个在线交互式的电子游戏博物馆，参观者可通过 JavaScript 仿真模拟器重新体验到那些历史上由中国大陆及港澳台地区开发的，以家用游戏机和掌上游戏机为平台的电子游戏，重温童年的乐趣。
