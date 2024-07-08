@@ -9,12 +9,10 @@ comments: false
 ---
 
 
-- `2024-06-23`     复古电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/apple2.json" target="_blank" onclick="return checkLinks();">
-Apple II 软件专题</a>”。<!-- 收集27个软件 -->
-- `2024-06-12`     复古电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/apple2gs.json" target="_blank" onclick="return checkLinks();">
-Apple IIGS 软件专题</a>”。<!-- 收集36个软件 -->
-- `2024-06-08`     复古电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/cm/book/" target="_blank" onclick="return checkLinks();">
-中文电脑类报刊杂志图书专题</a>”。
+- `2024-07-08`     复古电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/amiga.json" target="_blank" onclick="return checkLinks();">Amiga 软件专题</a>”。<!-- 收集51个软件 -->
+- `2024-06-23`     复古电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/apple2.json" target="_blank" onclick="return checkLinks();">Apple II 软件专题</a>”。<!-- 收集27个软件 -->
+- `2024-06-12`     复古电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/apple2gs.json" target="_blank" onclick="return checkLinks();">Apple IIGS 软件专题</a>”。<!-- 收集36个软件 -->
+- `2024-06-08`     复古电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/cm/book/" target="_blank" onclick="return checkLinks();">中文电脑类报刊杂志图书专题</a>”。
 - `2024-06-08`     复古电脑博物馆“<a href="https://computer.retromuseum.org:86/sb486/" target="_blank" onclick="return checkLinks();">电脑学习机</a>”板块增加7项内容。
 - `2024-06-05`     复古电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/ceci.json" target="_blank" onclick="return checkLinks();">中华学习机专题</a>”。<!-- 收集28个软件 -->
 - `2024-06-02`     电脑博物馆站点更名为“复古电脑博物馆”。
