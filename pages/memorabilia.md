@@ -9,7 +9,7 @@ comments: false
 ---
 
 
-- `2024-12-29`     复古电脑博物馆“操作系统”增加“Windows Me”、“Windows 95”、“Windows NT 3.1”、“Windows NT 4.0”、“Windows 2.03”、“ReactOS”、“86-DOS”、“FreeGEM”、“Xcom”、“MS-DOS 4”、“PC-MOS/386”、“PsychDOS”、“lEEt/OS”。
+- `2024-12-29`     复古电脑博物馆“操作系统”增加“Windows Me”、“Windows 95”、“Windows NT 3.1”、“Windows NT 4.0”、“Windows 2.03”、“ReactOS”、“86-DOS”、“FreeGEM”、“Xcom”、“MS-DOS 4”、“PC-MOS/386”、“PsychDOS”、“lEEt/OS”、“AROS Broadway”、“Icaros Desktop”、“Tiny Aros”、“NetBSD”。
 - `2024-08-09`     复古电脑博物馆“中文电脑类报刊杂志图书专题”新增“《走进中关村》电子杂志”和“《中国CPU收藏联盟》电子杂志”。
 - `2024-07-17`     复古电脑博物馆全新“<a href="https://about.retromuseum.org" target="_blank">关于</a>”页面上线！
 - `2024-07-12`     复古电脑博物馆“专题展览”增加“<a href="https://computer.retromuseum.org:86/?data=cm/data/c64.json" target="_blank" onclick="return checkLinks();">Commodore 64 软件专题</a>”。<!-- 收集31个软件 -->
