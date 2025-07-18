@@ -38,7 +38,7 @@ comments: false
 
 My name is Honux, and I'm the curator of this museum, a technical enthusiast, retro computer culture researcher, CPU collector, programmer and professor of engineering.
 
-我叫 Honux，是这个博物馆的馆长，一位技术爱好者、复古计算机文化研究者、CPU收藏者、程序员和高级工程师。
+我叫 Honux，是这个博物馆的馆长，一位技术爱好者、复古计算机文化研究者、CPU收藏者、高级程序员和正高级工程师。
 
 ### 微信公众号“复古电脑”
 
