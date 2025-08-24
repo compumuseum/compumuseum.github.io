@@ -34,13 +34,13 @@ comments: false
 
 **复古电脑博物馆**是一个由个人业余维护的、非营利性的、以教育和科普为目标的网站。其目标是向包括中国大陆在内的华语地区的爱好者们提供电脑考古、复古计算资源，致力于弥补互联网盛行之前缺失的中文电脑历史信息。诚挚地希望**复古电脑博物馆**能成为一个长期运行的中文计算机文化品牌，始终以纯净、公益的状态继续运行下去。
 
-![通过微信与复古电脑博物馆馆长成为朋友](/images/wx_director.jpg)
-
 ### Director of the Computer Museum
 
 My name is Honux, and I'm the curator of this museum, a technical enthusiast, retro computer culture researcher, CPU collector, programmer and professor of engineering.
 
 我叫 Honux，是这个博物馆的馆长，一位技术爱好者、复古计算机文化研究者、CPU收藏者、高级程序员和正高级工程师。
+
+![通过微信与复古电脑博物馆馆长成为朋友](/images/wx_director.jpg)
 
 ### 微信公众号“复古电脑”
 
