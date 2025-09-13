@@ -77,7 +77,17 @@
 
 
 {
-"title": "WPS之父——天才程序员求伯君",
+"title": "中国早期的程序员：鲍岳桥与UCDOS和联众的故事",
+"tags": "historystory",
+"keywords": "",
+"url": "the_story_of_baoyueqiao_ucdos_and_lianzhong.html",
+"summary": "本文回顾了中国早期程序员鲍岳桥的创业历程，从开发PTDOS（后更名UCDOS）并成为90年代主流中文DOS系统，到创立联众棋牌游戏平台并实现用户快速增长的故事。文章展现了其技术理想与商业实践的结合，以及面对时代变迁的豁达态度，致敬了中国第一代程序员的开拓精神。"
+}
+,
+
+
+{
+"title": "中国早期的程序员：WPS之父——天才程序员求伯君",
 "tags": "historystory",
 "keywords": "",
 "url": "father_of_wps_the_genius_programmer_qiubojun.html",

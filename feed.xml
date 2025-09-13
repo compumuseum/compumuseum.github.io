@@ -5,12 +5,78 @@
         <description>复古电脑博物馆 在线电脑博物馆 计算机博物馆 Retro Computer Museum</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 13 Sep 2025 10:38:58 +0800</pubDate>
-        <lastBuildDate>Sat, 13 Sep 2025 10:38:58 +0800</lastBuildDate>
+        <pubDate>Sat, 13 Sep 2025 11:31:56 +0800</pubDate>
+        <lastBuildDate>Sat, 13 Sep 2025 11:31:56 +0800</lastBuildDate>
         <generator>Jekyll v3.10.0</generator>
         
         <item>
-            <title>WPS之父——天才程序员求伯君</title>
+            <title>中国早期的程序员：鲍岳桥与UCDOS和联众的故事</title>
+            <description>&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_story_of_baoyueqiao_ucdos_and_lianzhong_01.jpg&quot; alt=&quot;鲍岳桥先生&quot; /&gt;
+    &lt;p&gt;鲍岳桥先生&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;提起鲍岳桥先生，就让我想到UCDOS，想到年轻岁月。不胜唏嘘！&lt;/p&gt;
+
+&lt;p&gt;鲍岳桥先生1967年出生，杭州大学数学系计算数学专业毕业，大学毕业之后分配到杭州一个橡胶厂工作，就是在这个橡胶厂，鲍岳桥开发出了Foxbase反编译软件、普通码中文输入系统和PTDOS，开始在国内软件编程领域崭露头角，发明普通码中文输入系统是因为鲍岳桥觉得使用拼音输入汉字很慢，用五笔学了几次又没学会，于是想还不如自己搞一个汉字输入法；发明Foxbase反编译软件也是因为想着自己要用；而鲍岳桥搞汉字系统的开发的初衷也是觉得自己用的汉字系统都不方便，想搞一个把现有的汉字系统的功能结合在一起的汉字系统。&lt;/p&gt;
+
+&lt;p&gt;为了推广他自己做的软件，他在1992年8月5日那期的《计算机世界》上登了汉字系统PTDOS和反编译工具的广告，结果广告登出以后，很多人就把钱直接寄过来了，过了一、两个月，已经收到两万多元钱了，成为了名副其实的万元户！当时的兴奋劲儿，鲍岳桥至今记忆犹新。这种兴奋劲，想必每个技术工作者都能感同身受。&lt;/p&gt;
+
+&lt;p&gt;后来，为了使自己开发PTDOS能够有更多的用户，鲍岳桥来到了北京，来到北京希望公司，PTDOS也更名为UCDOS。希望公司的营销能力和UCDOS出色的产品力，到1995年UCDOS市场份额已经达到90%多，其他汉字系统市场上几乎很少见了。UCDOS获得了巨大的成功，鲍岳桥仅仅是希望公司的普通员工。他说：“一个人活着能干自己想干的事，是最重要的。”鲍岳桥对得失看的非常开。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_story_of_baoyueqiao_ucdos_and_lianzhong_02.jpg&quot; alt=&quot;UCDOS中文DOS环境&quot; /&gt;
+    &lt;p&gt;UCDOS中文DOS环境&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;UCDOS是笔者用的时间最长的中文DOS环境，它非常灵活，非常节省内存，集成的输入法也是非常好用，确实是那个时代最好用的中文DOS环境，没有之一！&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
+&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=ucdos&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;体验UCDOS 7.0&lt;/a&gt;&lt;/b&gt;
+&lt;/div&gt;
+
+&lt;p&gt;1998年，鲍岳桥和简晶、王建华一起创立了联众公司，至于为什么选择做棋牌游戏，他们但是分析：：（1）游戏网站是所有网站里最吸引用户的，能够把用户锁定；（2）围棋、桥牌类游戏长盛不衰，不会消亡；（3）做别的需要的条件太多，做这个只要有技术就行，最能体现自己的优势。&lt;/p&gt;
+
+&lt;p&gt;王建华负责服务器端编程，鲍岳桥负责“游戏大厅”的开发，简晶负责具体游戏的设计。经过差不多五个月的开发，联众棋牌游戏正式上线。服务器是自己攒的兼容机，受到嫌弃服务器经常换地方，带宽也是非常低。没有用户，三个人就轮流在联众上守着。一个人同时开三个ID，一个人同时扮演三个人，这样只要有一个网友上来，游戏就可以玩起来了。经过各种人肉推广、BBS发帖、邀请围棋名人下指导棋等多种方式的推广，联众游戏逐渐成长起来了， 联众成立3年，同时在线人数每年都以9倍的速度向前滚动：1999年初1000人同时在线，2000年初9000人同时在线，2001年初达到了8万人。注册用户方面，1999年初是3万人，2000年初是70万人，2001年初是700万人。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_story_of_baoyueqiao_ucdos_and_lianzhong_03.jpg&quot; alt=&quot;联众棋牌游戏&quot; /&gt;
+    &lt;p&gt;联众棋牌游戏&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;有位早起的联众玩家在时隔多年后，回忆起玩联众游戏如是写道：“那个时候的大厅UI比现在要简单很多，但是在那个软盘还很时尚的时代，联众游戏已经风靡全国。我依稀还记得和同学通宵玩棋牌游戏而津津乐道的场景。”&lt;/p&gt;
+
+&lt;p&gt;2004年，腾讯开始发力游戏，由于QQ本身已经积累不少用户，社交+游戏的属性，让腾讯的游戏更加有粘性。随着腾讯游戏的崛起，联众逐渐丧失市场前茅的地位。之后，鲍岳桥先生选择出走联众。&lt;/p&gt;
+
+&lt;p&gt;鲍岳桥先生是我非常欣赏的程序员，他沉迷于技术，又有商业头脑；是个简单、纯粹与执着的人。他说：“很多事情做成功了，就是因为当时没有考虑得太多，如果特别斤斤计较、患得患失，好多事情就耽误了。我如果当时自己开公司，也许早就死掉了，虽然自己做赚的钱可能会比较多，但最后的影响会小很多。”&lt;/p&gt;
+
+&lt;p&gt;最后，在网上搜索到一张照片，非常难得，右手第4位就是本文的主人公鲍岳桥，他旁边的就是小米的雷军，左手第一位是五笔字型的发明人王永民先生，左手第4位是求伯君，站在中间白头发的就是上一篇介绍的吴晓军。我的老伙计们，还能识别出谁呢？&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_story_of_baoyueqiao_ucdos_and_lianzhong_03.jpg&quot; alt=&quot;鲍岳桥、雷军、王永民、求伯君、吴晓军等&quot; /&gt;
+    &lt;p&gt;鲍岳桥、雷军、王永民、求伯君、吴晓军等&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;这就是鲍岳桥的故事，也是有关UCDOS的故事，还有联众的故事，向鲍岳桥先生致敬！&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;出处：http://www.everyinch.net/index.php/programmer_baoyueqiao/&lt;/p&gt;
+
+</description>
+            <pubDate>Sat, 13 Sep 2025 00:00:00 +0800</pubDate>
+            <link>http://localhost:4000/the_story_of_baoyueqiao_ucdos_and_lianzhong.html</link>
+            <guid isPermaLink="true">http://localhost:4000/the_story_of_baoyueqiao_ucdos_and_lianzhong.html</guid>
+            
+            <category>history</category>
+            
+            <category>story</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>中国早期的程序员：WPS之父——天才程序员求伯君</title>
             <description>&lt;p&gt;WPS是一款神奇的软件。&lt;/p&gt;
 
 &lt;p&gt;年龄大（比如：70后）的人往往很熟悉。那是因为曾几何时，WPS并不只意味着一款字处理软件，它甚至就是个人电脑的代名词。&lt;/p&gt;
@@ -3106,118 +3172,6 @@ libertad.为你献上这首自由的歌唱&lt;br /&gt;&lt;/p&gt;
             <pubDate>Thu, 01 Feb 2024 00:00:00 +0800</pubDate>
             <link>http://localhost:4000/a_neglected_game_console_in_the_chinese_world_4.html</link>
             <guid isPermaLink="true">http://localhost:4000/a_neglected_game_console_in_the_chinese_world_4.html</guid>
-            
-            <category>game</category>
-            
-            <category>history</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>华人世界被忽视的游戏主机（三）：凌阳科技</title>
-            <description>&lt;p&gt;在2000年代，中国东南沿海逐渐成为电子产业的“世界工厂”，而这其中的一个重要参与者就是与联华电子一样位于台湾新竹科技园的凌阳科技，2001年，凌阳在为语音识别应用开发的SPCE500芯片及使用了自主研发的µ’nSP（Microcontroller and Signal Processor）16位单片机内核，并在同年启动了“凌阳大学计划”，特别是在从2002年起，凌阳和大陆许多大专院校合作建立单片机实验室，推广其µ’nSP内核的SPCE061A单片机（常简称为“61单片机”），在中国训练了大量熟悉µ’nSP芯片的开发者。这也成为了在中国形成以凌阳SPG芯片为基础的电子游戏生态的基础。&lt;/p&gt;
-
-&lt;h2 id=&quot;禾维pdc&quot;&gt;禾维PDC&lt;/h2&gt;
-
-&lt;p&gt;2006年发布的珠海禾维科技的Pocket Dream Console（通常简称为PDC）应当是使用凌阳SPG芯片影响力最大的游戏机，它在全球各地通过不同的游戏厂商销售，它在日本的销售商是特佳丽多美，在美国则是Videojet。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_01.jpg&quot;&gt;
-        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_01.jpg&quot; /&gt;
-    &lt;/a&gt;
-    &lt;p&gt;Pocket Dream Console是一款非常小巧的掌机&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;2000年代，由于低功耗、高性能的移动处理器逐渐成熟，手持游戏机市场空前繁荣，除了任天堂的Gameboy Advanced，SNK的Neo Geo Pocket Color，万代的SwanCrystal等日本厂商的产品，许多其他国家的厂商都加入到手持游戏机的竞争中，比如诺基亚基于S60智能手机的N-Gage/QD，Tapwave基于Palm OS掌上电脑的Zodiac，以及Game Park基于Linux的GP32，这些非日本厂商的游戏机往往在游戏功能之外，也有着较强的非游戏应用。&lt;/p&gt;
-
-&lt;p&gt;但禾维PDC却是一款封闭系统的专用游戏机（Dedicated console），所有的游戏在出场时就已经内置，并不能通过购买游戏卡或网络下载进行扩充，虽然出厂内置的游戏较多，从最少的30款到最多200款不等，但也失去了通过软件改进进一步挖掘硬件潜力的可能。在其他游戏机型上，效果最好的游戏往往都在游戏机硬件发布数年之后，软件开发团队熟练掌握硬件特性，并能对其做较为深入的优化设计时才出现。禾维PDC的游戏也带有很强的模仿痕迹，包括了淘金者、打砖块、炸弹人等流行游戏的复制品。&lt;/p&gt;
-
-&lt;h2 id=&quot;丛林互动&quot;&gt;丛林互动&lt;/h2&gt;
-
-&lt;p&gt;另一个有较大影响力的凌阳SPG芯片的用户则是丛林互动科技，丛林互动的硬件开发团队位于深圳，而软件开发团队则位于福州，与红白机时代著名的本土游戏开发商外星科技关系密切。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_02.jpg&quot;&gt;
-        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_02.jpg&quot; /&gt;
-    &lt;/a&gt;
-    &lt;p&gt;Zone60，配有棒球、网球、高尔夫球三种“球杆”配件&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;丛林互动生产的硬件主要市场在海外，较为知名的产品是Zone系列，如Zone 40、Zone 60等，提供一个类似任天堂Wii的无线手柄，游戏内容也主要以体感运动类为主。&lt;/p&gt;
-
-&lt;p&gt;丛林互动也可能是SPG芯片相关的游戏产品中唯一在中国本土发布产品的厂家，他们的代表产品“威力棒”即Sport Vii在外形上模拟任天堂Wii游戏机，而销售渠道则主要通过电视购物；在2000年后的游戏机销售禁令时期，这是位数不多的可以在中国大陆合规销售的游戏机之一。&lt;/p&gt;
-
-&lt;p&gt;与禾维PDC和Zone系列无法扩充游戏不同，Sport Vii支持以卡带的形式扩充游戏，丛林互动发布过三张包含多个游戏的合卡，VC-1、VC-2和VC-3，分别于蓝、白、粉三种颜色的Vii捆绑销售，不过除了发布时捆绑的三张游戏卡之外，Vii并没有任何第三方游戏加入。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_03.jpg&quot;&gt;
-        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_03.jpg&quot; /&gt;
-    &lt;/a&gt;
-    &lt;p&gt;威力棒宣传彩页&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;伟易达在这一时期也基于凌阳SPG芯片开发了一系列电视游戏产品，即V.Smile电视教学系统（V.Smile TV Learning System）。由于其产品主要面向低年龄的儿童玩具市场，因此在并未受到主流游戏玩家的关注，但其游戏阵容却可能是相似技术架构的游戏机中最为丰富的，其中包括了迪士尼互动的《阿拉丁世界奇观》（Aladdin’s Wonders of the World）、华纳兄弟的《蝙蝠侠：哥谭市救援》（Batman: Gotham City Rescue）芝麻工作室的《芝麻街：毕特与恩尼的幻想冒险》（Sesame Street: Bert &amp;amp; Ernie’s Imagination Adventure）等知名影视IP授权游戏。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_04.jpg&quot;&gt;
-        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_04.jpg&quot; /&gt;
-    &lt;/a&gt;
-    &lt;p&gt;V.Smile电视教学系统&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;由于2000年代中国电子市场变化剧烈，让大多数使用SPG芯片的游戏机的详细资料难以被寻找，但通过对知网上学术论文的搜索，我们会发现在2010年代仍有部分高校在基于SPG芯片进行教学和科研活动。这些论文也让我们能够一窥凌阳SPG系列处理器的硬件参数，较为常用的SPG260处理器是主频为27Mhz，支持320x240像素输出，图形部分能够支持128个卡通精灵，技术规格上仍然与前面所述的Super A’can属于第四代家用电子游戏机范畴。&lt;/p&gt;
-
-&lt;p&gt;而2000年代凌阳SPG芯片也随着凌阳内部不同业务部门的分分合合而几经易手。先是在2006年12月1日凌阳将移动多媒体部门拆分为Sunplus mMobile，又在2009年再次拆分成三家公司，目前游戏产品相关的IP应当属于灵通科技（Generalplus Technology）。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_05.png&quot;&gt;
-        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_05.png&quot; /&gt;
-    &lt;/a&gt;
-    &lt;p&gt;美泰HyperScan&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;在SPG系列的后期产品SPG290中，16位的µ’nSP内核被替换为32位的S+core，主频也更高。SPG290最知名的产品是2006年美泰（Mattel）开发的HyperScan，与大多数完全由中国本土厂商设计的游戏机不同，它使用了CD-ROM光盘作为存储介质，并通过RFID射频卡片加入了卡牌收集等元素。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_06.jpg&quot;&gt;
-        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_06.jpg&quot; /&gt;
-    &lt;/a&gt;
-    &lt;p&gt;Zone 3D可以通过红绿3D眼镜提供立体画面&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;SPG290等S+core的机型相比µ’nSP内核的机型较少，另一些具有代表性的产品包是丛林互动的Zone 3D体感游戏机，和外星科技的iSports Pro等。而禾维PDC在开发其后续产品PDC touch（也被称作Mi2）时，则选用了MIPS处理器。&lt;/p&gt;
-
-&lt;h2 id=&quot;参考资料&quot;&gt;参考资料&lt;/h2&gt;
-
-&lt;p&gt;本文成文与2020年底，在此之后SunPlus的资料在网上大幅增加，本文未必覆盖最一些新的逆向研究成果&lt;/p&gt;
-
-&lt;p&gt;[1] HackMii: SunPlus: The biggest chip company you’ve never heard of&lt;/p&gt;
-
-&lt;p&gt;[2] 孙乾恒：《基于凌阳μ’nSP系列单片机的电视游戏设计与实现》，西安电子科技大学，硕士论文，2009年。&lt;/p&gt;
-
-&lt;p&gt;[3] 于腾潇：《2D游戏资源编辑工具的设计与开发》，北京邮电大学，硕士论文，2010年&lt;/p&gt;
-
-&lt;p&gt;[4] 王涛，邓丽君：基于凌阳32位单片机游戏十三张设计与实现，《软件》，2014年第35卷第4期&lt;/p&gt;
-
-&lt;p&gt;[5] HandWiki: S+core - HandWiki&lt;/p&gt;
-
-&lt;p&gt;[6] BootlegGames: Sunplus SPG&lt;/p&gt;
-
-&lt;p&gt;[7] MAME开发者David Haywood的Under the Surface系列，是介绍SPG系列最为详尽的文章，亦覆盖部分虚实科技VR Technology的VT系列产品的信息：Under the Surface (part 1) (part 2) (part 3) (part 4) (part 5) (part 6) (part 7) (part 8) (part 9) (part 10) (part 11) (part 12) (part 13) (part 14) (part 15)&lt;/p&gt;
-
-&lt;p&gt;[8] 我在2022年收集到的一些Sunplus单片机和SPG系列的开发资料： https://archive.org/details/sunplus-mcu-spg&lt;/p&gt;
-
-&lt;p&gt;[9] GitHub - MooglyGuy/unsp: A playground for SunPlus μnSP (SPG24x/SPG28x/PAC300) reverse-engineering&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;出处：https://zhuanlan.zhihu.com/p/630474136&lt;/p&gt;
-
-</description>
-            <pubDate>Fri, 19 Jan 2024 00:00:00 +0800</pubDate>
-            <link>http://localhost:4000/a_neglected_game_console_in_the_chinese_world_3.html</link>
-            <guid isPermaLink="true">http://localhost:4000/a_neglected_game_console_in_the_chinese_world_3.html</guid>
             
             <category>game</category>
             
