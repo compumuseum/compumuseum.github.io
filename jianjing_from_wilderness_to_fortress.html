@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="本文追溯了中国第一代程序员简晶的技术生涯，从Laser-310启蒙到开发汉字系统“中国龙”，再到创立联众世界的创业历程。作为早期互联网拓荒者，他亲历了DOS时代汉字显示的技术攻坚、互联网初期的野蛮生长与移动互联网的转型。他的故事折射出中国程序员从技术纯粹性到商业化的时代变迁，展现了初代开发者面对技术困境的执着与面...">
+<meta name="keywords" content="historystory,  ">
+<title>中国早期的程序员：简晶——从荒草到城池的互联网拓荒之路 | 复古电脑博物馆 | 在线电脑博物馆 | 计算机博物馆 | Retro Computer Museum</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="/js/jquery.min.js"></script>
+
+<script src="/js/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="/js/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="documentation-theme-jekyll" href="http://localhost:4000/feed.xml">
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" style="padding-top: 6px;">
+                <img src="/images/logo.png" style="display: inline-block; width: 40px;" alt="LOGO">
+                <img src="/images/title.png" class="nav-site-title" alt="电脑博物馆" style="display: inline-block; height: 40px;">
+                <!-- <span class="projectTitle"> 复古电脑博物馆</span> -->
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <!-- <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li> -->
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="news.html">传奇故事</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/" target="_blank" rel="noopener" onclick="return checkLinks();">电脑博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/famicn/" target="_blank" rel="noopener" onclick="return checkLinks();">家用游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:89/" target="_blank" rel="noopener" onclick="return checkLinks();">DOS游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://cpu.retromuseum.org/" target="_blank" rel="noopener" onclick="return checkLinks();">CPU博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/flash-archive/" target="_blank" rel="noopener" onclick="return checkLinks();">Flash档案馆</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="搜索...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="中国早期的程序员：简晶——从荒草到城池的互联网拓荒之路">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+
+        <!-- Content Column -->
+        <div class="col-md-12" id="tg-sb-content">
+            <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">中国早期的程序员：简晶——从荒草到城池的互联网拓荒之路</h1>
+        <p class="post-meta"><time datetime="2025-09-01T00:00:00+08:00" itemprop="datePublished">Sep 1, 2025</time> /
+            
+            
+            
+            <a href="tag_history.html">history</a>, 
+            
+            
+            
+            <a href="tag_story.html">story</a>
+            
+            
+            
+
+        </p>
+
+
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+
+        
+        <div class="summary">本文追溯了中国第一代程序员简晶的技术生涯，从Laser-310启蒙到开发汉字系统“中国龙”，再到创立联众世界的创业历程。作为早期互联网拓荒者，他亲历了DOS时代汉字显示的技术攻坚、互联网初期的野蛮生长与移动互联网的转型。他的故事折射出中国程序员从技术纯粹性到商业化的时代变迁，展现了初代开发者面对技术困境的执着与面对资本洪流的反思。</div>
+        
+
+        <p>三十多年前，电子计算机对世界来说已经不算是陌生的造物，但仍蛰伏在大部分中国民众的想象之外。白色长方体上嵌着数十个大小不一的黑色按钮，加粗斜体的“LASER310”红色字样印在盒子模样的键盘上方——初中三年级时，简晶第一次接触到的电脑就是Laser-310。这台教育电脑的主机和键盘都集成在一起，显示器是家用电视。</p>
+
+<p>至今仍有爱好者会在论坛上对这款电脑进行讨论。他们回忆道，Laser-310的键盘很硬，按下去需要挺大的劲儿。大家的打字速度并不快，但指力都特别好。直到后来改用其他机器后也习惯性地“砸键”，搞得键盘“啪啪”响。</p>
+
+<p>这款由香港伟易达电子公司于80年代生产的家庭电脑，完成了对当时不少年轻人的编程启蒙。那时学习编程没有“Hello World”，没有C语言，没有Java，只有Basic和机器码。那一年，距离世界上第一台通用计算机“ENIAC”诞生已经过去37年，苹果早在6年前就推出了个人电脑Apple Ⅱ，IBM一家公司生产的计算机是其他厂商总和的4倍，微软开发的磁盘操作系统MS-DOS1.0已经初现峥嵘。</p>
+
+<p>街头巷尾传唱着邓丽君的年代，电子计算机闯进年少的视野中，因惊奇和激动迸溅的花火多年后都未褪去。那时，一切都还未开始，一切都刚刚开始。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/jianjing_from_wilderness_to_fortress_1.jpg" alt="Laser-310家庭电脑" />
+    <p>Laser-310家庭电脑</p>
+</div>
+
+<h3 id="把方块字搬上屏幕">把方块字搬上屏幕</h3>
+
+<p>13岁的简晶也不知道是什么吸引他一次又一次地站在计算机商店的柜台外。那时他刚刚初一，还不懂什么是sin和cos，却觉得那窄窄的一条屏幕上显示的各种函数无比迷人。后来他偶然在少年宫接触到Laser-310，兴趣自然而然地转移。电脑对于彼时年少的简晶来说太新鲜了：电脑可以玩游戏，可以统计数据，还可以进行很复杂的计算。但他的脑中还有更多问号：屏幕上的小人为什么会动？电脑为什么无法显示中文？</p>
+
+<p>八十年代，电脑还没有被普罗大众接受，有些单位开始使用大型计算机，但个人电脑离大家的生活还很遥远。他买了一本《Basic入门》，把上面的题全做了一遍，但没有电脑可以让他验证自己程序的正确性。到了高中，他惊喜地发现学校机房里配有几台Apple Ⅱ。那时的苹果电脑内存只有64K，也没有硬盘或者USB等外接设备，编好的程序无法保存。他只能在本子上把程序一个字一个字写出来，先在脑袋里面验证一遍，等到下课再冲到机房敲进电脑里。没有指导老师，没有网络，没有便捷的网课资源，他就把苹果电脑内部系统的机器码整个抄下来研究，A4笔记本抄了整整两大本。“可能正是因为环境太简单太闭塞了吧，好奇心反而会更大，让你去想尽一切办法，要去琢磨出一个道理，找到一条路。”</p>
+
+<div align="center">
+    <img src="../images/dnbwg/jianjing_from_wilderness_to_fortress_2.jpg" alt="简晶写的围棋游戏程序代码" />
+    <p>简晶写的围棋游戏程序代码</p>
+</div>
+
+<p>早期的苹果系统属于纯文字环境，文字与图形不能同时显示。在编写围棋、魔方等简单程序的过程中，简晶意识到这种体系的繁琐，在高三时编写了一个图文系统。在这一系统上写出的程序无需繁琐代码就能够让图文同时显示，还提供10套字库供使用者任意组合，从某种意义上说已经具备后来汉字系统的雏形。高考结束时，老师守在门口等着他：“你拿了云南省计算机大赛的特等奖。”其实比赛本没有特等奖，由于他这个特设，那年的一等奖空了出来。</p>
+
+<p>7月，他懵懵懂懂地去北京和山东参加了第一届全国华光杯青少年计算机大赛，因为说不好普通话只能用昆明话介绍自己的作品，最后拿了三等奖。回到家，父母告诉他，他被上海机械专科学校录取了，计算机应用专业。</p>
+
+<p>毕业后他被学校分配到昆明钢铁厂工作，父亲拉着他到街上的电脑公司应聘，恰好找到了路达。那时还没有专门做软件的公司，人们甚至无法想象软件可以售卖。路达即使已经是昆明最大的电脑公司，也主要是依靠为银行等客户提供电脑硬件获利，软件服务只是顺带附送的免费福利。简晶在公司打杂，学着修理机器，直到软件部经理杨奇志自己成立了明星电脑公司，他才有机会专门做编程相关的工作。</p>
+
+<p>当时他的工作主要是汉化西方软件。因为英文只有26个字母，8*8的矩形就可以完全表达，而汉字的笔画远比字母复杂，无法在当时分辨率极低的屏幕上显示。不解决汉字显示问题，普通民众就无法用电脑读取文件，更别提输入输出，电脑也根本不可能在中国普及。汉化工作做的时间长了，简晶意识到不能再这样重复下去：永远有新的西方软件出现，为何不建立一套可以直接支持英文软件使用的系统呢？当时已经有了采用先把文字图形化，再把图形点阵化的方法构建汉字库的打字机，他总和了之前汉化工作中积累的底层技术，尝试根据原来使用Apple II的经验在PC机上构建一个新的汉字系统。</p>
+
+<p>公司没有太多员工，早期的开发工作也没有现在这样从设计到开发的完整管理体系，简晶一个人就是系统设计者、程序开发者、项目管理者，同时也是文档负责人。那段时间他的作息称得上“颠倒昼夜”。他住在公司，每天下午两点后起床，白天做些简单的公司日常工作和处理用户回信，夜里十点夜深人静无人影响后才进行真正的开发工作，一直干到第二天凌晨六七点才去睡觉，再一觉睡到下午。</p>
+
+<p>1992年10月，在这样日复一日的高强度工作中，他写出了中国龙系统。这个系统不仅支持汉字输入与汉字打印，还支持不用做汉化的技术处理直接使用西方软件。由于它能将庞大的显示字库和输入法码表存放在扩展内存里节约空间，对于当时存储空间极为有限的电脑无疑非常实用。因此，中国龙系统一出世就收到市场的热烈反响，直到1996年微软公司推出国际语言支持能力更强大的Windows版本，汉字系统的火热才逐渐消散。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/jianjing_from_wilderness_to_fortress_3.jpg" alt="简晶凭借中国龙登上报纸" />
+    <p>简晶凭借中国龙登上报纸</p>
+</div>
+
+<p>简晶的“中国龙”大获成功之时，年仅13岁的林兴陆刚刚拥有自己的电脑。</p>
+
+<p>这个来自粤东沿海小镇的少年，初一时因为校园霸凌而辍学。虽然家在农村，但他的父亲一直对无线电十分感兴趣，订了很多电子期刊。个人电脑出现后，这个水电工敏锐地察觉到它的前景，花了6700元抱回了一台386电脑。最开始林兴陆只是用电脑练习打字，但时常误删文件或格式化，这让他不得不求助在技校学电脑的表哥。他订阅了几份电脑方面的报刊，起初学汇编语言，后来学C语言，遇到不懂的英文就查字典，慢慢能把报刊上的开源程序敲进电脑里调试。他终于也一脚迈进了编程这个瑰丽的世界。</p>
+
+<p>“中国龙”的魅力也感染了他。多年后，在林兴陆署名小林的文章《中国第一代程序员简史：中国龙简晶的程序人生》中，他坦言，“中国龙”在90年代初与鲍岳桥的希望汉字系统、陈江宁的天汇汉字系统形成了三足鼎立的局势，对他产生了深刻的影响。</p>
+
+<h3 id="across-the-great-wall">Across the Great Wall</h3>
+
+<p>“Across the Great Wall we can reach every corner in the world(越过长城，走向世界).”1987年9月20日，一封邮件从北京成功传到了德国卡尔斯鲁厄大学的一台计算机上。那是从中国发出的第一封电子邮件，互联网时代悄然叩响了中国的大门。</p>
+
+<p>1994年4月20日，第一条64K国际专线接入中国，1995年1月，中美在北京和上海开通了两个64K的端口以作塔头。这一年也被称作互联网商业元年，无数之后响亮的名号都在这时埋下了种子。瀛海威创立，亚信承办ChinaNet，全国第一家网吧“卡萨布兰卡电子咖啡屋”出现，丁磊从宁波电信局辞职，马云成立了杭州海博，许多人的人生就此改变。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/jianjing_from_wilderness_to_fortress_4.jpg" alt="瀛海威时空广告" />
+    <p>瀛海威时空广告</p>
+</div>
+
+<p>这一年，简晶遇见了希望汉字系统的开发者鲍岳桥。谁能料到这个让他觉得“名字好怪，像个假名”的陌生程序员会成为他未来多年的好友与同道。</p>
+
+<p>“相见恨晚”，似乎只有这样一个词能形容这两个相隔上千公里却做着相同事情的孤独开发者。他们的产品是彼此最大的竞争对手，他们也是对方最好的倾听者。“平常工作中没有人能听得懂你说的是什么东西，也不会有人理解你为什么这样去想。他也没处分享，我也没处分享，突然两个人碰到一起的时候，你说的话终于有人能听懂。” 他们一见面就聊起那些周围人都不太明白的技术问题，一聊就是一个通宵。</p>
+
+<p>在鲍岳桥的邀请下，简晶来到北京，加入新希望公司开发UC SDK（Software Development Kit，软件开发工具包），一款可以在DOS（Disk Operating System，磁盘操作系统）下编写图形界面的软件开发包。</p>
+
+<p>当时哪怕在北京，也只有科研机构里有一定职位的人才能拥有一个电子邮箱。希望集团是中科院下属的公司，简晶也因此成为中国第一批接触到互联网的人之一。“我当时觉得这个太神奇了，太奇妙了，怎么就跟外面的世界连上了？”</p>
+
+<p>1996年12月，瀛海威时空在全国八个城市开通，中国电信也开始做163接入，网速极慢，“打开一个网页，一小时后回来再看一页内容可能还没下完”。一小时20元的高昂费用让普通人难以负担。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/jianjing_from_wilderness_to_fortress_5.jpg" alt="互联网初期缓慢的网速" />
+    <p>互联网初期缓慢的网速</p>
+</div>
+
+<p>在这种几乎是实验性的网络运营环境中，简晶把自己大部分的工资都给了网络流量。他想，一个像他这样的计算机开发人员，一个技术工作者，尚且对网络如此着迷，那当互联网普及到全国的时候，该是怎样的疯狂？当时外行人只看到网络的昂贵与缓慢，关注这一领域的人虽然还不能真切地了解互联网是什么，却能感受到风暴将起时蝴蝶翅膀扇动的气流。</p>
+
+<p>与此同时，远在深圳的林兴陆已经开始到赛格电脑市场兜售自己编写的软件，并在柜台上了解到有一种“上网业务”。1997年1月，他买了一块MODEM卡，接入网络，互联网给了他巨大的冲击，同时也是无比的兴奋。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/jianjing_from_wilderness_to_fortress_6.jpg" alt="1998年在瀛海威的“少年网管”林兴陆" />
+    <p>1998年在瀛海威的“少年网管”林兴陆</p>
+</div>
+
+<p>在PC单机时代，一张软盘或者一个硬盘大概几十兆或者二百多兆，电脑上只有寥寥几个软件，想拷贝或者购买软件途径也非常有限，电脑对于很多人来说甚至只是用来打字的工具。而有了互联网，瞬间就能下载到一个软件，能和天南海北的计算机开发人员交流，这为很多人就打开了一个新世界。林兴陆在网络上聊天、发帖子、下软件，“挺疯狂的”。他用记事本制作了一个主页，还做了一个“MIDI音乐小空间”分享音乐。不久，他通过网络聊天认识了瀛海威深圳分公司总经理宋裔智，对方邀请他到公司工作。从进入瀛海威开始，互联网真切地改变了林兴陆的人生，17岁的他从一个初中辍学的普通小孩，成为了全国有名的“少年网管”。</p>
+
+<p>1998年，简晶和鲍岳桥、王建华一起离开希望电脑公司。随着Windows系统对多语言处理的日趋成熟，他们感觉中文平台的路越走越窄，而新兴的互联网大有可为。单机时代人们只能对着电脑自顾自玩游戏，而一根细细的网线却可以把天南海北的陌生人连接在一起。他们想突破之前开发系统的经验，做一个连接人与人的平台。恰好鲍岳桥喜欢下围棋，做一个棋牌游戏平台的想法逐渐成型。公司取名“联众世界”——联系大众，简单的名字寄寓了三位创始人的一腔豪情。</p>
+
+<p>三个年轻人凑了几万块钱，就这么开始了创业。他们住在北京西北郊马连洼的宾馆里，周围是大片的农田。夏天昆虫太多，工作时完全不能开窗，“每天早上打开窗户，就会压死一片”。不工作时主要的娱乐就是一起往墙上扔飞镖。</p>
+
+<p>联众是棋牌游戏平台，推出的第一个游戏就是围棋，所以一开始就吸引了不少职业棋手。“棋院的好多棋手，像马晓春、俞斌、常昊等,都是我们的好朋友。”棋手们经常会化名来平台杀上一盘，而令人啼笑皆非的是，对手常常是顶着他们名字的普通用户。到了1998年底，他们终于积累起1000个用户。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/jianjing_from_wilderness_to_fortress_7.jpg" alt="1999年联众和棋院合作首届宽利杯网络业余围棋公开赛三创始人与围棋八段王王元" />
+    <p>1999年联众和棋院合作首届宽利杯网络业余围棋公开赛三创始人与围棋八段王王元</p>
+</div>
+
+<h3 id="野蛮生长的黑暗森林">野蛮生长的黑暗森林</h3>
+
+<p>对互联网未来的一派憧憬和满腔热情背后，是对资本一无所知的天真。</p>
+
+<p>创办联众时，三人并没有想过公司如何盈利，只想着把自己梦想中的平台构建好。他们单纯地相信只要把事情做好，就一定能有生存下去的方法。一年之后，联众世界的用户已经突破十万人，但三人的积蓄也花得差不多了。那个时候国内还没有出现风险投资公司，国外的资本也无法进入。他们试图把软件卖给电信公司，或者出租收费，但都失败了。直到中公网提出以500万收购79%的股份，他们想，网站终于能活下去了。</p>
+
+<p>在联众的最辉煌时刻，网站拥有1.7亿注册用户，月活跃用户1500万，最高同时在线人数72万，在中国、美国、日本、韩国架设有服务器。然而在2001年，以盛大为代表的角色扮演类大型网络游戏崛起，2004年下半年，国内运营商开始清理整顿SP（服务提供商）市场，在被质疑涉及赌博游戏后，联众被迫关闭了部分有争议的游戏项目。2005年，最初效仿联众做棋牌类休闲游戏的腾讯QQ游戏同时在线人数达到130万，同比联众巅峰时期翻了近一倍。联众世界从中国最大的休闲游戏门户宝座上跌落，往后再也没有回到过当初的盛名。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/jianjing_from_wilderness_to_fortress_8.jpg" alt="联众世界界面" />
+    <p>联众世界界面</p>
+</div>
+
+<p>在联众后期的发展过程中，简晶想过转型。他想扩大社区的影响，在原有平台中加入财富中心、竞猜中心、客服中心，把数据统一起来管理，甚至将游戏中的财富与现实联动。他有一个庞大的野心，把联众从简单的“联众游戏世界”变成一个真正立体化的“联众新世界”。</p>
+
+<p>然而，当时的互联网还处在大家争相售卖彩信彩铃获利的阶段。很少有人思考当这一波潮水退去，沙滩上剩下的人该如何生存。联众的转型仅仅启动了半年，就因为创始人的分别离任没有了下文。</p>
+
+<p>从某种意义上来说，联众生不逢时，它“太早了”。就在这一年，张朝阳携带着50万美金回到中国创办搜狐。国外资本得以引进，国内资本终于也开始看到互联网企业的巨大价值，网易、雅虎、新浪、腾讯、百度相继崛起。在互联网企业摸着石头过河的成长路上，联众是那个先行者。</p>
+
+<p>忆及往事，简晶说，“我赶上的东西真的都太早了。它是开启了一个时代，但恰好是开门前的那个时候，不是开门以后，也不是开门中间的。不管是参加比赛还是做联众，我都感觉时间稍微早了那么一拍，如果是晚了一拍，或者是再晚个两拍，可能效果会更好。但历史总是这样，一定会有早点的人也一定会有晚点的人。”</p>
+
+<p>林兴陆在1999年离开了瀛海威，加入润迅。千禧年初至，整个世界都在为互联网疯狂。在这种好似随便写一份商业计划书都能融资的狂热中，林兴陆先后跟着老领导一起到武汉创业，又跟着著名天使投资人蔡文胜做265上网导航最终被谷歌收购。在这段时间里，他也写出了目前自己最满意的软件——P.cn个人门户软件，甚至还有发明专利，而这一软件的用户最多时也没有超过200万。</p>
+
+<p>他承认对软件的满意更多源于一个极客对有价值创意的自我陶醉，“20多年的互联网从业经验，让我最怀念的其实并不是我挣多少钱，也不是说我有多少用户，而是说我做了一个我认为一个创新非常特别的一个东西。相比起商业成功或者用户成功，我可能更愿意做一些自己感兴趣的事。”</p>
+
+<p>在简晶看来，2005-2010年的互联网就是一片野蛮生长的黑暗森林。整个互联网行业都在摸着石头过河，快速发展的同时也因为缺乏监管而弊病丛生，很多公司为了吸引眼球大打擦边球，门户上充斥着各种猎奇甚至低俗的社会新闻。一些公司完全依靠社会最底层的需求——暴力与性，迅速地扩大自己的产业链。</p>
+
+<p>离开联众后简晶仍然没有放弃，做过一个叫X5dj.com的主题家园网站，具备博客和网盘的功能，还孵化出一个产品“斗秀网”，摄影爱好者可以在上面分享照片，但由于无法适应当时恶劣的竞争环境，最后也不了了之。他感到很失望，“我不是不太喜欢这个领域了，而是说我觉得已经没有机会了。”他转而成为一名天使投资人，寄希望于在投资的过程中遇到和自己思路相近的人。</p>
+
+<h3 id="云端之下">云端之下</h3>
+
+<p>2011年，简晶这个在早期互联网行业如雷贯耳的名字，又一次频繁地出现在了互联网资讯网站上。</p>
+
+<p>彼时，iPhone4横空出世不到一年。苹果公司“再一次，改变世界”的推广口号直到今天听来仍豪气十足。门户网站的垄断就此被逐渐打破，移动互联网的出现引领起新的潮流。</p>
+
+<p>5月4日，一款名叫“拨号精灵”的软件在App Store上线。在没有推广的情况下，“拨号精灵”在11月一个月的时间里，用户数从40万增至近100万，发布2.0版本后的四天里一直名列App Store中国区免费榜首。这是年过四十的简晶主导开发的新产品。</p>
+
+<p>谈起这款软件的开发初衷，简晶讲得并不复杂——只因为iPhone自带的拨号应用在他看来太难用，所以想做一个自己用得顺手的就好。软件“云号码群”功能依赖的“云端”又一次指向了未来——云端平台能集软件搜索、下载、使用管理等多种功能融于一体，在移动互联网时代发挥着至关重要的作用。</p>
+
+<p>云端之下，互联网发展史纪事的间隔就越来越短了。互联网的潮水一浪高过一浪，产生的变化快到让人难以指认和命名。那方简晶想用方块字来装填的屏幕越来越轻薄和清晰，在初代程序员对中国互联网的原定义之上，已经建立起高耸入云的屋宇。那个联通世界的朴素理想被金钱和欲望交织，成为一个人人都想赌一把的金矿。互联网仍然是造神的行业，但并不是所有程序员都能被称为英雄，更多人被称为“码农”。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/jianjing_from_wilderness_to_fortress_9.jpg" alt="左起为林兴陆、邓世强、岑绍辉、张小龙、吴锡桑、蔡旋" />
+    <p>左起为林兴陆、邓世强、岑绍辉、张小龙、吴锡桑、蔡旋</p>
+</div>
+
+<p>林兴陆坦言，移动互联网的市场已经饱和，而在新开启的人工智能或区块链赛道上，腾讯、阿里等大公司依然占据优势地位。比起前辈们，新企业要想在互联网的赛道上脱颖而出，已经越来越难。虽然对于创业者来说互联网的门槛变高了，但对于程序员来说却不然。初代程序员要求面面俱到，一个人就是开发者、产品经理、测试和客服。而现在，分工被严重细化，做这份工作，你不必是一个全能的人。</p>
+
+<p>他认为早期的程序员们一直保持着一种创造力和对编程的喜爱。“他们这一批人在我们的印象里，简直是神一样的存在。能力是全方位的，而且只要他愿意，他就能写得动。”他记得豪杰软件的创始人梁肇新，在完全没有官方文档的条件下，通过看国外软件的汇编代码，写出了音视频解压软件“超级解霸”。他还听说简晶的老同事鲍岳桥仍然隔三差五闲不住，写两个小时代码。“别人参与的一些项目，其实不用他参与了，他都觉得你这个写得不好，我来写一下。”</p>
+
+<div align="center">
+    <img src="../images/dnbwg/jianjing_from_wilderness_to_fortress_10.jpg" alt="2001年简晶和林兴陆在CSDN活动上的合影" />
+    <p>2001年简晶和林兴陆在CSDN活动上的合影</p>
+</div>
+
+<p>当被问及最敬佩的程序员时，林兴陆提到了简晶，“他其实是一个跨代的人，在哪个时代他都能写，往前一点，他写web，再往前一个阶段，他做联众游戏。从DOS到Windows时代和网络连接，他依然是一个非常棒的程序员。”</p>
+
+<p>简晶感觉到这个行业越发商业化了。回忆起曾经共事的同僚，他想到的词是“朴质”。他们不是商人，也不太考虑怎么利用技术去赚钱。“更像科研工作者一样”，拼命地想做出一个完美的产品，“我们就想把程序编好，我们也只会这个”。</p>
+
+<p>他至今仍怀念和鲍岳桥、王建华一起在宾馆写程序的日子，水平相当、理念相同的朋友默契合作，有时话不出口都能理解彼此的意思。那时的市场还很简单，一门心思做产品的人还可以笃定地相信未来会有光明的前景。而随着互联网的快速发展，投机者多了，以盈利为导向的运营模式让这批初代程序员感到不适，资本掌握了游戏的玩法。简晶觉得自己“越来越笨，越来越没有他们聪明，越来越不懂得” 。</p>
+
+<p>现在的用户已经不需要去思考为什么电脑能显示中文，为什么可以在电脑上便捷地聊天和玩游戏了。人们漫步在互联网的城池，惊讶于高楼耸立的速度，却看不见里面的砖头，更不知道每一块砖从何而来，也不知道这些建筑是从什么样的荒草之上建立起来的。“新一代的人永远站在老一代的巨人的肩膀上面看到新东西，但他就不知道在老一代的巨人的脚底下所发生的事情又是什么，或者他是不是就踩在另外一个更早的巨人的肩膀上。”</p>
+
+<p>回顾二十多年来的程序员生涯，简晶觉得自己只是恰好比别人早了一些，这也许是一种幸运，他们接触并喜爱的计算机正好指向了整个人类发展的未来。他对计算机和互联网的感情凝结在记忆的碎片里，譬如那台Apple II，譬如与鲍岳桥的一见如故，譬如联众办公室外那片总弥漫着虫鸣的农田，譬如“中国龙”编写的最后关头，他在电脑前坐了两天三夜，“最后程序写完了，才好像觉得有点困，有点饿”。</p>
+
+<hr />
+
+<p>出处：https://m.thepaper.cn/baijiahao_4531473</p>
+
+
+    </div>
+
+
+
+</article>
+
+
+
+<div id="tcomment"></div>
+<script src="https://cdn.staticfile.org/twikoo/1.6.16/twikoo.all.min.js"></script>
+<script>
+twikoo.init({
+  envId: 'https://comment.ihonux.com', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  el: '#tcomment', // 容器元素
+  // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+  // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+  // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/imaegoo/twikoo/blob/main/src/client/utils/i18n/index.js
+})
+</script>
+
+
+
+
+
+
+<hr class="shaded"/>
+
+<footer>
+    <div class="row">
+        <div class="col-lg-12 footer">
+            <ul class="list-inline">
+                <li><a href="https://RetroMuseum.org">主站</a></li>
+                <li><a href="https://cm.ihonux.com">镜像</a></li>
+                <li><a href="https://about.retromuseum.org">关于</a></li>  
+                <li><a href="/thanks.html">致谢</a></li>
+                <li><a href="/contact.html">反馈</a></li>
+                <li><a href="/memorabilia.html">大事记</a></li>
+                <li><a href="/links.html">友情链接</a></li>
+                <li><a href="/about.html">旧版关于</a></li>
+            </ul>
+        <div>
+        <div class="col-lg-12 footer">
+            &copy;2025 Copyright 2021-2025 Honux. All rights reserved. <br />
+             
+            Site last generated: Sep 13, 2025 <br />
+            <!-- <p><img src="images/company_logo.png" alt="Company logo"/></p> -->
+        </div>
+    </div>
+</footer>
+
+<script async src="https://ackee.ihonux.com/tracker.js" data-ackee-server="https://ackee.ihonux.com" data-ackee-domain-id="1476884b-dbb4-4310-bf47-cf034e75a9d9" data-ackee-opts='{ "detailed": true }'></script>
+
+<script>
+    var init_page = function() {
+        var oHead = document.getElementsByTagName("HEAD").item(0);
+        var oScript= document.createElement("script");
+        oScript.type = "text/javascript";
+        oScript.src="https://computer.retromuseum.org:90/console/visit_log.php?url=" + encodeURIComponent(window.location.href) + "&t=" + Date.now();
+        oHead.appendChild(oScript);
+    }
+    window.addEventListener("load", init_page, false);
+</script>
+
+
+
+
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>
+
+
