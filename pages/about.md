@@ -1,7 +1,7 @@
 ---
 title: 关于
 keywords: 电脑, 计算机, 博物馆, museum, 古董电脑, retro, 电脑考古, CPU, 处理器, 微处理器, DOS, 游戏, 模拟器, Mac, Apple, 苹果, IBM, BBC, Atari, Xerox, Alto, PDP, TRS, SHARP, PC, ZX81, TI, Commodore, ZX, Spectrum, Laser, Acorn, Windows, MSX, NEC, Macintosh, Acorn, CEC, DOS, GEOS, Amiga, Z80, Psion, HP, UCDOS, WPS, Windows CE, 文曲星, processor, qualification, information, pictures, core, frequency, chip packaging, packaging, cpu info, x86, amd, cyrix, harris, ibm, idt, iit, intel, motorola, nec, sgs, sgs-thomson, siemens, ST, signetics, mhs, ti, texas instruments, ulsi, umc, weitek, zilog, 3002, 4004, 4040, 8008, 808x, 8085, 8088, 8086, 80188, 80186, 80286, 286, 80386, 386, i386, Am386, 386sx, 386dx, 486, i486, 586, 486sx, 486dx, overdrive, 487, pentium, 586, 5x86, 386dlc, 386slc, 486dx2, mmx, ppro, pentium-pro, pro, athlon, duron, z80, dirk oppelt, dirk, oppelt, engineering, sample, samples, core, xeon
-last_updated: Feb 1, 2025
+last_updated: Sep 13, 2025
 permalink: about.html
 topnav: topnav
 toc: false
@@ -11,7 +11,7 @@ comments: false
 
 **复古电脑博物馆**是一组服务于教育，立足于公益的在线交互式计算机博物馆。它始终坚守人们建设互联网最初的愿景：开放、平等和免费。这一组博物馆主要包括：
 
-<a href="https://computer.retromuseum.org:86/" onclick="return checkLinks();"><b>复古电脑博物馆</b></a>是一个在线交互式的计算机博物馆，在网页中重现了电脑发展史。参观者可通过基于 JavaScript + WebAssembly 的仿真模拟器在网页中体验到 1970 年代 —— 1990 年代流行的电脑硬件和软件。虽然时空流转，沧海桑田，早已是物是人非，但那些曾经闪亮的程序代码依然在这里跳动着。
+<a href="https://computer.retromuseum.org:86/" onclick="return checkLinks();"><b>电脑博物馆</b></a>是一个在线交互式的计算机博物馆，在网页中重现了电脑发展史。参观者可通过基于 JavaScript + WebAssembly 的仿真模拟器在网页中体验到 1970 年代 —— 1990 年代流行的电脑硬件和软件。虽然时空流转，沧海桑田，早已是物是人非，但那些曾经闪亮的程序代码依然在这里跳动着。
 
 - <a href="https://computer.retromuseum.org:86/" onclick="return checkLinks();"><b>电脑</b></a> —— 主要是对一些古董电脑的模拟重现，此外还有一些著名软件的展示。
 - <a href="https://computer.retromuseum.org:86/osjs/" onclick="return checkLinks();"><b>操作系统</b></a> —— 对一些曾经流行的操作系统进行模拟重现，主要有Windows、Mac、Linux、Unix、BSD、OS/2、DOS、CP/M、AmigaOS、BeOS等。
