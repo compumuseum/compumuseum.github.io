@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Flash 曾经是互联网的一部分，也为互联网带来了繁荣。Flash 的落幕代表着一个时代的结束，它承载着我们许多的回忆。Flash 档案馆目前收录了 8000 多个历史上热门的各类 Falsh 动画，通过 Ruffle 技术进行渲染播放，无需安装插件。">
+<meta name="keywords" content="blog,  ">
+<title>Flash 档案馆的由来 | 复古电脑博物馆 | 在线电脑博物馆 | 计算机博物馆 | Retro Computer Museum</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="/js/jquery.min.js"></script>
+
+<script src="/js/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="/js/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="documentation-theme-jekyll" href="http://localhost:4000/feed.xml">
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" style="padding-top: 6px;">
+                <img src="/images/logo.png" style="display: inline-block; width: 40px;" alt="LOGO">
+                <img src="/images/title.png" class="nav-site-title" alt="电脑博物馆" style="display: inline-block; height: 40px;">
+                <!-- <span class="projectTitle"> 复古电脑博物馆</span> -->
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <!-- <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li> -->
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="news.html">传奇故事</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/" target="_blank" rel="noopener" onclick="return checkLinks();">电脑博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/famicn/" target="_blank" rel="noopener" onclick="return checkLinks();">家用游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:89/" target="_blank" rel="noopener" onclick="return checkLinks();">DOS游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://cpu.retromuseum.org/" target="_blank" rel="noopener" onclick="return checkLinks();">CPU博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/flash-archive/" target="_blank" rel="noopener" onclick="return checkLinks();">Flash档案馆</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="搜索...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Flash 档案馆的由来">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+
+        <!-- Content Column -->
+        <div class="col-md-12" id="tg-sb-content">
+            <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Flash 档案馆的由来</h1>
+        <p class="post-meta"><time datetime="2019-07-24T00:00:00+08:00" itemprop="datePublished">Jul 24, 2019</time> /
+            
+            
+            
+            <a href="tag_blog.html">blog</a>
+            
+            
+            
+
+        </p>
+
+
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+
+        
+        <div class="summary">Flash 曾经是互联网的一部分，也为互联网带来了繁荣。Flash 的落幕代表着一个时代的结束，它承载着我们许多的回忆。Flash 档案馆目前收录了 8000 多个历史上热门的各类 Falsh 动画，通过 Ruffle 技术进行渲染播放，无需安装插件。</div>
+        
+
+        <p>Flash 档案馆存档了大概有 8000 多个动画，都是 2010 年之前的。这个存档里面没有游戏，只有纯动画，里面包含了当时比较有名的蜗牛仔仔（思妙）、大闹西游（思妙）、大话三国（Showgood）、小小系列、流氓兔系列、阿贵系列、小破孩系列等等。</p>
+
+<p>为了方便海外的研究者使用，加入了作品的英文名称，不过是谷歌机翻的，不一定准。这个存档除了支持 Flash Player 插件播放，也支持使用 WebAssembly 的 <a href="https://ruffle.rs/">Ruffle</a> 播放。</p>
+
+<p>Ruffle 是一个用 Rust 编写的 Flash Player 模拟器。Ruffle 在所有现代操作中原生运行系统作为一个独立的应用程序，并通过使用 WebAssembly 在所有现代浏览器上。利用现代浏览器沙箱的安全性和 Rust 的内存安全保证，我们可以自信地避免 Flash 闻名的所有安全陷阱。Ruffle 将 Flash 放回了它所属的网络上 - 包括iOS和Android上的浏览器！</p>
+
+<div class="alert alert-success" role="alert"><i class="fa fa-check-square-o"></i> <b>Tip: </b>
+<p>进入 <b><a href="https://computer.retromuseum.org:86/flash-archive/" target="_blank">Flash 档案馆</a></b></p>
+<p>Flash 档案馆未对手机端进行优化，建议使用电脑浏览器访问。</p>
+</div>
+
+<p>Flash 曾经是互联网的一部分，也为互联网带来了繁荣。如今 Flash 的落幕代表着一个时代的结束，它承载着我们许多的回忆。</p>
+
+<hr />
+
+
+    </div>
+
+
+
+</article>
+
+
+
+<div id="tcomment"></div>
+<script src="https://cdn.staticfile.org/twikoo/1.6.16/twikoo.all.min.js"></script>
+<script>
+twikoo.init({
+  envId: 'https://comment.ihonux.com', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  el: '#tcomment', // 容器元素
+  // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+  // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+  // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/imaegoo/twikoo/blob/main/src/client/utils/i18n/index.js
+})
+</script>
+
+
+
+
+
+
+<hr class="shaded"/>
+
+<footer>
+    <div class="row">
+        <div class="col-lg-12 footer">
+            <ul class="list-inline">
+                <li><a href="https://RetroMuseum.org">主站</a></li>
+                <li><a href="https://cm.ihonux.com">镜像</a></li>
+                <li><a href="https://about.retromuseum.org">关于</a></li>  
+                <li><a href="/thanks.html">致谢</a></li>
+                <li><a href="/contact.html">反馈</a></li>
+                <li><a href="/memorabilia.html">大事记</a></li>
+                <li><a href="/links.html">友情链接</a></li>
+                <li><a href="/about.html">旧版关于</a></li>
+            </ul>
+        <div>
+        <div class="col-lg-12 footer">
+            &copy;2025 Copyright 2021-2025 Honux. All rights reserved. <br />
+             
+            Site last generated: Sep 13, 2025 <br />
+            <!-- <p><img src="images/company_logo.png" alt="Company logo"/></p> -->
+        </div>
+    </div>
+</footer>
+
+<script async src="https://ackee.ihonux.com/tracker.js" data-ackee-server="https://ackee.ihonux.com" data-ackee-domain-id="1476884b-dbb4-4310-bf47-cf034e75a9d9" data-ackee-opts='{ "detailed": true }'></script>
+
+<script>
+    var init_page = function() {
+        var oHead = document.getElementsByTagName("HEAD").item(0);
+        var oScript= document.createElement("script");
+        oScript.type = "text/javascript";
+        oScript.src="https://computer.retromuseum.org:90/console/visit_log.php?url=" + encodeURIComponent(window.location.href) + "&t=" + Date.now();
+        oHead.appendChild(oScript);
+    }
+    window.addEventListener("load", init_page, false);
+</script>
+
+
+
+
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>
+
+

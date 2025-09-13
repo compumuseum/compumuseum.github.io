@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="1970年代，台湾地区选择半导体行业作为其产业突破的方向，1980年代，联华电子（简称“联电”）从公立机构工研院中分离出来，成为独立运行的企业，在不晚于1983年时，联电就具备生产MOS 6502兼容型微处理器的能力，在拥有本土生产的微处理器之后，台湾地区电脑行业开始爆炸性的增长。联电生产的MOS 6502兼容芯...">
+<meta name="keywords" content="gamehistory,  ">
+<title>华人世界被忽视的游戏主机（二）：普泽、联电和敦煌 | 复古电脑博物馆 | 在线电脑博物馆 | 计算机博物馆 | Retro Computer Museum</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="/js/jquery.min.js"></script>
+
+<script src="/js/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="/js/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="documentation-theme-jekyll" href="http://localhost:4000/feed.xml">
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" style="padding-top: 6px;">
+                <img src="/images/logo.png" style="display: inline-block; width: 40px;" alt="LOGO">
+                <img src="/images/title.png" class="nav-site-title" alt="电脑博物馆" style="display: inline-block; height: 40px;">
+                <!-- <span class="projectTitle"> 复古电脑博物馆</span> -->
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <!-- <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li> -->
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="news.html">传奇故事</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/" target="_blank" rel="noopener" onclick="return checkLinks();">电脑博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/famicn/" target="_blank" rel="noopener" onclick="return checkLinks();">家用游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:89/" target="_blank" rel="noopener" onclick="return checkLinks();">DOS游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://cpu.retromuseum.org/" target="_blank" rel="noopener" onclick="return checkLinks();">CPU博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/flash-archive/" target="_blank" rel="noopener" onclick="return checkLinks();">Flash档案馆</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="搜索...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="华人世界被忽视的游戏主机（二）：普泽、联电和敦煌">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+
+        <!-- Content Column -->
+        <div class="col-md-12" id="tg-sb-content">
+            <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">华人世界被忽视的游戏主机（二）：普泽、联电和敦煌</h1>
+        <p class="post-meta"><time datetime="2024-01-14T00:00:00+08:00" itemprop="datePublished">Jan 14, 2024</time> /
+            
+            
+            
+            <a href="tag_game.html">game</a>, 
+            
+            
+            
+            <a href="tag_history.html">history</a>
+            
+            
+            
+
+        </p>
+
+
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+
+        
+        <div class="summary">1970年代，台湾地区选择半导体行业作为其产业突破的方向，1980年代，联华电子（简称“联电”）从公立机构工研院中分离出来，成为独立运行的企业，在不晚于1983年时，联电就具备生产MOS 6502兼容型微处理器的能力，在拥有本土生产的微处理器之后，台湾地区电脑行业开始爆炸性的增长。联电生产的MOS 6502兼容芯片UM6561，也成为台湾和大陆任天堂兼容机最常用的CPU。</div>
+        
+
+        <p>1970年代，台湾地区选择半导体行业作为其产业突破的方向，1980年代，联华电子（简称“联电”）从公立机构工研院中分离出来，成为独立运行的企业，在不晚于1983年时，联电就具备生产MOS 6502兼容型微处理器的能力，在拥有本土生产的微处理器之后，台湾地区电脑行业开始爆炸性的增长。联电生产的MOS 6502兼容芯片UM6561，也成为台湾和大陆任天堂兼容机最常用的CPU。但在作为“小天才”、“小霸王”等任天堂兼容机的另一面，联电也曾经在开发独立的游戏机架构上付出过不少努力。</p>
+
+<h2 id="普泽和gamate">普泽和Gamate</h2>
+
+<p>诞生于1982年的普泽（Bit Corporation）公司很可能是“学习机”兼容游戏卡这一功能的起源，他们设计的BIT 60和BIT 90分别是使用6502和Z80微处理器的家用电脑，同时分别兼容Atari VCS和ColecoVision游戏卡带，值得一提的是，上述两款家用电脑所对应的游戏机并没有类似任天堂Family BASIC的官方键盘方案，其BASIC语言解释器也是自行开发的，因此具备相当的原创性。</p>
+
+<div align="center">
+    <a href="../images/dnbwg/a_neglected_game_console_in_the_chinese_world_2_01.jpg">
+        <img src="../images/dnbwg/a_neglected_game_console_in_the_chinese_world_2_01.jpg" />
+    </a>
+    <p>1983年11月德国《CHIP》杂志上的普泽BIT-60和BIT-90</p>
+</div>
+
+<p>‍BIT-60和BIT-90‍‍的之所以设计成电脑而非电子游戏机的形态，一方面与CreatiVision加入家用电脑功能的原因类似，是对1980年代初家用电脑热潮的回应，而另一方面则是在1982年到1987年间台湾地区的电子游戏禁令下的无奈之举。</p>
+
+<p>1982年3月，台湾地区停止受理申请电动玩具（即电子游戏）的经营、进口、买卖、修理，直到1988年2月才再度开放[1]。与2000年开始大陆开始实行的电子游戏禁令相似，台湾地区的电子游戏禁令主要是针对经营性街机厅在民众间造成的恶劣观感，但家用电子游戏机却是受打击最为惨重的领域。</p>
+
+<p>在1982年五月号的《音响技术》杂志第77期中，《功成身退话“电玩”》[2]一文在“始作俑者为电脑业”章节指出，电脑企业与家用游戏机企业在电子游戏领域存在一定竞争关系，因此电脑行业对电子游戏机禁令在相当程度上是支持的。</p>
+
+<p>虽然没有明确的证据表明电子游戏禁令的出台受到电脑行业游说的影响，但这确实带来了台湾地区游戏行业以电脑游戏为主的情形。类似的效应也出现在中国大陆，相比家用游戏机玩家的规模，以电脑为主要平台的网络游戏的受众要广泛的多。</p>
+
+<div align="center">
+    <a href="../images/dnbwg/a_neglected_game_console_in_the_chinese_world_2_02.jpg">
+        <img src="../images/dnbwg/a_neglected_game_console_in_the_chinese_world_2_02.jpg" />
+    </a>
+    <p>Gamate及大陆版本“超级神童”</p>
+</div>
+
+<p>Gamate“超级小子”（在大陆销售时改名为“超级神童”）是普泽的最后一款产品，也是市场上第一款回应任天堂Gameboy的手持游戏机——它的推出相比NEC的PC Engine GT和世嘉Game Gear都要早上几个月，它使用的联电开发的，基于6502微处理器的UA6588F（后期型号改用NCR 81489微处理器）。无论从横板外形还是处理器的选用，Gamate都和Gameboy设计上有着明显的差异（Gameboy使用的Sharp LR35902是一款Z80处理器）[3]。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>Game Boy</th>
+      <th>Atari Lynx</th>
+      <th>Gamate</th>
+      <th>Turbo Express</th>
+      <th>Game Gear</th>
+      <th>Watara Supervision</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>上市时间</td>
+      <td>1989年4月</td>
+      <td>1989年9</td>
+      <td>1990年初</td>
+      <td>1990年12月</td>
+      <td>1991年4月</td>
+      <td>1992</td>
+    </tr>
+    <tr>
+      <td>上市售价(美元)</td>
+      <td>89.99</td>
+      <td>179.99</td>
+      <td>69</td>
+      <td>249.99</td>
+      <td>149.99</td>
+      <td>49.95</td>
+    </tr>
+    <tr>
+      <td>分辨率/ 彩色</td>
+      <td>160x144  黑白</td>
+      <td>160x120  彩色</td>
+      <td>160x152  黑白</td>
+      <td>336x221  彩色</td>
+      <td>160x144  彩色</td>
+      <td>160x160  黑白</td>
+    </tr>
+    <tr>
+      <td>CPU 指令集</td>
+      <td>Z80</td>
+      <td>6502</td>
+      <td>6502</td>
+      <td>6502</td>
+      <td>Z80</td>
+      <td>6502</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>值得一提的是，很大程度上，1990年代初的手持游戏机市场并不是一个统一的市场，而是分别在任天堂Gameboy开启的单色手持游戏机和以雅达利Lynx开启的彩色手持游戏机两条战线上展开的，在当时，彩色手持游戏机的价格明显高于单色手持游戏机，最便宜、也是最成功的彩色手持游戏机世嘉GameGear发布时售价149美元，是90美元的Gameboy的1.6倍，雅达利Lynx的发布价格180美元是Gameboy的两倍，而另一款较为流行的彩屏手持游戏机NEC TurboExpress售价则高达250美元。</p>
+
+<div align="center">
+    <a href="../images/dnbwg/a_neglected_game_console_in_the_chinese_world_2_03.jpg">
+        <img src="../images/dnbwg/a_neglected_game_console_in_the_chinese_world_2_03.jpg" />
+    </a>
+    <p>Gamate的主要竞争者</p>
+</div>
+
+<p>相比之下，两款在100美元以下价位上直接与Gameboy竞争的产品都是由港台企业开发的，Gamate在1990年上市时的价格为69美元，而另一款更晚推出的，在香港开发的Watara Supervision的售价则为49美元。</p>
+
+<p>相比本系列上一篇文章提到的香港伟易达将产品的重心完全放在海外，普泽开发的Gamate游戏更加具有本土色彩，比如《包青天》就使用了就使用了《三侠五义》中的包拯、展昭和《儿女英雄传》中的十三妹等古典侠义小说人物。而其中的音乐也来自1993年热播的电视剧《包青天》中的配乐，体现出台湾地区大众文化与电子游戏中的相互影响。</p>
+
+<p>许多人把Gamate的失败归结于硬件素质，特别是其绿底的单色显示屏，但这无法解释同样有动作拖影等问题的早期Gameboy的成功。在我看来，Gamate遇到的最大困境是其缺乏第三方游戏开发商，在Gamate已知的近70款游戏中，绝大多数是由普泽自行开发的，另有少量来自于其芯片提供者，同时也是1992年普泽歇业之后Gamate产品的运营方的联电，而唯一的第三方游戏开发者只有一家“Phinnex Co., Ltd.”。</p>
+
+<p>由于Gamate的失利，普泽在1992年结束运营[4]，但Gamate产品却没有消失，而是转让给联电的子公司敦煌科技（Funtech）继续经营，目前能找到的最后一款为Gamate开发的游戏，是1995年的《昆虫战机》（Insect War）。</p>
+
+<h2 id="敦煌科技和super-acan">敦煌科技和Super A’Can</h2>
+
+<p>从某种角度讲，当敦煌科技从普泽手中接手Gamate的同时，也接过了“本土游戏机”的大旗，而1995年敦煌科技推出的Super A’Can也可以视为Gamte的“续作”。Super A’Can是一款国产化程度相当高的家用游戏机，除了CPU使用了摩托罗拉68000处理器之外，它的图形和声音都是由联电自主设计的——UM6618图形芯片和UM6619声音芯片。这款游戏机的硬件资料目前已经难以获得，不过从MAME模拟器的代码里还是可以一窥其硬件设计，比如其音频处理芯片UM6619中应当集成了一颗6502微处理器核心[5]。</p>
+
+<div align="center">
+    <a href="../images/dnbwg/a_neglected_game_console_in_the_chinese_world_2_04.jpg">
+        <img src="../images/dnbwg/a_neglected_game_console_in_the_chinese_world_2_04.jpg" />
+    </a>
+    <p>Super A'Can</p>
+</div>
+
+<p>虽然有着“开发适合12亿中国人的电玩平台”的初衷[6]，但90年代中期的内、外部环境都让Super A’can有些“生不逢时”。90年代初的游戏市场上正在面对一场有2D到3D的巨变，传统以卷轴、精灵为核心的二维游戏画面正逐渐变得“过时”，而多边形绘图、纹理填充等三维图形技术则成为当时电子游戏发展的新方向，同时CD-ROM光盘的运用也让游戏容量大大超出以往卡带的限制。1993年10月随3DO主机一同发布的游戏《坠毁赛车》（Crash ‘n’ Burn）和第二年发布的《极品飞车》（Need for Speed）都运用了高速刷新的三维图像，而这两款游戏也发展成为长盛不衰的竞速游戏系列。</p>
+
+<p>在PC一边，1992年的《德军总部3D》（Wolfenstein 3D）和1993年的《毁灭战士》（Doom）带动了第一人称射击游戏的流行，同样发布于1993年的演示场景（Demoscene）作品《第二现实》（Second Reality）则展现了使用486处理器的PC在展现游戏图形上的潜力。1994年的PC游戏《天旋地转》（Descent）展示了完全由多边形和纹理绘制的，可以自由移动视角的3D游戏。</p>
+
+<div align="center">
+    <a href="../images/dnbwg/a_neglected_game_console_in_the_chinese_world_2_05.jpg">
+        <img src="../images/dnbwg/a_neglected_game_console_in_the_chinese_world_2_05.jpg" />
+    </a>
+    <p>在90年代中期各个游戏平台上，《极品飞车》都是最具代表性的3D游戏之一</p>
+</div>
+
+<p>家用游戏机上更加广泛的变革也在酝酿：1994年，索尼在PlayStation的发布会上展示了其著名的霸王龙演示程序，与其类似的由电脑合成图像（CGI）生成的恐龙形象正是前一年的电影《侏罗纪公园》中最重要的元素。也是游戏画面“电影化”的起点之一。</p>
+
+<p>在成熟市场上，Super A’can不仅要和以PlayStation和世嘉土星为代表的第五代游戏机进行竞争，同时也要与以世嘉Genesis/MegaDrive和超级任天堂为代表的第四代游戏机竞争。在1996年《电子游戏软件》杂志组织的A’CAN F-16杯《电子游戏知识有奖竞赛》就出现了尴尬的一幕，特等奖和一等奖的奖品分别是世嘉土星和3DO游戏机，而为竞赛冠名的Super A’can只能作为二等奖的奖品出现。</p>
+
+<p>而在大陆市场上，90年代中期仍处于小霸王等仿制红白机最热销的时代，小霸王300元人民币左右的售价和丰富的红白机游戏要比Super A’can超过千元的售价容易接受的多。1995 年7 月，联电转型为纯晶圆代工（Foundry）公司。而任天堂也是其大客户之一，有消息指出，当时任天堂在代工订单上针对联电施压，迫使联电提早结束了Super A’can的生产和开发[7]。</p>
+
+<div align="center">
+    <a href="../images/dnbwg/a_neglected_game_console_in_the_chinese_world_2_06.jpg">
+        <img src="../images/dnbwg/a_neglected_game_console_in_the_chinese_world_2_06.jpg" />
+    </a>
+    <p>芬兰游戏博物馆（Finnish Museum of Games）展示的电话互动游戏Hugo</p>
+</div>
+
+<p>值得一提的是，Super A’can除了以家用游戏机的形式销售，也曾经通过“爆米花电玩”频道向台湾地区的观众提供互动电视的游戏服务，观众可以使用电话按钮远程操纵电视台播放的游戏画面[8]。类似的交互式电视游戏最早出现在1994年的欧洲，丹麦开发商ITE互动电视娱乐（Interactive Television Entertainment）推出了以卡通角色Hugo为主角的互动电视节目，其技术架构使用了基于Amiga 3000电脑的ITE 3000定制系统[9]。而联电在台湾地区的这一实践也反映了当时视频点播（VOD）、互动电视等技术对华人世界的影响[10]。</p>
+
+<h2 id="注释">注释</h2>
+
+<p>[1] 关于台湾地区的游戏机禁令的详情，可以参考 林应嘉：《从「全面禁绝」到「文创产业」： 台湾电玩政策论述之变迁》；黄国昌：《我国电玩业管理法制之研究》</p>
+
+<p>[2] 功成身退話「電玩」：https://zazu.tw/talks/8265</p>
+
+<p>[3] 关于Gamate的硬件细节，可参考 Kevtris：《Gamate Inside》，http://blog.kevtris.org/blogfiles/Gamate%20Inside.txt</p>
+
+<p>[4] 《普泽、升友停权》，台湾区玩具工业同业公会，1992，http://www.toybase.com.tw/h/n1930359.html</p>
+
+<p>[5] 与Super A’can模拟器相关的MAME源代码：https://github.com/mamedev/mame/blob/master/src/mame/drivers/supracan.cpp</p>
+
+<p>[6] 《熊猫专访》，《A’can特辑》创刊号，尖端出版 1995年10月 https://archive.org/details/acan-special-issue</p>
+
+<p>[7] 《敦煌Super A’Can国产主机兴衰史以及Mess模拟器》（互联网档案馆存档）</p>
+
+<p>[8] 《[问题] 十几年前用电话在电视上玩游戏》，看板Old-Games，批踢踢实业坊，https://www.ptt.cc/bbs/Old-Games/M.1370775205.A.873.html</p>
+
+<p>[9] 《Halt, Hugo’s there!》，《The One Amiga》第66期，第46页，1994年3月 The One Amiga 66 (March 1994)</p>
+
+<p>[10] 在中国大陆，南通有线台可能是最早开通以电话线路作为回传通道（return path）的交互电视节目的地方有线台；而1996年西安电视二台的“游戏俱乐部”栏目则是中国大陆最早以此种手段提供游戏节目的实践。参见1995年6月15日《视听界》王美玲，陈铿，施振平，范煜：《南通有线台推出多媒体交互式电视查询》；1997年《西安年鉴》第246页，广播电视，曹永森：《西安电视台二台研制出交互式电视》</p>
+
+<hr />
+
+<p>出处：https://zhuanlan.zhihu.com/p/629939492</p>
+
+
+    </div>
+
+
+
+</article>
+
+
+
+<div id="tcomment"></div>
+<script src="https://cdn.staticfile.org/twikoo/1.6.16/twikoo.all.min.js"></script>
+<script>
+twikoo.init({
+  envId: 'https://comment.ihonux.com', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  el: '#tcomment', // 容器元素
+  // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+  // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+  // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/imaegoo/twikoo/blob/main/src/client/utils/i18n/index.js
+})
+</script>
+
+
+
+
+
+
+<hr class="shaded"/>
+
+<footer>
+    <div class="row">
+        <div class="col-lg-12 footer">
+            <ul class="list-inline">
+                <li><a href="https://RetroMuseum.org">主站</a></li>
+                <li><a href="https://cm.ihonux.com">镜像</a></li>
+                <li><a href="https://about.retromuseum.org">关于</a></li>  
+                <li><a href="/thanks.html">致谢</a></li>
+                <li><a href="/contact.html">反馈</a></li>
+                <li><a href="/memorabilia.html">大事记</a></li>
+                <li><a href="/links.html">友情链接</a></li>
+                <li><a href="/about.html">旧版关于</a></li>
+            </ul>
+        <div>
+        <div class="col-lg-12 footer">
+            &copy;2025 Copyright 2021-2025 Honux. All rights reserved. <br />
+             
+            Site last generated: Sep 13, 2025 <br />
+            <!-- <p><img src="images/company_logo.png" alt="Company logo"/></p> -->
+        </div>
+    </div>
+</footer>
+
+<script async src="https://ackee.ihonux.com/tracker.js" data-ackee-server="https://ackee.ihonux.com" data-ackee-domain-id="1476884b-dbb4-4310-bf47-cf034e75a9d9" data-ackee-opts='{ "detailed": true }'></script>
+
+<script>
+    var init_page = function() {
+        var oHead = document.getElementsByTagName("HEAD").item(0);
+        var oScript= document.createElement("script");
+        oScript.type = "text/javascript";
+        oScript.src="https://computer.retromuseum.org:90/console/visit_log.php?url=" + encodeURIComponent(window.location.href) + "&t=" + Date.now();
+        oHead.appendChild(oScript);
+    }
+    window.addEventListener("load", init_page, false);
+</script>
+
+
+
+
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>
+
+

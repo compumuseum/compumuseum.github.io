@@ -1,32 +1,379 @@
----
-title: search
-layout: none
-search: exclude
----
 
-{% assign pages = site.html_pages | where_exp: "page", "page.search != 'exclude'"  %}
 [
-{% for page in pages %}
-{
-"title": "{{ page.title | escape }}",
-"tags": "{{ page.tags }}",
-"keywords": "{{page.keywords}}",
-"url": "{{ page.url | remove: "/"}}",
-"summary": "{{page.summary | strip }}"
-}
-{% unless forloop.last and site.posts.size < 1 %},{% endunless %}
-{% endfor %}
-
-{% for post in site.posts %}
 
 {
-"title": "{{ post.title | escape }}",
-"tags": "{{ post.tags }}",
-"keywords": "{{post.keywords}}",
-"url": "{{ post.url | remove: "/" }}",
-"summary": "{{post.summary | strip }}"
+"title": "关于",
+"tags": "",
+"keywords": "电脑, 计算机, 博物馆, museum, 古董电脑, retro, 电脑考古, CPU, 处理器, 微处理器, DOS, 游戏, 模拟器, Mac, Apple, 苹果, IBM, BBC, Atari, Xerox, Alto, PDP, TRS, SHARP, PC, ZX81, TI, Commodore, ZX, Spectrum, Laser, Acorn, Windows, MSX, NEC, Macintosh, Acorn, CEC, DOS, GEOS, Amiga, Z80, Psion, HP, UCDOS, WPS, Windows CE, 文曲星, processor, qualification, information, pictures, core, frequency, chip packaging, packaging, cpu info, x86, amd, cyrix, harris, ibm, idt, iit, intel, motorola, nec, sgs, sgs-thomson, siemens, ST, signetics, mhs, ti, texas instruments, ulsi, umc, weitek, zilog, 3002, 4004, 4040, 8008, 808x, 8085, 8088, 8086, 80188, 80186, 80286, 286, 80386, 386, i386, Am386, 386sx, 386dx, 486, i486, 586, 486sx, 486dx, overdrive, 487, pentium, 586, 5x86, 386dlc, 386slc, 486dx2, mmx, ppro, pentium-pro, pro, athlon, duron, z80, dirk oppelt, dirk, oppelt, engineering, sample, samples, core, xeon",
+"url": "about.html",
+"summary": ""
 }
-{% unless forloop.last %},{% endunless %}
-{% endfor %}
+,
+
+{
+"title": "反馈",
+"tags": "",
+"keywords": "电脑, 计算机, 博物馆, museum, 古董电脑, retro, 电脑考古, CPU, 处理器, 微处理器, DOS, 游戏, 模拟器, Mac, Apple, 苹果, IBM, BBC, Atari, Xerox, Alto, PDP, TRS, SHARP, PC, ZX81, TI, Commodore, ZX, Spectrum, Laser, Acorn, Windows, MSX, NEC, Macintosh, Acorn, CEC, DOS, GEOS, Amiga, Z80, Psion, HP, UCDOS, WPS, Windows CE, 文曲星, processor, qualification, information, pictures, core, frequency, chip packaging, packaging, cpu info, x86, amd, cyrix, harris, ibm, idt, iit, intel, motorola, nec, sgs, sgs-thomson, siemens, ST, signetics, mhs, ti, texas instruments, ulsi, umc, weitek, zilog, 3002, 4004, 4040, 8008, 808x, 8085, 8088, 8086, 80188, 80186, 80286, 286, 80386, 386, i386, Am386, 386sx, 386dx, 486, i486, 586, 486sx, 486dx, overdrive, 487, pentium, 586, 5x86, 386dlc, 386slc, 486dx2, mmx, ppro, pentium-pro, pro, athlon, duron, z80, dirk oppelt, dirk, oppelt, engineering, sample, samples, core, xeon",
+"url": "contact.html",
+"summary": ""
+}
+,
+
+{
+"title": "复古电脑博物馆",
+"tags": "",
+"keywords": "电脑, 计算机, 网页中的博物馆, museum, 古董电脑, retro, 电脑考古, CPU, 处理器, 微处理器, DOS, 游戏, 模拟器, Mac, Apple, 苹果, IBM, BBC, Atari, Xerox, Alto, PDP, TRS, SHARP, PC, ZX81, TI, Commodore, ZX, Spectrum, Laser, Acorn, Windows, MSX, NEC, Macintosh, Acorn, CEC, DOS, GEOS, Amiga, Z80, Psion, HP, UCDOS, WPS, Windows CE, 文曲星, processor, qualification, information, pictures, core, frequency, chip packaging, packaging, cpu info, x86, amd, cyrix, harris, ibm, idt, iit, intel, motorola, nec, sgs, sgs-thomson, siemens, ST, signetics, mhs, ti, texas instruments, ulsi, umc, weitek, zilog, 3002, 4004, 4040, 8008, 808x, 8085, 8088, 8086, 80188, 80186, 80286, 286, 80386, 386, i386, Am386, 386sx, 386dx, 486, i486, 586, 486sx, 486dx, overdrive, 487, pentium, 586, 5x86, 386dlc, 386slc, 486dx2, mmx, ppro, pentium-pro, pro, athlon, duron, z80, dirk oppelt, dirk, oppelt, engineering, sample, samples, core, xeon",
+"url": "index.html",
+"summary": ""
+}
+,
+
+{
+"title": "友情链接",
+"tags": "",
+"keywords": "电脑, 计算机, 博物馆, museum, 古董电脑, retro, 电脑考古, CPU, 处理器, 微处理器, DOS, 游戏, 模拟器, Mac, Apple, 苹果, IBM, BBC, Atari, Xerox, Alto, PDP, TRS, SHARP, PC, ZX81, TI, Commodore, ZX, Spectrum, Laser, Acorn, Windows, MSX, NEC, Macintosh, Acorn, CEC, DOS, GEOS, Amiga, Z80, Psion, HP, UCDOS, WPS, Windows CE, 文曲星, processor, qualification, information, pictures, core, frequency, chip packaging, packaging, cpu info, x86, amd, cyrix, harris, ibm, idt, iit, intel, motorola, nec, sgs, sgs-thomson, siemens, ST, signetics, mhs, ti, texas instruments, ulsi, umc, weitek, zilog, 3002, 4004, 4040, 8008, 808x, 8085, 8088, 8086, 80188, 80186, 80286, 286, 80386, 386, i386, Am386, 386sx, 386dx, 486, i486, 586, 486sx, 486dx, overdrive, 487, pentium, 586, 5x86, 386dlc, 386slc, 486dx2, mmx, ppro, pentium-pro, pro, athlon, duron, z80, dirk oppelt, dirk, oppelt, engineering, sample, samples, core, xeon",
+"url": "links.html",
+"summary": ""
+}
+,
+
+{
+"title": "大事记",
+"tags": "",
+"keywords": "电脑, 计算机, 博物馆, museum, 古董电脑, retro, 电脑考古, CPU, 处理器, 微处理器, DOS, 游戏, 模拟器, Mac, Apple, 苹果, IBM, BBC, Atari, Xerox, Alto, PDP, TRS, SHARP, PC, ZX81, TI, Commodore, ZX, Spectrum, Laser, Acorn, Windows, MSX, NEC, Macintosh, Acorn, CEC, DOS, GEOS, Amiga, Z80, Psion, HP, UCDOS, WPS, Windows CE, 文曲星, processor, qualification, information, pictures, core, frequency, chip packaging, packaging, cpu info, x86, amd, cyrix, harris, ibm, idt, iit, intel, motorola, nec, sgs, sgs-thomson, siemens, ST, signetics, mhs, ti, texas instruments, ulsi, umc, weitek, zilog, 3002, 4004, 4040, 8008, 808x, 8085, 8088, 8086, 80188, 80186, 80286, 286, 80386, 386, i386, Am386, 386sx, 386dx, 486, i486, 586, 486sx, 486dx, overdrive, 487, pentium, 586, 5x86, 386dlc, 386slc, 486dx2, mmx, ppro, pentium-pro, pro, athlon, duron, z80, dirk oppelt, dirk, oppelt, engineering, sample, samples, core, xeon",
+"url": "memorabilia.html",
+"summary": ""
+}
+,
+
+{
+"title": "传奇故事",
+"tags": "",
+"keywords": "news, blog, updates, cpu, history, course",
+"url": "news.html",
+"summary": ""
+}
+,
+
+{
+"title": "News Archive",
+"tags": "",
+"keywords": "news, blog, updates, release notes, announcements",
+"url": "news_archive.html",
+"summary": ""
+}
+,
+
+{
+"title": "致谢",
+"tags": "",
+"keywords": "电脑, 计算机, 博物馆, museum, 古董电脑, retro, 电脑考古, CPU, 处理器, 微处理器, DOS, 游戏, 模拟器, Mac, Apple, 苹果, IBM, BBC, Atari, Xerox, Alto, PDP, TRS, SHARP, PC, ZX81, TI, Commodore, ZX, Spectrum, Laser, Acorn, Windows, MSX, NEC, Macintosh, Acorn, CEC, DOS, GEOS, Amiga, Z80, Psion, HP, UCDOS, WPS, Windows CE, 文曲星, processor, qualification, information, pictures, core, frequency, chip packaging, packaging, cpu info, x86, amd, cyrix, harris, ibm, idt, iit, intel, motorola, nec, sgs, sgs-thomson, siemens, ST, signetics, mhs, ti, texas instruments, ulsi, umc, weitek, zilog, 3002, 4004, 4040, 8008, 808x, 8085, 8088, 8086, 80188, 80186, 80286, 286, 80386, 386, i386, Am386, 386sx, 386dx, 486, i486, 586, 486sx, 486dx, overdrive, 487, pentium, 586, 5x86, 386dlc, 386slc, 486dx2, mmx, ppro, pentium-pro, pro, athlon, duron, z80, dirk oppelt, dirk, oppelt, engineering, sample, samples, core, xeon",
+"url": "thanks.html",
+"summary": ""
+}
+,
+
+
+
+
+{
+"title": "WPS之父——天才程序员求伯君",
+"tags": "historystory",
+"keywords": "",
+"url": "father_of_wps_the_genius_programmer_qiubojun.html",
+"summary": "Word文档大家都非常的熟悉，微软的办公软件。而金山的WPS大家也不陌生，免费实用，体积小功能大。大家可能不知道，WPS软件是早于微软Word就推出的哦。所以，WPS算是十足的国产软件。而开发这个国产巨作的人，他叫求伯君。一个天才程序员！"
+}
+,
+
+
+{
+"title": "DOS病毒博物馆漫游",
+"tags": "blogexperience",
+"keywords": "",
+"url": "malware_museum_roaming.html",
+"summary": "本站开辟了新的板块——“DOS病毒博物馆”，对Internet Archive的Malware Museum进行展示。你会发现其实过去的黑客都还挺简单的，他们要么会故意毁掉你的硬件，要么就完全是在炫技搞恶作剧。"
+}
+,
+
+
+{
+"title": "国产Linux探索的领域远不止于此",
+"tags": "story",
+"keywords": "",
+"url": "exploration_history_of_domestic_linux_distribution.html",
+"summary": "本文以作者在学生时代接触Linux系统、收藏Linux软件的往事为引子，向读者介绍一些作者所了解的国产Linux发行版早期探索史，以及部分港台版本和涉外OEM版本的情况。"
+}
+,
+
+
+{
+"title": "收藏之趣",
+"tags": "story",
+"keywords": "",
+"url": "the_fun_of_collecting.html",
+"summary": "一位学生、古董计算机收集爱好者、哔哩哔哩UP主的收藏故事。"
+}
+,
+
+
+{
+"title": "Wiki: Apple III 系列",
+"tags": "wikicomputerhistory",
+"keywords": "",
+"url": "wiki-apple-3.html",
+"summary": "Apple III 系列电脑是原苹果电脑公司 1980 年 5 月推出，面向商业用户推出的电子计算机产品。"
+}
+,
+
+
+{
+"title": "Wiki: Apple Lisa 系列",
+"tags": "wikicomputerhistory",
+"keywords": "",
+"url": "wiki-apple-lisa.html",
+"summary": "Apple Lisa 是苹果电脑公司 1983 年上市的一款个人电子计算机，是第一款搭载图形界面的个人电脑。"
+}
+,
+
+
+{
+"title": "Wiki: Apple II 系列",
+"tags": "wikicomputerhistory",
+"keywords": "",
+"url": "wiki-apple-2.html",
+"summary": "Apple II 系列是美国苹果公司发布的一个系列普及型的电子计算机，相比于它的第一代产品 Apple I 有了很大的改进。"
+}
+,
+
+
+{
+"title": "Wiki: Apple I",
+"tags": "wikicomputerhistory",
+"keywords": "",
+"url": "wiki-apple-1.html",
+"summary": "Apple I 是 Apple 于 1976 年发布的电脑原型机。首台 Apple I 由斯蒂夫·沃兹尼亚克设计并在惠普办公室手工打造。他的好友乔布斯发现了商机，提出了将这种电脑推向市场的想法。Apple I 大约只生产了约 200 台左右。"
+}
+,
+
+
+{
+"title": "华人世界被忽视的游戏主机（四）：丁果、中软赢科和“开源掌机”",
+"tags": "gamehistory",
+"keywords": "",
+"url": "a_neglected_game_console_in_the_chinese_world_4.html",
+"summary": "2009年，我们看到使用君正MIPS处理器的丁果A320。它本来是老牌便携式媒体播放器（PMP）厂商歌美代工的，运行µC/uOS-II实时操作系统的便携式媒体播放器（PMP/MP4）型掌机。仅数月之后，一款名为Dingoo-Linux（即Dingux）的替代操作系统也在网上出现。由于Linux的系统开发更加方便，大量移植游戏和模拟器就为丁果A320所用。"
+}
+,
+
+
+{
+"title": "华人世界被忽视的游戏主机（三）：凌阳科技",
+"tags": "gamehistory",
+"keywords": "",
+"url": "a_neglected_game_console_in_the_chinese_world_3.html",
+"summary": "在2000年代，中国东南沿海逐渐成为电子产业的“世界工厂”，而这其中的一个重要参与者就是与联华电子一样位于台湾新竹科技园的凌阳科技，2001年，凌阳在为语音识别应用开发的SPCE500芯片及使用了自主研发的µ’nSP（Microcontroller and Signal Processor）16位单片机内核，并在同年启动了“凌阳大学计划”，特别是在从2002年起，凌阳和大陆许多大专院校合作建立单片机实验室，推广其µ’nSP内核的SPCE061A单片机（常简称为“61单片机”），在中国训练了大量熟悉µ’nSP芯片的开发者。这也成为了在中国形成以凌阳SPG芯片为基础的电子游戏生态的基础。"
+}
+,
+
+
+{
+"title": "华人世界被忽视的游戏主机（二）：普泽、联电和敦煌",
+"tags": "gamehistory",
+"keywords": "",
+"url": "a_neglected_game_console_in_the_chinese_world_2.html",
+"summary": "1970年代，台湾地区选择半导体行业作为其产业突破的方向，1980年代，联华电子（简称“联电”）从公立机构工研院中分离出来，成为独立运行的企业，在不晚于1983年时，联电就具备生产MOS 6502兼容型微处理器的能力，在拥有本土生产的微处理器之后，台湾地区电脑行业开始爆炸性的增长。联电生产的MOS 6502兼容芯片UM6561，也成为台湾和大陆任天堂兼容机最常用的CPU。"
+}
+,
+
+
+{
+"title": "华人世界被忽视的游戏主机（一）：伟易达",
+"tags": "gamehistory",
+"keywords": "",
+"url": "a_neglected_game_console_in_the_chinese_world_1.html",
+"summary": "在许多人的观念中，国产游戏机几乎就成了仿制红白机的代名词，最多不过再加上小霸王学习机为代表的，以‍‍红白机为基础开发的学习机。‍‍‍但是中文世界的‍‍游戏机历史绝不如如此单薄，‍‍特别是‍‍陆、港、台之间‍‍不同的经济贸易环境、生活方式和发展‍‍路径和生活方式‍‍也造就了彼此之间有游戏的多样性。"
+}
+,
+
+
+{
+"title": "家用游戏机简史",
+"tags": "gamehistory",
+"keywords": "",
+"url": "a_brief_history_of_home_game_consoles.html",
+"summary": "家用的电视娱乐游戏主机的发展史可以追溯到20世纪70年代。从最初的简单游戏设备到如今的高科技游戏平台，电视游戏主机在技术、游戏内容和市场方面都取得了巨大的进步。"
+}
+,
+
+
+{
+"title": "Apple IIGS是一台怎样的电脑？",
+"tags": "computerhistory",
+"keywords": "",
+"url": "what_kind_of_computer_is_the_Apple_IIGS.html",
+"summary": "如果说Macintosh代表的是乔布斯的情怀，那Apple II系列承载的则是沃兹尼亚克的技术理想，这篇文章介绍了最后一款、也是最为先进的Apple II电脑——Apple IIGS。"
+}
+,
+
+
+{
+"title": "GeoWorks：另一个Windows",
+"tags": "experiencehistory",
+"keywords": "",
+"url": "geoworks_another_windows.html",
+"summary": "在Windows进入大多数电脑用户的生活之前，一个名叫GeoWorks的暴发户曾经试图取代微软的地位，虽然它失败了，但是却为我们带来了美国在线。"
+}
+,
+
+
+{
+"title": "电脑博物馆：体验那些改变写作的科技",
+"tags": "experiencehistory",
+"keywords": "",
+"url": "experience_the_technologies_that_change_writing.html",
+"summary": "通过几个话题来展示一系列在信息技术革命之中出现的对写作者和写作这件事情本身产生巨大影响的技术，来给大家一个机会去体验和思考科技与写作之间的关系。同时也带大家参观一下我搭建的这个网页里的电脑博物馆。"
+}
+,
+
+
+{
+"title": "电脑博物馆：操作系统的发展史（Windows 篇）",
+"tags": "history",
+"keywords": "",
+"url": "the_development_history_of_operating_systems_windows_chapter.html",
+"summary": "从1985年Windows 1.0正式诞生到2021年Windows 11诞生，微软花了三十六年的时间，从像素化桌面到现在扁平化的界面。让我们来看一下Windows 1.0到Windows11三十六年来的变化吧。"
+}
+,
+
+
+{
+"title": "电脑博物馆：操作系统的发展史（DOS 篇）",
+"tags": "history",
+"keywords": "",
+"url": "the_development_history_of_operating_systems_dos_chapter.html",
+"summary": "DOS是Disk Operation System（磁盘操作系统）的简称，是1985~1995年的个人电脑上使用的一种主要的操作系统。由于早期的DOS系统是由为软公司为IBM的个人电脑开发的，称为MS-DOS。"
+}
+,
+
+
+{
+"title": "电脑博物馆漫游：第三集",
+"tags": "blogexperience",
+"keywords": "",
+"url": "computer_museum_roaming_3.html",
+"summary": "在电脑博物馆漫游系列发布两集之后，这一集我们将会再次回到80年代初8-bit电脑大战烽火连天的时代。"
+}
+,
+
+
+{
+"title": "电脑博物馆漫游：第二集",
+"tags": "blogexperience",
+"keywords": "",
+"url": "computer_museum_roaming_2.html",
+"summary": "在《电脑博物馆漫游：第一集》推出之后，很多小伙伴们纷纷表示有点距离感，所以作为《电脑博物馆漫游：第一集》的续集，《电脑博物馆漫游：第二集》将会从最早的国产家用电脑——中华学习机开始。"
+}
+,
+
+
+{
+"title": "电脑博物馆漫游：第一集",
+"tags": "blogexperience",
+"keywords": "",
+"url": "computer_museum_roaming_1.html",
+"summary": "这些年来随着 V8 引擎等前端技术的发展，以往只用来处理网页特效的 Javascript 代码现在也被用作更多的用途。asm.js、Emscripten 等工具的出现让向浏览器移植模拟器变得更加便利，用 Javascript 编写古董硬件的模拟器，提供一种更加便利的尝试古董电脑的手段。《电脑博物馆漫游》系列文章将带您了解和体验电脑博物馆中的各种古董电脑。"
+}
+,
+
+
+{
+"title": "万维网的诞生：互联网的口述历史（下）",
+"tags": "history",
+"keywords": "",
+"url": "an_oral_history_of_the_internet_2.html",
+"summary": "2008年《名利场》杂志为了纪念ARPA成立50周年和Mosaic推出15周年，推出了《万维网的诞生：互联网的口述历史》。从20世纪50年代开始，编写口述历史，与在互联网发展的每个阶段参与到的数十人进行交谈。从超过100个小时的采访中，提炼出了他们的言语，并将其编辑成过去半个世纪的简明叙述——用创造者的话来讲述互联网的历史。"
+}
+,
+
+
+{
+"title": "万维网的诞生：互联网的口述历史（上）",
+"tags": "history",
+"keywords": "",
+"url": "an_oral_history_of_the_internet_1.html",
+"summary": "2008年《名利场》杂志为了纪念ARPA成立50周年和Mosaic推出15周年，推出了《万维网的诞生：互联网的口述历史》。从20世纪50年代开始，编写口述历史，与在互联网发展的每个阶段参与到的数十人进行交谈。从超过100个小时的采访中，提炼出了他们的言语，并将其编辑成过去半个世纪的简明叙述——用创造者的话来讲述互联网的历史。"
+}
+,
+
+
+{
+"title": "Flash 档案馆的由来",
+"tags": "blog",
+"keywords": "",
+"url": "flash-archives.html",
+"summary": "Flash 曾经是互联网的一部分，也为互联网带来了繁荣。Flash 的落幕代表着一个时代的结束，它承载着我们许多的回忆。Flash 档案馆目前收录了 8000 多个历史上热门的各类 Falsh 动画，通过 Ruffle 技术进行渲染播放，无需安装插件。"
+}
+,
+
+
+{
+"title": "追寻ARM的起源——Acorn电脑简史",
+"tags": "computerhistory",
+"keywords": "",
+"url": "a_brief_history_of_acorn_computers.html",
+"summary": "在玩树莓派（Raspberry Pi）的过程中，总是会有意无意的接触到一款之前从未听闻的系统，RISC OS。而启发树莓派开发的，则是一款80年代的家用电脑BBC Micro，而这一切都是来自于昔日的英国IT巨人Acorn，而树莓派所使用的ARM处理器的发明者也是Acorn。作为一家企业的Acorn已经不再存在，但其遗产却仍深刻的影响着今天的IT行业。"
+}
+,
+
+
+{
+"title": "电脑博物馆：在活电脑博物馆重建并连接Xerox Alto",
+"tags": "computerhistory",
+"keywords": "",
+"url": "xerox_alto_is_rebuilt_and_reconnected_by_the_living_computer_museum.html",
+"summary": "活电脑博物馆修复的Alto电脑将向大众提供一个难得的机会，去亲身体验Alto电脑的魅力，并且我们希望让更多的人有机会体验Alto电脑。"
+}
+,
+
+
+{
+"title": "Amiga电脑传奇（四）",
+"tags": "computerhistory",
+"keywords": "",
+"url": "amiga_computer_legend_4.html",
+"summary": "Amiga电脑作为1980年代中期最为强大的16位多媒体电脑，在西方电脑爱好者中具有极高的地位，对Demosence文化和电脑音乐也有着不可磨灭的影响，由于历史原因，Amiga电脑在中国极其罕见。爱好者也寥寥无几，希望通过此文能够成为向中文社区介绍Amiga电脑的历史，并和有兴趣的爱好者交流观点看法。"
+}
+,
+
+
+{
+"title": "Amiga电脑传奇（三）",
+"tags": "computerhistory",
+"keywords": "",
+"url": "amiga_computer_legend_3.html",
+"summary": "Amiga电脑作为1980年代中期最为强大的16位多媒体电脑，在西方电脑爱好者中具有极高的地位，对Demosence文化和电脑音乐也有着不可磨灭的影响，由于历史原因，Amiga电脑在中国极其罕见。爱好者也寥寥无几，希望通过此文能够成为向中文社区介绍Amiga电脑的历史，并和有兴趣的爱好者交流观点看法。"
+}
+,
+
+
+{
+"title": "Amiga电脑传奇（二）",
+"tags": "computerhistory",
+"keywords": "",
+"url": "amiga_computer_legend_2.html",
+"summary": "Amiga电脑作为1980年代中期最为强大的16位多媒体电脑，在西方电脑爱好者中具有极高的地位，对Demosence文化和电脑音乐也有着不可磨灭的影响，由于历史原因，Amiga电脑在中国极其罕见。爱好者也寥寥无几，希望通过此文能够成为向中文社区介绍Amiga电脑的历史，并和有兴趣的爱好者交流观点看法。"
+}
+,
+
+
+{
+"title": "Amiga电脑传奇（一）",
+"tags": "computerhistory",
+"keywords": "",
+"url": "amiga_computer_legend_1.html",
+"summary": "Amiga电脑作为1980年代中期最为强大的16位多媒体电脑，在西方电脑爱好者中具有极高的地位，对Demosence文化和电脑音乐也有着不可磨灭的影响，由于历史原因，Amiga电脑在中国极其罕见。爱好者也寥寥无几，希望通过此文能够成为向中文社区介绍Amiga电脑的历史，并和有兴趣的爱好者交流观点看法。"
+}
+
+
 
 ]

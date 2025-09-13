@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content=" 电脑, 计算机, 博物馆, museum, 古董电脑, retro, 电脑考古, CPU, 处理器, 微处理器, DOS, 游戏, 模拟器, Mac, Apple, 苹果, IBM, BBC, Atari, Xerox, Alto, PDP, TRS, SHARP, PC, ZX81, TI, Commodore, ZX, Spectrum, Laser, Acorn, Windows, MSX, NEC, Macintosh, Acorn, CEC, DOS, GEOS, Amiga, Z80, Psion, HP, UCDOS, WPS, Windows CE, 文曲星, processor, qualification, information, pictures, core, frequency, chip packaging, packaging, cpu info, x86, amd, cyrix, harris, ibm, idt, iit, intel, motorola, nec, sgs, sgs-thomson, siemens, ST, signetics, mhs, ti, texas instruments, ulsi, umc, weitek, zilog, 3002, 4004, 4040, 8008, 808x, 8085, 8088, 8086, 80188, 80186, 80286, 286, 80386, 386, i386, Am386, 386sx, 386dx, 486, i486, 586, 486sx, 486dx, overdrive, 487, pentium, 586, 5x86, 386dlc, 386slc, 486dx2, mmx, ppro, pentium-pro, pro, athlon, duron, z80, dirk oppelt, dirk, oppelt, engineering, sample, samples, core, xeon">
+<title>关于 | 复古电脑博物馆 | 在线电脑博物馆 | 计算机博物馆 | Retro Computer Museum</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="/js/jquery.min.js"></script>
+
+<script src="/js/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="/js/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="documentation-theme-jekyll" href="http://localhost:4000/feed.xml">
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" style="padding-top: 6px;">
+                <img src="/images/logo.png" style="display: inline-block; width: 40px;" alt="LOGO">
+                <img src="/images/title.png" class="nav-site-title" alt="电脑博物馆" style="display: inline-block; height: 40px;">
+                <!-- <span class="projectTitle"> 复古电脑博物馆</span> -->
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <!-- <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li> -->
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="news.html">传奇故事</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/" target="_blank" rel="noopener" onclick="return checkLinks();">电脑博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/famicn/" target="_blank" rel="noopener" onclick="return checkLinks();">家用游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:89/" target="_blank" rel="noopener" onclick="return checkLinks();">DOS游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://cpu.retromuseum.org/" target="_blank" rel="noopener" onclick="return checkLinks();">CPU博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/flash-archive/" target="_blank" rel="noopener" onclick="return checkLinks();">Flash档案馆</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="搜索...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="关于">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+
+        <!-- Content Column -->
+        <div class="col-md-12" id="tg-sb-content">
+            <div class="post-header">
+   <h1 class="post-title-main">关于</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+
+    
+
+
+    
+
+   <p><strong>复古电脑博物馆</strong>是一组服务于教育，立足于公益的在线交互式计算机博物馆。它始终坚守人们建设互联网最初的愿景：开放、平等和免费。这一组博物馆主要包括：</p>
+
+<p><a href="https://computer.retromuseum.org:86/" onclick="return checkLinks();"><b>电脑博物馆</b></a>是一个在线交互式的计算机博物馆，在网页中重现了电脑发展史。参观者可通过基于 JavaScript + WebAssembly 的仿真模拟器在网页中体验到 1970 年代 —— 1990 年代流行的电脑硬件和软件。虽然时空流转，沧海桑田，早已是物是人非，但那些曾经闪亮的程序代码依然在这里跳动着。</p>
+
+<ul>
+  <li><a href="https://computer.retromuseum.org:86/" onclick="return checkLinks();"><b>电脑</b></a> —— 主要是对一些古董电脑的模拟重现，此外还有一些著名软件的展示。</li>
+  <li><a href="https://computer.retromuseum.org:86/osjs/" onclick="return checkLinks();"><b>操作系统</b></a> —— 对一些曾经流行的操作系统进行模拟重现，主要有Windows、Mac、Linux、Unix、BSD、OS/2、DOS、CP/M、AmigaOS、BeOS等。</li>
+  <li><a href="https://computer.retromuseum.org:86/special.html" onclick="return checkLinks();"><b>专题展览</b></a> —— 以电脑发展历程中某些特定领域为专题进行模拟重现，已经上线了Amiga 软件专题展、Commodore 64 软件专题、Apple Macintosh 软件专题展、Apple IIGS软件专题展、Apple II软件专题展、儿童教育软件专题展、Windows 3.x 软件专题展、DOS软件专题展、中华学习机专题、“中文电脑类报刊杂志图书”专题展、PC专题展、8-bit模拟器专题展、“操作系统界面大全”专题展、“史蒂夫的旧电脑博物馆”专题展、“3D之舞：90年代的VRML与3D网页”专题展、“DOS下的艺术：90年代的DOS Demos”专题展等。</li>
+  <li><a href="https://computer.retromuseum.org:86/labs.html" onclick="return checkLinks();"><b>实验室</b></a> —— 实现了对一些古老技术的模拟再现，比如：CFido天堂资讯站、瀛海威时空、BBC Ceefax等。此外，利用当前的新技术对一些老软件进行了模拟再现，比如：半条命 Half Life (Xash3D)、Minecraft Indev (WebGL)等。</li>
+</ul>
+
+<p><a href="https://computer.retromuseum.org:86/famicn/" onclick="return checkLinks();"><b>家用游戏博物馆</b></a>是一个在线交互式的电子游戏博物馆，参观者可通过仿真模拟器重新体验到那些历史上由中国大陆及港澳台地区开发的，以家用游戏机和掌上游戏机为平台的电子游戏，重温童年的乐趣。</p>
+
+<p><a href="https://computer.retromuseum.org:89/" onclick="return checkLinks();"><b>DOS游戏博物馆</b></a>收录了 1898 款 DOS 游戏，这些古老的 DOS 游戏通过仿真模拟器在网页中获得了重生，焕发了新的生机。参观者无需安装即可体验。谨此向那个没有网游、没有手游、性能有限却又最有创造力的游戏黄金时代致敬！</p>
+
+<p><a href="https://computer.retromuseum.org:86/?data=cm/malware/malware.json" onclick="return checkLinks();"><b>DOS病毒博物馆</b></a>收录了 1980 年代和 1990 年代在家用计算机上传播的恶意软件程序（通常是病毒）。一旦他们感染了系统，有时会显示您已被感染的动画或消息。由于事先已删除病毒中的任何破坏性例程，参观者可通过使用网页版的 DosBox 仿真模拟器，安全地体验几十年前的病毒感染效果。</p>
+
+<p><a href="https://computer.retromuseum.org:86/sb486/" onclick="return checkLinks();"><b>电脑学习机博物馆</b></a>收录了 30 种中外学习机卡带程序，可在线体验。电脑学习机是我国计算机发展的一个重要分支，它是在特殊历史背景下的产物，让无数青少年对计算机的知识有了初步的了解。我们用电脑学习机玩游戏、打字、学编程等，留下了一段青春中最美好的记忆。</p>
+
+<p><a href="https://cpu.retromuseum.org/"><b>CPU博物馆</b></a>是一个致力于传承和推广 CPU 文化的非盈利性项目，我希望通过这个网站，能让更多的人了解 CPU 的魅力和价值，也能激发更多的人对 CPU 的兴趣和热情。在这个网站上，您可以浏览我多年来收集的各种 CPU，从最早的 Intel 4004 到最新的 Intel Core，从 8 位到 64 位，从单核到多核，从英特尔到 AMD，从 x86 到 ARM，从桌面到移动，从商用到工程样品，应有尽有。您可以看到每个 CPU 的外观、参数、功能、历史、故事和趣闻。您也可以与其他 CPU 爱好者交流心得和经验，或者向我提出问题和建议。</p>
+
+<p><a href="https://computer.retromuseum.org:86/flash-archive/" onclick="return checkLinks();"><b>Flash档案馆</b></a>收录了 8000 多个历史上热门的各类 Falsh 动画，通过 Ruffle 进行渲染播放，无需安装已经过时的且不再被现代浏览器支持的 Flash 插件。</p>
+
+<p>访问网址：<a href="https://RetroMuseum.org">https://RetroMuseum.org</a> 或 <a href="https://cm.ihonux.com">https://cm.ihonux.com</a> 。</p>
+
+<p><strong>复古电脑博物馆</strong>是一个由个人业余维护的、非营利性的、以教育和科普为目标的网站。其目标是向包括中国大陆在内的华语地区的爱好者们提供电脑考古、复古计算资源，致力于弥补互联网盛行之前缺失的中文电脑历史信息。诚挚地希望<strong>复古电脑博物馆</strong>能成为一个长期运行的中文计算机文化品牌，始终以纯净、公益的状态继续运行下去。</p>
+
+<h3 id="director-of-the-computer-museum">Director of the Computer Museum</h3>
+
+<p>My name is Honux, and I’m the curator of this museum, a technical enthusiast, retro computer culture researcher, CPU collector, programmer and professor of engineering.</p>
+
+<p>我叫 Honux，是这个博物馆的馆长，一位技术爱好者、复古计算机文化研究者、CPU收藏者、高级程序员和正高级工程师。</p>
+
+<p><img src="/images/wx_director.jpg" alt="通过微信与复古电脑博物馆馆长成为朋友" /></p>
+
+<h3 id="微信公众号复古电脑">微信公众号“复古电脑”</h3>
+
+<p><img src="/images/wx_mp.jpg" alt="微信公众号“复古电脑”" /></p>
+
+<h3 id="支持本站">支持本站</h3>
+
+<p>您的支持是复古电脑博物馆不断前进的动力！</p>
+
+<p><img src="https://about.retromuseum.org/images/retro/danote.png" alt="支持复古电脑博物馆" /></p>
+
+
+
+    <div class="tags">
+        
+    </div>
+
+
+
+
+
+
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+    <div class="row">
+        <div class="col-lg-12 footer">
+            <ul class="list-inline">
+                <li><a href="https://RetroMuseum.org">主站</a></li>
+                <li><a href="https://cm.ihonux.com">镜像</a></li>
+                <li><a href="https://about.retromuseum.org">关于</a></li>  
+                <li><a href="/thanks.html">致谢</a></li>
+                <li><a href="/contact.html">反馈</a></li>
+                <li><a href="/memorabilia.html">大事记</a></li>
+                <li><a href="/links.html">友情链接</a></li>
+                <li><a href="/about.html">旧版关于</a></li>
+            </ul>
+        <div>
+        <div class="col-lg-12 footer">
+            &copy;2025 Copyright 2021-2025 Honux. All rights reserved. <br />
+            
+                <span>Page last updated:</span> Sep 13, 2025<br />
+             
+            Site last generated: Sep 13, 2025 <br />
+            <!-- <p><img src="images/company_logo.png" alt="Company logo"/></p> -->
+        </div>
+    </div>
+</footer>
+
+<script async src="https://ackee.ihonux.com/tracker.js" data-ackee-server="https://ackee.ihonux.com" data-ackee-domain-id="1476884b-dbb4-4310-bf47-cf034e75a9d9" data-ackee-opts='{ "detailed": true }'></script>
+
+<script>
+    var init_page = function() {
+        var oHead = document.getElementsByTagName("HEAD").item(0);
+        var oScript= document.createElement("script");
+        oScript.type = "text/javascript";
+        oScript.src="https://computer.retromuseum.org:90/console/visit_log.php?url=" + encodeURIComponent(window.location.href) + "&t=" + Date.now();
+        oHead.appendChild(oScript);
+    }
+    window.addEventListener("load", init_page, false);
+</script>
+
+
+
+
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>
+
+

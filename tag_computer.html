@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content=" ">
+<title>Computer | 复古电脑博物馆 | 在线电脑博物馆 | 计算机博物馆 | Retro Computer Museum</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="/js/jquery.min.js"></script>
+
+<script src="/js/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="/js/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="documentation-theme-jekyll" href="http://localhost:4000/feed.xml">
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" style="padding-top: 6px;">
+                <img src="/images/logo.png" style="display: inline-block; width: 40px;" alt="LOGO">
+                <img src="/images/title.png" class="nav-site-title" alt="电脑博物馆" style="display: inline-block; height: 40px;">
+                <!-- <span class="projectTitle"> 复古电脑博物馆</span> -->
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <!-- <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li> -->
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="news.html">传奇故事</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/" target="_blank" rel="noopener" onclick="return checkLinks();">电脑博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/famicn/" target="_blank" rel="noopener" onclick="return checkLinks();">家用游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:89/" target="_blank" rel="noopener" onclick="return checkLinks();">DOS游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://cpu.retromuseum.org/" target="_blank" rel="noopener" onclick="return checkLinks();">CPU博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/flash-archive/" target="_blank" rel="noopener" onclick="return checkLinks();">Flash档案馆</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="搜索...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Computer">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+<ul id="mysidebar" class="nav">
+  <li class="sidebarTitle"> </li>
+  
+  
+  
+  <li>
+      <a title="导航菜单" href="#">导航菜单</a>
+      <ul>
+          
+          
+          
+          <li><a title="History" href="tag_history.html">History</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Experience" href="tag_experience.html">Experience</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Blog" href="tag_blog.html">Blog</a></li>
+          
+          
+          
+          
+          
+          
+          <li class="active"><a title="Computer" href="tag_computer.html">Computer</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Story" href="tag_story.html">Story</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+      
+      <!-- if you aren't using the accordion, uncomment this block:
+         <p class="external">
+             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+         </p>
+         -->
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+
+
+            </div>
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-md-9" id="tg-sb-content">
+            <div class="post-header">
+   <h1 class="post-title-main">Computer</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+
+    
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+
+});
+</script>
+
+<div id="toc"></div>
+
+
+
+    
+
+
+    
+
+   <p>The following pages and posts are tagged with <button type="button" style="cursor: default" class="btn btn-default navbar-btn">computer</button></p>
+<table><thead><tr><th>Title</th><th>Type</th><th>Excerpt</th></tr></thead>
+    <tbody>
+    
+  
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <tr><td><a href="wiki-apple-3.html">Wiki: Apple III 系列</a></td>
+            <td><span class="label label-primary">Post</span></td>
+            <td> Apple III 系列电脑是原苹果电脑公司 1980 年 5 月推出，面向商业用户推出的电子计算机产品。 </td>
+        </tr>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <tr><td><a href="wiki-apple-lisa.html">Wiki: Apple Lisa 系列</a></td>
+            <td><span class="label label-primary">Post</span></td>
+            <td> Apple Lisa 是苹果电脑公司 1983 年上市的一款个人电子计算机，是第一款搭载图形界面的个人电脑。 </td>
+        </tr>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <tr><td><a href="wiki-apple-2.html">Wiki: Apple II 系列</a></td>
+            <td><span class="label label-primary">Post</span></td>
+            <td> Apple II 系列是美国苹果公司发布的一个系列普及型的电子计算机，相比于它的第一代产品 Apple I 有了很大的改进。 </td>
+        </tr>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <tr><td><a href="wiki-apple-1.html">Wiki: Apple I</a></td>
+            <td><span class="label label-primary">Post</span></td>
+            <td> Apple I 是 Apple 于 1976 年发布的电脑原型机。首台 Apple I 由斯蒂夫·沃兹尼亚克设计并在惠普办公室手工打造。他的好友乔布斯发现了商机，提出了将这种电脑推向市场的想法。Apple I 大约只生产了约 200 台左右。 </td>
+        </tr>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <tr><td><a href="what_kind_of_computer_is_the_Apple_IIGS.html">Apple IIGS是一台怎样的电脑？</a></td>
+            <td><span class="label label-primary">Post</span></td>
+            <td> 如果说Macintosh代表的是乔布斯的情怀，那Apple II系列承载的则是沃兹尼亚克的技术理想，这篇文章介绍了最后一款、也是最为先进的Apple II电脑——Apple IIGS。 </td>
+        </tr>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <tr><td><a href="a_brief_history_of_acorn_computers.html">追寻ARM的起源——Acorn电脑简史</a></td>
+            <td><span class="label label-primary">Post</span></td>
+            <td> 在玩树莓派（Raspberry Pi）的过程中，总是会有意无意的接触到一款之前从未听闻的系统，RISC OS。而启发树莓派开发的，则是一款80年代的家用电脑BBC Micro，而这一切都是来自于昔日的英国IT巨人Acorn，而树莓派所使用的ARM处理器的发明者也是Acorn。作为一家企业的Acorn已经不再存在，... </td>
+        </tr>
+        
+        
+        
+        
+        
+        
+        
+
+        <tr><td><a href="xerox_alto_is_rebuilt_and_reconnected_by_the_living_computer_museum.html">电脑博物馆：在活电脑博物馆重建并连接Xerox Alto</a></td>
+            <td><span class="label label-primary">Post</span></td>
+            <td> 活电脑博物馆修复的Alto电脑将向大众提供一个难得的机会，去亲身体验Alto电脑的魅力，并且我们希望让更多的人有机会体验Alto电脑。 </td>
+        </tr>
+        
+        
+        
+        
+        
+        
+        
+
+        <tr><td><a href="amiga_computer_legend_4.html">Amiga电脑传奇（四）</a></td>
+            <td><span class="label label-primary">Post</span></td>
+            <td> Amiga电脑作为1980年代中期最为强大的16位多媒体电脑，在西方电脑爱好者中具有极高的地位，对Demosence文化和电脑音乐也有着不可磨灭的影响，由于历史原因，Amiga电脑在中国极其罕见。爱好者也寥寥无几，希望通过此文能够成为向中文社区介绍Amiga电脑的历史，并和有兴趣的爱好者交流观点看法。 </td>
+        </tr>
+        
+        
+        
+        
+        
+        
+        
+
+        <tr><td><a href="amiga_computer_legend_3.html">Amiga电脑传奇（三）</a></td>
+            <td><span class="label label-primary">Post</span></td>
+            <td> Amiga电脑作为1980年代中期最为强大的16位多媒体电脑，在西方电脑爱好者中具有极高的地位，对Demosence文化和电脑音乐也有着不可磨灭的影响，由于历史原因，Amiga电脑在中国极其罕见。爱好者也寥寥无几，希望通过此文能够成为向中文社区介绍Amiga电脑的历史，并和有兴趣的爱好者交流观点看法。 </td>
+        </tr>
+        
+        
+        
+        
+        
+        
+        
+
+        <tr><td><a href="amiga_computer_legend_2.html">Amiga电脑传奇（二）</a></td>
+            <td><span class="label label-primary">Post</span></td>
+            <td> Amiga电脑作为1980年代中期最为强大的16位多媒体电脑，在西方电脑爱好者中具有极高的地位，对Demosence文化和电脑音乐也有着不可磨灭的影响，由于历史原因，Amiga电脑在中国极其罕见。爱好者也寥寥无几，希望通过此文能够成为向中文社区介绍Amiga电脑的历史，并和有兴趣的爱好者交流观点看法。 </td>
+        </tr>
+        
+        
+        
+        
+        
+        
+        
+
+        <tr><td><a href="amiga_computer_legend_1.html">Amiga电脑传奇（一）</a></td>
+            <td><span class="label label-primary">Post</span></td>
+            <td> Amiga电脑作为1980年代中期最为强大的16位多媒体电脑，在西方电脑爱好者中具有极高的地位，对Demosence文化和电脑音乐也有着不可磨灭的影响，由于历史原因，Amiga电脑在中国极其罕见。爱好者也寥寥无几，希望通过此文能够成为向中文社区介绍Amiga电脑的历史，并和有兴趣的爱好者交流观点看法。 </td>
+        </tr>
+        
+        
+        
+        
+        
+
+   </tbody>
+</table>
+
+
+
+    <div class="tags">
+        
+    </div>
+
+
+
+
+
+
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+    <div class="row">
+        <div class="col-lg-12 footer">
+            <ul class="list-inline">
+                <li><a href="https://RetroMuseum.org">主站</a></li>
+                <li><a href="https://cm.ihonux.com">镜像</a></li>
+                <li><a href="https://about.retromuseum.org">关于</a></li>  
+                <li><a href="/thanks.html">致谢</a></li>
+                <li><a href="/contact.html">反馈</a></li>
+                <li><a href="/memorabilia.html">大事记</a></li>
+                <li><a href="/links.html">友情链接</a></li>
+                <li><a href="/about.html">旧版关于</a></li>
+            </ul>
+        <div>
+        <div class="col-lg-12 footer">
+            &copy;2025 Copyright 2021-2025 Honux. All rights reserved. <br />
+             
+            Site last generated: Sep 13, 2025 <br />
+            <!-- <p><img src="images/company_logo.png" alt="Company logo"/></p> -->
+        </div>
+    </div>
+</footer>
+
+<script async src="https://ackee.ihonux.com/tracker.js" data-ackee-server="https://ackee.ihonux.com" data-ackee-domain-id="1476884b-dbb4-4310-bf47-cf034e75a9d9" data-ackee-opts='{ "detailed": true }'></script>
+
+<script>
+    var init_page = function() {
+        var oHead = document.getElementsByTagName("HEAD").item(0);
+        var oScript= document.createElement("script");
+        oScript.type = "text/javascript";
+        oScript.src="https://computer.retromuseum.org:90/console/visit_log.php?url=" + encodeURIComponent(window.location.href) + "&t=" + Date.now();
+        oHead.appendChild(oScript);
+    }
+    window.addEventListener("load", init_page, false);
+</script>
+
+
+
+
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>
+
+

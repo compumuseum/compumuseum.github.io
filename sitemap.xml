@@ -1,24 +1,255 @@
----
-layout: none
-search: exclude
----
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-  {% unless post.search == "exclude" %}
+  
+  
   <url>
-    <loc>{{site.url}}{{post.url}}</loc>
+    <loc>http://localhost:4000/father_of_wps_the_genius_programmer_qiubojun.html</loc>
   </url>
-  {% endunless %}
-  {% endfor %}
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/malware_museum_roaming.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/exploration_history_of_domestic_linux_distribution.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/the_fun_of_collecting.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/wiki-apple-3.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/wiki-apple-lisa.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/wiki-apple-2.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/wiki-apple-1.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/a_neglected_game_console_in_the_chinese_world_4.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/a_neglected_game_console_in_the_chinese_world_3.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/a_neglected_game_console_in_the_chinese_world_2.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/a_neglected_game_console_in_the_chinese_world_1.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/a_brief_history_of_home_game_consoles.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/what_kind_of_computer_is_the_Apple_IIGS.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/geoworks_another_windows.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/experience_the_technologies_that_change_writing.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/the_development_history_of_operating_systems_windows_chapter.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/the_development_history_of_operating_systems_dos_chapter.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/computer_museum_roaming_3.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/computer_museum_roaming_2.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/computer_museum_roaming_1.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/an_oral_history_of_the_internet_2.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/an_oral_history_of_the_internet_1.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/flash-archives.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/a_brief_history_of_acorn_computers.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/xerox_alto_is_rebuilt_and_reconnected_by_the_living_computer_museum.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/amiga_computer_legend_4.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/amiga_computer_legend_3.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/amiga_computer_legend_2.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/amiga_computer_legend_1.html</loc>
+  </url>
+  
+  
 
 
-  {% for page in site.html_pages %}
-  {% unless page.search == "exclude" %}
+  
+  
+  
+  
   <url>
-    <loc>{{site.url}}{{ page.url}}</loc>
+    <loc>http://localhost:4000/about.html</loc>
   </url>
-  {% endunless %}
-  {% endfor %}
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/contact.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/index.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/links.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/memorabilia.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/news.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/news_archive.html</loc>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/thanks.html</loc>
+  </url>
+  
+  
+  
+  
 </urlset>

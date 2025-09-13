@@ -1,0 +1,1531 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Apple II 系列是美国苹果公司发布的一个系列普及型的电子计算机，相比于它的第一代产品 Apple I 有了很大的改进。">
+<meta name="keywords" content="wikicomputerhistory,  ">
+<title>Wiki: Apple II 系列 | 复古电脑博物馆 | 在线电脑博物馆 | 计算机博物馆 | Retro Computer Museum</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="/js/jquery.min.js"></script>
+
+<script src="/js/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="/js/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="documentation-theme-jekyll" href="http://localhost:4000/feed.xml">
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" style="padding-top: 6px;">
+                <img src="/images/logo.png" style="display: inline-block; width: 40px;" alt="LOGO">
+                <img src="/images/title.png" class="nav-site-title" alt="电脑博物馆" style="display: inline-block; height: 40px;">
+                <!-- <span class="projectTitle"> 复古电脑博物馆</span> -->
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <!-- <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li> -->
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="news.html">传奇故事</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/" target="_blank" rel="noopener" onclick="return checkLinks();">电脑博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/famicn/" target="_blank" rel="noopener" onclick="return checkLinks();">家用游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:89/" target="_blank" rel="noopener" onclick="return checkLinks();">DOS游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://cpu.retromuseum.org/" target="_blank" rel="noopener" onclick="return checkLinks();">CPU博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/flash-archive/" target="_blank" rel="noopener" onclick="return checkLinks();">Flash档案馆</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="搜索...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Wiki: Apple II 系列">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+
+        <!-- Content Column -->
+        <div class="col-md-12" id="tg-sb-content">
+            <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Wiki: Apple II 系列</h1>
+        <p class="post-meta"><time datetime="2024-02-12T00:00:00+08:00" itemprop="datePublished">Feb 12, 2024</time> /
+            
+            
+            
+            <a href="tag_wiki.html">wiki</a>, 
+            
+            
+            
+            <a href="tag_computer.html">computer</a>, 
+            
+            
+            
+            <a href="tag_history.html">history</a>
+            
+            
+            
+
+        </p>
+
+
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+
+        
+        <div class="summary">Apple II 系列是美国苹果公司发布的一个系列普及型的电子计算机，相比于它的第一代产品 Apple I 有了很大的改进。</div>
+        
+
+        <p>Apple II 系列是美国苹果公司发布的一个系列普及型的电子计算机，相比于它的第一代产品 Apple I 有了很大的改进。</p>
+
+<p>自从 Apple II 在1977年于美国西海岸电脑展（West Coast Computer Faire）首次亮相以来，直到 1993年末为止，据估算 Apple II 系列电脑大约生产了 600 万台。这期间经历了数次硬件更新，更新型的号包括 ：</p>
+
+<ul>
+  <li>Apple II</li>
+  <li>Apple II Plus</li>
+  <li>Apple II Europlus</li>
+  <li>Apple IIe</li>
+  <li>Apple IIc</li>
+  <li>Apple IIGS</li>
+  <li>Apple IIc Plus</li>
+</ul>
+
+<p>围绕它生产的各种硬件卡产品也是数不胜数。</p>
+
+<p>Apple II 系列从发布以来就广受用户欢迎，在家庭和教育领域普及率很高。从开始的内置的 BASIC 语言编译器到后来加入的 Apple DOS 系统，各种新硬件也可以很好的支持。正是由于这些特性，Apple II 系列从 1977 年一直生产到 1993 年，直到 1990 年代底，仍然可以在许多领域见到 Apple II 系列的电脑产品。</p>
+
+<h1 id="apple-ii-系列各种型号">Apple II 系列各种型号</h1>
+
+<h2 id="一apple-ii">一、Apple II</h2>
+
+<div align="center">
+    <a href="../images/dnbwg/wiki_apple_2_01.png">
+        <img src="../images/dnbwg/wiki_apple_2_01.png" alt="1977版Apple II" />
+    </a>
+    <p>1977版Apple II</p>
+</div>
+
+<p>Apple II 不像当时发布的一些计算机，它看起来更像一台家用电器，因此无论是办公、家用都很合适。它的上盖很容易开启，内置了 8 个扩展插槽，很容易添加扩展卡增加功能。</p>
+
+<p>Apple II 的推出掀起了个人电脑革命，因为它面向大众，而且售价在当时也可以接受。Apple II 的设计理念深深影响了之后个人电脑的发展。</p>
+
+<h3 id="apple-ii-总览">Apple II 总览</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>发布日期</td>
+      <td>1977年4月</td>
+    </tr>
+    <tr>
+      <td>停产日期</td>
+      <td>1979年6月</td>
+    </tr>
+    <tr>
+      <td>市场型号</td>
+      <td>A2S0016(16KB内存) <br /> A2S0032(32KB内存) <br /> A2S0048(48KB内存)</td>
+    </tr>
+    <tr>
+      <td>市场口号</td>
+      <td>Simplicity is the ultimate sophistication,Introducing Apple II, <br /> the personal computer.</td>
+    </tr>
+    <tr>
+      <td>市场售价</td>
+      <td>$1298(16K内存版) <br /> $2638(64K内存版)</td>
+    </tr>
+    <tr>
+      <td>支持状态</td>
+      <td>已停售,已停止技术支持</td>
+    </tr>
+    <tr>
+      <td>产品颜色</td>
+      <td>米黄色</td>
+    </tr>
+    <tr>
+      <td>重量尺寸</td>
+      <td>约 5.21 KG <br /> 107mm H x 387mm W x 457mm D</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="apple-ii-cpu-内存和存储">Apple II CPU 内存和存储</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CPU型号</td>
+      <td>MOS Technology 6502</td>
+    </tr>
+    <tr>
+      <td>CPU速度</td>
+      <td>1MHz</td>
+    </tr>
+    <tr>
+      <td>核心数</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>总线速度</td>
+      <td>1MHz</td>
+    </tr>
+    <tr>
+      <td>内置内存</td>
+      <td>16KB,32KB,48KB</td>
+    </tr>
+    <tr>
+      <td>最大扩展内存</td>
+      <td>48KB</td>
+    </tr>
+    <tr>
+      <td>硬盘</td>
+      <td>无</td>
+    </tr>
+    <tr>
+      <td>硬盘接口</td>
+      <td>无</td>
+    </tr>
+    <tr>
+      <td>扩展存储</td>
+      <td>磁带卡，Disk II 软盘（5英寸）</td>
+    </tr>
+    <tr>
+      <td>ROM</td>
+      <td>8K</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="appleii-显示">AppleII 显示</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>分辨率</td>
+      <td>280×192（6bits色） <br /> 40×48（16bits色）</td>
+    </tr>
+    <tr>
+      <td>显示连接</td>
+      <td>RCA AV端子</td>
+    </tr>
+    <tr>
+      <td>字符显示</td>
+      <td>24行，每行40字符</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="apple-ii-固件和系统">Apple II 固件和系统</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>内置固件</td>
+      <td>Apple Integer BASIC</td>
+    </tr>
+    <tr>
+      <td>支持 OS</td>
+      <td>Apple DOS 3.1(1978年)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="apple-ii-内置接口和输入设备">Apple II 内置接口和输入设备</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>磁带卡接口</td>
+      <td>in/out 1500bps</td>
+    </tr>
+    <tr>
+      <td>游戏卡接口</td>
+      <td>内置 16针 Game I/O</td>
+    </tr>
+    <tr>
+      <td>扬声器</td>
+      <td>内置 8 欧喇叭</td>
+    </tr>
+    <tr>
+      <td>显示接口</td>
+      <td>AV端子输出</td>
+    </tr>
+    <tr>
+      <td>其他接口</td>
+      <td>8x 50针 Apple II 专用外部接口</td>
+    </tr>
+    <tr>
+      <td>键盘</td>
+      <td>内置 52 键位大写字母键盘</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="工作电压">工作电压</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>最大功率</td>
+      <td>未知</td>
+    </tr>
+    <tr>
+      <td>工作电压</td>
+      <td>110V（美国）或220V</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="二apple-ii-europlusj-plus">二、Apple II Europlus/J-Plus</h2>
+
+<p>为了在欧洲和日本开拓市场，苹果公司在 1978 发布了 Apple II Eourplus 和 Apple II J-Plus (Japan)，只在软件硬件上做了少量的更改，大部分硬件软件与 Apple II 相同。包括电源电压支持部分欧洲的 240V，AV 输出格式由  NTSC 改为 PAL，使用修改过的 ROM 可以打出一些罗马字符。</p>
+
+<p>Apple II Europlus 一直生产到 1983 年。</p>
+
+<div align="center">
+    <a href="../images/dnbwg/wiki_apple_2_02.jpg">
+        <img src="../images/dnbwg/wiki_apple_2_02.jpg" alt="Apple II Europlus" />
+    </a>
+    <p>Apple II Europlus</p>
+</div>
+
+<h2 id="三apple-ii-plus">三、Apple II Plus</h2>
+
+<div align="center">
+    <a href="../images/dnbwg/wiki_apple_2_03.jpg">
+        <img src="../images/dnbwg/wiki_apple_2_03.jpg" alt="Apple II Plus 主机" />
+    </a>
+    <p>Apple II Plus 主机</p>
+</div>
+
+<h3 id="总览">总览</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>发布日期</td>
+      <td>1979年7月</td>
+    </tr>
+    <tr>
+      <td>停产日期</td>
+      <td>1982年12月</td>
+    </tr>
+    <tr>
+      <td>市场型号</td>
+      <td>A2S0016(16KB 内存) <br /> A2S0032(32KB 内存) <br /> A2S0048(48KB 内存)</td>
+    </tr>
+    <tr>
+      <td>市场售价</td>
+      <td>$1195(16K内存版) <br /> $1295(32K内存版) <br /> $1395(48K内存版)</td>
+    </tr>
+    <tr>
+      <td>支持状态</td>
+      <td>已停售,已停止技术支持</td>
+    </tr>
+    <tr>
+      <td>产品颜色</td>
+      <td>米黄色</td>
+    </tr>
+    <tr>
+      <td>重量尺寸</td>
+      <td>约 5.21 KG <br /> 107mm H x 387mm W x 457mm D</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="固件和软件">固件和软件</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>内置固件</td>
+      <td>Applesoft BASIC</td>
+    </tr>
+    <tr>
+      <td>支持 OS</td>
+      <td>Apple DOS 3.2</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Apple II Plus 是 Apple II 的升级产品，其他硬件软件参数如 CPU 键盘等和 Apple II 相同。</p>
+
+<p>更新包括：ROM 中包含了由微软编写的 Applesoft Basic 语言，支持浮点运算。</p>
+
+<h2 id="四apple-iie--apple-iie-enhanced-和-apple-iie-platinum">四、Apple IIe 、 Apple IIe Enhanced 和 Apple IIe Platinum</h2>
+
+<p>Apple IIe 延续了 Apple II Plus 的特点，并且使用了更加便宜强大的电子元件，不仅售价合理，而且功能强大。正是因为如此，Apple IIe 是 Apple II 系列中最畅销的型号，期间大约生产了 11 年。</p>
+
+<div align="center">
+    <a href="../images/dnbwg/wiki_apple_2_04.jpg">
+        <img src="../images/dnbwg/wiki_apple_2_04.jpg" alt="拥有双磁盘位的 Apple IIe" />
+    </a>
+    <p>拥有双磁盘位的 Apple IIe</p>
+</div>
+
+<p>在此期间，Apple IIe 有两种经过重大更新。</p>
+
+<ol>
+  <li>IIe Enhanced（包括一颗改进过的处理器 65C02，后被应用在后期的 IIc 上。）</li>
+  <li>IIe Platinum（应用了与当时苹果电脑其他产品相合的机箱颜色及附加九宫格数字键盘。）其中，扩充到128KB 内存的 IIe Platinum 可以运行大部分于1988年后推出的Apple II软件。</li>
+</ol>
+
+<h3 id="总览-1">总览</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>发布日期</td>
+      <td>1983年7月(Apple IIe) <br /> 1985年3月(Apple IIe Enhanced) <br /> 1987年1月(Apple IIe Platinum)</td>
+    </tr>
+    <tr>
+      <td>停产日期</td>
+      <td>1985年3月(Apple IIe) <br /> 1987年7月(Apple IIe Enhanced) <br /> 1993年11月(Apple IIe Platinum)</td>
+    </tr>
+    <tr>
+      <td>市场口号</td>
+      <td>It’s the same old Apple II.Except for the front,back and inside.</td>
+    </tr>
+    <tr>
+      <td>开发代号</td>
+      <td>Diana,Super II</td>
+    </tr>
+    <tr>
+      <td>市场售价</td>
+      <td>$1400(Apple IIe、Apple IIe Enhanced) <br /> $1200(Apple IIe Platinum)</td>
+    </tr>
+    <tr>
+      <td>支持状态</td>
+      <td>已停售,已停止技术支持</td>
+    </tr>
+    <tr>
+      <td>产品颜色</td>
+      <td>米黄色</td>
+    </tr>
+    <tr>
+      <td>重量尺寸</td>
+      <td>约 5.21 KG <br /> 107mm H x 387mm W x 457mm D</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="cpu-内存和存储">CPU 内存和存储</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CPU型号</td>
+      <td>MOS Technology 6502A(Apple IIe) <br /> MOS Technology 65C02(Apple IIe enhanced) <br /> MOS Technology 65C02(Apple IIe Platinum)</td>
+    </tr>
+    <tr>
+      <td>CPU速度</td>
+      <td>1MHz，8位</td>
+    </tr>
+    <tr>
+      <td>核心数</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>总线速度</td>
+      <td>1MHz</td>
+    </tr>
+    <tr>
+      <td>内置内存</td>
+      <td>64KB</td>
+    </tr>
+    <tr>
+      <td>最大扩展内存</td>
+      <td>1MB(实际)，128KB(Apple)</td>
+    </tr>
+    <tr>
+      <td>硬盘</td>
+      <td>无</td>
+    </tr>
+    <tr>
+      <td>硬盘接口</td>
+      <td>无</td>
+    </tr>
+    <tr>
+      <td>扩展存储</td>
+      <td>可选磁带卡，Disk II ，或 DuoDisk 软驱</td>
+    </tr>
+    <tr>
+      <td>ROM</td>
+      <td>16K</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="显示">显示</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>分辨率</td>
+      <td>280×192（6bits色） <br /> 40×48（15bits色） <br /> 80×48(15bits色) <br /> 560×192（15bits色）</td>
+    </tr>
+    <tr>
+      <td>显示连接</td>
+      <td>RCA AV端子</td>
+    </tr>
+    <tr>
+      <td>字符显示</td>
+      <td>24行，每行40字符 <br /> 24行，每行80字符</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="固件和系统">固件和系统</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>内置固件</td>
+      <td>Applesoft BASIC</td>
+    </tr>
+    <tr>
+      <td>支持 OS</td>
+      <td>Apple DOS 3.3 and ProDOS 8</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="内置接口和输入设备">内置接口和输入设备</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>磁带卡接口</td>
+      <td>1x in/out 1500bps</td>
+    </tr>
+    <tr>
+      <td>游戏卡接口</td>
+      <td>1x 内置 16针 Game I/O，1x external DE-9</td>
+    </tr>
+    <tr>
+      <td>扬声器</td>
+      <td>内置喇叭</td>
+    </tr>
+    <tr>
+      <td>显示接口</td>
+      <td>AV端子输出</td>
+    </tr>
+    <tr>
+      <td>其他接口</td>
+      <td>8-50针 Apple II 专用外部接口，1-60针 Auxiliary</td>
+    </tr>
+    <tr>
+      <td>键盘</td>
+      <td>内置 63 键位大小写字母键盘(Apple IIe,Apple IIe Enhanced) <br /> 内置 81 键位大小写字母键盘(Apple IIe Platinum)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="工作电压-1">工作电压</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>最大功率</td>
+      <td>80W</td>
+    </tr>
+    <tr>
+      <td>工作电压</td>
+      <td>95-127V AC</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="五apple-iic">五、Apple IIc</h2>
+
+<p>Apple IIc 在宣传的时候被冠名便携式 Apple II，因为它整体质量和体积都有所减小。但是它也算不上是笔记本产品，因为 Apple IIc 并没有内置显示器和电池。</p>
+
+<p>Apple IIc 在宣传的时候被冠名便携式 Apple II，因为它整体质量和体积都有所减小。但是它也算不上是笔记本产品，因为 Apple IIc 并没有内置显示器和电池。</p>
+
+<p>Apple IIc 整体石头白色的风格也是在 Apple II 系列之中首次出现，为了体现它便携式的特点，有两款配套它使用的单色液晶显示器随后推出，但是价格很高并且经常出现质量问题导致销售量并不很好。Apple IIc 有一个外接电源，可以将交流电转换成12V直流电。这使第三方厂商有能力为 Apple IIc 制造专用电池以及可以车载使用。</p>
+
+<div align="center">
+    <a href="../images/dnbwg/wiki_apple_2_05.jpg">
+        <img src="../images/dnbwg/wiki_apple_2_05.jpg" alt="带有鼠标的 Apple IIc" />
+    </a>
+    <p>带有鼠标的 Apple IIc</p>
+</div>
+
+<h3 id="apple-iic-总览">Apple IIc 总览</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>发布日期</td>
+      <td>1984 年 4 月</td>
+    </tr>
+    <tr>
+      <td>停产日期</td>
+      <td>1988 年 8 月</td>
+    </tr>
+    <tr>
+      <td>市场口号</td>
+      <td>Introducing the Apple IIc. The first transportable computer worth taking anywhere.</td>
+    </tr>
+    <tr>
+      <td>开发代号</td>
+      <td>Lollie, ET, Yoda, Teddy, VLC, IIb, IIp.</td>
+    </tr>
+    <tr>
+      <td>市场售价</td>
+      <td>$1295</td>
+    </tr>
+    <tr>
+      <td>支持状态</td>
+      <td>已停售,已停止技术支持</td>
+    </tr>
+    <tr>
+      <td>产品颜色</td>
+      <td>石头白</td>
+    </tr>
+    <tr>
+      <td>重量尺寸</td>
+      <td>约 3.40 KG <br /> 63.5mm H x 304mm W x 292mm D</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="cpu-内存和存储-1">CPU 内存和存储</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CPU型号</td>
+      <td>MOS Technology 65C02</td>
+    </tr>
+    <tr>
+      <td>CPU速度</td>
+      <td>1MHz</td>
+    </tr>
+    <tr>
+      <td>核心数</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>总线速度</td>
+      <td>1MHz</td>
+    </tr>
+    <tr>
+      <td>内置内存</td>
+      <td>64KB</td>
+    </tr>
+    <tr>
+      <td>最大扩展内存</td>
+      <td>1.12MB(Revision 3-4)，128KB(Revision 1-2)</td>
+    </tr>
+    <tr>
+      <td>硬盘</td>
+      <td>无</td>
+    </tr>
+    <tr>
+      <td>硬盘接口</td>
+      <td>无</td>
+    </tr>
+    <tr>
+      <td>扩展存储</td>
+      <td>内置140KB，5.25英寸软盘驱动器</td>
+    </tr>
+    <tr>
+      <td>ROM</td>
+      <td>16K或32K</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="显示-1">显示</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>分辨率</td>
+      <td>280×192（6bits色） <br /> 40×48（15bits色） <br /> 80×48(15bits色) <br /> 560×192（15bits色）</td>
+    </tr>
+    <tr>
+      <td>显示连接</td>
+      <td>1,RCA AV端子 <br /> 2,DB-15(特殊，与其他型号不同)</td>
+    </tr>
+    <tr>
+      <td>字符显示</td>
+      <td>24行，每行40字符 <br /> 24行，每行80字符</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="固件和系统-1">固件和系统</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>内置固件</td>
+      <td>Applesoft BASIC</td>
+    </tr>
+    <tr>
+      <td>支持 OS</td>
+      <td>Apple ProDOS 8</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="内置接口和输入设备-1">内置接口和输入设备</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>串口</td>
+      <td>2x DIN-5</td>
+    </tr>
+    <tr>
+      <td>游戏卡接口</td>
+      <td>1x DE-9</td>
+    </tr>
+    <tr>
+      <td>软驱接口</td>
+      <td>1x DB-19</td>
+    </tr>
+    <tr>
+      <td>音频接口</td>
+      <td>1x 3.5mm音频接口,1x 内置扬声器</td>
+    </tr>
+    <tr>
+      <td>内存接口</td>
+      <td>1x 34针内存扩展卡接口（Revision 3-4）</td>
+    </tr>
+    <tr>
+      <td>键盘</td>
+      <td>内置 63 键位大小写字母键盘</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="工作电压-2">工作电压</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>最大功率</td>
+      <td>25W(额外电源供电) <br /> 18w(内置转换)</td>
+    </tr>
+    <tr>
+      <td>工作电压</td>
+      <td>105-129V AC</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="六apple--iigs">六、Apple  IIGS</h2>
+
+<p>Apple IIGS 拥有真正的 16 位处理器，是 Apple II 系列最强大的一款电脑。支持 Macintosh 图形界面和鼠标。</p>
+
+<p>前 5 万部的 Apple IIGS 有史蒂夫·沃兹尼克的 “Woz” 签名，它们被称为”Woz限量版“。这些机器与那些没有签名的“普通版”在功能上并无不同，但是更具有收藏价值。</p>
+
+<div align="center">
+    <a href="../images/dnbwg/wiki_apple_2_06.jpg">
+        <img src="../images/dnbwg/wiki_apple_2_06.jpg" alt="外置键盘、鼠标的 Apple IIGS" />
+    </a>
+    <p>外置键盘、鼠标的 Apple IIGS</p>
+</div>
+
+<h3 id="apple-iigs-总览">Apple IIGS 总览</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>发布日期</td>
+      <td>1986 年 9 月</td>
+    </tr>
+    <tr>
+      <td>停产日期</td>
+      <td>1992 年 12 月</td>
+    </tr>
+    <tr>
+      <td>市场口号</td>
+      <td>Introducing the Apple IIGS. The first personal computer you can understand forward and backward.</td>
+    </tr>
+    <tr>
+      <td>开发代号</td>
+      <td>Phoenix, Rambo, Gumby, and Cortland</td>
+    </tr>
+    <tr>
+      <td>市场售价</td>
+      <td>$999</td>
+    </tr>
+    <tr>
+      <td>支持状态</td>
+      <td>已停售,已停止技术支持</td>
+    </tr>
+    <tr>
+      <td>产品颜色</td>
+      <td>铂金色</td>
+    </tr>
+    <tr>
+      <td>重量尺寸</td>
+      <td>约 3.955 KG <br /> 116.8mm H x 284.48mm W x 347.98mm D</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="cpu-内存和存储-2">CPU 内存和存储</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CPU型号</td>
+      <td>WDC 65C816</td>
+    </tr>
+    <tr>
+      <td>CPU速度</td>
+      <td>2.8MHz,16位</td>
+    </tr>
+    <tr>
+      <td>核心数</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>总线速度</td>
+      <td>1MHz</td>
+    </tr>
+    <tr>
+      <td>内置内存</td>
+      <td>256KB(Revision 1-2),1.125MB(revision 3)</td>
+    </tr>
+    <tr>
+      <td>最大扩展内存</td>
+      <td>8.125MB</td>
+    </tr>
+    <tr>
+      <td>硬盘</td>
+      <td>无</td>
+    </tr>
+    <tr>
+      <td>硬盘接口</td>
+      <td>无</td>
+    </tr>
+    <tr>
+      <td>扩展存储</td>
+      <td>可选 Apple 3.5英寸，Apple 5.25英寸,UniDisk 软盘驱动器</td>
+    </tr>
+    <tr>
+      <td>ROM</td>
+      <td>128KB(Revision 1-2),256KB(revision 3)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="显示-2">显示</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>显卡</td>
+      <td>Custom Video Graphics Controller(VGC)</td>
+    </tr>
+    <tr>
+      <td>分辨率</td>
+      <td>320×200（16bits颜色每行,256bits颜色整屏） <br /> 640×200（4bits颜色每行,128bits颜色整屏） <br /> 560×192（16bits色） <br /> 40×48（15bits色） <br /> 80×48(6bits色) <br /> 280×192（6bits色） <br /> 40×48（16bits色）</td>
+    </tr>
+    <tr>
+      <td>显示连接</td>
+      <td>1,RCA AV端子 <br /> 2,DB-15</td>
+    </tr>
+    <tr>
+      <td>字符显示</td>
+      <td>24行，每行40字符 <br /> 24行，每行80字符</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="固件和系统-2">固件和系统</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>内置固件</td>
+      <td>Applesoft BASIC</td>
+    </tr>
+    <tr>
+      <td>支持</td>
+      <td>OS	Apple ProDOS 16 或 GS/OS</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="内置接口和输入设备-2">内置接口和输入设备</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>串口</td>
+      <td>2x DIN-8</td>
+    </tr>
+    <tr>
+      <td>游戏卡接口</td>
+      <td>1x DE-9,1x 16针 Game I/O</td>
+    </tr>
+    <tr>
+      <td>软驱接口</td>
+      <td>1x DB-19</td>
+    </tr>
+    <tr>
+      <td>音频接口</td>
+      <td>1x 3.5mm音频接口,1x 内置扬声器</td>
+    </tr>
+    <tr>
+      <td>内存接口</td>
+      <td>1x 44针内存扩展卡接口</td>
+    </tr>
+    <tr>
+      <td>键盘</td>
+      <td>无，需外置</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="工作电压-3">工作电压</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>备用电池</td>
+      <td>3.6V 锂电池</td>
+    </tr>
+    <tr>
+      <td>最大功率</td>
+      <td>60W</td>
+    </tr>
+    <tr>
+      <td>工作电压</td>
+      <td>107-132V AC</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="七apple-iic-plus">七、Apple IIc Plus</h2>
+
+<p>Apple IIc Plus 是 Apple II 系列中最后一款设备。它与 Apple IIc 有着一样的外观，但是内置的 5 英寸软驱被换成了当时流行的 3.5 英寸软驱，CPU 是改进过的 65C02，速度可达 4Mhz，运行 8 位应用程序时比 IIGS 还要快。因为科技的进步，Apple IIc Plus 还更加省电。</p>
+
+<div align="center">
+    <a href="../images/dnbwg/wiki_apple_2_07.jpg">
+        <img src="../images/dnbwg/wiki_apple_2_07.jpg" alt="具有更快 CPU 的 Apple IIc Plus" />
+    </a>
+    <p>具有更快 CPU 的 Apple IIc Plus</p>
+</div>
+
+<h3 id="apple-iic-plus总览">Apple IIc Plus总览</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>发布日期</td>
+      <td>1988 年 9 月</td>
+    </tr>
+    <tr>
+      <td>停产日期</td>
+      <td>1990 年 11 月</td>
+    </tr>
+    <tr>
+      <td>产品编号</td>
+      <td>A2S4500</td>
+    </tr>
+    <tr>
+      <td>开发代号</td>
+      <td>Raisin，Pizza，Adam Ant</td>
+    </tr>
+    <tr>
+      <td>市场售价</td>
+      <td>$675</td>
+    </tr>
+    <tr>
+      <td>支持状态</td>
+      <td>已停售,已停止技术支持</td>
+    </tr>
+    <tr>
+      <td>产品颜色</td>
+      <td>石头白</td>
+    </tr>
+    <tr>
+      <td>重量尺寸</td>
+      <td>约 3.175 KG <br /> 63.5mm H x 304.8mm W x 292.1mm D</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="cpu-内存和存储-3">CPU 内存和存储</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CPU型号</td>
+      <td>Mos Technology 65C02</td>
+    </tr>
+    <tr>
+      <td>CPU速度</td>
+      <td>1MHz 或 4MHz,8位</td>
+    </tr>
+    <tr>
+      <td>核心数</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>总线速度</td>
+      <td>1MHz</td>
+    </tr>
+    <tr>
+      <td>内置内存</td>
+      <td>128KB</td>
+    </tr>
+    <tr>
+      <td>最大扩展内存</td>
+      <td>1.15MB</td>
+    </tr>
+    <tr>
+      <td>硬盘</td>
+      <td>无</td>
+    </tr>
+    <tr>
+      <td>硬盘接口</td>
+      <td>无</td>
+    </tr>
+    <tr>
+      <td>扩展存储</td>
+      <td>内置 800KB，3.5英寸软盘</td>
+    </tr>
+    <tr>
+      <td>ROM</td>
+      <td>32KB</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="显示-3">显示</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>分辨率</td>
+      <td>280×192（6bits色） <br /> 40×48（15bits色） <br /> 80×48(15bits色) <br /> 560×192（15bits色）</td>
+    </tr>
+    <tr>
+      <td>显示连接</td>
+      <td>1,RCA AV端子 <br /> 2,DB-15(特殊，与其他型号不同)</td>
+    </tr>
+    <tr>
+      <td>字符显示</td>
+      <td>24行，每行40字符 <br /> 24行，每行80字符</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="固件和系统-3">固件和系统</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>内置固件</td>
+      <td>Applesoft BASIC</td>
+    </tr>
+    <tr>
+      <td>支持 OS</td>
+      <td>Apple ProDOS 8</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="内置接口和输入设备-3">内置接口和输入设备</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>调制解调器</td>
+      <td>1x modem 接口</td>
+    </tr>
+    <tr>
+      <td>串口</td>
+      <td>2x mini DIN-8</td>
+    </tr>
+    <tr>
+      <td>游戏卡接口</td>
+      <td>1x DE-9</td>
+    </tr>
+    <tr>
+      <td>软驱接口</td>
+      <td>1x DB-19</td>
+    </tr>
+    <tr>
+      <td>音频接口</td>
+      <td>1x 内置扬声器</td>
+    </tr>
+    <tr>
+      <td>内存接口</td>
+      <td>1x 34针内存扩展卡接口</td>
+    </tr>
+    <tr>
+      <td>键盘</td>
+      <td>内置 63 键大小写键盘</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="工作电压-4">工作电压</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>最大功率</td>
+      <td>20W</td>
+    </tr>
+    <tr>
+      <td>工作电压</td>
+      <td>90-130V AC</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="apple-ii-系列扩展卡">Apple II 系列扩展卡</h1>
+
+<p>沃兹尼克创新性的为 Apple II 设计了许多扩展槽，由此可以借助扩展槽完成第三方的功能扩充。当时一度出现了很多针对 Apple II 的板卡，例如内存扩充卡，序列控制器卡，高级显示卡，硬盘卡以及网络板卡等。</p>
+
+<div align="center">
+    <a href="../images/dnbwg/wiki_apple_2_08.jpg">
+        <img src="../images/dnbwg/wiki_apple_2_08.jpg" alt="Apple II 使用的 Z80卡" />
+    </a>
+    <p>Apple II 使用的 Z80卡</p>
+</div>
+
+<p>比较出名的的是 Z80 卡，可以让 Apple II 切换至 Z80 处理器，并且在此环境下开发多种软件，在1980年代中期运行 CP/M 的机器中，甚至是有一半以上的 Apple II 安装了Z80模拟卡。还有一种叫 6809 卡，可运行 OS-9 Level One。除此之外，Mockingboard 的声卡，可以合成音乐和把文字转换成语音。而各种加速卡可以让 Apple II 的性能提高 2 到 4 倍。</p>
+
+<h1 id="apple-ii-系列的影响">Apple II 系列的影响</h1>
+
+<p>Apple II 系列的发布对科技产业和人们的生活产生了巨大的影响。针对 Apple II 系列的应用程序和游戏软件也非常多，其中最出名的就是 Visicalc ，一个表格数据处理软件。</p>
+
+<p>由于 Apple II 系列的成功以及优秀的电路设计，如同 IBM PC 兼容机一样，Apple II 也迎来了许多的复制品，包括硬件和软件。</p>
+
+<hr />
+
+<p>出处：https://www.maczd.com/post/9.html</p>
+
+
+    </div>
+
+
+
+</article>
+
+
+
+<div id="tcomment"></div>
+<script src="https://cdn.staticfile.org/twikoo/1.6.16/twikoo.all.min.js"></script>
+<script>
+twikoo.init({
+  envId: 'https://comment.ihonux.com', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  el: '#tcomment', // 容器元素
+  // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+  // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+  // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/imaegoo/twikoo/blob/main/src/client/utils/i18n/index.js
+})
+</script>
+
+
+
+
+
+
+<hr class="shaded"/>
+
+<footer>
+    <div class="row">
+        <div class="col-lg-12 footer">
+            <ul class="list-inline">
+                <li><a href="https://RetroMuseum.org">主站</a></li>
+                <li><a href="https://cm.ihonux.com">镜像</a></li>
+                <li><a href="https://about.retromuseum.org">关于</a></li>  
+                <li><a href="/thanks.html">致谢</a></li>
+                <li><a href="/contact.html">反馈</a></li>
+                <li><a href="/memorabilia.html">大事记</a></li>
+                <li><a href="/links.html">友情链接</a></li>
+                <li><a href="/about.html">旧版关于</a></li>
+            </ul>
+        <div>
+        <div class="col-lg-12 footer">
+            &copy;2025 Copyright 2021-2025 Honux. All rights reserved. <br />
+             
+            Site last generated: Sep 13, 2025 <br />
+            <!-- <p><img src="images/company_logo.png" alt="Company logo"/></p> -->
+        </div>
+    </div>
+</footer>
+
+<script async src="https://ackee.ihonux.com/tracker.js" data-ackee-server="https://ackee.ihonux.com" data-ackee-domain-id="1476884b-dbb4-4310-bf47-cf034e75a9d9" data-ackee-opts='{ "detailed": true }'></script>
+
+<script>
+    var init_page = function() {
+        var oHead = document.getElementsByTagName("HEAD").item(0);
+        var oScript= document.createElement("script");
+        oScript.type = "text/javascript";
+        oScript.src="https://computer.retromuseum.org:90/console/visit_log.php?url=" + encodeURIComponent(window.location.href) + "&t=" + Date.now();
+        oHead.appendChild(oScript);
+    }
+    window.addEventListener("load", init_page, false);
+</script>
+
+
+
+
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>
+
+

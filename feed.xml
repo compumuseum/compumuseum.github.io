@@ -1,32 +1,3230 @@
----
-search: exclude
-layout: none
----
-
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>{{ site.title | xml_escape }}</title>
-        <description>{{ site.description | xml_escape }}</description>
-        <link>{{ site.url }}/</link>
-        <atom:link href="{{ "/feed.xml" | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-        <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-        <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-        <generator>Jekyll v{{ jekyll.version }}</generator>
-        {% for post in site.posts limit:10 %}
+        <title>documentation-theme-jekyll</title>
+        <description>复古电脑博物馆 在线电脑博物馆 计算机博物馆 Retro Computer Museum</description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 13 Sep 2025 10:38:58 +0800</pubDate>
+        <lastBuildDate>Sat, 13 Sep 2025 10:38:58 +0800</lastBuildDate>
+        <generator>Jekyll v3.10.0</generator>
+        
         <item>
-            <title>{{ post.title | xml_escape }}</title>
-            <description>{{ post.content | xml_escape }}</description>
-            <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-            <link>{{ post.url | prepend: site.url }}</link>
-            <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
-            {% for tag in post.tags %}
-            <category>{{ tag | xml_escape }}</category>
-            {% endfor %}
-            {% for tag in page.tags %}
-            <category>{{ cat | xml_escape }}</category>
-            {% endfor %}
+            <title>WPS之父——天才程序员求伯君</title>
+            <description>&lt;p&gt;WPS是一款神奇的软件。&lt;/p&gt;
+
+&lt;p&gt;年龄大（比如：70后）的人往往很熟悉。那是因为曾几何时，WPS并不只意味着一款字处理软件，它甚至就是个人电脑的代名词。&lt;/p&gt;
+
+&lt;p&gt;年龄小些（比如：90后）的人往往很熟悉。那是因为这几年WPS因为强大的功能、免费使用和全平台覆盖正在逐步成为国内装机率最高的应用软件之一。&lt;/p&gt;
+
+&lt;p&gt;那么中间那段时间怎么回事儿？关于这个故事就可以引出来“中国第一程序员”求伯君的故事。当然如果细究求伯君的故事还可以引出来雷军的故事。今天讲讲求伯君的故事。&lt;/p&gt;
+
+&lt;p&gt;他被称为“中国第一程序员”，25岁就凭一己之力击溃“英美联军” 为何却在最巅峰的时候激流勇退？20年前，在中关村随便招呼一声，立马会围过来1000个粉丝，比盖茨火多了。他曾果断拒绝微软开出的75万美元年薪，只为打造独一无二的民族品牌，他就是“WPS之父”求伯君。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/father_of_wps_the_genius_programmer_qiubojun_01.jpg&quot; alt=&quot;求伯君&quot; /&gt;
+    &lt;p&gt;求伯君&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;1964年11月，求伯君出生在浙江新昌。3岁话还没说利索，就先背会了九九乘法口诀。5岁的时候，求伯君的围棋水平已经达到业余五段。&lt;/p&gt;
+
+&lt;p&gt;上小学，求伯君的数学天赋彻底爆发了出来，十次考试有十次满分。到后来，只要求伯君在课堂，数学老师就有点小紧张，因为他总能挑出毛病，一不小心数学老师就被带沟里。&lt;/p&gt;
+
+&lt;p&gt;高中，求伯君连续3年参加县里的数学竞赛，每次都是毫无悬念的第一。&lt;/p&gt;
+
+&lt;p&gt;1980年高考，求伯君以数学满分的傲人成绩考入国防科大数学系。这一年，比求伯君大8岁的张旋龙正在香港准备接手父亲的金山公司。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;张旋龙，方正集团董事，是方正集团创办人之一，也是金山软件创始人之一。今天的“金山软件股份有限公司”是由香港金山公司衍化而来。香港金山公司是张铠卿在1973年创建的。张铠卿是张旋龙的父亲。1980年以后，香港金山公司由张旋龙接手管理。
+注：张旋龙与张小龙没有亲属关系！呵呵！
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/father_of_wps_the_genius_programmer_qiubojun_02.png&quot; alt=&quot;张旋龙&quot; /&gt;
+    &lt;p&gt;张旋龙&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;1983年12月22日，我国第一台每秒钟运算达1亿以上，代表巨型计算机最高水平的计算机——“银河”在国防科大横空出世。求伯君非常兴奋，因为当时他正在为开发学校的图书管理系统软件而日夜奋战。&lt;/p&gt;
+
+&lt;p&gt;结果4天以后，管理软件“冒烟”测试成功，那个程序也让他小赚40块。随后“一个学生成功开发国防科大图书馆管理系统”的消息被刊登在长沙日报上，求伯君一时间成了新闻人物。&lt;/p&gt;
+
+&lt;p&gt;1984年8月，求伯君被分配到河北徐水的石油部物探局仪器厂。当年年底，他就发现当时最流行的汉字系统CCDOS输入法存在一个小bug，由此导致电脑运行速度特别慢。&lt;/p&gt;
+
+&lt;p&gt;求伯君三下五除二搞定了那个漏洞，此后输入一个汉字能节省一倍多的时间，求伯君就成了厂里的红人，不少企业要过来挖角。&lt;/p&gt;
+
+&lt;p&gt;1986年春天，厂里来了5个深圳大学的实习生，求伯君暗恋上了其中一个长发飘飘的。可是酝酿了3个月，那三个字楞没说出口。&lt;/p&gt;
+
+&lt;p&gt;等实习女生走了以后，求伯君才回过味来“人世间最痛苦的事情莫过于此”，他后悔莫及，决定马上追去深圳。&lt;/p&gt;
+
+&lt;p&gt;不过等真到了深圳，求伯君一个星期就把那女孩子忘记了，因为“深圳什么都好”，他第一次听说“时间就是金钱，效率就是生命。”&lt;/p&gt;
+
+&lt;p&gt;求伯君突然意识到自己一直都在“浪费生命”。等公交车到了深圳大学的门口，求伯君却决定马不停蹄赶回了原单位，他要辞职。&lt;/p&gt;
+
+&lt;p&gt;求伯君离开徐水后的第一站是去涿县，因为那里有个大学同学相约见面。&lt;/p&gt;
+
+&lt;p&gt;不巧，老同学遇到了计算机打印的难题，求伯君赶紧帮忙。一帮不要紧，马上搞出了一个24点阵打印驱动程序。老同学一看高手来了，“为什么不搞一个通用的？”&lt;/p&gt;
+
+&lt;p&gt;于是，求伯君把自己关在老同学的电脑房里，熬了整整9天9晚，全部重写了打印驱动程序，改成了一个可以支持多种打印机的驱动程序。&lt;/p&gt;
+
+&lt;p&gt;随后，求伯君带着那8张西山打印驱动程序去了北京，他决定看一眼天安门后就去深圳。&lt;/p&gt;
+
+&lt;p&gt;不过，等他把打印驱动亮给大学同学看的时候，有哥们建议“干嘛不去四通试试，没准他们会录用你。”当时四通刚刚推出一款新型的打印机，正缺一个合适的驱动程序。&lt;/p&gt;
+
+&lt;p&gt;四通当然很识货，2000块就搞定那套程序的全部版权，而且分10个月付清。随后万老板就以500元每套的价格卖了600多套。&lt;/p&gt;
+
+&lt;p&gt;求伯君亏大了，不过他并不在乎，因为最吸引他的还是深圳的女大学生。&lt;/p&gt;
+
+&lt;p&gt;不料，等求伯君在北京站等火车的时候，被万老板手下的人硬拉了回去，“明年我们会成立深圳四通，一定调你过去！”&lt;/p&gt;
+
+&lt;p&gt;就这样，求伯君留在了四通，他成了当年四通唯一一个在北京没房没户口的外地员工。&lt;/p&gt;
+
+&lt;p&gt;这个时候，张旋龙出现了，彼时他已经是金山的老板。金山是四通合作伙伴之一，有一批机器的输入输出系统有问题，计算机无法启动，他找到求伯君，结果求伯君只花了一个晚上就给解决了。&lt;/p&gt;
+
+&lt;p&gt;张旋龙大惊失色，“香港一个50人的团队蹲了三个星期都没搞定，结果被这个毛头小子轻松就搞定了！”&lt;/p&gt;
+
+&lt;p&gt;1987年，深圳四通成立，求伯君收拾行李一心南下，临行前，总部这边却反悔了“求伯君是个人才，不能放走。”&lt;/p&gt;
+
+&lt;p&gt;求伯君火了，当即就给四通万总写了一封辞职信。3天后，求伯君得到了回复“同意求伯君调去深圳，建议沈总与王总陪同一并调往深圳。”&lt;/p&gt;
+
+&lt;p&gt;刚开始，求伯君负责四通深圳分公司的一个经营部，不过求伯君根本无心赚钱，他整天就琢磨怎么开发软件。刚巧张旋龙抛出绣球“来金山，我让你专心搞软件！”正中求伯君下怀。&lt;/p&gt;
+
+&lt;p&gt;到了金山，求伯君决定大干一场，目标很明确“重新写一个汉字处理系统，取代当时最火的WordStar。”&lt;/p&gt;
+
+&lt;p&gt;于是，求伯君带着一台386电脑，把自己关在南山的一间偏远小房间里。只要是醒着，他就不停地写代码，什么时候困得看不清电脑屏幕了，才眯一会儿。&lt;/p&gt;
+
+&lt;p&gt;结果仅仅过了2个月，求伯君就被送进了医院，而且连进3次“急性肝炎发作”。医生强制要求住院一个月，求伯君就把电脑搬进病房里继续写，“那段时间很孤独，有问题不知道问谁，解决了也没人分享。”&lt;/p&gt;
+
+&lt;p&gt;1年零4个月后的1989年9月，求伯君在医院里终于敲完了12万2千行的最后一个代码。从此，中文处理的WPS1.0横空出世。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/father_of_wps_the_genius_programmer_qiubojun_03.jpg&quot; alt=&quot;WPS 2.2&quot; /&gt;
+    &lt;p&gt;WPS 2.2&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
+&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=ucdos&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;体验WPS 2.2&lt;/a&gt;&lt;/b&gt;
+&lt;/div&gt;
+
+&lt;p&gt;没有发布会、没有鲜花和掌声，也没有任何广告，WPS就这样悄无声息地进入了千家万户的电脑。短短1年，WPS成了中国电脑的标配，迅速积累了2000万用户，那年，求伯君25岁。&lt;/p&gt;
+
+&lt;p&gt;尽管盗版铺天盖地，不过还有3万多人坚持买正版，而正版一套WPS为2200元，你说金山一年能卖多少钱？在还没有微软的中国，WPS几乎就是PC的最佳代名词。&lt;/p&gt;
+
+&lt;p&gt;于是，求伯君住进了别墅，开上了丰田佳美。彼时的雷军正在珞珈山下的武大求学，“根本不敢相信我国能做出这么好的软件。”&lt;/p&gt;
+
+&lt;p&gt;不过3年后的1992年，微软进入中国。当时微软还是友军，是金山的大客户，由金山帮微软做汉化。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;这里馆长要插播一下。雷军就是在1992年加入的金山公司。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/father_of_wps_the_genius_programmer_qiubojun_04.jpg&quot; alt=&quot;雷军&quot; /&gt;
+    &lt;p&gt;雷军&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;后来，微软提出“WPS在文档中能否兼容Word”，求伯君很傻很天真就答应了，结果2个月后才发现，微软根本就是敌军，哗啦啦把2000多万抢走一大半。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/father_of_wps_the_genius_programmer_qiubojun_05.jpg&quot; alt=&quot;来自比尔盖茨的“一节课”&quot; /&gt;
+    &lt;p&gt;来自比尔盖茨的“一节课”&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;张旋龙惊呆了，求伯君也惊呆了。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;馆长想说，这是比尔盖兹给当年雄心勃勃想要走向世界的中国软件行业上的一节课。这节课真的“好痛”，中国软件行业用了很多年才渐渐从中走出来。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;其实早在微软开发Windows95的时候，就因为绑定IE浏览器，把当时最大的浏览器“网景”给搞死了。历史总是这么惊人的相似，同样的招数，不一样的对手，盖茨又是大胜。&lt;/p&gt;
+
+&lt;p&gt;WPS由盛转衰，金山内部乱作一团，求伯君大喝一声“迎战”，他找来了雷军做战友，两个人摩拳擦掌开发新产品。&lt;/p&gt;
+
+&lt;p&gt;求伯君的第一招是搞出一套类似于Office套件的产品，取名叫盘古组件，里面有WPS、电子表和字典。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/father_of_wps_the_genius_programmer_qiubojun_06.png&quot; alt=&quot;盘古组件&quot; /&gt;
+    &lt;p&gt;盘古组件&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;为此，前前后后投入了200多万，不过最后盘古组件上市一共才卖出1000多套。到底为何遭遇溃败？求伯君反思出四点原因。&lt;/p&gt;
+
+&lt;p&gt;一是力量太分散，WPS的优势没有发挥出来。二是宣传没做好，很多用户并不知道盘古的存在，更不知道盘古里有WPS。三是盘古本身并什么多大新意，完全就是硬搞出个东西对抗微软。四是销售不到位，产品在手，没有好嘴，自然卖不出去。&lt;/p&gt;
+
+&lt;p&gt;盘古的失利，让很多人看不到希望，开发部的成员走了三分之二，加上当时微软向求伯君抛去了橄榄枝，整个金山岌岌可危。&lt;/p&gt;
+
+&lt;p&gt;不少江湖朋友劝求伯君“名气这么大，搞搞几个大的系统集成，多赚点钱是正道”求伯君哪能看着自己一手养大的孩子就此夭折，他果断拒绝了微软开出的75万美元的年薪，坚信“Word能做到的事，我也能做到！”&lt;/p&gt;
+
+&lt;p&gt;可是，微软太强大了。当时的金山开发队伍只剩下十几个业务骨干，而微软已经形成了200多人的大队伍。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;馆长想说，这是软件产业化车轮碾压软件英雄的经典案例，从此软件行业的主战场再无孤单英雄！
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;只有付出比对手多几倍甚至十几倍的劳动和汗水才行呀。于是，求伯君把张旋龙送他的别墅卖了200多万，他决定孤注一掷，推出第二招“潜心开发新一代WPS”。&lt;/p&gt;
+
+&lt;p&gt;经过长达两年的准备，终于在1997年的8月，WPS97问世。仅上市2个月，就卖出了1.3万套，求伯君和他的WPS彻底翻盘。&lt;/p&gt;
+
+&lt;p&gt;这一次，求伯君底气十足，“我不反对大家用Word，但也请你试一下WPS97。”WPS作为首款运行在Windows上的国产文字处理软件，当年被很多媒体评为“1997年中国电脑界的10大事件之一”。&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
+&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=wps97&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;体验WPS97&lt;/a&gt;&lt;/b&gt;
+&lt;/div&gt;
+
+&lt;p&gt;WPS97的逆袭成功看似偶然，但实则水到渠成，是求伯君的3大法宝给了WPS翻盘的机会。&lt;/p&gt;
+
+&lt;p&gt;第一，WPS97集文字办公、电子表格、多媒体演示和图像处理于一体，而且安装小巧，不占用多大内存，不像office安装程序需要好几个硬盘。&lt;/p&gt;
+
+&lt;p&gt;第二，WPS非常紧凑，让每一个功能键都发挥最大的作用，没有一个多余。例如F8是模拟现实，不需要鼠标也可以操作。&lt;/p&gt;
+
+&lt;p&gt;第三，大打民族牌。WPS1.0积累的2000多万的用户群是求伯君翻盘的制胜法宝，因为对第一代网民来说，WPS已经不仅仅是一款软件，而是一种情怀。&lt;/p&gt;
+
+&lt;p&gt;“学电脑就是从WPS开始的；毕业论文都是用WPS打的；和媳妇就是在学习WPS的过程中相识的……”说小点是个人感情，说大了这就是民族情怀。&lt;/p&gt;
+
+&lt;p&gt;此后的WPS再次成为主流。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1998年，联想集团入股金山，成为金山的大股东，金山公司重组。求伯君任金山的副董事长，而雷军任总经理。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2000年中国加入WTO后，中国政府首次进行大规模正版软件的采购，WPS打响政府采购的第一枪，当年北京政府一口气购买了11143套。&lt;/p&gt;
+
+&lt;p&gt;可惜，高潮之后很快就出现断崖式下跌。从2002年之后的3年，WPS一度在市场上消失了。&lt;/p&gt;
+
+&lt;p&gt;什么原因呢？原来是求伯君又把WPS所有的代码都推倒重写了。有人说他是不得已而为之，因为WPS自身需要改造，这次主要的目标是要能兼容微软的office。&lt;/p&gt;
+
+&lt;p&gt;不过，3年后的2005年9月12日，求伯君带着WPS Office最新2005版本站在众人面前，他做出了最好的解释“如果你想要扩大wps这座大厦的空间，唯一能做的，就是推倒重来。”&lt;/p&gt;
+
+&lt;p&gt;重构是每个软件团队手持的“双刃剑”！一方面可以让软件团队一次性的抛弃所有“发臭”的代码和历史负担，另一方面是巨大的成本！WPS可以成功，但是倒在“重构”的案例也是比比皆是！&lt;/p&gt;
+
+&lt;p&gt;此后，求伯君推出第三招，WPS个人版全部实现免费，并相继推出了手机WPS、平板WPS。在微软的强大对手面前，WPS重获新生，再一次赢得了生存空间。&lt;/p&gt;
+
+&lt;p&gt;2007年10月9日，求伯君结束20年的长跑，终于带领金山在港交所挂牌上市，他也圆了金山数百名员工的财富梦。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/father_of_wps_the_genius_programmer_qiubojun_07.jpg&quot; alt=&quot;金山软件香港上市&quot; /&gt;
+    &lt;p&gt;金山软件香港上市&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;作为第一代码农，求伯君慢慢淡出了人们的视线。对于他来说，20年的光阴恍如昨日，但他所创造的传奇将被永远铭记在IT行业的历史长河中。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;出处：https://www.jianshu.com/p/84b6cd7341f7&lt;/p&gt;
+
+</description>
+            <pubDate>Sun, 10 Aug 2025 00:00:00 +0800</pubDate>
+            <link>http://localhost:4000/father_of_wps_the_genius_programmer_qiubojun.html</link>
+            <guid isPermaLink="true">http://localhost:4000/father_of_wps_the_genius_programmer_qiubojun.html</guid>
+            
+            <category>history</category>
+            
+            <category>story</category>
+            
+            
         </item>
-        {% endfor %}
+        
+        <item>
+            <title>DOS病毒博物馆漫游</title>
+            <description>&lt;h2 id=&quot;缘起&quot;&gt;缘起&lt;/h2&gt;
+
+&lt;p&gt;随着技术的发展，各类产品的形态一直在不断变化，近几十年间，就连恶意软件都在不断地改头换面。眼下，各种恶意软件的主要目的是窃取用户的信用卡信息和身份信息，有些玩的大的黑客甚至用恶意软件瘫痪了核电站。此外，现代黑客都很小心，这些攻击行为一般都非常隐蔽。不过回顾历史，之前的恶意软件可不是这样的。相比窃取账户牟利，老一代黑客更喜欢用病毒摧毁别人的电脑，而且他们以这些行为为荣，经常在受害者屏幕上打出各种嘲讽的文字，炫耀意味十足。&lt;/p&gt;
+
+&lt;p&gt;不过现在这类病毒已经不多见了，它们经常利用的漏洞早就被微软或者新的防护机制给彻底封死了。最近，Internet Archive (archive.org) 添加了一个特别的版块“Malware Museum”，让我们得以一瞥当年的历史。这家恶意软件博物馆由芬兰安全公司 F-secure 的首席资源官米科·哈普林 (Mikko Hypponen) 一手打造，收藏了上世纪80和90年代的一些 MS-DOS 病毒。&lt;/p&gt;
+
+&lt;p&gt;为了方便国内用户访问，本站开辟了专题展览板块——“&lt;a href=&quot;https://computer.retromuseum.org:86/?data=cm/malware/malware.json&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;&lt;b&gt;DOS病毒博物馆&lt;/b&gt;&lt;/a&gt;”，对其进行展示。在浏览了这个博物馆后你会发现其实过去的黑客都还挺简单的，他们要么会故意毁掉你的硬件，要么就完全是在炫技搞恶作剧。下面我们开始漫游“DOS病毒博物馆”。&lt;/p&gt;
+
+&lt;h2 id=&quot;漫游&quot;&gt;漫游&lt;/h2&gt;
+
+&lt;p&gt;电脑病毒竟然和小游戏一样好玩。&lt;/p&gt;
+
+&lt;p&gt;在“DOS病毒博物馆”这个线上博物馆里，你会发现了一批带有 “复古” 气息的电脑病毒。&lt;/p&gt;
+
+&lt;h3 id=&quot;最萌病毒--walker&quot;&gt;最萌病毒 —— WALKER&lt;/h3&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/malware/Q-Walker.com_.gif&quot; alt=&quot;Q Walker.com&quot; /&gt;
+    &lt;p&gt;WALKER 病毒：大王叫我来寻你的电脑&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;有没有想起 32 位像素红白机？但其实它们的年纪，可能比你都要大。Q Walker病毒又是一个标准的炫技病毒，它会在屏幕上绘制一个穿蓝色大衣、手持武器的老人，这个形象出自游戏《Bad Street Brawler》。&lt;/p&gt;
+
+&lt;p&gt;在体验中的某一刻，甚至觉得它们的“萌”，超越了历史，不小心就击中了喜爱二次元的我。&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=Q-WALKER.COM&amp;amp;data=cm/malware/malware.json&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;去看看&amp;gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;最赌病毒--q-casino&quot;&gt;最赌病毒 —— Q CASINO&lt;/h3&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/malware/Q-CASINO.COM_.gif&quot; alt=&quot;Q CASINO.COM&quot; /&gt;
+    &lt;p&gt;Q CASINO 病毒：简直就像玩老虎机&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Q CASINO 病毒强迫用户在保存文档时 “赌” 上一局。如果输了，你的文档也就没了。&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=Q-CASINO.COM&amp;amp;data=cm/malware/malware.json&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;去看看&amp;gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;活泼的弹窗病毒--hymn&quot;&gt;活泼的弹窗病毒 —— HYMN&lt;/h3&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/malware/HYMN.COM_.gif&quot; alt=&quot;HYMN.COM&quot; /&gt;
+    &lt;p&gt;HYMN： 总有一种 Windows 电脑死机的错觉&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;大多数电脑病毒带有电子音背景。配合弹窗画面，怀旧感十足。&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=HYMN.COM&amp;amp;data=cm/malware/malware.json&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;去看看&amp;gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;最得瑟的病毒--markiz&quot;&gt;最得瑟的病毒 —— MARKIZ&lt;/h3&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/malware/MARKIZ.gif&quot; alt=&quot;MARKIZ&quot; /&gt;
+    &lt;p&gt;MARKIZ 病毒：从没见过你这么嘚瑟的病毒&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=MARKIZ.COM&amp;amp;data=cm/malware/malware.json&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;去看看&amp;gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;最浪漫的病毒--elvira&quot;&gt;最浪漫的病毒 —— ELVIRA&lt;/h3&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/malware/elvira.gif&quot; alt=&quot;elvira&quot; /&gt;
+    &lt;p&gt;ELVIRA.COM 病毒：这不就是星球大战的滚动字幕吗&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;这不是星球大战的滚动字幕吗，清醒点，这可不是最新一部《星球大战》的视频文件，当ELVIRA！字符出现在你的电脑屏幕上，其实意味着系统中了病毒。&lt;/p&gt;
+
+&lt;p&gt;但是别担心！ELVIRA病毒并不会对程序或CPU造成什么伤害，只是会在每天的16：30自动播放一段浪漫的情诗。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ELVIRA !艾莉薇雅！（英语）&lt;br /&gt;
+Black and White&lt;br /&gt;
+Girl衣色黑白的女孩&lt;br /&gt;
+from Paris从巴黎而来&lt;br /&gt;
+You make me feel&lt;br /&gt;
+alive.你让我如沐春风&lt;br /&gt;
+ELVIRA !艾莉薇雅！（法语）&lt;br /&gt;
+Pars. Reviens.&lt;br /&gt;
+Respire.你离去、又归来、轻喘着&lt;br /&gt;
+Puis repars.倏而远走&lt;br /&gt;
+J’aime ton&lt;br /&gt;
+mouvement.怎能不为你的活力沉醉&lt;br /&gt;
+ELVIRA !艾莉薇雅！（西班牙语）&lt;br /&gt;
+Bruja con ojos&lt;br /&gt;
+verdes有着绿眼睛的姑娘&lt;br /&gt;
+Eres un grito de&lt;br /&gt;
+vida,你是我生命的呼喊&lt;br /&gt;
+un canto de&lt;br /&gt;
+libertad.为你献上这首自由的歌唱&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=ELVIRA-G.COM&amp;amp;data=cm/malware/malware.json&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;去看看&amp;gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;最暖病毒--skynet&quot;&gt;最暖病毒 —— SKYNET&lt;/h3&gt;
+
+&lt;p&gt;早年的病毒只是出于黑客的兴趣，大部分病毒并无太大杀伤力，甚至有些还卖萌说：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“我其实是一个很温柔的病毒。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/malware/SKYNET.gif&quot; alt=&quot;skynet.com&quot; /&gt;
+    &lt;p&gt;SKYNET 病毒: 作为一个病毒这样卖萌真的好吗?&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“别怕，&lt;br /&gt;
+我是个很友好的病毒，&lt;br /&gt;
+你今天做的工作已经够多了，&lt;br /&gt;
+所以我会让你的电脑慢一点，&lt;br /&gt;
+好运，&lt;br /&gt;
+拜拜”&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;如果去掉“病毒”两个字，这么温柔又体贴的软件你舍得它离开吗？&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=SKYNET.COM&amp;amp;data=cm/malware/malware.json&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;去看看&amp;gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;最有创造性的病毒--mars&quot;&gt;最有创造性的病毒 —— MARS&lt;/h3&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/malware/MARS.gif&quot; alt=&quot;MARS&quot; /&gt;
+    &lt;p&gt;MARS 病毒&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;MARS病毒会控制被感染的系统，用代码绘制有着红色隆起的地形，也许这种画面在现在的我们看来非常简陋，然而在以像素图和文字为主流的DOS时代，这种以体素（voxel，基础的3D“像素”）绘制的三维图像几乎超出了当时所有软件的视觉效果。&lt;/p&gt;
+
+&lt;p&gt;“写病毒也可以很有创造性”，对于这一点，也许应该有限度地表示认同，当然，如果它不是一个病毒那就更好不过了。&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=MARS-G.COM&amp;amp;data=cm/malware/malware.json&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;去看看&amp;gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;zhu-病毒&quot;&gt;ZHU 病毒&lt;/h3&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/malware/China.gif&quot; alt=&quot;China&quot; /&gt;
+    &lt;p&gt;ZHU 病毒：中国制造，这个配色很有特色&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=ZHU.COM&amp;amp;data=cm/malware/malware.json&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;去看看&amp;gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;ha-熊孩子哈哈病毒&quot;&gt;HA! ：“熊孩子”哈哈病毒&lt;/h3&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/malware/hai!.gif&quot; alt=&quot;HA!&quot; /&gt;
+    &lt;p&gt;HA! 病毒&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=HA.COM&amp;amp;data=cm/malware/malware.json&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;去看看&amp;gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;marine-病毒&quot;&gt;MARINE 病毒&lt;/h3&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/malware/Marine.gif&quot; alt=&quot;Marine&quot; /&gt;
+    &lt;p&gt;MARINE 病毒：我小学一年级的画作也能拿来做病毒？&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=MARINE.COM&amp;amp;data=cm/malware/malware.json&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;去看看&amp;gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;techno-病毒&quot;&gt;TECHNO 病毒&lt;/h3&gt;
+
+&lt;p&gt;Techno 也是一个有趣的病毒，它会侵占电脑的命令文档，快速播放电子音科技感舞曲长达 110s，直到 TECHNO 字样布满整个电子屏幕，而在重启十次之后，它又会再放一遍。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/malware/TCHNO.gif&quot; alt=&quot;TCHNO&quot; /&gt;
+    &lt;p&gt;TECHNO 病毒：妈妈，就是这个病毒残害了我的耳朵。&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=TECHNO.COM&amp;amp;data=cm/malware/malware.json&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;去看看&amp;gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;别样的技术美学&quot;&gt;别样的技术美学&lt;/h3&gt;
+
+&lt;p&gt;上世纪 90 年代末是病毒的繁荣期，其实，在当年的 DOS 系统下尚未出现图形交互界面，想要绘制出如此动感的画面，并不是一件很容易的事情。当时的先驱们为了一时的炫技，想必也是颇费了一番心思。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/malware/AA.com_.gif&quot; alt=&quot;AA.com&quot; /&gt;
+    &lt;p&gt;AA 病毒：我做 PPT 也用这个 “棋盘式” 动画&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=A_A.COM&amp;amp;data=cm/malware/malware.json&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;去看看&amp;gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;在电脑病毒博物馆中绿叶、彩虹、波普风格的图案展示，为我们展现了去除 “致毒” 部分后留下的美学和信息价值。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/malware/VIRDEM.COM_.gif&quot; alt=&quot;VIRDEM.COM&quot; /&gt;
+    &lt;p&gt;VIRDEM 病毒：HM 今年流行这个花色的裙子&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=VIRDEM.COM&amp;amp;data=cm/malware/malware.json&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;去看看&amp;gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;有些病毒更像是一种波普风格的数字艺术，让人眼花缭乱却又不失美感。&lt;/p&gt;
+
+&lt;p&gt;虽然它们时代遥远，但却有着一种浓浓的现代感。很好奇当年的程序员哥哥们是怎么做出这么有趣的病毒的。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/malware/malware_lsd.com_.gif&quot; alt=&quot;malware_lsd.com&quot; /&gt;
+    &lt;p&gt;LSD 病毒：好像在显微镜中观察细胞&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=LSD.COM&amp;amp;data=cm/malware/malware.json&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;去看看&amp;gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;会感染电脑吗&quot;&gt;会感染电脑吗？&lt;/h3&gt;
+
+&lt;p&gt;你可能好奇如何 “玩” 这些 DOS 时期的酷炫电脑病毒？&lt;/p&gt;
+
+&lt;p&gt;电脑病毒博物馆专门将这些病毒 “搬上” 了网页版的 JavaScript 模拟器。使用网页交互，不同电脑、不同操作系统的人都可以体验到感染 DOS 时期病毒的场景。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/malware/DOSBox.jpg&quot; alt=&quot;DOSBox&quot; /&gt;
+    &lt;p&gt;DOSBox&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;由于系统的更新换代，这些古老的病毒们早已不再具备实际上的危害，甚至从现代技术眼光看来，有些病毒的编写显得颇为稚嫩粗糙。&lt;/p&gt;
+
+&lt;p&gt;病毒同样是时代的记忆，他们曾经在那个时代留下了影响。如果没有电脑病毒博物馆，这曾经有趣的历史，就会不经意间，与你我彼此错过。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+</description>
+            <pubDate>Sat, 20 Apr 2024 00:00:00 +0800</pubDate>
+            <link>http://localhost:4000/malware_museum_roaming.html</link>
+            <guid isPermaLink="true">http://localhost:4000/malware_museum_roaming.html</guid>
+            
+            <category>blog</category>
+            
+            <category>experience</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>国产Linux探索的领域远不止于此</title>
+            <description>&lt;p&gt;近年来，国产化战略成为中国信息技术行业的重要主题。操作系统作为通用的基础软件，更是国产化战略的重要一环。出于技术可控和生态兼容等因素，多数国产操作系统基于GNU/Linux[1]二次开发。提到当今主打政企和服务器市场的国产Linux发行版（如红旗、中标麒麟），行业内的读者对此应该比较熟知。不过，国产Linux探索的领域远不止于此。我作为一名80后计算机人、Linux爱好者，曾经长年关注这一主题。这里，我想以我在学生时代（1998～2014，中学～博士）接触Linux系统、收藏Linux软件的往事为引子，向读者介绍一些我所了解的国产Linux发行版早期探索史，以及部分港台版本和涉外OEM（代工生产，Original Equipment Manufacturer的简称）版本的情况。&lt;/p&gt;
+
+&lt;h2 id=&quot;中学时代行业雨后春笋本人初窥门径&quot;&gt;中学时代——行业雨后春笋，本人初窥门径&lt;/h2&gt;
+
+&lt;p&gt;得益于父亲的启蒙，我在小学时就接触了计算机和Basic编程。读中学时，家里通过石油专网接入了互联网。那时个人主页、FTP、Telnet BBS等都是流行的网络服务。我在探索这些服务的工作原理时，第一次得知了Unix、Linux等操作系统。早已熟悉DOS和Windows的我，对这些未知的系统非常好奇。在这类系统中，Unix难以获取且不适用于家用计算机，而国外的Linux发行版对初中才开始学习英语的我来说门槛较高。而凑巧的是，那几年正好是国产Linux发行版的萌芽期，因此国产Linux自然地成为我探索未知的入门之选。56 Kbps的调制解调器无法满足我下载Linux的需求，于是我央求着父母购买了若干Linux光盘——这也成为了我的第一批经典系统软件收藏。&lt;/p&gt;
+
+&lt;p&gt;世纪之交时期的国产Linux发行版多数具有技术创业型团队背景。它们乘着“.com”的浪潮，大有初生牛犊不怕虎之势。这些版本面向个人桌面、服务器、嵌入式等市场四面出击，在解决中文处理等中国特色问题时各显神通。下面介绍这一时期的一些代表性产品。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Xteam Linux&lt;/strong&gt;号称是中国大陆首套中文Linux发行版，1.0版发布于1999年初，定位为桌面市场。在Linux生态软件的国际化（i18n）实现尚未成熟的年代，它采用了以源码级为主、外挂为辅的汉化方式。作为先驱产品，Xteam Linux 1.0版曾创下了4个月销售10万套的傲人业绩。其开发商北京冲浪平台公司可谓国内Linux领域的先行者，公司名称源于互联网早年流行的“网上冲浪”的说法。该公司曾在香港创业版上市，在亏损阴影下被收购转型。尽管如此，它当年主动向国人传播自由软件理念的行动仍功不可没。&lt;/p&gt;
+
+&lt;p&gt;2000年初，冲浪平台公司推出了可在Windows上直接安装的Xteam Lindows，对标了同类英文产品WinLinux 2000。这是一次市场化的尝试，旨在满足那些想体验或学习Linux，又担心技术门槛或操作风险的用户。多年后的Ubuntu Wubi和Windows Subsystem for Linux[2]也在相似的方向上找到了合理的产品定位，这让我们对先行者肃然起敬。容易与Lindows混淆的是另一款名为Linxp、定位截然相反的发行版。它来自深圳雷音软件公司，特色是内置wine（一个在多种操作系统上运行Windows程序的兼容层），可以运行一些Windows应用软件。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;蓝点Linux（BluePoint Linux）&lt;/strong&gt;则是几个年轻的创业者打造中文Linux系统的一段技术与资本传奇。1999年，蓝点Linux面市，主攻国产品牌电脑的操作系统OEM市场，一度成为最大的中文Linux供应商。在系统汉化的技术思路上，它打着具有争议的“内核中文化”旗号，曾经引发业界论战。但这并没有妨碍蓝点迅速在美国场外柜台交易系统（Over the Counter Bulletin Board，OTCBB）上市、一夜之间创造4亿美元市值的奇迹。然而，互联网泡沫和股灾很快将其打下神坛。蓝点团队后来转型做嵌入式系统，尽管风光不再，但其创业精神却值得纪念。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;幸福Linux（Happy Linux）&lt;/strong&gt;源于联想公司，它是当年国内大型IT厂商涉足Linux的代表。幸福Linux具有家用版、服务器版、嵌入式版等全线产品，并在联想的部分个人电脑 （PC）产品中预装。该发行版的重要特色是将联想在Windows平台的代表作——“幸福之家”移植到了Linux平台，其中包含不少自主研发或引进汉化的多媒体娱乐、教育、生活、办公类软件，足以看出联想当时对家用Linux市场的重视。可惜幸福Linux最终没有战胜强大的微软生态，联想的创造性贡献成为了中文Linux的一段史诗。&lt;/p&gt;
+
+&lt;p&gt;早期市面上除了完整的中文Linux发行版，也有适用于英文版的中文扩展包，包内一般含有汉化版软件、中文字体及外挂输入法。此类产品的代表是YOUR Linux外挂中文平台，它是由北京Linux俱乐部和腾图电子出版社于2000年共同发布的。北京Linux俱乐部是国内较早成立的民间Linux爱好者组织，对Linux在高校的推广发挥过积极作用。腾图以“Linux风暴”为名出版过多种Linux应用光盘，反映了那几年业界开拓Linux市场的小高潮。常见的中文扩展包还有沈阳玳娜软件公司的阳春白雪中文环境等。&lt;/p&gt;
+
+&lt;p&gt;在中国台湾地区，称得上Linux先驱之一的是美商网虎公司（XLinux）。1998～2000年间，网虎推出了XLinux OS、Power Linux等发行版，还与英特尔（Intel）合作推出了Quark Linux。这几种发行版涵盖服务器、桌面、嵌入式等领域，挺进了包括中国大陆在内的多地市场。网虎在中文化方面研发了颇具特色的“万语码”（Giga Character Set，GCS） 编码方案，可以兼容Unicode。值得一提的是，网虎产品的核心开发者之一是此前因CIH病毒名噪一时的陈盈豪，他凭借卓越的底层开发能力为嵌入式Linux的进步做出了贡献。&lt;/p&gt;
+
+&lt;p&gt;台湾百资科技公司可谓宝岛Linux第一品牌，它出品的百资Linux（Linpus Linux）曾经长期占据台港澳地区Linux市场榜首。2000年左右，进入大陆市场的百资Linux的广告频频出现在大众计算机媒体上。相比当年多数包装朴素的Linux产品，2本手册、8张光盘、大盒包装的百资Linux 7.0可谓豪华。百资科技成立20多年来，以Linux系统为基础，涉足过IT行业的多个领域。既能对Linux坚持不懈，又能依据市场变化灵活调整产品策略，百资科技也算是大中华地区开源产业的一个榜样。&lt;/p&gt;
+
+&lt;p&gt;世纪之交的那几年，国内厂商除了引入和汉化Linux产品，也在为传播自由和开源精神付出努力。实达朗新公司在宣传它的TomLinux产品时，仿照比尔·盖茨（Bill Gates）1976年的那封著名的《致电脑爱好者的一封公开信》，发表了介绍和捍卫GPL协议[3]的《致互联网爱好者的一封公开信》。尽管得到了很多争议，却也在客观上教育了行业和用户。少数厂商出于自身利益，将国产Linux发行版夸大宣传为“自主知识产权”，被媒体广泛报道之后产生了许多负面影响。这为那一波国产化浪潮浇了冷水，也值得当今的国产化厂商警醒反思。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/exploration_history_of_domestic_linux_distribution_1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;国内的Linux社区与爱好者群体也是在那个时期兴起的。除了以高校和IT界人士为主的各地Linux用户组、俱乐部，网上也出现了中国Linux公社、Linux伊甸园、ChinaUnix等许多在线平台。中文世界较早的社区发行版以中国Linux公社的Magic Linux、Linux台湾社群的中文延伸套件（CLE）、香港Linux玩家网的HKLPG Linux为代表，而比较有名的个人发行版当属Ben Zhao的CDlinux。回味那个互联网世界的大门刚刚向中国百姓敞开的年代，至今仍让我们这些信息时代的移民和见证者热血沸腾。&lt;/p&gt;
+
+&lt;h2 id=&quot;大学时光行业百花齐放本人兴致盎然&quot;&gt;大学时光——行业百花齐放，本人兴致盎然&lt;/h2&gt;
+
+&lt;p&gt;虽然我在中学时就成为了Linux用户，但真正理解自由和开源的精神内涵则是在上大学之后。我本科就读于北京理工大学计算机系，在这方面启发和指导我的人是李凌老师——一位活跃于开源社区的贡献者。在他的带领下，我和几位同学主导或参与了学校机房定制版Hiweed Linux、机房管理组件、软件镜像服务等开发。我们成立了“开源软件研习小组”（OSSG）社团，多次举办过Linux Install Festival、电脑诊所等活动，与Linux厂商打交道、拉赞助。我们还参与到Moodle、JWChat等开源软件的汉化和补丁贡献，也时常参加校外的技术社区活动。在北京这一科技创新中心，我有幸见到了理查德·马修·斯托曼、马克·沙特尔沃思（Mark Shuttleworth）、宫敏、章文嵩等业内名人，也遇到过王开源抗议比尔·盖茨、徐继哲请愿招商银行等业界趣事。在参加某项目会议时得到的一套“863软件重大专项”光盘，成为我在大学时期的代表性收藏。&lt;/p&gt;
+
+&lt;p&gt;经历了大浪淘沙的开源行业，沉淀出几个经典的国产Linux发行版，也挥别了一些曾经的当红版本。863、核高基等专项也为国资背景发行版的壮大奠定了基石。与此同时，伴随着宽带互联网的普及，社区和个人发行版也遍地开花。接下来介绍这段时间的代表性产品。&lt;/p&gt;
+
+&lt;p&gt;如果说&lt;strong&gt;红旗Linux（Red Flag Linux）&lt;/strong&gt;是国产系统软件的一面旗帜，恐怕无人反对。该发行版源于中科院软件所，自2000年起采用公司化运作。红旗Linux受体制的护佑成长壮大，在科研、政府采购和国产化项目中颇有成就，也曾受惠于个人电脑OEM市场的政策福利。依托于学术界背景，它对Linux开源社区确有实质性的贡献。尽管原中科红旗公司在2014年因经营困难被清算后又被收购，继而在2019年由新成立的民营运营主体接手，然而万幸的是，红旗品牌和产品一直被保留且有所发展，延续了中国Linux用户的情怀。&lt;/p&gt;
+
+&lt;p&gt;相比行不更名的红旗，同样具有国字号背景且经历多次股权变更的中软系公司（CS&amp;amp;S）的操作系统则具有复杂的更名和“换芯”历程。1999年，中软Linux（COSIX Linux）诞生。2003年，中软与普华投资成立中标软件，系统更名为中标普华Linux（NeoShine Linux）。2010年，中标普华与国防科大的银河麒麟产品合并，系统更名为中标麒麟Linux（NeoKylin Linux）并延续至今。所谓“换芯”，是指在采用Linux内核之前，中软早年的COSIX曾基于System V和Tru64研制，而银河麒麟则基于FreeBSD开发。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;共创Linux（CoCreate Linux）&lt;/strong&gt;来自北京共创开源软件有限公司。该公司成立于本世纪初，2005年前后是它的辉煌时期：曾成为国际开源组织OSDL的首个中国会员，创办了OpenDesktop开源社区，发行过令人惊艳的高仿Windows Longhorn（Vista）发行版，也在多个政企项目中取得成绩。2010年前后，共创开源针对龙芯CPU发行过桌面Linux版本，社区也转型为龙芯开发者网站，为龙芯生态的发展做出了一些贡献。共创开源公司目前依然存续，可惜已经听不到它在操作系统领域的声音。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;新华Linux/华镭系统（RAYS）&lt;/strong&gt;是一个曾在2004～2007年间活跃过的国产发行版，来自香港新华集团（红旗Linux早期投资商之一）的子公司——南京新华科技。这家公司在成立之初代理发行过红旗Linux，研发过Linux下的汉统（Unihan）中文平台，后来主营政府、教育等行业解决方案和Linux教育培训业务。新华Linux公开发行过的版本数量不多，或许只是公司主营业务的一项副产品。新华科技也曾涉足嵌入式领域，并为龙芯盒子开发过定制版操作系统，但现如今产品已在主流市场销声匿迹。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;即时Linux（ThizLinux）&lt;/strong&gt;同样是一个具有港资背景的发行版，它来自香港即时科研集团。即时集团在2000～2003年间火速推出即时Linux 1.0～7.0版本，并在内地和港台全面铺开市场，积极投身政采与OEM项目。后续几年，即时Linux产品虽在不断维护，版本号却只在7.0X基础上缓慢演进。2006年，该公司宣布转型教育培训、企业解决方案等方向，2017年又开始投身金融科技市场与服务。即时集团现在虽然已经不再研发Linux系统，却将这段历史记录在了它的子公司“上海即时利尼克斯软件有限公司”的名称之中。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hiweed Linux&lt;/strong&gt;是一套社区发行版，始于2004年，定位于“免除新手痛苦、节约老手时间”。它于2009年底更名为深度操作系统（Deepin）。2011年，武汉深之度科技有限公司成立，负责本系统的开发推广。深度团队具有较强的研发能力，也非常注重国人用户体验。新版深度系统采用自主研发的DDE桌面，并通过Deepin-wine支持了大量移植自Windows的国产软件，因此成为近几年最受欢迎的桌面Linux发行版之一。在国产化新浪潮中，深度系统挺进服务器领域，对接了龙芯、申威等国产CPU，前景被业界看好。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MaxCapture Linux&lt;/strong&gt;则是一款小有名气的个人发行版，作者为徐文达。该发行版基于Knoppix，面向教学演示、系统急救等应用。Live CD版本通过2004年8月《玩电脑》杂志公开发布，并作为当期的“特别话题”得到了详细介绍。能够通过传统媒体发布个人Linux发行版，成为那个时代的一段佳话。作者当年发表的一些文章也成为了指导国内爱好者制作定制化Linux版本及Live CD的指南。近年来，随着主流Linux发行版功能日益成熟，制作个人发行版的必要性越来越小，历史留存的这些小众版本便成为美好的回忆。&lt;/p&gt;
+
+&lt;p&gt;这一时期诞生的知名中文社区发行版还有Linux人社区开发并得到红旗支持的Qomo Linux、天空竞技场论坛基于Puppy Linux开发的Veket、台湾教育界开发的B2D Linux等。个人发行版的代表还有上海lvjinhua的Dubuntu、台湾Ping-Hsun Chen的PUD GNU/Linux等。2006年之后，随着Ubuntu定制工具包（Ubuntu Customization Kit）等工具的发布，以及Ubuntu论坛“中文衍生版”板块的开通，国内曾出现了一个自制Ubuntu衍生版的小高潮。可惜技术门槛的降低反而让精品版本变得凤毛麟角。&lt;/p&gt;
+
+&lt;p&gt;国人对Linux的关注并不止于封装国产发行版。毛德操、陈莉君、赵炯等教授翻译或编著的一系列Linux内核教材帮助不少技术人员和大学生走进了Linux的核心世界，“龙井”Linux兼容内核项目也为有志于钻研内核技术的爱好者另辟蹊径。不过，单看那几年对Linux内核本身的贡献，华人面孔还比较少，且多数华人贡献者均来自跨国公司。尽管如此，随着中国创新环境的改善及软件生态的优化，业界的知识产权意识和自主研发动力也在持续增强，为国产自主软件走向成熟积蓄了力量。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/exploration_history_of_domestic_linux_distribution_2.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;读博岁月行业推陈出新本人近水楼台&quot;&gt;读博岁月——行业推陈出新，本人近水楼台&lt;/h2&gt;
+
+&lt;p&gt;2008年，我来到中科院计算所硕博连读。计算所是中国计算机事业的摇篮，是曙光、龙芯、寒武纪等高科技企业的发源地。在这里，我近距离接触到了很多领先的国产技术以及它们的研发团队。无论在科研成果内部还是研发过程当中，Linux系统均发挥着重要的作用，我当时几乎所有工作都在Linux下完成。虽然我从事的不是传统意义上的狭义的操作系统研究，但是也在网格、云计算等项目中做过Linux内核定制、微型发行版、验证机制/名称解析（PAM/NSS）模块、基础设施即服务（IaaS）平台等工作。这些成果与开放的技术社区密不可分，而我们团队也在用自己的工作回馈研究界的用户，其中最值得一提的就是凌云（LingCloud）云计算平台的开源发布。这一时期的国产Linux版本中，面向桌面的盒装发行版已不常见，我收藏的盒装版本更多为服务器版。&lt;/p&gt;
+
+&lt;p&gt;那些年，随着云计算和移动互联网时代的到来，桌面操作系统的争夺战变得相对次要，而服务器端的主战场在云计算的催化下依旧烽烟滚滚。同时，移动端成为操作系统厂商攻抢的新领地。下面选取一些代表性的产品进行介绍。&lt;/p&gt;
+
+&lt;p&gt;曙光的拳头产品是面向超算领域的高性能计算机，它们早期曾以预装AIX[4]为主。曙光4000～6000主要使用SUSE Linux、Turbolinux等国外主流发行版的OEM版本，在部分超算中心也使用过Windows HPC Server系统。据公开报道，曙光7000有望在系统软件方面采用自主技术。相比之下，曙光的通用服务器产品可用的操作系统则更加广泛，包括一些主流社区及国产Linux发行版。在MIPS（Microprocessor without Interlocked Pipelined Stages，无内部互锁流水级的微处理器）服务器方面，早期的曙光龙芯刀片服务器主要预装红旗Linux，而近几年的龙腾服务器主要预装中标麒麟、统信UOS等发行版。&lt;/p&gt;
+
+&lt;p&gt;龙芯CPU在发展初期选用MIPS架构，支持的操作系统类型相对有限，但为其做过适配的Linux发行版数量并不少。早期基于龙芯2代的龙芯盒子预装的Loongson Debian是基于Debian定制优化的版本；龙梦笔记本预装的Loonux也是在Debian之上附加了定制化的用户界面。当时为这些设备做过系统适配的还有中科红旗、共创开源、新华华镭等国产厂商。近年来，龙芯官网的适配列表中已经罗列了中标麒麟、统信、深度等几乎所有国产Linux厂商，反映出龙芯生态的日益成熟及国内产业的抱团发展。随着龙芯发布自主的LoongArch架构，国产生态也将迎来新机遇。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Asianux&lt;/strong&gt;是由中国的中科红旗、日本的Miracle Linux、韩国的Hancom等亚洲IT厂商联合开发的一款服务器Linux发行版，始于2004年。这个发行版致力于为亚洲Linux厂商提供一套企业级Linux标准基础组件，力图以本土营销和服务的优势同欧美Linux厂商抗衡。不同于纯商业的技术组织，Asianux产业联盟要求各参与方应具有所在国的政府背景，以便借力研发和推广。中科红旗在这一联盟中处于主导地位。在中科红旗经历困难和转型的那几年，Asianux的发布进度也受到影响，不过现已恢复元气。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;中标麒麟Linux（NeoKylin Linux）&lt;/strong&gt;隶属于中国电子集团，源于2010年中标普华与银河麒麟的产品合并。该发行版紧扣国家战略导向，深耕安全可控能力，主攻政府和工业等重点领域，适配多种国产CPU，国内市场占有率长期位居第一。国防科大麒麟品牌衍生出的国产Linux品牌还有银河麒麟（与中标麒麟同属中国电子集团，不同于早期基于FreeBSD的版本）、湖南麒麟信安、优麒麟等。除了面向桌面用户的社区版本优麒麟，其他发行版也均以安全特色主打政企市场。&lt;/p&gt;
+
+&lt;p&gt;在智能手机和平板电脑普及之前，移动互联网设备（Mobile Internet Device，MID）、超级移动个人计算机（Ultra-mobile Personal Computer ，UMPC）、上网本曾在数码爱好者圈内流行，针对这些移动设备的操作系统成为了一块亟待瓜分的新蛋糕。中科红旗于2007年推出Midinux，面向移动终端；2009年推出inMini，面向上网本。这两个Linux发行版基于Moblin/MeeGo项目，重点优化用户体验。中科红旗还着力建设产业链，与爱国者、联想等硬件厂商以及独立软件供应商开展合作，共建生态系统。可惜伴随着这一类过渡形态产品的退市，这两个发行版连同其上下游软件都成为了昙花一现。&lt;/p&gt;
+
+&lt;p&gt;在MID流行的年代，合肥有一家名为“智器”的硬件厂商，它的SmartQ系列产品广受数码爱好者追捧。那时移动操作系统的战事正酣：Android尚未成功、Windows CE实力尤在、MeeGo和webOS各盘踞一方。智器在这一局势下采取了多系统的策略，在Linux发行版方面选择定制开发Ubuntu。智器定制版Ubuntu针对小屏幕和触摸屏进行了优化，预装了3G驱动，并且可选安装一批国人喜闻乐见的影音、娱乐、财经、阅读类软件。MID风潮过后，智器还做过平板电脑与智能手表，但风光已不如当年。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;雨林木风开源操作系统（Ylmf OS）&lt;/strong&gt;是一款桌面Linux发行版，始于2009年，开发商是Windows XP时代颇有争议的东莞雨林木风公司。该发行版基于Ubuntu开发，早期版本以界面高仿Windows著称。当年市面上曾出现过一种盒装的Ylmf OS版本，较难判断是官方版本或是所谓“伪正版”。2012年，该系统更名为起点操作系统（StartOS），并由新成立的爱瓦力公司经营，如今版本更新近乎停滞。尽管Ylmf OS在遵守版权协议方面仍有缺陷，但借团队转型之机向国人推广Linux桌面的尝试仍有其积极意义。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/exploration_history_of_domestic_linux_distribution_3.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;这一时期比较受欢迎的国产社区发行版当属前述的&lt;strong&gt;优麒麟（Ubuntu Kylin）&lt;/strong&gt;。Ubuntu官方的技术支持加上中国团队的本地优化，使其权衡了成熟度与易用性。当时国内短暂出现过的社区或个人Ubuntu定制版本还有新氧、开拓者、喀纳斯等。在主流的政企市场之外，比较有特色的国产发行版还包括广州慧炬公司针对系统急救需求开发的Prayaya Q3、黑龙江中科方德公司面向“龙迈”上网本开发的Delix、湖南宝龙公司面向“微智电脑”（U盘）开发的Bolod XOS等。&lt;/p&gt;
+
+&lt;p&gt;中国软件行业在这段时间可谓经历了整体转型。曾经困扰行业多年的盗版问题被软件服务化（SaaS）、订阅制、应用商店、智能手机等新模式逐步改善。原本在桌面系统和应用软件领域被寄予厚望的国产Linux生态转而在云数据中心和移动端设备重焕新生，而业界对用户的版权意识教育也由照本宣科变为潜移默化。把握并适应这一趋势的企业得到了长足发展，墨守成规者则被时代淘汰。回顾这个变革的年代，我们有理由相信中国软件行业的未来充满希望。&lt;/p&gt;
+
+&lt;h2 id=&quot;结语&quot;&gt;结语&lt;/h2&gt;
+
+&lt;p&gt;自2016年中央召开网络安全和信息化工作座谈会以来，信息技术的自主可控被提升到新的战略高度。虽然基于Linux内核做国产发行版不算完全的自主知识产权，但这也是现阶段权衡诸多现实因素的折中之选。我们应当看到，如今国内的头部Linux厂商早已跨越了汉化与“换皮”的阶段。以华为公司（发行版为EulerOS）为代表的中国团队已在Linux内核代码贡献中名列前茅，亦有不少厂商在国产芯片适配、安全加固、可信计算等关键领域聚沙成塔。尽管难免出现少数瞄准政策红利的投机者，然而多数具有责任心的国产Linux开发者如今已经明白需要脚踏实地才能实现操作系统领域的厚积薄发。&lt;/p&gt;
+
+&lt;p&gt;我所了解的往事写到这里，国产Linux发行版的故事还远没有讲完。相比回顾历史，更重要的是把握当下。我们这一代中国计算机领域的创业者适逢其时——要想迎来国产化信息技术破茧成蝶的时刻，就要投入到时代洪流当中，亲身参与历史的书写。&lt;/p&gt;
+
+&lt;h2 id=&quot;脚注&quot;&gt;脚注：&lt;/h2&gt;
+
+&lt;p&gt;[1] 上世纪80年代，自由软件运动精神领袖理查德·马修·斯托曼（Richard Matthew Stallman）发起GNU计划（名称来自“GNU’s Not Unix!”的首字母递归缩写），主要目标是创造一套完全自由免费、兼容于Unix的操作系统GNU。1991年，林纳斯·托瓦兹（Linus Torvalds）开发了一个与Unix兼容的内核并称之为Linux；1992年，Linux与不是非常完整的GNU系统相结合产生了一个完整的自由软件操作系统，被称为GNU/Linux。&lt;/p&gt;
+
+&lt;p&gt;[2] Ubuntu是一个以桌面应用为主的Linux发行版；Wubi（Windows-based Ubuntu Installer）是一种可在Windows下启动的Ubuntu安装程序；Windows Subsystem for Linux，简称WSL，是以软件的形式运行在Windows下的子系统，允许用户模式的Linux二进制文件在Windows上以原生方式运行。&lt;/p&gt;
+
+&lt;p&gt;[3] GPL（General Public License）是GNU通用公共许可证的简称，是由自由软件基金会发行的用于计算机软件的一种版权协议证书，使用该证书的软件被称为自由软件。&lt;/p&gt;
+
+&lt;p&gt;[4] IBM基于AT&amp;amp;T Unix System V开发的一套专有Unix操作系统。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;作者：林健&lt;/p&gt;
+
+&lt;p&gt;出处：https://www.linuxjiaocheng.com/3578.html&lt;/p&gt;
+
+</description>
+            <pubDate>Tue, 16 Apr 2024 00:00:00 +0800</pubDate>
+            <link>http://localhost:4000/exploration_history_of_domestic_linux_distribution.html</link>
+            <guid isPermaLink="true">http://localhost:4000/exploration_history_of_domestic_linux_distribution.html</guid>
+            
+            <category>story</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>收藏之趣</title>
+            <description>&lt;h2 id=&quot;契机&quot;&gt;契机&lt;/h2&gt;
+
+&lt;p&gt;大约在2016年，某个夏日的夜晚，还是小学六年级学生的我像往常一样，坐在电视机前，等待老爸播放这周的电影。那天是周五。我家有个传统，会在周五由老爸挑一部电影，全家人坐在沙发上，享受晚上的休闲时光。&lt;/p&gt;
+
+&lt;p&gt;记得那次放的电影是《乔布斯传》。电影拍得不错，但其中最吸引我的，是乔布斯早期接触过的那些电脑设备。那种闪烁着绿色荧光的屏幕，是我第一次见，感觉真是太帅了。于是乎，我开始对古董计算机产生兴趣。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/the_fun_of_collecting_01.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_01.jpg&quot; alt=&quot;最早的收藏&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;最早的收藏&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;这张图片是我初二时拍摄的。左上角是夏普PC-1500，是我最早收到的一台古董计算机。夏普PC-1500使用了一块修改版Z80处理器，内存有2KB，但可以加内存卡，最多能达到18KB。这台机器在国内保有量极大，价格也十分便宜，是爱好者入门的最佳选择。夏普PC-1500有配套的底座（底座有绘图功能）、人造皮革盒子，还有可选配件，比如图中夏普PC-1500左边的那个小盒子，是它的串口通讯模块。夏普PC-1500的底座里有镍铬充电电池，接近40年的历史让它彻底损坏，出现漏液，所以一拿到手，我就将电池拆了下来，这是拿到古董计算机之后应该做的第一件事。&lt;/p&gt;
+
+&lt;p&gt;夏普PC-1500下面的是兄弟EP-20打字机，非常普通的机器，使用热升华原理打印。原配色带早已停产，但是如果使用热敏纸，就可以不用色带，也能打印。&lt;/p&gt;
+
+&lt;p&gt;演示视频：&lt;a href=&quot;https://www.bilibili.com/video/BV1fb4y1S7fe?spm_id_from=333.999.0.0&quot;&gt;https://www.bilibili.com/video/BV1fb4y1S7fe?spm_id_from=333.999.0.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;兄弟EP-20打字机下面是Kyotronic 85膝上电脑，它使用8085CPU，内存有16KB。这台电脑当时是四兄弟：&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_02.gif&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_03.gif&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_04.gif&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_05.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;这四台电脑内部架构几乎一模一样，所不同的是它们的制造商，从左往右依次是：京瓷、RadioShack、NEC和Olivetti。这台电脑据说是当年美国记者最爱使用的记录工具。机内附带了几个程序，有BASIC解释器、文字编辑器和通讯工具。&lt;/p&gt;
+
+&lt;p&gt;刚到手的时候，它的键盘有几个按键失灵，拆开后发现，键盘电路板有开裂，所幸并不严重，只要飞线就能解决。受制于技术，当年的电脑集成度不高，主板上芯片非常多。有时候，这种布满集成电路的电路板有特殊的美感。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_06.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_07.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;演示视频：&lt;a href=&quot;https://www.bilibili.com/video/BV1jX4y1P7dL?spm_id_from=333.999.0.0&quot;&gt;https://www.bilibili.com/video/BV1jX4y1P7dL?spm_id_from=333.999.0.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;右侧从上往下，依次是卡西欧FX-801P、NES游戏主机、中华学习机CEC-I和夏普MZ-700。&lt;/p&gt;
+
+&lt;p&gt;卡西欧FX-801P是当时一款常见的可编程计算器，机器附带了一个磁带机和热敏打印机，可以说麻雀虽小五脏俱全。NES游戏主机是FC（也就是所谓“红白机”）的北美版本，个人感觉它的外观比FC好看。中华学习机是Apple II的国内修改版，增加了汉字字库和一些内置程序（LOGO绘图程序）。夏普MZ-700是当时一款常见的家用机，使用Z80处理器，内存有16KB。我收到的版本其实是MZ-731。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_08.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;如图，真正的MZ-700键盘上方是没有任何东西的，而MZ-731则附带了一个四色矢量绘图仪（和夏普PC-1500底座上的那个是一样的结构，不同之处在于绘制的宽度）和一个磁带机。不过这绘图仪和磁带机都是可拆卸的，可以看作是“扩展模组”。在这里，权且把MZ-700看作是一个系列的名称吧，可以这么理解：MZ-731是MZ-700系列中的一种配置。&lt;/p&gt;
+
+&lt;p&gt;刚收到这台机器时，它的键盘有按键失灵，绘图仪的撞针结构也无法动弹。所幸也是很容易修复的故障。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_09.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_10.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_11.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;个人认为，MZ-700的外观非常漂亮，键盘非常养眼（尽管手感不好）。不过美中不足的是，这款机型没有图形显示功能，只能通过特殊的字符拼出“图形”。尽管如此，MZ-700平台上依然有很多相当出色的游戏，这些游戏可以在SharpMZ网站上下载。&lt;/p&gt;
+
+&lt;p&gt;但是，如何将游戏文件加载到这么老的电脑上呢？&lt;/p&gt;
+
+&lt;p&gt;首先，用SharpMZ网站提供的一个转换程序，将游戏文件转换为WAV音频，然后用录音机将音频录入磁带，再把磁带放到机器的磁带机上读取，就可以啦。&lt;/p&gt;
+
+&lt;p&gt;演示视频：&lt;a href=&quot;https://www.bilibili.com/video/BV1Yy4y1E7wc?spm_id_from=333.999.0.0&quot;&gt;https://www.bilibili.com/video/BV1Yy4y1E7wc?spm_id_from=333.999.0.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;照片中还有一些小玩意，其中比较有意思的，是GameBoy打印机和GameBoy相机。&lt;/p&gt;
+
+&lt;p&gt;任天堂在1989年发布了一款便携式游戏机——GameBoy。它和红白机一样，需要插卡才能玩。然而在90年代中后期，任天堂似乎不打算让GameBoy停留在“游戏机”层面。于是乎，GameBoy Camera登场了。这是一种特殊的游戏卡，它带有一个3.6mm²的CCD图像传感器，可以拍摄30张128x112分辨率的灰度图像。这些图像甚至能通过配套的热敏打印机打印出来，几乎就是一台“拍立得”相机。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_12.jpg&quot; alt=&quot;GameBoy相机和打印机&quot; /&gt;
+    &lt;p&gt;GameBoy相机和打印机&lt;/p&gt;
+&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_13.jpg&quot; alt=&quot;GameBoy相机拍摄的图像&quot; /&gt;
+    &lt;p&gt;GameBoy相机拍摄的图像&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;开始迷上计算器&quot;&gt;开始迷上计算器&lt;/h2&gt;
+
+&lt;p&gt;初二暑假的一个下午，我在逛数码之家论坛的时候，看到了这样一个帖子：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/188540332&quot;&gt;https://zhuanlan.zhihu.com/p/188540332&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“电与磁的极致艺术”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;帖子中介绍的HP9100计算机，它那密布原件的电路板、前卫的后现代造型、令人惊叹的技术，让我赞叹不已。从那时起，我开始将注意力转移到计算器上。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/the_fun_of_collecting_14.png&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_14.png&quot; alt=&quot;部分计算器收藏&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;部分计算器收藏&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;在收藏计算器的这段时间里，我认识了不少有着相同爱好的人，也丰富了关于古董计算机的知识。在初二到高一的这段时间里，我陆陆续续集齐了一些在计算器发展史上有一定意义的机器，比如三大计算器制造商的初代图形计算器（Casio fx7000g、HP 28S和TI-81）。其中，我收藏的最老的计算器是Casio Personal Mini（1974），这是世界上第一台手持式计算器Casio Mini的后续版本。许多70~80年代的计算器使用荧光管（VFD）作为显示器。荧光管是一种电子管，能发出幽幽的蓝色荧光——那是阴极射线撞击在稀土元素上发出的光，非常好看。&lt;/p&gt;
+
+&lt;p&gt;古老的计算器有一个非常有趣的地方：在计算时有明显的延迟，在这段时间里，你可以看到屏幕上有数字在飞快地跳动——这是计算器内部工作的写照。&lt;/p&gt;
+
+&lt;p&gt;Casio Personal Mini就有这种现象，请看视频：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1SZ4y1j7jc?spm_id_from=333.999.0.0&quot;&gt;https://www.bilibili.com/video/BV1SZ4y1j7jc?spm_id_from=333.999.0.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;回归计算机收藏&quot;&gt;回归计算机收藏&lt;/h2&gt;
+
+&lt;p&gt;高一下学期，我注册了支付宝和闲鱼账号。&lt;/p&gt;
+
+&lt;p&gt;闲鱼是一个网上二手交易平台，时不时会出现一些正在出售古董计算机。&lt;/p&gt;
+
+&lt;p&gt;以前，一般都是我的父母帮我购买这些老设备，而我知道，太贵的机器是买不来的，所以我一般都挑便宜的买。有了自己的闲鱼账号之后，我发现，很多标价较高的机器，可以通过砍价砍到一个非常低的价格。于是乎，我用压岁钱又买了一大批机器。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/the_fun_of_collecting_15.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_15.jpg&quot; alt=&quot;ThinkPad系列&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;ThinkPad系列（从左往右、从上往下：370C、380Z、345C、750C、220、230CS、340CSE、560X）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;展示视频：&lt;/p&gt;
+
+&lt;p&gt;750P：&lt;a href=&quot;https://www.bilibili.com/video/BV1c64y1c7o1?spm_id_from=333.999.0.0&quot;&gt;https://www.bilibili.com/video/BV1c64y1c7o1?spm_id_from=333.999.0.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;230CS：&lt;a href=&quot;https://www.bilibili.com/video/BV1vb4y1d7yi?spm_id_from=333.999.0.0&quot;&gt;https://www.bilibili.com/video/BV1vb4y1d7yi?spm_id_from=333.999.0.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;370C：&lt;a href=&quot;https://www.bilibili.com/video/BV1sV411s7mA?spm_id_from=333.999.0.0&quot;&gt;https://www.bilibili.com/video/BV1sV411s7mA?spm_id_from=333.999.0.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/the_fun_of_collecting_16.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_16.jpg&quot; alt=&quot;&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;从上往下、从左往右：HP Omnibook 800CT、SHARP CS2166、TQ-12H、IBM ThinkPad 750P、三菱Amity、NDSL、EPSON HX-20、Commodore 116、Casio fx-120、TI Voyage 200&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/the_fun_of_collecting_17.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_17.jpg&quot; alt=&quot;IBM打印机&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;IBM打印机&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/the_fun_of_collecting_18.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_18.jpg&quot; alt=&quot;IBM 5152打印机&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;IBM 5152打印机&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;展示视频：&lt;a href=&quot;https://www.bilibili.com/video/BV1Zw41197GG?spm_id_from=333.999.0.0&quot;&gt;https://www.bilibili.com/video/BV1Zw41197GG?spm_id_from=333.999.0.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;IBM 5152打印机是和著名的IBM 5160配套的，这一点可以在老照片中得到证明。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_19.jpg&quot; alt=&quot;最左边的那个就是IBM 5152&quot; /&gt;
+    &lt;p&gt;最左边的那个就是IBM 5152&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/the_fun_of_collecting_20.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_20.jpg&quot; alt=&quot;DEC AlphaStation 200高性能服务器（1994年发布，使用了64位处理器）&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;DEC AlphaStation 200高性能服务器（1994年发布，使用了64位处理器）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;展示视频：&lt;a href=&quot;https://www.bilibili.com/video/BV1KL411n7hm?spm_id_from=333.999.0.0&quot;&gt;https://www.bilibili.com/video/BV1KL411n7hm?spm_id_from=333.999.0.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/the_fun_of_collecting_21.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_21.jpg&quot; alt=&quot;卡西欧PB700&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;卡西欧PB700&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;展示视频：&lt;a href=&quot;https://www.bilibili.com/video/BV173411z77c?spm_id_from=333.999.0.0&quot;&gt;https://www.bilibili.com/video/BV173411z77c?spm_id_from=333.999.0.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这台机器和夏普PC-1500一样，在当时也是进口了很多。但这台机器的显示功能更加强大，图形处理功能也更加出色。国内曾有过仿制（贴牌？）机型，叫做“南华”。这台机器的底座上继承了绘图仪和磁带机，磁带机有两种版本，一种用的是上图的普通磁带，另一种用的是迷你磁带。&lt;/p&gt;
+
+&lt;p&gt;因为年代久远，绘图仪的塑料拨片断裂了，所幸也不难修复。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/the_fun_of_collecting_22.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_22.jpg&quot; alt=&quot;HP 37900D信令分析仪&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;HP 37900D信令分析仪&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;展示视频：&lt;a href=&quot;https://www.bilibili.com/video/BV1JU4y1F7yw?spm_id_from=333.999.0.0&quot;&gt;https://www.bilibili.com/video/BV1JU4y1F7yw?spm_id_from=333.999.0.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这台机器使用了EL屏幕，琥珀色的黄色光芒，非常有赛博朋克的感觉。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/the_fun_of_collecting_23.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_23.jpg&quot; alt=&quot;佳能Navigatior HD40&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;佳能Navigatior HD40&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;演示视频：&lt;a href=&quot;https://www.bilibili.com/video/BV11m4y197WB?spm_id_from=333.999.0.0&quot;&gt;https://www.bilibili.com/video/BV11m4y197WB?spm_id_from=333.999.0.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这台机器是一个传真机，但是内置了一台完整的计算机。它使用8086处理器，标准的PC AT架构，可以运行Windows 2.03。机器还有一个触摸屏，可以在内置的“麒麟传真收发系统”中操作。&lt;/p&gt;
+
+&lt;p&gt;机器非常重，估计有20千克。机器的CRT屏幕似乎使用了长余辉材料，关机之后屏幕上还有图像残留，很长时间才消失不见。&lt;/p&gt;
+
+&lt;p&gt;因为使用的是AT架构，所以一般的键盘是无法接上去使用的。必须使用一个转接器才能将现代的PS/2接口键盘接在这台机器上。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/the_fun_of_collecting_24.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_24.jpg&quot; alt=&quot;东芝Libretto 50M&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;东芝Libretto 50M&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;非常迷你的笔记本电脑，使用了奔腾处理器。有触摸屏，在当时算是非常不错了。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/the_fun_of_collecting_25.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_25.jpg&quot; alt=&quot;兄弟牌电动助力打字机&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;兄弟牌电动助力打字机&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;演示视频：&lt;a href=&quot;https://www.bilibili.com/video/BV1HY411V7VZ?spm_id_from=333.999.0.0&quot;&gt;https://www.bilibili.com/video/BV1HY411V7VZ?spm_id_from=333.999.0.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;机械打字机的升级版，打字更省力，回车、换行能自动进行。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/the_fun_of_collecting_26.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_26.jpg&quot; alt=&quot;Bondwell B200笔记本电脑&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;Bondwell B200笔记本电脑&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;演示视频：&lt;a href=&quot;https://www.bilibili.com/video/BV1wr4y1a7Jm?spm_id_from=333.999.0.0&quot;&gt;https://www.bilibili.com/video/BV1wr4y1a7Jm?spm_id_from=333.999.0.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;普通的8088笔记本电脑，世界上最早的一批笔记本电脑之一。键盘失灵，还没有修复。屏幕有一些故障，应该是电容老化。注意，这种老笔记本电脑的软驱一般是720K的，1.44MB格式化的软盘并不支持。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/the_fun_of_collecting_27.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_27.jpg&quot; alt=&quot;左：东芝T1200 右：东芝T1200XE&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;左：东芝T1200 右：东芝T1200XE&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;T1200演示视频：&lt;a href=&quot;https://www.bilibili.com/video/BV17v411x75T?spm_id_from=333.999.0.0&quot;&gt;https://www.bilibili.com/video/BV17v411x75T?spm_id_from=333.999.0.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;T1200是世界上最早的笔记本电脑之一，带有一块20MB硬盘，8086的CPU。&lt;/p&gt;
+
+&lt;p&gt;T1200XE是一台普通的286笔记本电脑，也带有一块40MB硬盘。&lt;/p&gt;
+
+&lt;h2 id=&quot;vintage和modern的结合&quot;&gt;Vintage和Modern的结合&lt;/h2&gt;
+
+&lt;p&gt;收藏了很多机器之后，我开始思考，怎样用这些机器做一点有趣的事情。&lt;/p&gt;
+
+&lt;p&gt;首先，我想到了我收藏的一台矢量绘图仪——夏普CE-515P。&lt;/p&gt;
+
+&lt;p&gt;为什么说它是“矢量绘图仪”呢？因为，它的绘图方式，是直接拿一只笔在纸上移动，画出来的都是线条，因此不存在所谓“点阵”一说，而是真真正正的“矢量”。如果要绘制圆形，则使用许多直线近似。虽说矢量理论上分辨率无限，但在这台机器上，精度受制于步进电机的最小步距，这大概是0.2mm，也够高了。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_28.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;一开始，我在网上无法找到它的原配说明书，不过这台机器当年在国内相当流行，并不缺乏资料。在知网上，我查到了驱动它的方法。我写了个C++小程序，能把图片转换成CE-515P可以接受的代码。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/the_fun_of_collecting_29.png&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_29.png&quot; alt=&quot;我在知网上找到的文章&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;我在知网上找到的文章&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_30.png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;我把CE-515P通过LPT接口连接到IBM ThinkPad 345C上，再通过软盘将转换好的代码文件拷到IBM ThinkPad 345C上，用DOS自带的EDIT软件打开，用Print功能向LPT端口发送代码，就能实现矢量图绘制。&lt;/p&gt;
+
+&lt;p&gt;在驱动过程中，我遇到了很多困难。最初很不成功，绘制的线条位置完全错乱。我仔细地查找原因，发现，每个指令都必须有回车符隔开，并且划线指令后面接的坐标个数有限制。明白这两点花了我很长时间，在老设备上调试也是十分的麻烦。但是，这就是玩老机器的乐趣所在：像侦探一样发现问题，享受解决问题带来的成就感。&lt;/p&gt;
+
+&lt;p&gt;我将CE-515P绘制图片的过程拍摄成视频，发到了哔哩哔哩视频网站上，收获了可观的播放量。&lt;/p&gt;
+
+&lt;p&gt;链接：&lt;a href=&quot;https://www.bilibili.com/video/BV1v64y1b7qY?spm_id_from=333.999.0.0&quot;&gt;https://www.bilibili.com/video/BV1v64y1b7qY?spm_id_from=333.999.0.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;许多人对于老电脑的印象是：又慢又卡，放视频像PPT。但就我的经验来看，并不是这样的。在给IBM ThinkPad 345C换上CF卡固态硬盘后，开机能稳定在20秒之内——这已经超越许多现在的电脑了。在使用Windows3.2操作系统时，也没有多少的卡顿出现。我并不是想把老机器和新机器进行没有意义的比较，老机器上的程序所需要的计算量并没有现在的程序那么大，因此在老平台上使用体验并没有很差。但在这里，我想反驳一下某些把老电脑和“又慢又卡”等同的门外汉。&lt;/p&gt;
+
+&lt;p&gt;在老电脑平台上，能体验到很多软件的初代版本。比如，1994年发布的Adobe Premier 1.1现在还可以用来剪辑视频，这是一种相当不同寻常的体验。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/the_fun_of_collecting_31.png&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_31.png&quot; alt=&quot;在一台486笔记本电脑上用Premier 1.1剪辑视频&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;在一台486笔记本电脑上用Premier 1.1剪辑视频&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;使用视频：&lt;a href=&quot;https://www.bilibili.com/video/BV1vi4y1o7aQ?spm_id_from=333.999.0.0&amp;amp;vd_source=d1096704192403b7037bba2d2bfa5b39&quot;&gt;https://www.bilibili.com/video/BV1vi4y1o7aQ?spm_id_from=333.999.0.0&amp;amp;vd_source=d1096704192403b7037bba2d2bfa5b39&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;收藏古董计算机，还可以体验许多数码产品的“最初形态”：&lt;/p&gt;
+
+&lt;p&gt;比如，左图是最新推出的Surface&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_32.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/the_fun_of_collecting_33.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Laptop Studio笔记本电脑，右图是世界上第一款翻转屏笔记本电脑——IBM ThinkPad 750P，发布于1994年。二者都采用了翻转屏设计，且都有数位屏功能。&lt;/p&gt;
+
+&lt;p&gt;某种意义上，古董电脑上的很多设计是现代电脑的“祖宗”。&lt;/p&gt;
+
+&lt;h2 id=&quot;未来和展望&quot;&gt;未来和展望&lt;/h2&gt;
+
+&lt;p&gt;作为一位准大学生，我越发感到，保存计算机历史记忆的意义重大。作为一名收藏者，我有一种使命感，那就是，要将这些设备完好地保存下去。有许多人觉得我这是在“捡垃圾”，是“垃圾佬”，但其中真正的乐趣和意义，只有圈内人能理解、明白。无论如何，我都会努力继续下去，这相当于是我人生的一大事业。同时，我会在哔哩哔哩视频网站上继续更新视频，将古董计算机的文化、知识，传递给更多的人。&lt;/p&gt;
+
+&lt;p&gt;2022年6月16日 星期四&lt;/p&gt;
+
+&lt;p&gt;Cansanel&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;作者：方可元&lt;/p&gt;
+
+&lt;p&gt;昵称：Cansanel&lt;/p&gt;
+
+&lt;p&gt;学生，古董计算机收集爱好者，哔哩哔哩UP主&lt;/p&gt;
+
+&lt;p&gt;转载自si9ibd9tpre8g7的图书馆&lt;/p&gt;
+
+</description>
+            <pubDate>Mon, 08 Apr 2024 00:00:00 +0800</pubDate>
+            <link>http://localhost:4000/the_fun_of_collecting.html</link>
+            <guid isPermaLink="true">http://localhost:4000/the_fun_of_collecting.html</guid>
+            
+            <category>story</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Wiki: Apple III 系列</title>
+            <description>&lt;p&gt;Apple III 系列电脑是原苹果电脑公司 1980 年 5 月推出，面向商业用户推出的电子计算机产品。它的上一代产品是 Apple II 系列，作为升级版下一代产品，Apple III 系列却没有像 Apple II 系列那样畅销，最终于1985 年 9 月就匆匆停产。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/wiki_apple_3_01.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/wiki_apple_3_01.jpg&quot; alt=&quot;一台正在运行的 Apple III&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;一台正在运行的 Apple III&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Apple III 系列包括：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Apple III（1980 – 1984）&lt;/li&gt;
+  &lt;li&gt;Apple III Plus（1983 – 1985）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;一apple-iii--apple-iii-plus-参数&quot;&gt;一、Apple III / Apple III Plus 参数&lt;/h2&gt;
+
+&lt;h3 id=&quot;总览&quot;&gt;总览&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;发布日期&lt;/td&gt;
+      &lt;td&gt;1980年5月(Apple III) &lt;br /&gt; 1983年12月(Apple III Plus)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;停产日期&lt;/td&gt;
+      &lt;td&gt;1984年4月(Apple III) &lt;br /&gt; 1985年9月(Apple III Plus)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;市场口号&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;开发代号&lt;/td&gt;
+      &lt;td&gt;Sara&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;市场售价&lt;/td&gt;
+      &lt;td&gt;$4340 – 7800(Apple III)  &lt;br /&gt; $2995(Apple III Plus)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持状态&lt;/td&gt;
+      &lt;td&gt;已停售,已停止技术支持&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;产品颜色&lt;/td&gt;
+      &lt;td&gt;米黄色&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;重量尺寸&lt;/td&gt;
+      &lt;td&gt;约 11.79 KG &lt;br /&gt; 121.92mm H x 443mm W x 462.28mm D&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;cpu-内存和存储&quot;&gt;CPU 内存和存储&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPU型号&lt;/td&gt;
+      &lt;td&gt;MOS Technology 6502A(Apple III) &lt;br /&gt; MOS Technology 6502b(Apple III Plus)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPU速度&lt;/td&gt;
+      &lt;td&gt;1.4MHz-1.8MHz，8位&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;核心数&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总线速度&lt;/td&gt;
+      &lt;td&gt;1MHz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内置内存&lt;/td&gt;
+      &lt;td&gt;128K 或 256K (Apple III) &lt;br /&gt; 256K (Apple III Plus)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最大扩展内存&lt;/td&gt;
+      &lt;td&gt;512K（板载）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;硬盘&lt;/td&gt;
+      &lt;td&gt;未知&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;硬盘接口&lt;/td&gt;
+      &lt;td&gt;选配 5MB Apple ProFile 硬盘&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扩展存储&lt;/td&gt;
+      &lt;td&gt;内置 5.25 英寸软驱&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ROM&lt;/td&gt;
+      &lt;td&gt;4K&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;显示&quot;&gt;显示&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;分辨率&lt;/td&gt;
+      &lt;td&gt;280×192（16bits色） &lt;br /&gt; 280×192（单色） &lt;br /&gt; 560×192(单色)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;显示连接&lt;/td&gt;
+      &lt;td&gt;1x RCA AV端子 &lt;br /&gt; 1x DB-15&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;字符显示&lt;/td&gt;
+      &lt;td&gt;24行，每行80字符（单色） &lt;br /&gt; 24行，每行40字符（16位色） &lt;br /&gt; 24行，每行40字符（单色）&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;固件和系统&quot;&gt;固件和系统&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内置固件&lt;/td&gt;
+      &lt;td&gt;未知&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持 OS&lt;/td&gt;
+      &lt;td&gt;Apple Sophisticated Operating system（SOS）1.0（Apple III） &lt;br /&gt; Apple Sophisticated Operating system（SOS）1.3（Apple III Plus）&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;内置接口和输入设备&quot;&gt;内置接口和输入设备&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;串口&lt;/td&gt;
+      &lt;td&gt;1x DB-25 兼容 RS-232C，2x DB-9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扬声器&lt;/td&gt;
+      &lt;td&gt;1x 3.5mm音频接口，1x 内置喇叭&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;显示接口&lt;/td&gt;
+      &lt;td&gt;AV端子输出&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;其他接口&lt;/td&gt;
+      &lt;td&gt;4x  50针 Apple II 接口&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;键盘&lt;/td&gt;
+      &lt;td&gt;内置 61(主键位) 键位 + 13(数字键) ASCII 标准键盘&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;工作电压&quot;&gt;工作电压&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最大功率&lt;/td&gt;
+      &lt;td&gt;未知&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;工作电压&lt;/td&gt;
+      &lt;td&gt;110-120V AC&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;二appel-iii系列的历史&quot;&gt;二、Appel III系列的历史&lt;/h2&gt;
+
+&lt;h3 id=&quot;1apple-iii&quot;&gt;1）Apple III&lt;/h3&gt;
+
+&lt;p&gt;Apple III 开创性的支持 80位大小写字母显示，九宫格数字键盘，实时日期时钟显示，16位色显示能力，设计上也很先进，这就导致了它的售价不菲，远高于同时期其他类似的电脑产品。&lt;/p&gt;
+
+&lt;p&gt;同时，采用了新工艺的主板电路也存在缺陷，容易出故障，抬起主机放下就有可能让主机重置。此外，新工艺也使得检测修理变得很昂贵而且也要花费一些时间。&lt;/p&gt;
+
+&lt;p&gt;除此之外，内置的时钟经常失效，这是由于零件供应商提供了有瑕疵的部件。然而，苹果公司将时钟芯片直接焊在电路板上，很难靠测试电路板找出故障芯片。最终，苹果公司不得不取消 Apple III的实时时钟以解决此问题，而不是更换芯片。&lt;/p&gt;
+
+&lt;p&gt;另一个更让人头疼的问题是散热。Apple III 为了追求低噪音而取消了风扇。早期电脑使用厚钢板做成的机箱，散热非常不好，这就导致 Apple III 经常过热，出现花屏，甚至整个损坏，这也是为什么存留至今 Apple III 非常少的原因之一。&lt;/p&gt;
+
+&lt;p&gt;针对散热问题的修复， 苹果公司免费更换之前已售出的 4000 台 Apple III。购买这些机器的用户更换了全新的机器，新机器重新设计了电路板。&lt;/p&gt;
+
+&lt;h3 id=&quot;2apple-iii-plus&quot;&gt;2）Apple III Plus&lt;/h3&gt;
+
+&lt;p&gt;作为 Apple III 的改进产品，Apple III Plus 在1983 年 12 月上市。Apple III Plus 修复了原先的硬件问题，并提供了 256K 内存，隔行扫描显示新技术。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/wiki_apple_3_02.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/wiki_apple_3_02.jpg&quot; alt=&quot;Apple III Plus 的主机&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;Apple III Plus 的主机&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;但 Apple III Plus 的上市也没有挽回 Apple III 系列销量的颓废。同时期各种电脑特别是 IBM 机器无论在价格还是速度上都优于 Apple III Plus。&lt;/p&gt;
+
+&lt;p&gt;最终，Apple III Plus 在 1985 年黯然停产。&lt;/p&gt;
+
+&lt;h2 id=&quot;三相关视频&quot;&gt;三、相关视频&lt;/h2&gt;
+
+&lt;p&gt;能保存到现在还能使用的 Apple III 非常稀少，几乎很难见到。我们只能从一些视频中领略它的内部结构和操作。&lt;/p&gt;
+
+&lt;p&gt;以下视频来自 Adrian Black，于 2017 年 12 月录制，讲述一台 Apple III 的维修和使用经过。&lt;/p&gt;
+
+&lt;p&gt;本视频内容由 Bilibili 博主 初生之鸟 进行翻译。&lt;/p&gt;
+
+&lt;p&gt;Bilibili 地址：&lt;a href=&quot;https://www.bilibili.com/video/av17593483&quot;&gt;https://www.bilibili.com/video/av17593483&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Youtube 地址：&lt;a href=&quot;https://www.youtube.com/watch?v=5qMP6A_U75E&quot;&gt;https://www.youtube.com/watch?v=5qMP6A_U75E&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;出处：https://www.maczd.com/post/10.html&lt;/p&gt;
+
+</description>
+            <pubDate>Sat, 23 Mar 2024 00:00:00 +0800</pubDate>
+            <link>http://localhost:4000/wiki-apple-3.html</link>
+            <guid isPermaLink="true">http://localhost:4000/wiki-apple-3.html</guid>
+            
+            <category>wiki</category>
+            
+            <category>computer</category>
+            
+            <category>history</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Wiki: Apple Lisa 系列</title>
+            <description>&lt;p&gt;Apple Lisa 是苹果电脑公司 1983 年上市的一款个人电子计算机，是第一款搭载图形界面的个人电脑。&lt;/p&gt;
+
+&lt;p&gt;Apple Lisa 最初开发计划始于 1978 年，当时 Lisa 开发小组希望开发出一款针对企业和个人用户的全新操作方式的电脑，乔布斯参与了 Lisa 的开发。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/wiki_apple_lisa_01.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/wiki_apple_lisa_01.jpg&quot; alt=&quot;正在运行的 Apple Lisa&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;正在运行的 Apple Lisa&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Lisa 是以乔布斯的女儿的名字 “丽萨”（Lisa）来命名的。对此苹果的官方解释是“本地集成系统架构”（Local Integrated Systems Architecture）的缩写，而工程师们则私下解释为“Lisa:编造的愚蠢“缩写（Lisa:Invented Stupid Acronym）。在《乔布斯传》作者沃尔特·艾萨克森问起这件事时，乔布斯坦率承认Lisa是以他女儿的名字命名的。而当初给Lisa电脑定名的时候，是乔布斯提出了Lisa这个名字，让工程师们倒推出一个全称的。&lt;/p&gt;
+
+&lt;h2 id=&quot;一apple-lisa-参数&quot;&gt;一、Apple Lisa 参数&lt;/h2&gt;
+
+&lt;h3 id=&quot;总览&quot;&gt;总览&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;发布日期&lt;/td&gt;
+      &lt;td&gt;1983 年 1 月&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;停产日期&lt;/td&gt;
+      &lt;td&gt;1984 年 1 月&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;市场口号&lt;/td&gt;
+      &lt;td&gt;Apple invents the personal computer.Again.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;市场售价&lt;/td&gt;
+      &lt;td&gt;$9995&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持状态&lt;/td&gt;
+      &lt;td&gt;已停售,已停止技术支持&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;产品颜色&lt;/td&gt;
+      &lt;td&gt;米黄色&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;重量尺寸&lt;/td&gt;
+      &lt;td&gt;约 21.77 KG &lt;br /&gt; 350.52mm H x 474.98mm W x 386.08mm D&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;cpu-内存和存储&quot;&gt;CPU 内存和存储&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPU型号&lt;/td&gt;
+      &lt;td&gt;Motorola 68000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPU速度&lt;/td&gt;
+      &lt;td&gt;5MHz，16位&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;核心数&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总线速度&lt;/td&gt;
+      &lt;td&gt;5MHz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内置内存&lt;/td&gt;
+      &lt;td&gt;无&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最大扩展内存&lt;/td&gt;
+      &lt;td&gt;2M&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;硬盘接口&lt;/td&gt;
+      &lt;td&gt;未知&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;硬盘&lt;/td&gt;
+      &lt;td&gt;选配 5MB 或 10MB Apple ProFile 硬盘&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扩展存储&lt;/td&gt;
+      &lt;td&gt;2x 内置 871KB Apple FileWare 5.25 英寸软驱&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ROM&lt;/td&gt;
+      &lt;td&gt;16K&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;固件和系统&quot;&gt;固件和系统&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内置固件&lt;/td&gt;
+      &lt;td&gt;未知&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持 OS&lt;/td&gt;
+      &lt;td&gt;Lisa Office System 1.0&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;内置接口和输入设备&quot;&gt;内置接口和输入设备&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;串口&lt;/td&gt;
+      &lt;td&gt;2x RS-232C，1x DE-9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扬声器&lt;/td&gt;
+      &lt;td&gt;CVSD&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;显示接口&lt;/td&gt;
+      &lt;td&gt;1x AV端子输出&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内存插槽&lt;/td&gt;
+      &lt;td&gt;2x Apple Lisa 内存板槽&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;其他插槽&lt;/td&gt;
+      &lt;td&gt;3x Apple Lisa 扩展槽 接口&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;键盘&lt;/td&gt;
+      &lt;td&gt;76 键打字机样式独立键盘（附带10数字键）&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;工作电压&quot;&gt;工作电压&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最大功率&lt;/td&gt;
+      &lt;td&gt;270W&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;工作电压&lt;/td&gt;
+      &lt;td&gt;115 – 230V AC&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;二apple-lisa-2-参数&quot;&gt;二、Apple Lisa 2 参数&lt;/h2&gt;
+
+&lt;p&gt;Apple Lisa 2 是Apple Lisa 的升级版， 售价也有所降低。除此之外，最明显的改变莫过于外观上由原来的两个 5.25 英寸软盘位变成了一个 3.5 英寸软盘。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/wiki_apple_lisa_02.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/wiki_apple_lisa_02.jpg&quot; alt=&quot;Apple Lisa 2&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;Apple Lisa 2&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;lisa-2-总览&quot;&gt;Lisa 2 总览&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;发布日期&lt;/td&gt;
+      &lt;td&gt;1984 年 1 月&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;停产日期&lt;/td&gt;
+      &lt;td&gt;1986 年 1 月&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;市场口号&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;市场售价&lt;/td&gt;
+      &lt;td&gt;$3495 – 5495&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持状态&lt;/td&gt;
+      &lt;td&gt;已停售,已停止技术支持&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;产品颜色&lt;/td&gt;
+      &lt;td&gt;米黄色&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;重量尺寸&lt;/td&gt;
+      &lt;td&gt;约 24.94 KG &lt;br /&gt; 350.52mm H x 469.9mm W x 386.08mm D&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;cpu-内存和存储-1&quot;&gt;CPU 内存和存储&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPU型号&lt;/td&gt;
+      &lt;td&gt;Motorola 68000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPU速度&lt;/td&gt;
+      &lt;td&gt;5MHz，16位&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;核心数&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总线速度&lt;/td&gt;
+      &lt;td&gt;5MHz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内置内存&lt;/td&gt;
+      &lt;td&gt;无&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最大扩展内存&lt;/td&gt;
+      &lt;td&gt;2MB&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;硬盘接口&lt;/td&gt;
+      &lt;td&gt;未知&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;硬盘&lt;/td&gt;
+      &lt;td&gt;内置 10 MB 硬盘(Lisa2/5) &lt;br /&gt; 选配 5MB 或 10MB Apple ProFile 硬盘（Lisa 2 和 Lisa 2/5）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扩展存储&lt;/td&gt;
+      &lt;td&gt;1x 内置 400KB 3.5 英寸软驱&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ROM&lt;/td&gt;
+      &lt;td&gt;16K&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;固件和系统-1&quot;&gt;固件和系统&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内置固件&lt;/td&gt;
+      &lt;td&gt;未知&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持 OS&lt;/td&gt;
+      &lt;td&gt;Lisa Office System 3.1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;内置接口和输入设备-1&quot;&gt;内置接口和输入设备&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;串口&lt;/td&gt;
+      &lt;td&gt;2x RS-232C，1x DE-9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扬声器&lt;/td&gt;
+      &lt;td&gt;1x 内置扬声器&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;显示接口&lt;/td&gt;
+      &lt;td&gt;1x AV端子输出&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内存插槽&lt;/td&gt;
+      &lt;td&gt;2x Apple Lisa 内存板槽&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;其他插槽&lt;/td&gt;
+      &lt;td&gt;3x Apple Lisa 扩展槽 接口&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;键盘&lt;/td&gt;
+      &lt;td&gt;76 键打字机样式独立键盘（附带10数字键）&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;工作电压-1&quot;&gt;工作电压&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最大功率&lt;/td&gt;
+      &lt;td&gt;150W&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;工作电压&lt;/td&gt;
+      &lt;td&gt;115 或 230V AC&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;三apple-lisa-系列系统和软件&quot;&gt;三、Apple Lisa 系列系统和软件&lt;/h2&gt;
+
+&lt;p&gt;Lisa 使用的操作系统在当时具有先进的多任务和内存保护模式。系统设计在概念上类似于 Xerox，是一个办公用途的系统。&lt;/p&gt;
+
+&lt;p&gt;Lisa 的系统有两种模式，Lisa Office System 和 Workshop ,一个是办公环境，一个是开发环境。它内置了 7 个软件，分别是：LisaWrite，LisaCalc，LisaDraw，LisaGraph，LisaProject，LisaList，LisaTerminal。&lt;/p&gt;
+
+&lt;h2 id=&quot;四总结&quot;&gt;四、总结&lt;/h2&gt;
+
+&lt;p&gt;毫无疑问，Lisa 是一个优秀的产品，Lisa 的操作系统很先进，但是由于它的复杂性超出了处理器的能力，以至于用户觉得它很缓慢，特别是在滚动文本的时候。&lt;/p&gt;
+
+&lt;p&gt;由于高成本高售价，并且被更加廉价的 Macintosh 挤压，1986 年 Apple Lisa 停产。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;出处：https://www.maczd.com/post/11.html&lt;/p&gt;
+
+</description>
+            <pubDate>Fri, 23 Feb 2024 00:00:00 +0800</pubDate>
+            <link>http://localhost:4000/wiki-apple-lisa.html</link>
+            <guid isPermaLink="true">http://localhost:4000/wiki-apple-lisa.html</guid>
+            
+            <category>wiki</category>
+            
+            <category>computer</category>
+            
+            <category>history</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Wiki: Apple II 系列</title>
+            <description>&lt;p&gt;Apple II 系列是美国苹果公司发布的一个系列普及型的电子计算机，相比于它的第一代产品 Apple I 有了很大的改进。&lt;/p&gt;
+
+&lt;p&gt;自从 Apple II 在1977年于美国西海岸电脑展（West Coast Computer Faire）首次亮相以来，直到 1993年末为止，据估算 Apple II 系列电脑大约生产了 600 万台。这期间经历了数次硬件更新，更新型的号包括 ：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Apple II&lt;/li&gt;
+  &lt;li&gt;Apple II Plus&lt;/li&gt;
+  &lt;li&gt;Apple II Europlus&lt;/li&gt;
+  &lt;li&gt;Apple IIe&lt;/li&gt;
+  &lt;li&gt;Apple IIc&lt;/li&gt;
+  &lt;li&gt;Apple IIGS&lt;/li&gt;
+  &lt;li&gt;Apple IIc Plus&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;围绕它生产的各种硬件卡产品也是数不胜数。&lt;/p&gt;
+
+&lt;p&gt;Apple II 系列从发布以来就广受用户欢迎，在家庭和教育领域普及率很高。从开始的内置的 BASIC 语言编译器到后来加入的 Apple DOS 系统，各种新硬件也可以很好的支持。正是由于这些特性，Apple II 系列从 1977 年一直生产到 1993 年，直到 1990 年代底，仍然可以在许多领域见到 Apple II 系列的电脑产品。&lt;/p&gt;
+
+&lt;h1 id=&quot;apple-ii-系列各种型号&quot;&gt;Apple II 系列各种型号&lt;/h1&gt;
+
+&lt;h2 id=&quot;一apple-ii&quot;&gt;一、Apple II&lt;/h2&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/wiki_apple_2_01.png&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/wiki_apple_2_01.png&quot; alt=&quot;1977版Apple II&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;1977版Apple II&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Apple II 不像当时发布的一些计算机，它看起来更像一台家用电器，因此无论是办公、家用都很合适。它的上盖很容易开启，内置了 8 个扩展插槽，很容易添加扩展卡增加功能。&lt;/p&gt;
+
+&lt;p&gt;Apple II 的推出掀起了个人电脑革命，因为它面向大众，而且售价在当时也可以接受。Apple II 的设计理念深深影响了之后个人电脑的发展。&lt;/p&gt;
+
+&lt;h3 id=&quot;apple-ii-总览&quot;&gt;Apple II 总览&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;发布日期&lt;/td&gt;
+      &lt;td&gt;1977年4月&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;停产日期&lt;/td&gt;
+      &lt;td&gt;1979年6月&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;市场型号&lt;/td&gt;
+      &lt;td&gt;A2S0016(16KB内存) &lt;br /&gt; A2S0032(32KB内存) &lt;br /&gt; A2S0048(48KB内存)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;市场口号&lt;/td&gt;
+      &lt;td&gt;Simplicity is the ultimate sophistication,Introducing Apple II, &lt;br /&gt; the personal computer.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;市场售价&lt;/td&gt;
+      &lt;td&gt;$1298(16K内存版) &lt;br /&gt; $2638(64K内存版)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持状态&lt;/td&gt;
+      &lt;td&gt;已停售,已停止技术支持&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;产品颜色&lt;/td&gt;
+      &lt;td&gt;米黄色&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;重量尺寸&lt;/td&gt;
+      &lt;td&gt;约 5.21 KG &lt;br /&gt; 107mm H x 387mm W x 457mm D&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;apple-ii-cpu-内存和存储&quot;&gt;Apple II CPU 内存和存储&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPU型号&lt;/td&gt;
+      &lt;td&gt;MOS Technology 6502&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPU速度&lt;/td&gt;
+      &lt;td&gt;1MHz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;核心数&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总线速度&lt;/td&gt;
+      &lt;td&gt;1MHz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内置内存&lt;/td&gt;
+      &lt;td&gt;16KB,32KB,48KB&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最大扩展内存&lt;/td&gt;
+      &lt;td&gt;48KB&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;硬盘&lt;/td&gt;
+      &lt;td&gt;无&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;硬盘接口&lt;/td&gt;
+      &lt;td&gt;无&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扩展存储&lt;/td&gt;
+      &lt;td&gt;磁带卡，Disk II 软盘（5英寸）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ROM&lt;/td&gt;
+      &lt;td&gt;8K&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;appleii-显示&quot;&gt;AppleII 显示&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;分辨率&lt;/td&gt;
+      &lt;td&gt;280×192（6bits色） &lt;br /&gt; 40×48（16bits色）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;显示连接&lt;/td&gt;
+      &lt;td&gt;RCA AV端子&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;字符显示&lt;/td&gt;
+      &lt;td&gt;24行，每行40字符&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;apple-ii-固件和系统&quot;&gt;Apple II 固件和系统&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内置固件&lt;/td&gt;
+      &lt;td&gt;Apple Integer BASIC&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持 OS&lt;/td&gt;
+      &lt;td&gt;Apple DOS 3.1(1978年)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;apple-ii-内置接口和输入设备&quot;&gt;Apple II 内置接口和输入设备&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;磁带卡接口&lt;/td&gt;
+      &lt;td&gt;in/out 1500bps&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;游戏卡接口&lt;/td&gt;
+      &lt;td&gt;内置 16针 Game I/O&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扬声器&lt;/td&gt;
+      &lt;td&gt;内置 8 欧喇叭&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;显示接口&lt;/td&gt;
+      &lt;td&gt;AV端子输出&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;其他接口&lt;/td&gt;
+      &lt;td&gt;8x 50针 Apple II 专用外部接口&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;键盘&lt;/td&gt;
+      &lt;td&gt;内置 52 键位大写字母键盘&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;工作电压&quot;&gt;工作电压&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最大功率&lt;/td&gt;
+      &lt;td&gt;未知&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;工作电压&lt;/td&gt;
+      &lt;td&gt;110V（美国）或220V&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;二apple-ii-europlusj-plus&quot;&gt;二、Apple II Europlus/J-Plus&lt;/h2&gt;
+
+&lt;p&gt;为了在欧洲和日本开拓市场，苹果公司在 1978 发布了 Apple II Eourplus 和 Apple II J-Plus (Japan)，只在软件硬件上做了少量的更改，大部分硬件软件与 Apple II 相同。包括电源电压支持部分欧洲的 240V，AV 输出格式由  NTSC 改为 PAL，使用修改过的 ROM 可以打出一些罗马字符。&lt;/p&gt;
+
+&lt;p&gt;Apple II Europlus 一直生产到 1983 年。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/wiki_apple_2_02.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/wiki_apple_2_02.jpg&quot; alt=&quot;Apple II Europlus&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;Apple II Europlus&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;三apple-ii-plus&quot;&gt;三、Apple II Plus&lt;/h2&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/wiki_apple_2_03.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/wiki_apple_2_03.jpg&quot; alt=&quot;Apple II Plus 主机&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;Apple II Plus 主机&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;总览&quot;&gt;总览&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;发布日期&lt;/td&gt;
+      &lt;td&gt;1979年7月&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;停产日期&lt;/td&gt;
+      &lt;td&gt;1982年12月&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;市场型号&lt;/td&gt;
+      &lt;td&gt;A2S0016(16KB 内存) &lt;br /&gt; A2S0032(32KB 内存) &lt;br /&gt; A2S0048(48KB 内存)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;市场售价&lt;/td&gt;
+      &lt;td&gt;$1195(16K内存版) &lt;br /&gt; $1295(32K内存版) &lt;br /&gt; $1395(48K内存版)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持状态&lt;/td&gt;
+      &lt;td&gt;已停售,已停止技术支持&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;产品颜色&lt;/td&gt;
+      &lt;td&gt;米黄色&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;重量尺寸&lt;/td&gt;
+      &lt;td&gt;约 5.21 KG &lt;br /&gt; 107mm H x 387mm W x 457mm D&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;固件和软件&quot;&gt;固件和软件&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内置固件&lt;/td&gt;
+      &lt;td&gt;Applesoft BASIC&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持 OS&lt;/td&gt;
+      &lt;td&gt;Apple DOS 3.2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Apple II Plus 是 Apple II 的升级产品，其他硬件软件参数如 CPU 键盘等和 Apple II 相同。&lt;/p&gt;
+
+&lt;p&gt;更新包括：ROM 中包含了由微软编写的 Applesoft Basic 语言，支持浮点运算。&lt;/p&gt;
+
+&lt;h2 id=&quot;四apple-iie--apple-iie-enhanced-和-apple-iie-platinum&quot;&gt;四、Apple IIe 、 Apple IIe Enhanced 和 Apple IIe Platinum&lt;/h2&gt;
+
+&lt;p&gt;Apple IIe 延续了 Apple II Plus 的特点，并且使用了更加便宜强大的电子元件，不仅售价合理，而且功能强大。正是因为如此，Apple IIe 是 Apple II 系列中最畅销的型号，期间大约生产了 11 年。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/wiki_apple_2_04.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/wiki_apple_2_04.jpg&quot; alt=&quot;拥有双磁盘位的 Apple IIe&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;拥有双磁盘位的 Apple IIe&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;在此期间，Apple IIe 有两种经过重大更新。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;IIe Enhanced（包括一颗改进过的处理器 65C02，后被应用在后期的 IIc 上。）&lt;/li&gt;
+  &lt;li&gt;IIe Platinum（应用了与当时苹果电脑其他产品相合的机箱颜色及附加九宫格数字键盘。）其中，扩充到128KB 内存的 IIe Platinum 可以运行大部分于1988年后推出的Apple II软件。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;总览-1&quot;&gt;总览&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;发布日期&lt;/td&gt;
+      &lt;td&gt;1983年7月(Apple IIe) &lt;br /&gt; 1985年3月(Apple IIe Enhanced) &lt;br /&gt; 1987年1月(Apple IIe Platinum)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;停产日期&lt;/td&gt;
+      &lt;td&gt;1985年3月(Apple IIe) &lt;br /&gt; 1987年7月(Apple IIe Enhanced) &lt;br /&gt; 1993年11月(Apple IIe Platinum)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;市场口号&lt;/td&gt;
+      &lt;td&gt;It’s the same old Apple II.Except for the front,back and inside.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;开发代号&lt;/td&gt;
+      &lt;td&gt;Diana,Super II&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;市场售价&lt;/td&gt;
+      &lt;td&gt;$1400(Apple IIe、Apple IIe Enhanced) &lt;br /&gt; $1200(Apple IIe Platinum)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持状态&lt;/td&gt;
+      &lt;td&gt;已停售,已停止技术支持&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;产品颜色&lt;/td&gt;
+      &lt;td&gt;米黄色&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;重量尺寸&lt;/td&gt;
+      &lt;td&gt;约 5.21 KG &lt;br /&gt; 107mm H x 387mm W x 457mm D&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;cpu-内存和存储&quot;&gt;CPU 内存和存储&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPU型号&lt;/td&gt;
+      &lt;td&gt;MOS Technology 6502A(Apple IIe) &lt;br /&gt; MOS Technology 65C02(Apple IIe enhanced) &lt;br /&gt; MOS Technology 65C02(Apple IIe Platinum)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPU速度&lt;/td&gt;
+      &lt;td&gt;1MHz，8位&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;核心数&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总线速度&lt;/td&gt;
+      &lt;td&gt;1MHz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内置内存&lt;/td&gt;
+      &lt;td&gt;64KB&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最大扩展内存&lt;/td&gt;
+      &lt;td&gt;1MB(实际)，128KB(Apple)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;硬盘&lt;/td&gt;
+      &lt;td&gt;无&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;硬盘接口&lt;/td&gt;
+      &lt;td&gt;无&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扩展存储&lt;/td&gt;
+      &lt;td&gt;可选磁带卡，Disk II ，或 DuoDisk 软驱&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ROM&lt;/td&gt;
+      &lt;td&gt;16K&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;显示&quot;&gt;显示&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;分辨率&lt;/td&gt;
+      &lt;td&gt;280×192（6bits色） &lt;br /&gt; 40×48（15bits色） &lt;br /&gt; 80×48(15bits色) &lt;br /&gt; 560×192（15bits色）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;显示连接&lt;/td&gt;
+      &lt;td&gt;RCA AV端子&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;字符显示&lt;/td&gt;
+      &lt;td&gt;24行，每行40字符 &lt;br /&gt; 24行，每行80字符&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;固件和系统&quot;&gt;固件和系统&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内置固件&lt;/td&gt;
+      &lt;td&gt;Applesoft BASIC&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持 OS&lt;/td&gt;
+      &lt;td&gt;Apple DOS 3.3 and ProDOS 8&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;内置接口和输入设备&quot;&gt;内置接口和输入设备&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;磁带卡接口&lt;/td&gt;
+      &lt;td&gt;1x in/out 1500bps&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;游戏卡接口&lt;/td&gt;
+      &lt;td&gt;1x 内置 16针 Game I/O，1x external DE-9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扬声器&lt;/td&gt;
+      &lt;td&gt;内置喇叭&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;显示接口&lt;/td&gt;
+      &lt;td&gt;AV端子输出&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;其他接口&lt;/td&gt;
+      &lt;td&gt;8-50针 Apple II 专用外部接口，1-60针 Auxiliary&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;键盘&lt;/td&gt;
+      &lt;td&gt;内置 63 键位大小写字母键盘(Apple IIe,Apple IIe Enhanced) &lt;br /&gt; 内置 81 键位大小写字母键盘(Apple IIe Platinum)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;工作电压-1&quot;&gt;工作电压&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最大功率&lt;/td&gt;
+      &lt;td&gt;80W&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;工作电压&lt;/td&gt;
+      &lt;td&gt;95-127V AC&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;五apple-iic&quot;&gt;五、Apple IIc&lt;/h2&gt;
+
+&lt;p&gt;Apple IIc 在宣传的时候被冠名便携式 Apple II，因为它整体质量和体积都有所减小。但是它也算不上是笔记本产品，因为 Apple IIc 并没有内置显示器和电池。&lt;/p&gt;
+
+&lt;p&gt;Apple IIc 在宣传的时候被冠名便携式 Apple II，因为它整体质量和体积都有所减小。但是它也算不上是笔记本产品，因为 Apple IIc 并没有内置显示器和电池。&lt;/p&gt;
+
+&lt;p&gt;Apple IIc 整体石头白色的风格也是在 Apple II 系列之中首次出现，为了体现它便携式的特点，有两款配套它使用的单色液晶显示器随后推出，但是价格很高并且经常出现质量问题导致销售量并不很好。Apple IIc 有一个外接电源，可以将交流电转换成12V直流电。这使第三方厂商有能力为 Apple IIc 制造专用电池以及可以车载使用。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/wiki_apple_2_05.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/wiki_apple_2_05.jpg&quot; alt=&quot;带有鼠标的 Apple IIc&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;带有鼠标的 Apple IIc&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;apple-iic-总览&quot;&gt;Apple IIc 总览&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;发布日期&lt;/td&gt;
+      &lt;td&gt;1984 年 4 月&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;停产日期&lt;/td&gt;
+      &lt;td&gt;1988 年 8 月&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;市场口号&lt;/td&gt;
+      &lt;td&gt;Introducing the Apple IIc. The first transportable computer worth taking anywhere.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;开发代号&lt;/td&gt;
+      &lt;td&gt;Lollie, ET, Yoda, Teddy, VLC, IIb, IIp.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;市场售价&lt;/td&gt;
+      &lt;td&gt;$1295&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持状态&lt;/td&gt;
+      &lt;td&gt;已停售,已停止技术支持&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;产品颜色&lt;/td&gt;
+      &lt;td&gt;石头白&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;重量尺寸&lt;/td&gt;
+      &lt;td&gt;约 3.40 KG &lt;br /&gt; 63.5mm H x 304mm W x 292mm D&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;cpu-内存和存储-1&quot;&gt;CPU 内存和存储&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPU型号&lt;/td&gt;
+      &lt;td&gt;MOS Technology 65C02&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPU速度&lt;/td&gt;
+      &lt;td&gt;1MHz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;核心数&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总线速度&lt;/td&gt;
+      &lt;td&gt;1MHz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内置内存&lt;/td&gt;
+      &lt;td&gt;64KB&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最大扩展内存&lt;/td&gt;
+      &lt;td&gt;1.12MB(Revision 3-4)，128KB(Revision 1-2)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;硬盘&lt;/td&gt;
+      &lt;td&gt;无&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;硬盘接口&lt;/td&gt;
+      &lt;td&gt;无&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扩展存储&lt;/td&gt;
+      &lt;td&gt;内置140KB，5.25英寸软盘驱动器&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ROM&lt;/td&gt;
+      &lt;td&gt;16K或32K&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;显示-1&quot;&gt;显示&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;分辨率&lt;/td&gt;
+      &lt;td&gt;280×192（6bits色） &lt;br /&gt; 40×48（15bits色） &lt;br /&gt; 80×48(15bits色) &lt;br /&gt; 560×192（15bits色）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;显示连接&lt;/td&gt;
+      &lt;td&gt;1,RCA AV端子 &lt;br /&gt; 2,DB-15(特殊，与其他型号不同)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;字符显示&lt;/td&gt;
+      &lt;td&gt;24行，每行40字符 &lt;br /&gt; 24行，每行80字符&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;固件和系统-1&quot;&gt;固件和系统&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内置固件&lt;/td&gt;
+      &lt;td&gt;Applesoft BASIC&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持 OS&lt;/td&gt;
+      &lt;td&gt;Apple ProDOS 8&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;内置接口和输入设备-1&quot;&gt;内置接口和输入设备&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;串口&lt;/td&gt;
+      &lt;td&gt;2x DIN-5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;游戏卡接口&lt;/td&gt;
+      &lt;td&gt;1x DE-9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;软驱接口&lt;/td&gt;
+      &lt;td&gt;1x DB-19&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;音频接口&lt;/td&gt;
+      &lt;td&gt;1x 3.5mm音频接口,1x 内置扬声器&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内存接口&lt;/td&gt;
+      &lt;td&gt;1x 34针内存扩展卡接口（Revision 3-4）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;键盘&lt;/td&gt;
+      &lt;td&gt;内置 63 键位大小写字母键盘&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;工作电压-2&quot;&gt;工作电压&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最大功率&lt;/td&gt;
+      &lt;td&gt;25W(额外电源供电) &lt;br /&gt; 18w(内置转换)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;工作电压&lt;/td&gt;
+      &lt;td&gt;105-129V AC&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;六apple--iigs&quot;&gt;六、Apple  IIGS&lt;/h2&gt;
+
+&lt;p&gt;Apple IIGS 拥有真正的 16 位处理器，是 Apple II 系列最强大的一款电脑。支持 Macintosh 图形界面和鼠标。&lt;/p&gt;
+
+&lt;p&gt;前 5 万部的 Apple IIGS 有史蒂夫·沃兹尼克的 “Woz” 签名，它们被称为”Woz限量版“。这些机器与那些没有签名的“普通版”在功能上并无不同，但是更具有收藏价值。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/wiki_apple_2_06.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/wiki_apple_2_06.jpg&quot; alt=&quot;外置键盘、鼠标的 Apple IIGS&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;外置键盘、鼠标的 Apple IIGS&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;apple-iigs-总览&quot;&gt;Apple IIGS 总览&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;发布日期&lt;/td&gt;
+      &lt;td&gt;1986 年 9 月&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;停产日期&lt;/td&gt;
+      &lt;td&gt;1992 年 12 月&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;市场口号&lt;/td&gt;
+      &lt;td&gt;Introducing the Apple IIGS. The first personal computer you can understand forward and backward.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;开发代号&lt;/td&gt;
+      &lt;td&gt;Phoenix, Rambo, Gumby, and Cortland&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;市场售价&lt;/td&gt;
+      &lt;td&gt;$999&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持状态&lt;/td&gt;
+      &lt;td&gt;已停售,已停止技术支持&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;产品颜色&lt;/td&gt;
+      &lt;td&gt;铂金色&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;重量尺寸&lt;/td&gt;
+      &lt;td&gt;约 3.955 KG &lt;br /&gt; 116.8mm H x 284.48mm W x 347.98mm D&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;cpu-内存和存储-2&quot;&gt;CPU 内存和存储&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPU型号&lt;/td&gt;
+      &lt;td&gt;WDC 65C816&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPU速度&lt;/td&gt;
+      &lt;td&gt;2.8MHz,16位&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;核心数&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总线速度&lt;/td&gt;
+      &lt;td&gt;1MHz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内置内存&lt;/td&gt;
+      &lt;td&gt;256KB(Revision 1-2),1.125MB(revision 3)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最大扩展内存&lt;/td&gt;
+      &lt;td&gt;8.125MB&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;硬盘&lt;/td&gt;
+      &lt;td&gt;无&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;硬盘接口&lt;/td&gt;
+      &lt;td&gt;无&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扩展存储&lt;/td&gt;
+      &lt;td&gt;可选 Apple 3.5英寸，Apple 5.25英寸,UniDisk 软盘驱动器&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ROM&lt;/td&gt;
+      &lt;td&gt;128KB(Revision 1-2),256KB(revision 3)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;显示-2&quot;&gt;显示&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;显卡&lt;/td&gt;
+      &lt;td&gt;Custom Video Graphics Controller(VGC)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;分辨率&lt;/td&gt;
+      &lt;td&gt;320×200（16bits颜色每行,256bits颜色整屏） &lt;br /&gt; 640×200（4bits颜色每行,128bits颜色整屏） &lt;br /&gt; 560×192（16bits色） &lt;br /&gt; 40×48（15bits色） &lt;br /&gt; 80×48(6bits色) &lt;br /&gt; 280×192（6bits色） &lt;br /&gt; 40×48（16bits色）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;显示连接&lt;/td&gt;
+      &lt;td&gt;1,RCA AV端子 &lt;br /&gt; 2,DB-15&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;字符显示&lt;/td&gt;
+      &lt;td&gt;24行，每行40字符 &lt;br /&gt; 24行，每行80字符&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;固件和系统-2&quot;&gt;固件和系统&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内置固件&lt;/td&gt;
+      &lt;td&gt;Applesoft BASIC&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持&lt;/td&gt;
+      &lt;td&gt;OS	Apple ProDOS 16 或 GS/OS&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;内置接口和输入设备-2&quot;&gt;内置接口和输入设备&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;串口&lt;/td&gt;
+      &lt;td&gt;2x DIN-8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;游戏卡接口&lt;/td&gt;
+      &lt;td&gt;1x DE-9,1x 16针 Game I/O&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;软驱接口&lt;/td&gt;
+      &lt;td&gt;1x DB-19&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;音频接口&lt;/td&gt;
+      &lt;td&gt;1x 3.5mm音频接口,1x 内置扬声器&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内存接口&lt;/td&gt;
+      &lt;td&gt;1x 44针内存扩展卡接口&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;键盘&lt;/td&gt;
+      &lt;td&gt;无，需外置&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;工作电压-3&quot;&gt;工作电压&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;备用电池&lt;/td&gt;
+      &lt;td&gt;3.6V 锂电池&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最大功率&lt;/td&gt;
+      &lt;td&gt;60W&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;工作电压&lt;/td&gt;
+      &lt;td&gt;107-132V AC&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;七apple-iic-plus&quot;&gt;七、Apple IIc Plus&lt;/h2&gt;
+
+&lt;p&gt;Apple IIc Plus 是 Apple II 系列中最后一款设备。它与 Apple IIc 有着一样的外观，但是内置的 5 英寸软驱被换成了当时流行的 3.5 英寸软驱，CPU 是改进过的 65C02，速度可达 4Mhz，运行 8 位应用程序时比 IIGS 还要快。因为科技的进步，Apple IIc Plus 还更加省电。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/wiki_apple_2_07.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/wiki_apple_2_07.jpg&quot; alt=&quot;具有更快 CPU 的 Apple IIc Plus&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;具有更快 CPU 的 Apple IIc Plus&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;apple-iic-plus总览&quot;&gt;Apple IIc Plus总览&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;发布日期&lt;/td&gt;
+      &lt;td&gt;1988 年 9 月&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;停产日期&lt;/td&gt;
+      &lt;td&gt;1990 年 11 月&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;产品编号&lt;/td&gt;
+      &lt;td&gt;A2S4500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;开发代号&lt;/td&gt;
+      &lt;td&gt;Raisin，Pizza，Adam Ant&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;市场售价&lt;/td&gt;
+      &lt;td&gt;$675&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持状态&lt;/td&gt;
+      &lt;td&gt;已停售,已停止技术支持&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;产品颜色&lt;/td&gt;
+      &lt;td&gt;石头白&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;重量尺寸&lt;/td&gt;
+      &lt;td&gt;约 3.175 KG &lt;br /&gt; 63.5mm H x 304.8mm W x 292.1mm D&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;cpu-内存和存储-3&quot;&gt;CPU 内存和存储&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPU型号&lt;/td&gt;
+      &lt;td&gt;Mos Technology 65C02&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPU速度&lt;/td&gt;
+      &lt;td&gt;1MHz 或 4MHz,8位&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;核心数&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;总线速度&lt;/td&gt;
+      &lt;td&gt;1MHz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内置内存&lt;/td&gt;
+      &lt;td&gt;128KB&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最大扩展内存&lt;/td&gt;
+      &lt;td&gt;1.15MB&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;硬盘&lt;/td&gt;
+      &lt;td&gt;无&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;硬盘接口&lt;/td&gt;
+      &lt;td&gt;无&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;扩展存储&lt;/td&gt;
+      &lt;td&gt;内置 800KB，3.5英寸软盘&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ROM&lt;/td&gt;
+      &lt;td&gt;32KB&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;显示-3&quot;&gt;显示&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;分辨率&lt;/td&gt;
+      &lt;td&gt;280×192（6bits色） &lt;br /&gt; 40×48（15bits色） &lt;br /&gt; 80×48(15bits色) &lt;br /&gt; 560×192（15bits色）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;显示连接&lt;/td&gt;
+      &lt;td&gt;1,RCA AV端子 &lt;br /&gt; 2,DB-15(特殊，与其他型号不同)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;字符显示&lt;/td&gt;
+      &lt;td&gt;24行，每行40字符 &lt;br /&gt; 24行，每行80字符&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;固件和系统-3&quot;&gt;固件和系统&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内置固件&lt;/td&gt;
+      &lt;td&gt;Applesoft BASIC&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持 OS&lt;/td&gt;
+      &lt;td&gt;Apple ProDOS 8&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;内置接口和输入设备-3&quot;&gt;内置接口和输入设备&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;调制解调器&lt;/td&gt;
+      &lt;td&gt;1x modem 接口&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;串口&lt;/td&gt;
+      &lt;td&gt;2x mini DIN-8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;游戏卡接口&lt;/td&gt;
+      &lt;td&gt;1x DE-9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;软驱接口&lt;/td&gt;
+      &lt;td&gt;1x DB-19&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;音频接口&lt;/td&gt;
+      &lt;td&gt;1x 内置扬声器&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内存接口&lt;/td&gt;
+      &lt;td&gt;1x 34针内存扩展卡接口&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;键盘&lt;/td&gt;
+      &lt;td&gt;内置 63 键大小写键盘&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;工作电压-4&quot;&gt;工作电压&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最大功率&lt;/td&gt;
+      &lt;td&gt;20W&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;工作电压&lt;/td&gt;
+      &lt;td&gt;90-130V AC&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;apple-ii-系列扩展卡&quot;&gt;Apple II 系列扩展卡&lt;/h1&gt;
+
+&lt;p&gt;沃兹尼克创新性的为 Apple II 设计了许多扩展槽，由此可以借助扩展槽完成第三方的功能扩充。当时一度出现了很多针对 Apple II 的板卡，例如内存扩充卡，序列控制器卡，高级显示卡，硬盘卡以及网络板卡等。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/wiki_apple_2_08.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/wiki_apple_2_08.jpg&quot; alt=&quot;Apple II 使用的 Z80卡&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;Apple II 使用的 Z80卡&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;比较出名的的是 Z80 卡，可以让 Apple II 切换至 Z80 处理器，并且在此环境下开发多种软件，在1980年代中期运行 CP/M 的机器中，甚至是有一半以上的 Apple II 安装了Z80模拟卡。还有一种叫 6809 卡，可运行 OS-9 Level One。除此之外，Mockingboard 的声卡，可以合成音乐和把文字转换成语音。而各种加速卡可以让 Apple II 的性能提高 2 到 4 倍。&lt;/p&gt;
+
+&lt;h1 id=&quot;apple-ii-系列的影响&quot;&gt;Apple II 系列的影响&lt;/h1&gt;
+
+&lt;p&gt;Apple II 系列的发布对科技产业和人们的生活产生了巨大的影响。针对 Apple II 系列的应用程序和游戏软件也非常多，其中最出名的就是 Visicalc ，一个表格数据处理软件。&lt;/p&gt;
+
+&lt;p&gt;由于 Apple II 系列的成功以及优秀的电路设计，如同 IBM PC 兼容机一样，Apple II 也迎来了许多的复制品，包括硬件和软件。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;出处：https://www.maczd.com/post/9.html&lt;/p&gt;
+
+</description>
+            <pubDate>Mon, 12 Feb 2024 00:00:00 +0800</pubDate>
+            <link>http://localhost:4000/wiki-apple-2.html</link>
+            <guid isPermaLink="true">http://localhost:4000/wiki-apple-2.html</guid>
+            
+            <category>wiki</category>
+            
+            <category>computer</category>
+            
+            <category>history</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Wiki: Apple I</title>
+            <description>&lt;p&gt;Apple I 是 Apple 于 1976 年发布的电脑原型机。首台 Apple I 由斯蒂夫·沃兹尼亚克设计并在惠普办公室手工打造。他的好友乔布斯发现了商机，提出了将这种电脑推向市场的想法。作为第一代产品，用户买回后仍需提供电源、键盘、显示器才能让它工作，Apple I 大约只生产了约 200 台左右。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/wiki_apple_1_01.jpg&quot; alt=&quot;Apple I 连接显示器运行照&quot; /&gt;
+    &lt;p&gt;Apple I 连接显示器运行照&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;apple-i-参数&quot;&gt;Apple I 参数&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;发布日期&lt;/td&gt;
+      &lt;td&gt;1976年&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;停售日期&lt;/td&gt;
+      &lt;td&gt;1977年&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;售价&lt;/td&gt;
+      &lt;td&gt;$666.66&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;上市口号&lt;/td&gt;
+      &lt;td&gt;Apple Introduces the First Low Cost Microcomputer System with a Video Terminal and 8K Bytes of RAM on a Single PC Card.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPU型号&lt;/td&gt;
+      &lt;td&gt;Mos technology 6502&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPU速度&lt;/td&gt;
+      &lt;td&gt;1Mhz 8-bit&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;内存&lt;/td&gt;
+      &lt;td&gt;内建 4KB,最大8KB(板载),65KB(扩展卡)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;操作系统&lt;/td&gt;
+      &lt;td&gt;Integer BASIC（磁带卡）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;显卡&lt;/td&gt;
+      &lt;td&gt;内置 1KB 显存,使用 Composite Video(AV端子) 传输信号&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最大分辨率&lt;/td&gt;
+      &lt;td&gt;使用电视机,最大显示 40×24个字符&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最大功率&lt;/td&gt;
+      &lt;td&gt;58W&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;apple-i-收藏价值&quot;&gt;Apple I 收藏价值&lt;/h2&gt;
+
+&lt;p&gt;截止到 2013 ，据统计目前现存 Apple I 数目至少 63 台，其中有 6 台被证实至今仍可以工作。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/wiki_apple_1_02.jpg&quot; alt=&quot;悉尼 Powerhouse 博物馆 Apple I 藏品&quot; /&gt;
+    &lt;p&gt;悉尼 Powerhouse 博物馆 Apple I 藏品&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;以下是部分有记载的拍卖纪录:&lt;/p&gt;
+
+&lt;p&gt;2009 年 9 月 Apple I 在 eBay 以 $17,480（约合人民币 12 万） 成交。&lt;/p&gt;
+
+&lt;p&gt;2010年 11 月，Apple I 以约合 $210,000（约合人民币 140 万） 价格在伦敦佳士得拍卖行拍卖。之所以买这么贵是因为这台电脑“身世”不凡，它带有乔布斯亲笔签名的有关技术的回复信，信得地址为 Apple 总部，就是大家熟知的乔布斯父母家的那个车库。&lt;/p&gt;
+
+&lt;p&gt;2012年 6 月 15 日，一台仍可以正常工作的 Apple I 以超过预期一倍的价格，在苏富比拍卖行以 $374,500（约合人民币 249 万） 成交。这台电脑在韩国济州岛的 Nexon 计算机博物馆展出。&lt;/p&gt;
+
+&lt;p&gt;2012年10 月，一台已经不能工作的 Apple I 被苹果公司雇员 Joe Copson 拿到佳士得拍卖行拍卖，可是并没有投资者拍下这个起拍价已经达到 $80,000（约合人民币 50 万） 产品。&lt;/p&gt;
+
+&lt;p&gt;2012年 11 月 24 日，一台仍可以正常工作的 Apple I 被拍卖团队 Breker 以 €400,000（$515,000）的价格拍卖。&lt;/p&gt;
+
+&lt;p&gt;由此可见，目前 Apple I 已经由一台古老的电子设备，变成了一种艺术收藏品。&lt;/p&gt;
+
+&lt;h2 id=&quot;有关-apple-i-的序列号&quot;&gt;有关 Apple I 的序列号&lt;/h2&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/wiki_apple_1_02.jpg&quot; alt=&quot;Apple I 的主板&quot; /&gt;
+    &lt;p&gt;Apple I 的主板&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;尽管乔布斯和斯蒂夫·沃兹尼亚克都曾表示并没有给发售的 Apple I 分配过序列号，但是似乎每个主机主板上都有类似 “01-00##” 这样的编号，这个编号可能是主办的生产厂商的质检标签或者某些销售商的库存编号。这曾被拍卖行和部分媒体错误的认为是 Apple I 的序列号。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;出处：https://www.maczd.com/post/2.html&lt;/p&gt;
+
+</description>
+            <pubDate>Fri, 02 Feb 2024 00:00:00 +0800</pubDate>
+            <link>http://localhost:4000/wiki-apple-1.html</link>
+            <guid isPermaLink="true">http://localhost:4000/wiki-apple-1.html</guid>
+            
+            <category>wiki</category>
+            
+            <category>computer</category>
+            
+            <category>history</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>华人世界被忽视的游戏主机（四）：丁果、中软赢科和“开源掌机”</title>
+            <description>&lt;p&gt;2009年，我们看到使用君正MIPS处理器的丁果A320。它本来是老牌便携式媒体播放器（PMP）厂商歌美代工的，运行µC/uOS-II实时操作系统的便携式媒体播放器（PMP/MP4）型掌机。仅数月之后，一款名为Dingoo-Linux（即Dingux）的替代操作系统也在网上出现。由于Linux的系统开发更加方便，大量移植游戏和模拟器就为丁果A320所用。&lt;/p&gt;
+
+&lt;h2 id=&quot;mp3社群结出丁果&quot;&gt;MP3社群结出“丁果”&lt;/h2&gt;
+
+&lt;p&gt;Dingux的出现并非偶然。在海外，特别是欧洲，一直有着一群具有开源精神，喜爱定制数码产品的发烧友社群，如针对掌上电脑开发开放源代码系统的OPIE[1] 及pdaXrom[2] 社群、以Doom9论坛 [3] 为代表的视听技术破解社群（破解机顶盒和电影光盘的保护）和诞生了Minimig[4]、Atari Coldfire Project[5]、MiST[6] 等当代“旧”硬件的FPGA硬件模拟器社群等。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_4_01.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_4_01.jpg&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;运行在iPod Nano上的Gameboy模拟器&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;其中在消费电子领域，最为活跃的社群要数为各种便携式媒体播放器开发定制固件的Rockbox社群[7] 了。从2001年起，Rockbox固件陆续被爱好者们移植到爱可视（Archos）、艾利和（iriver）、三星、美播（MPIO）等品牌的播放器上。当然也少不了大名鼎鼎的苹果iPod。曾经在网上广泛传播的在iPod上运行Gameboy的视频，就是使用Rockbox团队开发的Rockboy模拟器[8] 实现的。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_4_02.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_4_02.jpg&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;常见的S1 MP3播放器外形设计之一，其模仿的是爱国者“月光宝盒”&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;海外开发者社群对国产MP3播放器的关注则受到了http://S1MP3.org社群[9] 的影响。“S1MP3”是当时在海外销售的一系列白牌MP3播放器的统称，它们通常都有类似的电路设计，使用炬芯科技（Actions Semiconductor）的ATJ2085或ATJ2035L控制器芯片。&lt;/p&gt;
+
+&lt;p&gt;2006年，数码专家小组（http://Easydigi.net）论坛[10] 与S1MP3社群取得联系，并创建了S3MP3中文网页。这种网上的跨国合作让许多欧洲的爱好者都接触到中国生产的便携式媒体播放器。Rockbox社群也在这时陆续针对昂达、魅族等国产便携式媒体播放器进行移植活动。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_4_03.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_4_03.jpg&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;运行Rockbox的昂达VX747，图片来自flickr：mcuelenaere&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;2008年，开源便携式媒体播放器固件社群RockBox已针对与丁果A320同样使用华芯飞方案和君正处理器的昂达VX747（使用了与丁果A320类似的君正处理器）进行了移植。Dingux替代操作系统的开发，就是在RockBox的基础上进行的。大量独立游戏和模拟器移植到丁果A320，而移植了Linux的丁果A320也爆发出了惊人的潜力[11]，使其成为2000年代美誉度最高的国产游戏机。&lt;/p&gt;
+
+&lt;h2 id=&quot;中软赢科安卓掌机和umpc的重生&quot;&gt;中软赢科：安卓掌机和UMPC的重生&lt;/h2&gt;
+
+&lt;p&gt;2010年之后， 重要的便携式媒体播放器芯片开发商晶晨半导体（Amlogic）和瑞芯微（Rockchip）都开发了针对平板电脑的处理器芯片。包括纽曼（Newman）、原道（Vido）、台电（Teclast）等便携式媒体播放器厂商纷纷将自己的研发重心转移到平板电脑上，但金星数码（JXD）算是便携式媒体播放器厂商中的异类。2011年底，金星数码使用中软赢科基于晶晨AML8726芯片开发的P4300安卓掌机方案推出了金星S601 [12] ，这可能是最早使用安卓（Android）操作系统的游戏设备之一。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_4_04.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_4_04.jpg&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;金星S601&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;2013年，Ouya在Kickstarter平台众筹超过850万美元，至2023年5月仍是Kickstarter众筹资金榜第17名[13] 的产品。Ouya众筹的影响力很快影响到整个行业，让使用安卓操作系统的微型游戏机（MicroConsole）成为一时的潮流。安卓作为国产智能手机、平板电脑、电视机顶盒等非X86设备的操作系统，促成了一个相对统一但内部又较为多样化的游戏市场。&lt;/p&gt;
+
+&lt;p&gt;2014年，微软在小屏幕市场上（8英寸以下）免费授权Windows 8.1 with Bing；同年，英特尔与瑞芯微（Rockchips）在平板电脑芯片上进行合作，促成深圳中软赢科的GPD Win这种便携式游戏笔记本的诞生：GPD Win是一款小型的游戏笔记本，采用了5.5英寸的翻盖外形，这让它大致可以归类于超便携电脑（UMPC）类别。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_4_05.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_4_05.jpg&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;运行《杀手7》的GPDwin&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;GPD Win在键盘上方集成了适合游戏操作的方向键与微型摇杆，而它使用的Atom x7-Z8700处理器，使其足以运行部分大型3D游戏，在众筹网站Indiegogo的录像中，展示了GPD Win运行《孤岛危机3》（Crysis 3，2013）《生化危机6》（Resident Evil 6，2012）等游戏的画面。这代表着国产游戏掌机在与安卓手游融合之后，与电脑游戏融合的尝试。&lt;/p&gt;
+
+&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;不难发现，中国本土的电子游戏硬件产业是与整个消费电子行业密切相关的。从1980年代香港作为消费电子产品的代工中心，到1990年代台湾成为半导体行业的中心，以及2000年代电子代工行业转移至大陆东南沿海，两岸三地的电子工程师们对研发具有自主知识产权的电子游戏硬件的尝试始终没有停止。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_4_06.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_4_06.jpg&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;2022年发售的Playdate硬件规格并不出众，它主打其独特的设计和活跃的开发者社群，显示出强烈的文化产品属性&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;但也应看到华人世界的电子游戏产品存在着一些共同的局限：相比硬件开发，配套的游戏软件的开发能力较为薄弱；电子游戏作为具有鲜明文化属性的产品，国产游戏机在海外销售时却缺少与目的国相适配的本土化游戏开发团队；大陆作为最大的中文游戏市场，在20世纪尚不具备生产与消费16位以上的先进家用游戏机的经济水平；在2000年代由于政策限制又错失了进一步发展本土电子游戏硬件市场的机会。本土游戏硬件厂商高度依赖代工模式，无法在拓展海外市场时建立起有影响力和忠诚度的品牌。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_4_07.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_4_07.jpg&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;杭州的Clockwork Pi团队开发的GameShell是少数国内厂家开发，同时有着鲜明的文化特性的产品&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;今天，家用电子游戏行业已进入寡头垄断的时期，我们很难再看到像90年代的Playstation和2000年代的Xbox一般的新家用游戏主机品牌突然“从天而降”。但在掌机市场上，我们仍然可以看到GPD Win系列和GameShell通过众筹获得自己的品牌影响力。&lt;/p&gt;
+
+&lt;p&gt;目前看来，国产游戏硬件采用安卓系统，并与手游市场共享游戏内容仍是最为普遍的实践，而作为电脑游戏运行平台的的游戏个人电脑（Gaming PC）产品则是第二大板块，以伟易达为代表的儿童玩具市场和GameShell为代表的极客DIY市场也有着自己的一席之地。&lt;/p&gt;
+
+&lt;h2 id=&quot;参考资料&quot;&gt;参考资料&lt;/h2&gt;
+
+&lt;p&gt;[1] Sourceforge上的OPIE官网： Opie&lt;/p&gt;
+
+&lt;p&gt;[2] About Us | pdaXrom team&lt;/p&gt;
+
+&lt;p&gt;[3] Doom9论坛： The Definitive DVD Backup Resource&lt;/p&gt;
+
+&lt;p&gt;[4] MiniMig是一个使用FPGA模拟Amiga电脑芯片组的项目，其原始网站的备份： https://www.techtravels.org/wp-content/uploads/pefiles/minimig/weeren001/minimig.html&lt;/p&gt;
+
+&lt;p&gt;[5] Atari Coldfire Project所开发的现代Atari ST电脑被称为FireBee：firebee.org&lt;/p&gt;
+
+&lt;p&gt;[6] MiST项目主要活跃在Github上 https://github.com/mist-devel&lt;/p&gt;
+
+&lt;p&gt;[7] Rockbox官网：Free Music Player Firmware&lt;/p&gt;
+
+&lt;p&gt;[8] PluginRockboy &amp;lt; Main &amp;lt; Wiki&lt;/p&gt;
+
+&lt;p&gt;[9] 互联网档案馆的S1MP3网站存档 https://web.archive.org/web/20060819055333/http://s1mp3.org/en/&lt;/p&gt;
+
+&lt;p&gt;[10] 互联网档案馆的数码专家小组论坛存档 https://web.archive.org/web/20060106052818/http://www.easydigi.net/&lt;/p&gt;
+
+&lt;p&gt;[11] dingoo-scene的博客文章记录了丁果A320社群发展的一些早期数据 https://dingoo-scene.blogspot.com/2009/06/how-big-is-dingoo-and-how-much-bigger.html&lt;/p&gt;
+
+&lt;p&gt;[12]宅男之家(宅在家)博客的《中软赢科与GPD》系列记录了金星与中软赢科合作退出S601到中软赢科独立发展GPD品牌的过程 中軟贏科與GPD (一) （二） （三） （四） （五）&lt;/p&gt;
+
+&lt;p&gt;[13] Kickstarter项目排行榜： Kickstarter&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;出处：https://zhuanlan.zhihu.com/p/632564158&lt;/p&gt;
+
+</description>
+            <pubDate>Thu, 01 Feb 2024 00:00:00 +0800</pubDate>
+            <link>http://localhost:4000/a_neglected_game_console_in_the_chinese_world_4.html</link>
+            <guid isPermaLink="true">http://localhost:4000/a_neglected_game_console_in_the_chinese_world_4.html</guid>
+            
+            <category>game</category>
+            
+            <category>history</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>华人世界被忽视的游戏主机（三）：凌阳科技</title>
+            <description>&lt;p&gt;在2000年代，中国东南沿海逐渐成为电子产业的“世界工厂”，而这其中的一个重要参与者就是与联华电子一样位于台湾新竹科技园的凌阳科技，2001年，凌阳在为语音识别应用开发的SPCE500芯片及使用了自主研发的µ’nSP（Microcontroller and Signal Processor）16位单片机内核，并在同年启动了“凌阳大学计划”，特别是在从2002年起，凌阳和大陆许多大专院校合作建立单片机实验室，推广其µ’nSP内核的SPCE061A单片机（常简称为“61单片机”），在中国训练了大量熟悉µ’nSP芯片的开发者。这也成为了在中国形成以凌阳SPG芯片为基础的电子游戏生态的基础。&lt;/p&gt;
+
+&lt;h2 id=&quot;禾维pdc&quot;&gt;禾维PDC&lt;/h2&gt;
+
+&lt;p&gt;2006年发布的珠海禾维科技的Pocket Dream Console（通常简称为PDC）应当是使用凌阳SPG芯片影响力最大的游戏机，它在全球各地通过不同的游戏厂商销售，它在日本的销售商是特佳丽多美，在美国则是Videojet。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_01.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_01.jpg&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;Pocket Dream Console是一款非常小巧的掌机&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;2000年代，由于低功耗、高性能的移动处理器逐渐成熟，手持游戏机市场空前繁荣，除了任天堂的Gameboy Advanced，SNK的Neo Geo Pocket Color，万代的SwanCrystal等日本厂商的产品，许多其他国家的厂商都加入到手持游戏机的竞争中，比如诺基亚基于S60智能手机的N-Gage/QD，Tapwave基于Palm OS掌上电脑的Zodiac，以及Game Park基于Linux的GP32，这些非日本厂商的游戏机往往在游戏功能之外，也有着较强的非游戏应用。&lt;/p&gt;
+
+&lt;p&gt;但禾维PDC却是一款封闭系统的专用游戏机（Dedicated console），所有的游戏在出场时就已经内置，并不能通过购买游戏卡或网络下载进行扩充，虽然出厂内置的游戏较多，从最少的30款到最多200款不等，但也失去了通过软件改进进一步挖掘硬件潜力的可能。在其他游戏机型上，效果最好的游戏往往都在游戏机硬件发布数年之后，软件开发团队熟练掌握硬件特性，并能对其做较为深入的优化设计时才出现。禾维PDC的游戏也带有很强的模仿痕迹，包括了淘金者、打砖块、炸弹人等流行游戏的复制品。&lt;/p&gt;
+
+&lt;h2 id=&quot;丛林互动&quot;&gt;丛林互动&lt;/h2&gt;
+
+&lt;p&gt;另一个有较大影响力的凌阳SPG芯片的用户则是丛林互动科技，丛林互动的硬件开发团队位于深圳，而软件开发团队则位于福州，与红白机时代著名的本土游戏开发商外星科技关系密切。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_02.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_02.jpg&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;Zone60，配有棒球、网球、高尔夫球三种“球杆”配件&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;丛林互动生产的硬件主要市场在海外，较为知名的产品是Zone系列，如Zone 40、Zone 60等，提供一个类似任天堂Wii的无线手柄，游戏内容也主要以体感运动类为主。&lt;/p&gt;
+
+&lt;p&gt;丛林互动也可能是SPG芯片相关的游戏产品中唯一在中国本土发布产品的厂家，他们的代表产品“威力棒”即Sport Vii在外形上模拟任天堂Wii游戏机，而销售渠道则主要通过电视购物；在2000年后的游戏机销售禁令时期，这是位数不多的可以在中国大陆合规销售的游戏机之一。&lt;/p&gt;
+
+&lt;p&gt;与禾维PDC和Zone系列无法扩充游戏不同，Sport Vii支持以卡带的形式扩充游戏，丛林互动发布过三张包含多个游戏的合卡，VC-1、VC-2和VC-3，分别于蓝、白、粉三种颜色的Vii捆绑销售，不过除了发布时捆绑的三张游戏卡之外，Vii并没有任何第三方游戏加入。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_03.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_03.jpg&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;威力棒宣传彩页&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;伟易达在这一时期也基于凌阳SPG芯片开发了一系列电视游戏产品，即V.Smile电视教学系统（V.Smile TV Learning System）。由于其产品主要面向低年龄的儿童玩具市场，因此在并未受到主流游戏玩家的关注，但其游戏阵容却可能是相似技术架构的游戏机中最为丰富的，其中包括了迪士尼互动的《阿拉丁世界奇观》（Aladdin’s Wonders of the World）、华纳兄弟的《蝙蝠侠：哥谭市救援》（Batman: Gotham City Rescue）芝麻工作室的《芝麻街：毕特与恩尼的幻想冒险》（Sesame Street: Bert &amp;amp; Ernie’s Imagination Adventure）等知名影视IP授权游戏。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_04.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_04.jpg&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;V.Smile电视教学系统&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;由于2000年代中国电子市场变化剧烈，让大多数使用SPG芯片的游戏机的详细资料难以被寻找，但通过对知网上学术论文的搜索，我们会发现在2010年代仍有部分高校在基于SPG芯片进行教学和科研活动。这些论文也让我们能够一窥凌阳SPG系列处理器的硬件参数，较为常用的SPG260处理器是主频为27Mhz，支持320x240像素输出，图形部分能够支持128个卡通精灵，技术规格上仍然与前面所述的Super A’can属于第四代家用电子游戏机范畴。&lt;/p&gt;
+
+&lt;p&gt;而2000年代凌阳SPG芯片也随着凌阳内部不同业务部门的分分合合而几经易手。先是在2006年12月1日凌阳将移动多媒体部门拆分为Sunplus mMobile，又在2009年再次拆分成三家公司，目前游戏产品相关的IP应当属于灵通科技（Generalplus Technology）。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_05.png&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_05.png&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;美泰HyperScan&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;在SPG系列的后期产品SPG290中，16位的µ’nSP内核被替换为32位的S+core，主频也更高。SPG290最知名的产品是2006年美泰（Mattel）开发的HyperScan，与大多数完全由中国本土厂商设计的游戏机不同，它使用了CD-ROM光盘作为存储介质，并通过RFID射频卡片加入了卡牌收集等元素。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;a href=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_06.jpg&quot;&gt;
+        &lt;img src=&quot;../images/dnbwg/a_neglected_game_console_in_the_chinese_world_3_06.jpg&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p&gt;Zone 3D可以通过红绿3D眼镜提供立体画面&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;SPG290等S+core的机型相比µ’nSP内核的机型较少，另一些具有代表性的产品包是丛林互动的Zone 3D体感游戏机，和外星科技的iSports Pro等。而禾维PDC在开发其后续产品PDC touch（也被称作Mi2）时，则选用了MIPS处理器。&lt;/p&gt;
+
+&lt;h2 id=&quot;参考资料&quot;&gt;参考资料&lt;/h2&gt;
+
+&lt;p&gt;本文成文与2020年底，在此之后SunPlus的资料在网上大幅增加，本文未必覆盖最一些新的逆向研究成果&lt;/p&gt;
+
+&lt;p&gt;[1] HackMii: SunPlus: The biggest chip company you’ve never heard of&lt;/p&gt;
+
+&lt;p&gt;[2] 孙乾恒：《基于凌阳μ’nSP系列单片机的电视游戏设计与实现》，西安电子科技大学，硕士论文，2009年。&lt;/p&gt;
+
+&lt;p&gt;[3] 于腾潇：《2D游戏资源编辑工具的设计与开发》，北京邮电大学，硕士论文，2010年&lt;/p&gt;
+
+&lt;p&gt;[4] 王涛，邓丽君：基于凌阳32位单片机游戏十三张设计与实现，《软件》，2014年第35卷第4期&lt;/p&gt;
+
+&lt;p&gt;[5] HandWiki: S+core - HandWiki&lt;/p&gt;
+
+&lt;p&gt;[6] BootlegGames: Sunplus SPG&lt;/p&gt;
+
+&lt;p&gt;[7] MAME开发者David Haywood的Under the Surface系列，是介绍SPG系列最为详尽的文章，亦覆盖部分虚实科技VR Technology的VT系列产品的信息：Under the Surface (part 1) (part 2) (part 3) (part 4) (part 5) (part 6) (part 7) (part 8) (part 9) (part 10) (part 11) (part 12) (part 13) (part 14) (part 15)&lt;/p&gt;
+
+&lt;p&gt;[8] 我在2022年收集到的一些Sunplus单片机和SPG系列的开发资料： https://archive.org/details/sunplus-mcu-spg&lt;/p&gt;
+
+&lt;p&gt;[9] GitHub - MooglyGuy/unsp: A playground for SunPlus μnSP (SPG24x/SPG28x/PAC300) reverse-engineering&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;出处：https://zhuanlan.zhihu.com/p/630474136&lt;/p&gt;
+
+</description>
+            <pubDate>Fri, 19 Jan 2024 00:00:00 +0800</pubDate>
+            <link>http://localhost:4000/a_neglected_game_console_in_the_chinese_world_3.html</link>
+            <guid isPermaLink="true">http://localhost:4000/a_neglected_game_console_in_the_chinese_world_3.html</guid>
+            
+            <category>game</category>
+            
+            <category>history</category>
+            
+            
+        </item>
+        
     </channel>
 </rss>
