@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="从最基础的原理到最前沿的架构，从历史尘埃中的芯片到今日手中的处理器，「CPU大讲堂」系列课程共19讲，分为四大知识板块，带你由浅入深、从古至今全面认识CPU，帮你逐步揭开CPU的神秘面纱。">
+<meta name="keywords" content="historycpu,  ">
+<title>CPU 大讲堂：深入探索中央处理器的世界 | 复古电脑博物馆 | 在线电脑博物馆 | 计算机博物馆 | Retro Computer Museum</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="/js/jquery.min.js"></script>
+
+<script src="/js/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="/js/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="documentation-theme-jekyll" href="http://localhost:4000/feed.xml">
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" style="padding-top: 6px;">
+                <img src="/images/logo.png" style="display: inline-block; width: 40px;" alt="LOGO">
+                <img src="/images/title.png" class="nav-site-title" alt="电脑博物馆" style="display: inline-block; height: 40px;">
+                <!-- <span class="projectTitle"> 复古电脑博物馆</span> -->
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <!-- <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li> -->
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="news.html">传奇故事</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/" target="_blank" rel="noopener" onclick="return checkLinks();">电脑博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/famicn/" target="_blank" rel="noopener" onclick="return checkLinks();">家用游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:89/" target="_blank" rel="noopener" onclick="return checkLinks();">DOS游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://cpu.retromuseum.org/" target="_blank" rel="noopener" onclick="return checkLinks();">CPU博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/flash-archive/" target="_blank" rel="noopener" onclick="return checkLinks();">Flash档案馆</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="搜索...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="CPU 大讲堂：深入探索中央处理器的世界">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+
+        <!-- Content Column -->
+        <div class="col-md-12" id="tg-sb-content">
+            <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">CPU 大讲堂：深入探索中央处理器的世界</h1>
+        <p class="post-meta"><time datetime="2023-01-23T00:00:00+08:00" itemprop="datePublished">Jan 23, 2023</time> /
+            
+            
+            
+            <a href="tag_history.html">history</a>, 
+            
+            
+            
+            
+            
+
+        </p>
+
+
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+
+        
+        <div class="summary">从最基础的原理到最前沿的架构，从历史尘埃中的芯片到今日手中的处理器，「CPU大讲堂」系列课程共19讲，分为四大知识板块，带你由浅入深、从古至今全面认识CPU，帮你逐步揭开CPU的神秘面纱。</div>
+        
+
+        <p>欢迎来到「CPU大讲堂」系列课程！中央处理器（CPU）作为计算机的大脑，其发展历程和技术演进不仅反映了计算机科技的飞跃，更深刻地塑造了我们的数字生活。无论你是计算机爱好者、硬件新手，还是想要系统性了解处理器技术的进阶用户，本系列文章都将为你提供一个清晰而全面的学习路径。</p>
+
+<h2 id="系列课程结构">系列课程结构</h2>
+<p>本系列共19讲，分为四大知识板块，带你由浅入深、从古至今全面认识CPU：</p>
+
+<h3 id="第一部分基础概念第1-4讲">第一部分：基础概念（第1-4讲）</h3>
+<p>从CPU的基本架构与角色谈起，逐步深入至规格解读、指令集原理，以及常见的处理器技术特性，为你打下坚实的理论基础。</p>
+
+<ul>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_1.html" target="_blank">CPU大讲堂（1）——浅谈CPU</a><br />
+<strong>简介：</strong> <em>中央处理器是计算机核心三大组件之一，本期主要介绍处理器的架构及其发展。</em></p>
+  </li>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_2.html" target="_blank">CPU大讲堂（2）——带你看懂CPU规格</a><br />
+<strong>简介：</strong> <em>处理器的规格其实比绝大多数人想象复杂，本篇主要是教大家如何「使用工具来判读自己计算机目前使用的 CPU 的规格」。</em></p>
+  </li>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_3.html" target="_blank">CPU大讲堂（3）——鸟瞰历代处理器指令集</a><br />
+<strong>简介：</strong> <em>近年的 CPU 除了前一节谈过的基本参数之外，通常还有很多「技术特性」加持，这些技术能提供某些额外的功能或是提升运算性能，因此要了解 CPU 的规格，对这些技术的简单了解是不可或缺的！一般而言，处理器的技术特性有指令集与专属技术两大类，本节将先探讨指令集的部分。</em></p>
+  </li>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_4.html" target="_blank">CPU大讲堂（4）——HT、XD？带你认识这些技术名称</a><br />
+<strong>简介：</strong> <em>延续上一篇的主题，这节将会继续谈处理器的「技术特性」——超线程技术、处理器省电调控技术、数据执行防止技术和虚拟化技术。</em></p>
+  </li>
+</ul>
+
+<h3 id="第二部分历史演进第5-11讲">第二部分：历史演进（第5-11讲）</h3>
+<p>穿越时空，从上古时代的4004、8008，到x86架构的诞生与确立，再到中古时期Intel与AMD的激烈竞争，完整呈现处理器发展的历史脉络。</p>
+
+<ul>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_5.html" target="_blank">CPU大讲堂（5）——上古CPU发展史</a><br />
+<strong>简介：</strong> <em>在前面的 CPU 概论结束之后，我们接下来要进入的是一段「历史课程」，本篇介绍 CPU 的上古时代，包含 Intel 的 4004、8008、8080、8085 等进入 x86 架构以前的处理器。</em></p>
+  </li>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_6.html" target="_blank">CPU大讲堂（6）——中古前期CPU发展史</a><br />
+<strong>简介：</strong> <em>延续上一节的主题，本节馆长要谈的是「中古时期前半」的个人计算机 CPU 发展史，从这里开始就进入 x86 指令集架构的时代了，后来你所能见到的个人计算机 CPU 几乎都奠基于此。</em></p>
+  </li>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_7.html" target="_blank">CPU大讲堂（7）——中古时代后期CPU发展史(上)</a><br />
+<strong>简介：</strong> <em>本节要谈的是俗称 586 世代的部分，从这里开始也是 x86 CPU 发展史真正要开始有趣的地方，一方面是 AMD 终于开始研制自家设计的 CPU 了，另一方面则是计算机信息科技产业的发展差不多就是在此时正式进入突飞猛进的阶段。</em></p>
+  </li>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_8.html" target="_blank">CPU大讲堂（8）——中古时代后期CPU发展史(中)</a><br />
+<strong>简介：</strong> <em>AMD 在经过 K5 的出师不利之后，绝地反击赶在 Pentium II 之前推出 AMD K6，而 Intel 基于 P6 架构推出了 Pentium II 在市场上大获成功。</em></p>
+  </li>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_9.html" target="_blank">CPU大讲堂（9）——中古时代后期CPU发展史(下)</a><br />
+<strong>简介：</strong> <em>本节将继续延续上一节的内容，要介绍的有 Intel 的 Pentium III 家族、AMD 的 K6-III 与 Athlon 家族三大系列。</em></p>
+  </li>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_10.html" target="_blank">CPU大讲堂（10）——近代前期CPU发展史(上) Netburst 架构</a><br />
+<strong>简介：</strong> <em>从这一节开始将进入近代的 CPU 介绍，本篇谈的是 Intel 的 Netburst (P68) 架构。</em></p>
+  </li>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_11.html" target="_blank">CPU大讲堂（11）——近代前期CPU发展史(下) AMD K7.5、K8 架构</a><br />
+<strong>简介：</strong> <em>上篇讲 Intel 的 Netburst 架构时代 (2000 ~ 2006)，本篇自然就是讲 Intel 永远的 (同时也是现在唯一的) x86 处理器对手 AMD 同时期的历史。</em></p>
+  </li>
+</ul>
+
+<h3 id="第三部分近代架构第12-15讲">第三部分：近代架构（第12-15讲）</h3>
+<p>聚焦近代关键架构转折点，包括Intel Core架构的崛起、AMD K10的应对，以及Nehalem等影响深远的设计，解析技术路线背后的战略思考。</p>
+
+<ul>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_12.html" target="_blank">CPU大讲堂（12）——近代中期CPU发展史(一) Intel Core 的前世</a><br />
+<strong>简介：</strong> <em>本节开始介绍 Intel Core 架构的前世今生，先谈谈 Core 架构的再次统一 Intel x86 处理器产品线前与 Netburst 末期之间的历史。</em></p>
+  </li>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_13.html" target="_blank">CPU大讲堂（13）——近代中期CPU发展史(二) Intel Core 架构</a><br />
+<strong>简介：</strong> <em>本节主要谈 Intel Core 架构的逆袭。</em></p>
+  </li>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_14.html" target="_blank">CPU大讲堂（14）——近代晚期CPU发展史(三) AMD K10 架构</a><br />
+<strong>简介：</strong> <em>本篇要谈的是 AMD 的 K10 架构，算是 K8 架构的后继产品，开发过程中曾经短暂被称为 K8L，在上市之后则被命名为 AMD 10 处理器家族。</em></p>
+  </li>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_15.html" target="_blank">CPU大讲堂（15）——近代晚期CPU发展史(四) Intel Nehalem、Westmere 架构</a><br />
+<strong>简介：</strong> <em>今天要谈的是 Intel Nehalem 架构，这个架构在近十年内的 Intel x86 处理器演进中占有几乎与 Core Microarchitecture 同等重要的地位，今天我们所见到的 Sandy Bridge、Ivy Bridge、Haswell、Broadwell 与最新的 Skylake 上有很多特色都奠基于此代。</em></p>
+  </li>
+</ul>
+
+<h3 id="第四部分当代发展第16-19讲">第四部分：当代发展（第16-19讲）</h3>
+<p>走进当代处理器战场，深入分析AMD推土机架构、Intel Sandy Bridge及其后续演进，理解当前处理器技术的特点与趋势。</p>
+
+<ul>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_16.html" target="_blank">CPU大讲堂（16）——当代CPU介绍(一) AMD 推土机架构</a><br />
+<strong>简介：</strong> <em>AMD Bulldozer 架构在 2011 年推出，取代了先前使用的 K10 架构，目前是 AMD 旗下全 x86 计算机处理器产品线共享的基础架构。</em></p>
+  </li>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_17.html" target="_blank">CPU大讲堂（17）——当代CPU介绍(二) Intel Sandy Bridge 架构</a><br />
+<strong>简介：</strong> <em>从 Sandy Bridge 开始个人计算机处理器的发展有很明显趋于缓和的现象，接下来的 Ivy Bridge、Haswell、Broadwell、Skylake 其实都不会有太让人惊艳的提升或变革。</em></p>
+  </li>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_18.html" target="_blank">CPU大讲堂（18）——当代CPU介绍(三) Intel Ivy Bridge 架构</a><br />
+<strong>简介：</strong> <em>Ivy Bridge 本质上是 Sandy Bridge 的制程改进版，架构主体原则上是 Sandy Bridge 的延续，改进内容不多也不明显。</em></p>
+  </li>
+  <li>
+    <p><a href="https://cpu.retromuseum.org/computer_lecture_19.html" target="_blank">CPU大讲堂（19）——当代CPU介绍(四) Intel Haswell 与 Broadwell 架构</a><br />
+<strong>简介：</strong> <em>Haswell 算是最后一代还称得上遵循 Tick-tock 时程规划的产品，Broadwell 架构基本上就是 Haswell 架构移植到 14 纳米工艺的版本。</em></p>
+  </li>
+</ul>
+
+<h2 id="系列结语">系列结语</h2>
+
+<p>恭喜你完成了「CPU大讲堂」系列课程的学习之旅！从基础概念到当代架构，从上古芯片到纳米工艺，我们一起走过了处理器发展的半个世纪历程。</p>
+
+<p>通过这19讲的内容，我们不仅看到了晶体管数量从千到百亿的指数级增长，见证了主频从MHz到GHz的速度飞跃，更体会到了架构设计从简单到复杂、再从复杂回归高效的哲学思考。Intel与AMD的竞争与合作，x86指令集的兼容与革新，制程工艺的微小化挑战——这些故事共同编织了处理器技术的壮丽史诗。</p>
+
+<p>处理器的发展从未停止：在你阅读这些文字的此刻，新的架构正在实验室中模拟，更精细的制程正在产线上调试，更高效的设计正在工程师的脑海中成型。希望本系列文章不仅为你提供了知识，更激发了你对计算本质的好奇与思考。</p>
+
+<p><strong>技术永远向前，学习永无止境。</strong> 愿这份对CPU世界的探索，能够帮助你在数字时代中更好地理解手中的设备，更明智地做出技术选择，甚至启发你参与到未来的技术创新之中。</p>
+
+<hr />
+
+
+    </div>
+
+
+
+</article>
+
+
+
+<div id="tcomment"></div>
+<script src="https://cdn.staticfile.org/twikoo/1.6.16/twikoo.all.min.js"></script>
+<script>
+twikoo.init({
+  envId: 'https://comment.ihonux.com', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  el: '#tcomment', // 容器元素
+  // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+  // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+  // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/imaegoo/twikoo/blob/main/src/client/utils/i18n/index.js
+})
+</script>
+
+
+
+
+
+
+<hr class="shaded"/>
+
+<footer>
+    <div class="row">
+        <div class="col-lg-12 footer">
+            <ul class="list-inline">
+                <li><a href="https://RetroMuseum.org">主站</a></li>
+                <li><a href="https://cm.ihonux.com">镜像</a></li>
+                <li><a href="/about.html">关于</a></li>  
+                <li><a href="/thanks.html">致谢</a></li>
+                <li><a href="/contact.html">反馈</a></li>
+                <li><a href="/memorabilia.html">大事记</a></li>
+                <li><a href="/links.html">链接</a></li>
+                <li><a href="https://about.retromuseum.org">馆长</a></li>
+            </ul>
+        <div>
+        <div class="col-lg-12 footer">
+            &copy;2025 Copyright 2021-2026 Honux. All rights reserved. <br />
+             
+            Site last generated: Dec 21, 2025 <br />
+            <!-- <p><img src="images/company_logo.png" alt="Company logo"/></p> -->
+        </div>
+    </div>
+</footer>
+
+<script async src="https://ackee.ihonux.com/tracker.js" data-ackee-server="https://ackee.ihonux.com" data-ackee-domain-id="1476884b-dbb4-4310-bf47-cf034e75a9d9" data-ackee-opts='{ "detailed": true }'></script>
+
+<script>
+    var init_page = function() {
+        var oHead = document.getElementsByTagName("HEAD").item(0);
+        var oScript= document.createElement("script");
+        oScript.type = "text/javascript";
+        oScript.src="https://computer.retromuseum.org:90/console/visit_log.php?url=" + encodeURIComponent(window.location.href) + "&t=" + Date.now();
+        oHead.appendChild(oScript);
+    }
+    window.addEventListener("load", init_page, false);
+</script>
+
+
+
+
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>
+
+
