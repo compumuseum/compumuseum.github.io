@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="一群年轻人四十年前凭借热情与探索精神共同开发了Windows 1.0。40年后，一份隐藏于系统内的开发者名单将他们重新聚首。团队在聚会上回顾了在资源有限、技术受限的艰苦条件下，通过边争论边试错的协作，最终打造出改变个人计算历史的起点。前CEO鲍尔默表示，正是团队在正确时机交付关键成果，才成就了这一里程碑。">
+<meta name="keywords" content="historywindows,  ">
+<title>Windows 1.0核心开发团队时隔40年后重聚，鲍尔默忆往昔！ | 复古电脑博物馆 | 在线电脑博物馆 | 计算机博物馆 | Retro Computer Museum</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="/js/jquery.min.js"></script>
+
+<script src="/js/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="/js/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="documentation-theme-jekyll" href="http://localhost:4000/feed.xml">
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" style="padding-top: 6px;">
+                <img src="/images/logo.png" style="display: inline-block; width: 40px;" alt="LOGO">
+                <img src="/images/title.png" class="nav-site-title" alt="电脑博物馆" style="display: inline-block; height: 40px;">
+                <!-- <span class="projectTitle"> 复古电脑博物馆</span> -->
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <!-- <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li> -->
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="news.html">传奇故事</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/" target="_blank" rel="noopener" onclick="return checkLinks();">电脑博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/famicn/" target="_blank" rel="noopener" onclick="return checkLinks();">家用游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:89/" target="_blank" rel="noopener" onclick="return checkLinks();">DOS游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://cpu.retromuseum.org/" target="_blank" rel="noopener" onclick="return checkLinks();">CPU博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/flash-archive/" target="_blank" rel="noopener" onclick="return checkLinks();">Flash档案馆</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="搜索...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Windows 1.0核心开发团队时隔40年后重聚，鲍尔默忆往昔！">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+
+        <!-- Content Column -->
+        <div class="col-md-12" id="tg-sb-content">
+            <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Windows 1.0核心开发团队时隔40年后重聚，鲍尔默忆往昔！</h1>
+        <p class="post-meta"><time datetime="2025-12-20T00:00:00+08:00" itemprop="datePublished">Dec 20, 2025</time> /
+            
+            
+            
+            <a href="tag_history.html">history</a>, 
+            
+            
+            
+            
+            
+
+        </p>
+
+
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+
+        
+        <div class="summary">一群年轻人四十年前凭借热情与探索精神共同开发了Windows 1.0。40年后，一份隐藏于系统内的开发者名单将他们重新聚首。团队在聚会上回顾了在资源有限、技术受限的艰苦条件下，通过边争论边试错的协作，最终打造出改变个人计算历史的起点。前CEO鲍尔默表示，正是团队在正确时机交付关键成果，才成就了这一里程碑。</div>
+        
+
+        <p>40 年前，一群二十出头的年轻人，边争论、边试错、边通宵，把 Windows 1.0 一点点写了出来。</p>
+
+<p>40 年后，他们因为一段埋在系统里的隐藏彩蛋，再次坐到了一起。</p>
+
+<p>这场重聚由微软前 CEO 史蒂夫·鲍尔默牵头。那时的他还不是微软 CEO，而是公司第 24 名员工、比尔·盖茨招来的第一位商业经理，与工程师们并肩推进这个前途未卜的项目。谁也没想到，这个曾被质疑“没什么前景”的初尝试，会成为改变个人计算历史的起点。</p>
+
+<p>在这次聚会上，很多鲜为人知的往事被重新讲起。以下，是外媒 GeekWire 披露的 Windows 1.0 开发者们对那段历史的集体回忆。</p>
+
+<p><strong><em>作者 / GeekWire 　　 编译 / 苏宓 　　 出品 / CSDN（ID：CSDNnews）</em></strong></p>
+
+<p>要把当年参与开发 Windows 1.0 的工程师重新凑到一起，办一场 40 周年的聚会，其实绝非易事。不过他们没想到，帮忙“牵线搭桥”的，竟然是自己年轻时留下的一个小“玩笑”——一个当年悄悄塞进 Windows 1.0 系统里的隐藏彩蛋。也正是从这段不起眼的代码开始，后来一步步发展出了主导整个 PC 世界的 Windows 平台。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/windows_1_0_core_development_team_reunites_after_40_years_01.jpg" alt="Windows 1.0 核心开发团队时隔40年后重聚" />
+    <p></p>
+</div>
+
+<p>事情要追溯到 1980 年代中期，产品正式发布之前，开发团队悄悄在代码中加入了一份“鸣谢名单”，列出了成员的名字。这份名单并不会直接显示，只有通过特定的按键组合才能看到。</p>
+
+<p>有趣的是，传闻中，比尔·盖茨当时在因系统运行缓慢而一气之下猛敲键盘，结果误打误撞触发了这个隐藏操作，看到了那份名单。但这次“意外发现”并没有带来好结果。</p>
+
+<p>开发团队随后决定把触发方式的按键组合设计得更加隐蔽。从那以后，这份名单一直没有被外界注意到。</p>
+
+<p>直到 2022 年，一位研究人员在逆向分析老版 Windows 的二进制文件时，才再次将它翻了出来。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/windows_1_0_core_development_team_reunites_after_40_years_02.png" alt="1980 年代中期，Windows 1.0 正式发布之前，开发团队悄悄在代码中加入了一份“鸣谢名单”" />
+    <p></p>
+</div>
+
+<div align="center">
+    <img src="../images/dnbwg/windows_1_0_core_development_team_reunites_after_40_years_02.gif" alt="1980 年代中期，Windows 1.0 正式发布之前，开发团队悄悄在代码中加入了一份“鸣谢名单”" />
+    <p></p>
+</div>
+
+<p>当 Windows 1.0 团队决定在今年举办 40 周年聚会时，这份名单成为了他们的“线索”。它既像一个时间胶囊，又成了聚会的“嘉宾名单”。</p>
+
+<p>上周二晚上，Windows 原始核心团队的一部分成员在史蒂夫·鲍尔默位于贝尔维尤的办公室共进晚餐。他们一边回忆往事，一边纠正历史记录，也感叹当年在几乎不可能的条件下所取得的成就。</p>
+
+<p>“如今开发者拥有各种工具，可以轻松拖拽操作，”早期 Windows 开发者 Rao Remala 说，同时表示，他愿意向任何人挑战：在当年的 64K 段内存限制和其他技术约束下，构建一个可运行的 PC 操作环境。</p>
+
+<p>“你在 ChatGPT 里面试过了吗？”鲍尔默开玩笑道。</p>
+
+<p>今年，对微软来说，是充满纪念意义的一年：公司 50 周年，Excel 诞生 40 周年，以及互联网转型 30 周年。然而，这次聚会与众不同——它让人看到微软历史上最艰苦的项目之一：当时关键资源，包括预算和计算能力，都极为有限，但团队依然创造了令人惊叹的成果。</p>
+
+<h3 id="微软的里程碑平台">微软的里程碑平台</h3>
+
+<p>Windows 1.0 当年通过一套 5.25 英寸软盘发布，从技术上讲，它被认为是一个“图形应用程序员环境”，而不是完整的操作系统，因为它必须运行在 MS-DOS 2.0 上。</p>
+
+<p>微软在 1983 年 11 月宣布正在开发 Windows。但由于团队经历了领导层变动、技术挑战，以及用户界面设计的争论（例如，窗口是平铺显示还是重叠显示），发布被一再推迟，这也让业界指责微软在兜售“空头支票”。</p>
+
+<p>最终，Windows 1.0 于 1985 年 11 月 20 日正式亮相。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/windows_1_0_core_development_team_reunites_after_40_years_03.png" alt="Windows 1.0 于 1985 年 11 月 20 日正式亮相" />
+    <p></p>
+</div>
+
+<p>那时，苹果的 Macintosh 已经凭借其优雅的界面（至少按 1980 年代的标准）成为行业标杆，而市场上也已有其他基于 DOS 的替代方案。</p>
+
+<p>虽然很多人更看好 Mac 的精致设计，但微软押注于广泛的 PC 兼容性，而这一策略最终取得了成功。</p>
+
+<p>之后，微软曾因与 IBM 的 OS/2 合作而短暂背离初衷，但随着 Windows 3.1 的大获成功，以及 Windows 95 成为全球标准，这一系列努力终于开花结果。</p>
+
+<p>然而，没有 Windows 1.0，这一切都不可能实现。这个耗时数年的高强度项目，为微软最终成为全球最有价值公司之一奠定了基础。</p>
+
+<p>对于鲍尔默来说，他在成为微软 CEO 之前，就已被委以 Windows 1.0 项目的推进任务。这次 40 年聚会唤起了他许多旧日回忆和情感。</p>
+
+<p>“在我在微软参与的所有项目中，从某种意义上说，我对这个项目最为自豪，”他对团队说道，并表示自己真的感到是团队的一部分。</p>
+
+<h3 id="临场应变中的探索">临场应变中的探索</h3>
+
+<p>这场聚会中，许多故事被一一讲出，其中一些还是首次公开。</p>
+
+<p>当年团队在微软位于贝尔维尤的办公室工作，那时公司还没有搬到雷德蒙德。团队成员大多在二十多岁，有些甚至还在十几岁。（鲍尔默当时已近 30，是办公室里年纪较大的员工之一。）这也可以解释当时的工作文化。</p>
+
+<p>“工作和社交生活——根本没有区别，一切都融在一起了，”曾负责 Windows 1.0 窗口管理器的 Scott Ludwig 回忆道，这是核心系统，负责处理窗口、输入、事件、菜单和对话框。</p>
+
+<p>他们很多事情都是边做边摸索。比如，Lin Shaw 在 1984 年 8 月加入团队，距离原定发布日期还有几个月，那时一台打印机的驱动都还不存在。她建立了带状渲染架构——一种一次渲染页面一条带的方法，以适应内存限制——这一设计一直沿用到 Windows 95。</p>
+
+<p>她经常熬夜加班，不过在她看来，这是世界上最棒的工作。“感觉就像大学生活，”她在聚餐时说，“只是我拿工资而已，而且还非常丰厚。”</p>
+
+<div align="center">
+    <img src="../images/dnbwg/windows_1_0_core_development_team_reunites_after_40_years_04.png" alt="Windows 1.0 核心开发团队时隔40年后重聚" />
+    <p></p>
+</div>
+
+<p>那时候比尔·盖茨也会参与其中，甚至还会关注到最微小的细节。Mark Taylor 曾开发计算器和其他早期 Windows 应用，他回忆道，盖茨曾要求他在 Reversi 游戏中去掉一个计时延迟——不是为了加快游戏速度，而是为了让 Windows 看起来更快。多年后，随着芯片性能提升，这个动作执行得太快，反而变成了一个“漏洞”。</p>
+
+<p>Joe King 当年负责 Windows 的控制面板，他的办公室就在鲍尔默对面，中间隔着一堵很薄的墙。每天，他都能看到一拨又一拨人来参加所谓的“SteveB 会议”。每个人参加会议时的情景几乎一模一样：一开始声音不大，像是在低声讨论；接着鲍尔默开始来回走动，声音逐渐拔高，手势越来越多；等情绪推到最高点，会议也就结束了。</p>
+
+<p>“门一开，总会有人有点不好意思地走出来，”King 回忆说，“然后鲍尔默立刻精神满满地迎接下一个人。这种场面，我一天能看到好几次。”</p>
+
+<p>Tandy Trower 也回忆起自己 1985 年加入 Windows 团队的经历。当时，另一位产品经理 Rob Glaser（后来创办了 RealNetworks）曾提醒他，这个项目前景并不乐观，甚至可能走不通。</p>
+
+<p>“我加入微软，是带着让软件真正服务大众的愿景，”Trower 说。而鲍尔默正是用同样的愿景向他介绍了 Windows 项目。</p>
+
+<p>Trower 接下工作后才发现，负责开发的主管已经离职。鲍尔默安抚他说，产品“基本快做完了”。事实显然不是这样。</p>
+
+<p>当 Trower 提出一些改进想法——比如支持重叠窗口、使用比例字体——得到的回应总是同一句话：“你还想不想今年发布？”答案当然是想。最终，Trower 一直参与 Windows 的开发，直到 Windows 95，这段微软生涯前后持续了 28 年。</p>
+
+<p>程序员兼音乐家的 Marlin Eller，一开始其实对 Windows 并没有太大兴趣，他真正想做的是一款音乐记谱编辑器。入职第一年结束时，比尔·盖茨问他接下来想做什么，Eller 便如实讲了自己的想法。盖茨听得很认真，随后却抛出一个现实问题：“这个市场有多大？”Eller 心里很清楚，答案并不乐观。</p>
+
+<p>不过，盖茨很快换了个思路。要做音乐记谱，首先得有一套图形系统——画线条、椭圆、曲线。而操作系统本身，同样需要这些底层能力来支撑电子表格和图表。就这样，Eller 被拉进了 Windows 项目。</p>
+
+<p>“很多人不知道，”Eller 在聚餐前半开玩笑地说，“Windows 当年是为了让我能做音乐记谱才写的，其他人其实都是在给我打工。”</p>
+
+<h3 id="一些恶作剧">一些恶作剧</h3>
+
+<p>当然，也少不了一些恶作剧。比如，在 Windows 1.0 上线前的一两个月，开发者 Mark Cliggett 决定搞点小趣味。他写了一个程序，可以逐渐关闭电脑屏幕上的比特，并趁鲍尔默不在时，把程序安装在他的机器上。</p>
+
+<p>当然，团队里也少不了一些恶作剧。比如，在 Windows 1.0 上线前的一两个月，开发者 Mark Cliggett 决定搞点小花样。他写了一个程序，可以逐渐关闭电脑屏幕上的像素，然后趁鲍尔默不在，把程序悄悄装到了他的机器上。</p>
+
+<p>“当时真是做了几个错误的决定，”Cliggett 承认道——在同事电脑上放置恶意程序，还是未来的 CEO，而且完全没想到，几年后整个行业都得为安全问题头痛。Marlin Eller 花了一个小时才搞清楚出了什么问题，而值得称赞的是，鲍尔默并没有因此记仇。</p>
+
+<p>这还只是冰山一角。比如，有人传言 1985 年复活节的早晨 9 点，Ballmer 开了一个会议，还记录了没到场的人。事实是，会议确实开了，但他并没有记名字。Ballmer 解释：“我不会把它称作忠诚测试，那只是为了定下基调。”</p>
+
+<p>还有人说，团队为了发泄压力，用糖和硝石制作炸弹和火箭，甚至让保安闻到味道报警。实际上，这件事发生在 Windows 后续版本开发时。据当事人回忆，保安还加入了他们，在停车场炸交通锥。警察后来来了，但团队已经躲进图书馆。</p>
+
+<p>关于 Windows 1.0 的经典传说还有很多很多。对鲍尔默来说，做 Windows 1.0 的经历让他总结出了一种至今仍在用的管理方法。刚上任开发经理的第一天，他把自己从项目负责人那儿听来的各项进度安排重复给团队听，结果大家都笑了。鲍尔默称这叫“偷笑测试”（snicker test）——把领导说的计划复述一遍，看大家的反应。如果有人笑了，那就说明你听到的根本不是事实真相。</p>
+
+<p>但鲍尔默强调，Windows 的真正价值远不止这些趣闻。他说，如果 Windows 推迟两三年发布，就不会成为关键产品。关键在于“在正确的时间交付足够多的正确东西”。“你们做到了，这简直令人惊叹，”鲍尔默说，“它真的改变了世界。”</p>
+
+<hr />
+
+<p>出处：https://blog.csdn.net/csdnnews/article/details/156099316</p>
+
+
+    </div>
+
+
+
+</article>
+
+
+
+<div id="tcomment"></div>
+<script src="https://cdn.staticfile.org/twikoo/1.6.16/twikoo.all.min.js"></script>
+<script>
+twikoo.init({
+  envId: 'https://comment.ihonux.com', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  el: '#tcomment', // 容器元素
+  // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+  // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+  // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/imaegoo/twikoo/blob/main/src/client/utils/i18n/index.js
+})
+</script>
+
+
+
+
+
+
+<hr class="shaded"/>
+
+<footer>
+    <div class="row">
+        <div class="col-lg-12 footer">
+            <ul class="list-inline">
+                <li><a href="https://RetroMuseum.org">主站</a></li>
+                <li><a href="https://cm.ihonux.com">镜像</a></li>
+                <li><a href="/about.html">关于</a></li>  
+                <li><a href="/thanks.html">致谢</a></li>
+                <li><a href="/contact.html">反馈</a></li>
+                <li><a href="/memorabilia.html">大事记</a></li>
+                <li><a href="/links.html">链接</a></li>
+                <li><a href="https://about.retromuseum.org">馆长</a></li>
+            </ul>
+        <div>
+        <div class="col-lg-12 footer">
+            &copy;2025 Copyright 2021-2026 Honux. All rights reserved. <br />
+             
+            Site last generated: Dec 21, 2025 <br />
+            <!-- <p><img src="images/company_logo.png" alt="Company logo"/></p> -->
+        </div>
+    </div>
+</footer>
+
+<script async src="https://ackee.ihonux.com/tracker.js" data-ackee-server="https://ackee.ihonux.com" data-ackee-domain-id="1476884b-dbb4-4310-bf47-cf034e75a9d9" data-ackee-opts='{ "detailed": true }'></script>
+
+<script>
+    var init_page = function() {
+        var oHead = document.getElementsByTagName("HEAD").item(0);
+        var oScript= document.createElement("script");
+        oScript.type = "text/javascript";
+        oScript.src="https://computer.retromuseum.org:90/console/visit_log.php?url=" + encodeURIComponent(window.location.href) + "&t=" + Date.now();
+        oHead.appendChild(oScript);
+    }
+    window.addEventListener("load", init_page, false);
+</script>
+
+
+
+
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>
+
+
