@@ -5,8 +5,8 @@
         <description>复古电脑博物馆 在线电脑博物馆 计算机博物馆 Retro Computer Museum</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 21 Dec 2025 16:26:50 +0800</pubDate>
-        <lastBuildDate>Sun, 21 Dec 2025 16:26:50 +0800</lastBuildDate>
+        <pubDate>Sun, 21 Dec 2025 16:33:29 +0800</pubDate>
+        <lastBuildDate>Sun, 21 Dec 2025 16:33:29 +0800</lastBuildDate>
         <generator>Jekyll v3.10.0</generator>
         
         <item>
@@ -95,7 +95,7 @@
 
 &lt;h3 id=&quot;windows-98&quot;&gt;Windows 98&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;寻宝秘笈：&lt;/strong&gt;Windows98团队人员名单以及微软园区的图片展示&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;彩蛋内容：&lt;/strong&gt;Windows98团队人员名单以及微软园区的图片展示。&lt;/p&gt;
 
 &lt;div align=&quot;center&quot;&gt;
     &lt;img src=&quot;../images/dnbwg/easter_eggs_in_microsoft_windows_98_1.jpg&quot; alt=&quot;Windows 98 中的彩蛋&quot; /&gt;
@@ -107,7 +107,7 @@
     &lt;p&gt;&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;开门密钥：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;寻宝秘笈：&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;首先在桌面创建一个指向”c:\windows\application data\microsoft\welcome\weldata.exe”的快捷方式。&lt;/li&gt;
