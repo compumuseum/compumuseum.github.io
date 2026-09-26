@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="八十年代我国多地试点中小学计算机教育。邓小平提出 “计算机的普及要从娃娃抓起”，国家出台教学文件、举办青少年程序竞赛，设立全国计算机教育研究中心，青少年计算机教育全面落地。">
+<meta name="keywords" content="history,  ">
+<title>电脑学习机简史（4）--第一章 计算机的普及要从娃娃抓起 | 复古电脑博物馆 | 在线电脑博物馆 | 计算机博物馆 | Retro Computer Museum</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="/js/jquery.min.js"></script>
+
+<script src="/js/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="/js/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="documentation-theme-jekyll" href="http://localhost:4000/feed.xml">
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" style="padding-top: 6px;">
+                <img src="/images/logo.png" style="display: inline-block; width: 40px;" alt="LOGO">
+                <img src="/images/title.png" class="nav-site-title" alt="电脑博物馆" style="display: inline-block; height: 40px;">
+                <!-- <span class="projectTitle"> 复古电脑博物馆</span> -->
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <!-- <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li> -->
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="news.html">传奇故事</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/" target="_blank" rel="noopener" onclick="return checkLinks();">电脑博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/famicn/" target="_blank" rel="noopener" onclick="return checkLinks();">家用游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:89/" target="_blank" rel="noopener" onclick="return checkLinks();">DOS游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://cpu.retromuseum.org/" target="_blank" rel="noopener" onclick="return checkLinks();">CPU博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/flash-archive/" target="_blank" rel="noopener" onclick="return checkLinks();">Flash档案馆</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="搜索...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="电脑学习机简史（4）--第一章 计算机的普及要从娃娃抓起">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+
+        <!-- Content Column -->
+        <div class="col-md-12" id="tg-sb-content">
+            <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">电脑学习机简史（4）--第一章 计算机的普及要从娃娃抓起</h1>
+        <p class="post-meta"><time datetime="2026-07-25T00:00:00+08:00" itemprop="datePublished">Jul 25, 2026</time> /
+            
+            
+            
+            <a href="tag_history.html">history</a>
+            
+            
+            
+
+        </p>
+
+
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+
+        
+        <div class="summary">八十年代我国多地试点中小学计算机教育。邓小平提出 “计算机的普及要从娃娃抓起”，国家出台教学文件、举办青少年程序竞赛，设立全国计算机教育研究中心，青少年计算机教育全面落地。</div>
+        
+
+        <h3 id="第三节-计算机教育取得初步成效">第三节 计算机教育取得初步成效</h3>
+
+<p>为响应这次科学大会精神，北京和上海是在全国最早开始中小学计算机教育试点的城市。</p>
+
+<p>北京的景山学校是国内率先开展中小学计算机教育的学校，景山学校将当时国际上比较热门的BASIC语言做为教学内容，但当时编程教程都是以大学教育为主，没有针对中小学的教程，于是学校的老师借鉴国内外教材，编写了学校自己的《微电脑学习手册》。</p>
+
+<p>在1985年，学校正式成立了计算机的教研组，计算机的教学工作走入了正轨，到1986年从学校毕业的初高中学生都接受过计算机知识的教育。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/clm/1-3-1.png" alt="北京景山学校编写的计算机教材" />
+    <p></p>
+</div>
+<div align="center">
+    <img src="../images/dnbwg/clm/1-3-2.png" alt="北京景山学校编写的计算机教材" />
+    <p>图为北京景山学校编写的计算机教材</p>
+</div>
+
+<div align="center">
+    <img src="../images/dnbwg/clm/1-3-3.png" alt="北京景山学校教学用的计算机" />
+    <p>图为北京景山学校教学用的计算机（来源：网络）</p>
+</div>
+
+<p>上海市是最早在中国福利会少年宫从事少年儿童电子计算机教育活动，刚开始由于担心学生对计算机这个新鲜事物的接纳程度，尤其是学编程，需要了解一些英文单词，便试着组织了一些教学工作，发现学生对计算机学习抱有很大热情，很多学生还能独立开发一些软件，反响远超预期，于是积极筹建教学机房，开展计算机教育活动。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/clm/1-3-4.png" alt="中国福利会儿童计算机活动中心学生计算机操作" />
+    <p>图为中国福利会儿童计算机活动中心学生计算机操作（来源：《电子与电脑》）</p>
+</div>
+
+<p>1981年，教育部派代表团参加了在瑞士洛桑举行的第三届世界计算机教育应用大会。这次大会意义重大，正是这场大会让中国的计算机教育发生了转变。</p>
+
+<p>在大会上，代表团深刻体会到了中国在计算机教育与发达国家的巨大差距。会上前苏联科学院院士伊尔肖夫提出了“程序设计是人类第二文化”，引起参会者的巨大反响。代表团回国后立即向教育部提出“要在我国中学开展计算机教学实验。”</p>
+
+<p>1982年，教育部决定在在北大附中、北师大附中、清华附中、复旦附中、华东师大第二附中等五所大学的附属中学开展中学计算机教育实验工作，主要学习BASIC语言和计算机基本原理，这一年中国正式开启了中学阶段的计算机试点教育。</p>
+
+<p>1983年6月1日，上海市成立了我国第一个儿童计算机中心—中国福利会儿童计算机活动中心，为了解决师资力量不足的问题，上海市教育部门专门组织高等学校编写了一批计算机教材，在上海的广大青少年中掀起了一股学习计算机的热潮。</p>
+
+<p>1983年10月1日，邓小平应邀为中北京景山小学题词，北京景山学校是1960年春天创办的一所专门进行教学改革试验的学校。他写道“教育要面向现代化，面向世界，面向未来”。这“三个面向”为我国教育体制改革和发展指明了方向，也为计算机的普及与教育工作提供了指导依据。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/clm/1-3-5.png" alt="邓小平为北京景山小学题词" />
+    <p>图为邓小平为北京景山小学题词（来源：网络）</p>
+</div>
+
+<p>1984年2月，邓小平在视察了深圳、珠海和厦门经济特区后，乘火车一行来到了上海视察，期间参观了上海市微电子技术及其应用汇报展览的现场，在听取了有关介绍和参观了展出的图片和实物之后，观看了两名学生的计算机操作表演。</p>
+
+<p>其中一个男孩叫李劲，是一名初中生，女孩叫丛霖，是一名小学生。两个学生都曾在上海国际福利儿童计算机活动中心举办的上海市少年计算机程序设计竞赛中获得过奖项，此时年仅13岁的李劲，熟练地按下回车键，程序开始运行，屏幕上出现“热烈欢迎”的字样，并出现一个机器人开始演唱，然后，刻着“中国制造”的火箭发射升空，并打出最后的字幕“中国，飞向宇宙”。</p>
+
+<p>邓小平看完展示，非常高兴，当场对陪同的人员提出了影响国人学习计算机的重要言论“计算机的普及要从娃娃抓起”。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/clm/1-3-6.png" alt="邓小平观看计算机操作展示" />
+    <p>图为邓小平观看计算机操作展示（来源：网络）</p>
+</div>
+
+<div align="center">
+    <img src="../images/dnbwg/clm/1-3-7.png" alt="邓小平观看计算机操作展示" />
+    <p>图为邓小平观看计算机操作展示（来源：网络）</p>
+</div>
+
+<p>这次视察同时也改变了李劲的人生，受此鼓舞，李劲勤奋学习，高一连跳两级入读清华，并只用7年时间完成本科到博士的学业。1994年6月1日，23岁的李劲在儿童节那天成了中国最年轻的博士，有人戏称他为“娃娃博士”。</p>
+
+<p>此后赴美在南加州大学做博士后，并先后就职于夏普和微软的研究院，李劲成为微软亚洲研究院9位创始成员之一，在多媒体编码、云计算和存储等细分领域取得了丰硕成果，成为享誉全球的顶尖IT技术专家。现为依瞳科技公司CTO，依旧从事着他所热爱的计算机事业，成为80年代计算机教育成果的优秀代表。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/clm/1-3-8.png" alt="现在的李劲" />
+    <p>图为现在的李劲（来源：网络）</p>
+</div>
+
+<p>随后下发的《中共中央国务院关于深化教育改革全面推进素质教育的决定》指出：“在高中阶段的学校和有条件的初中、小学普及计算机操作和信息技术教育。”文件下达后，全国各中小学开始安排计算机课程教学。</p>
+
+<p>1984年5月6日，由中国电子学会计算机学会举办了中国首届青少年计算机程序设计竞赛，全国各地踊跃报名，共8000多名学生参加。由于BASIC语言结构简单、普及率高，成为此次比赛的参赛语言，BASIC语言也逐渐成为日后电脑学习机的标配编程语言。最终经计算机专家评选出了含初中组和高中组的共53名优胜者。这次竞赛结果让部分计算机专家也颇为吃惊，我国青少年计算机程序水平远超预期，也为我国今后开展计算机竞赛和计算机教育奠定了基础。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/clm/1-3-9.png" alt="1984年程序竞赛试题" />
+    <p></p>
+</div>
+<div align="center">
+    <img src="../images/dnbwg/clm/1-3-10.png" alt="1984年程序竞赛试题" />
+    <p>图为1984年程序竞赛试题</p>
+</div>
+
+<p>1984年5月28日，教育部发出《中小学进行计算机教育试点工作》的通知。6月教育部拨款20万元购置300台计算机及配套设备，装备30所小学作为试验点。</p>
+
+<p>同年，教育部发布了《中学电子计算机选修课教学纲要（试行）》（84版），其中规定计算机选修课的教学目的和内容是：</p>
+
+<p>1.初步了解计算机的基本工作原理和对人类的影响;</p>
+
+<p>2.掌握基本的BASIC语言并初步具备读、写程序和上机调试的能力;</p>
+
+<p>3.初步培养逻辑思维和分析问题与解决问题的能力。</p>
+
+<p>为更好开展计算机教育活动，1987年2月，成立了全国中学计算机教育研究中心，“研究中心”设北京部和上海部，分别挂靠北京师范大学和华东师范大学。其任务为:</p>
+
+<p>1.参与制订全国中学计算机教育事业的发展规划、有关政策和实施措施，了解各地工作开展的情况，组织试验和推广交流经验。</p>
+
+<p>2.组织研究、论证和评价中学计算机系列硬件的研制、选型和开发。</p>
+
+<p>3.组织并参与中学计算机教学软件的研制、开发和评价。</p>
+
+<p>4.培训中小学计算教育的骨干教师和管理人员。</p>
+
+<p>5.组织编写中学计算机教育的教材、教学参考资料。</p>
+
+<p>6.了解国外、国内信息动态，接受委托组织国外、国内学科学术交流活动。</p>
+
+<p>从此，全国青少年计算机教育开始正式在中华大地上实施。</p>
+
+<h4 id="第一章参考资料">第一章参考资料：</h4>
+
+<ol>
+  <li>
+    <p>DJS-050, https://baike.baidu.com/item/DJS-050%E5%BE%AE%E5%9E%8B%E8%AE%A1%E7%AE%97%E6%9C%BA/4347680?fr=aladdin</p>
+  </li>
+  <li>
+    <p>见“微”知著四十年 处理器历史全面回顾, http://cpu.zol.com.cn/258/2582059.html</p>
+  </li>
+  <li>
+    <p>“科学的春天”——1978年全国科学大会, http://www.bulletin.cas.cn/publish_article/2018/4/20180423.htm#</p>
+  </li>
+  <li>
+    <p>全国科学大会, https://baike.baidu.com/item/%E5%85%A8%E5%9B%BD%E7%A7%91%E5%AD%A6%E5%A4%A7%E4%BC%9A/10437437?fr=aladdin</p>
+  </li>
+  <li>
+    <p>计算机普及要从娃娃抓起，作者：周新英</p>
+  </li>
+  <li>
+    <p>沙有威专栏｜北京景山学校编程教育30年历史回顾, https://baijiahao.baidu.com/s?id=1651232476646553271&amp;wfr=spider&amp;for=pc</p>
+  </li>
+  <li>
+    <p>《全国中小学计算机教育资料汇编》</p>
+  </li>
+  <li>
+    <p>李劲：当年电脑娃娃如今微软英才, http://tech.sina.com.cn/other/2004-02-11/1509290949.shtml</p>
+  </li>
+  <li>
+    <p>“计算机要从娃娃抓起”亲历者李劲博士：欲攀巅峰，先要适应寂寞, http://e.zslib.com.cn/Information/Detail?subscribearId=1192822</p>
+  </li>
+  <li>
+    <p>依瞳科技, https://www.apulis.cn/member/jinli</p>
+  </li>
+  <li>
+    <p>罗强编著.从珠算到神威蓝光系统[M]. 2014</p>
+  </li>
+</ol>
+
+<hr />
+
+<p>出处：https://zhuanlan.zhihu.com/p/352771164</p>
+
+
+    </div>
+
+
+
+</article>
+
+
+
+<div id="tcomment"></div>
+<script src="https://cdn.staticfile.org/twikoo/1.6.16/twikoo.all.min.js"></script>
+<script>
+twikoo.init({
+  envId: 'https://comment.ihonux.com', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  el: '#tcomment', // 容器元素
+  // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+  // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+  // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/imaegoo/twikoo/blob/main/src/client/utils/i18n/index.js
+})
+</script>
+
+
+
+
+
+
+<hr class="shaded"/>
+
+<footer>
+    <div class="row">
+        <div class="col-lg-12 footer">
+            <ul class="list-inline">
+                <li><a href="https://RetroMuseum.org">主站</a></li>
+                <li><a href="https://cm.ihonux.com">镜像</a></li>
+                <li><a href="/about.html">关于</a></li>  
+                <li><a href="/thanks.html">致谢</a></li>
+                <li><a href="/contact.html">反馈</a></li>
+                <li><a href="/memorabilia.html">大事记</a></li>
+                <li><a href="/links.html">链接</a></li>
+                <li><a href="https://about.retromuseum.org">馆长</a></li>
+            </ul>
+        <div>
+        <div class="col-lg-12 footer">
+            &copy;2026 Copyright 2021-2026 Honux. All rights reserved. <br />
+             
+            Site last generated: Sep 26, 2026 <br />
+            <!-- <p><img src="images/company_logo.png" alt="Company logo"/></p> -->
+        </div>
+    </div>
+</footer>
+
+<script async src="https://ackee.ihonux.com/tracker.js" data-ackee-server="https://ackee.ihonux.com" data-ackee-domain-id="1476884b-dbb4-4310-bf47-cf034e75a9d9" data-ackee-opts='{ "detailed": true }'></script>
+
+<script>
+    var init_page = function() {
+        var oHead = document.getElementsByTagName("HEAD").item(0);
+        var oScript= document.createElement("script");
+        oScript.type = "text/javascript";
+        oScript.src="https://computer.retromuseum.org:90/console/visit_log.php?url=" + encodeURIComponent(window.location.href) + "&t=" + Date.now();
+        oHead.appendChild(oScript);
+    }
+    window.addEventListener("load", init_page, false);
+</script>
+
+
+
+
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>
+
+

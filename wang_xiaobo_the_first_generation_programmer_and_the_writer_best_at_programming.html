@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="多数人知道王小波是小说家，却很少有人知道王小波可以算的上中国早期的程序员，在90年代初的时候因为国内应用软件缺乏，爱捣鼓东西的王小波利用闲暇时间学习了汇编和C语言，编了中文编辑器和输入法。中文编辑器和输入法任何一个都是大牛级的GEEK才会去尝试的东西，比如求伯君。王小波通过卖软件还挣了些钱，当时很多中观村的老板要...">
+<meta name="keywords" content="history,  ">
+<title>第一代程序员王小波，最会编程的作家 | 复古电脑博物馆 | 在线电脑博物馆 | 计算机博物馆 | Retro Computer Museum</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="/js/jquery.min.js"></script>
+
+<script src="/js/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="/js/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="documentation-theme-jekyll" href="http://localhost:4000/feed.xml">
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" style="padding-top: 6px;">
+                <img src="/images/logo.png" style="display: inline-block; width: 40px;" alt="LOGO">
+                <img src="/images/title.png" class="nav-site-title" alt="电脑博物馆" style="display: inline-block; height: 40px;">
+                <!-- <span class="projectTitle"> 复古电脑博物馆</span> -->
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <!-- <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li> -->
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="news.html">传奇故事</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/" target="_blank" rel="noopener" onclick="return checkLinks();">电脑博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/famicn/" target="_blank" rel="noopener" onclick="return checkLinks();">家用游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:89/" target="_blank" rel="noopener" onclick="return checkLinks();">DOS游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://cpu.retromuseum.org/" target="_blank" rel="noopener" onclick="return checkLinks();">CPU博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/flash-archive/" target="_blank" rel="noopener" onclick="return checkLinks();">Flash档案馆</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="搜索...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="第一代程序员王小波，最会编程的作家">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+
+        <!-- Content Column -->
+        <div class="col-md-12" id="tg-sb-content">
+            <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">第一代程序员王小波，最会编程的作家</h1>
+        <p class="post-meta"><time datetime="2026-09-26T00:00:00+08:00" itemprop="datePublished">Sep 26, 2026</time> /
+            
+            
+            
+            <a href="tag_history.html">history</a>
+            
+            
+            
+
+        </p>
+
+
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+
+        
+        <div class="summary">多数人知道王小波是小说家，却很少有人知道王小波可以算的上中国早期的程序员，在90年代初的时候因为国内应用软件缺乏，爱捣鼓东西的王小波利用闲暇时间学习了汇编和C语言，编了中文编辑器和输入法。中文编辑器和输入法任何一个都是大牛级的GEEK才会去尝试的东西，比如求伯君。王小波通过卖软件还挣了些钱，当时很多中观村的老板要拉他入伙，当然写代码这种来钱快的活对屌丝王小波还是有吸引力的，所幸他还是拒绝了人家。</div>
+        
+
+        <div align="center">
+    <img src="../images/dnbwg/wang_xiaobo_01.jpeg" alt="王小波" />
+    <p></p>
+</div>
+
+<p>大家都知道王小波是作家，却很少有人知道他是个程序员。很多人都听过那句“你好哇，李银河。”却不知道程序员人生中第一个代码是“Hello world”。但写出：“那一天我21岁，在我人生中的黄金时代。我有好多奢望，我想爱，想吃，还想在一瞬间变成天上半明半暗的云”的就是那个特立独行的且会自己写程序的王小波。</p>
+
+<p>“我闲着没事搞了个发明。”1991年5月，王小波在自己的博客上写下了这句话。他可能是中国最早写科技博客的人，也是中国第一代程序员。
+他的这个发明，是自行研发的输入法。这只是王小波所写的软件之一，他对自己写的软件很得意：我现在软件写得出神入化，并做出了各种写小说的工具，别人的软件已不用了。
+他就是用这套软件写出了名垂中国当代文学史的《王二风流史》和《红拂夜奔》。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/wang_xiaobo_02.jpeg" alt="王小波" />
+    <p></p>
+</div>
+
+<p>王小波大学在人大学的是贸易，毕业后在人大当了几年老师，后来去了美国匹茨堡大学读经济的研究生。学成归国，王小波接着又回到人大做统计学的讲师。</p>
+
+<p>因为做统计，各种分析工具是必不可少的，以前人手工计算，有了计算机当然最好使用计算机。</p>
+
+<p>90年的时候，软件相当稀缺，电脑又相当不智能。王小波不得不自己写软件，当然开发软件也不是那么简单，所以他先是学会了FORTRAN，汇编，C等各种语言，接着又要学习数据结构，算法的相关知识，还有编译原理。</p>
+
+<p>在做出中文编辑器和输入法，解决了自己的需求之后，王小波对写软件的兴趣已经没有多少了。因为他觉得写软件可以赚钱，写小说同样也可以赚钱。出于一个程序员的修养，王小波还是不断地从数据结构和算法来优化这两个软件。</p>
+
+<p>王小波小说里的男主角基本都是理工男，除了天天意淫还有一些奇怪的想法，其中一些还有自己的发明。</p>
+
+<p>比如《未来世界》里的王二是个工程师，整天想着和单位一起研制的永动机，还有《红拂夜奔》里的李靖发明过一个巨大的开跟号机器，在战场上，这台机器运转起来挥舞着杠杆边开跟攻击敌人，有的人死在根号3下，有的人倒在了根号5下。</p>
+
+<p>以下内容是从王小波和朋友的书信里收集了他所做软件的各种信息，汇集起来，可以了解小波在软件方面的造诣。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/wang_xiaobo_03.jpeg" alt="王小波" />
+    <p></p>
+</div>
+
+<ul>
+  <li>
+    <p>1988年12月。回来之前我曾往人大一分校计算机站写过一封信，问他们可要带什么软件，主管的工程师回了封信，我没收到。回来之后人家还提到此事。现在国内软件一面混乱，又逐渐有形成市场之势。首先以年兄学统计这一事实来看，回来做事非有会用的软件不可。Macintosh根本就没打进中国市场，你非带几个可用的IBM微机软件回来不可。至于什么机器上能使倒不必太担心。我这个狗屁计算机室，IBMPS/2就有二台。AT机也不少。SASSPSSStatistx都有，可代表国内上等一般统计微机房的水平，可就是少了一种宜于作统计的语言。年兄如有APL(Aprogramminglanguage)之IBM微机本，可给我寄copy来。我在美还有一个户头，连manual复印费一并写支票给你们。Glim我也没有，如年兄有便人可捎来。邮寄太贵，能省就省吧。</p>
+  </li>
+  <li>
+    <p>1990年1月。我现在正给北大社会学所做统计，手上除SPSS没有可用的软件，国内这方面很差。我现在会用FORTRAN，编统计程序不方便。闻兄谈起你们用S语言，不知是否好用。工具书也不知好找不。不管好歹，烦兄找个拷贝给我，要就算了。照我看只要能解决各种矩阵运算就够：当然也要有各种分布函数。反正也是瞎胡混，我就算努把力，少混点吧。</p>
+  </li>
+  <li>
+    <p>1990年5月。晓阳到底也加入了IBM的行列。照我看，苹果机还是买不得。因为IBM-PC的兼容机队伍庞大。INTEL又总能推出新一代CPU，将来还有大发展。买微机钱的投资是大事，时间、精力投资更为巨大，买386兼容机是明智之举。我最近可能调入人大，投奔班长。最近胡思乱想想出了个理论来，还没认真推导，大抵是设立多个Dummy(两分变量)构成的联合分布，其合计样本点构成一球面，点到点的距离以总误差计算。所以一样本点的对点就是它的否，误差最大。其余的正在想。</p>
+  </li>
+  <li>
+    <p>1991年2月。兄谈及IBM中文软件不可用，估计是图像版有问题，可至有Colormonitor之机器上一试。Mac机国内亦有，唯不及美国多也。</p>
+  </li>
+  <li>
+    <p>1991年3月。你寄来的严氏2.0A我也收到，还没用。因为一者是3盘要倒，二者我自己写的WK也有重大进展。我也自做了词组功能，是棵B树，我觉得自写的软件自用，感觉是最好的。词组用处不是很大，主要用于定义人地名等专有名词，但是严氏软件对我还是有重大启示，拼音加四声是个极好的主意，写起东西来声韵铿锵，与其他软件大不一样。自写一遍，从分页到编辑键分配，都能合乎自家习惯，不是存心狗尾续貂也。如能见到严氏，可代为致意。</p>
+  </li>
+  <li>
+    <p>1991年5月。前次寄来软件，上机一试发现非有浮点处理机不能运转。因为缺少软件，国内机器一般不装协处理机，冷不丁撞出您这一件来，搞得不大有办法。</p>
+  </li>
+  <li>
+    <p>1991年5月。闲着没事搞了个发明。原有中文软件是用线扫描方式出汉字。我做了一个用调整字模发生器方法出汉字的系统，自以为很优越，可惜还未找到用户。用此法可以很容易地在西文软件上出中文窗口，还在SPSS上加了几句骂娘的话。</p>
+  </li>
+  <li>
+    <p>1991年9月。晓阳托人带来软件，周转很多日才到手里，软盘有些污损，坏一片烂一套，不可用矣。但是十分感念晓阳的好意。去年托人带来的中文软件(严氏By×)，我用着尚好，而且又用C语言仿编了一个，程序是我的，拼音字典是人家的，执此招摇撞骗，骗了一些钱。干这个事，熟悉了C语言，都是拜小阳所赐。</p>
+  </li>
+  <li>
+    <p>1991年9月。不过现在我对微机已无兴趣，因为发现写小说也可赚到钱。</p>
+  </li>
+  <li>
+    <p>1992年1月。编译程序一盘(有说明书，见shou)，源程序一盘。我的音典与严氏同名内容不同。功能上与严氏的近似，但是多了改进拼音字典的功能。按F4后可以把拼音重定义。也可加字，在拼音拣字时，按enter，就进入国标拣字，拣到的字加入字典。这个软件由五个c语言(另有两个头文件)和一个汇编语言文件组成，可用turboc编译，但是汇编部分不必重汇了，可以把汇编文件写成的部分形成的obj(我的磁盘上叫wk5.obj)放到硬盘上，与其它c语言文件分开，用turboc的commandline编译器编一下，命令如下: tcc-mc-ewka:wk<em>.ca:wk5.objgraphics.lib 形成wk.exe，但是必须有yindian，cclib，egavga.bgi三文件支持才工作。</em>.bgi是图象板参数表，可以包括到*.exe内的。但是要改改程序。你的机器好。我还用个老掉牙的XT机，简直落伍了。turbo.c你一定能找到。假如你用过其它c软件，有一点要提醒你，turbo.c有一种极讨厌的特性，就是你在一个函数内alloc的内存，退出该函数时不会自动释放；还有一点也很糟，就是模型问题，在大模型下写的程序，到了小模型上一概不能用，我的程序是在compact模型下写的，就不能用small来编译，这两条是可以气死人的。据说可以用far，near之类的前缀说明指针，其实是屁用不管。我干了一年多c，得到的结论是微机c还不能使人快乐，有时叫人怀念汇编。f1是提示键。我的打印机有汉卡，F5你恐不能用。这个打印机是人家借给我的，性能非常之好，(美国amt-525)；但是不知能用多久。这个程序我还在修改中。与严氏的软件比，在硬的方面的优点是达到了很好的紧凑性，现在编译后是55k，扩展余地大。缺点是图象更新没他的快(在我的老爷机上可以看出区别)，不知他是怎么搞的，我很佩服。我的图像部分也是汇编写的，反复优化，也达不到他的水平，不得不承认技不如人。另外，磁盘文件的处理，我也写不好。还要请阳公指教。</p>
+  </li>
+  <li>
+    <p>1992年7月。小阳的信又用MAC机，看来你的机器不少，可喜可贺。我这一台老PC/XT，用了六年换不下来，太惭愧，近来老想狠狠心，花几百块买个286主板换上，老婆又不同意，真是要命了。我自编软件又有进展，把一部分程序递归化，出现了很新奇的特征。等我换了286，就需要能写虚址方式的C语言了，未知晓阳能否找到？</p>
+  </li>
+  <li>
+    <p>1992年9月。你给我寄的软件因为是三寸盘，在这里很不通用，所以我也没用。盘上有什么，至今不知。我用C编的软件已经用熟，并做出了各种写小说的工具，别人的软件已不用了。现在主要是写书赚钱。从今年初开始写长篇，首先做了写长篇的专用软件，现在基本调通，开始写了。</p>
+  </li>
+  <li>
+    <p>1992年9月。递归论我没学过。我哥哥大概懂一些。我和你说的大概是计算机内的递归算法。我在美国读的书都是关于机器的。有关算法、数据结构等等，全在国内看的，也不知英文叫什么。在C语言里是指在一个函数(相当于其他语言的subprocedure)内调用同一个函数。一般程序书里都能查到。所谓保护方式，是指286protectedmode。因为一般的IBM机器，不管是386，486，只要是dos操作系统，实际能操作的内存只是640K，相当于一个较快的PC机。想要用到640K以外的e×tendmemory，只有用pretectmode才能用上，我打算换286，还是想用多于640K的内存。这就要有比现在的C更好的编程工具。当然，我也不一定要用到保护方式，有各种EMS软件，不过我还是想往多里捞摸，多留一手。MSC我只见过5.0版，7.0版的性能还不知道。不过我猜现在流行的C应该有这些手段，到这时候了。我有一段时间很关心personalcomputer的发展，属于想玩玩不到过干瘾的那种。这路东西的发展都是由处理机片芯的发展开始。从8088到286，386看文献就知道快了很多。从实用的角度来看，286多了虚存保护，386又多了很多用户多任务手段。486据说把386，387，和64K的高速缓存集成到一个片子上，不但整数运算快，浮点也快多了。不过不做科学运算，意义就小了。586还不知道是个什么东西，想必有惊人之处。不过到了我手上用作文字处理，也是暴殄天物。我有个286用用就算行了。太好的东西我也使不出来。听说美国微机多媒体搞得甚火，微机接电视，音响，vedio等等。这玩艺听上去倒是蛮有意思的。</p>
+  </li>
+  <li>
+    <p>1992年10月。当时不知道你为什么这么干，原来是机器坏了。居然叫人敲去150dollars，老兄真是有钱。这种事叫我遇上，肯定自己修了。现在的微机修理都是换线换板，机器一坏，先找块表量量是不是电源坏了。只要不是电源坏，估摸是哪部分不好，就去买块版换上。送出去也是这么修，还要敲你手工钱。我看150什么板子都能买来。万一自己故障没找对，就说人家的板子不好，退给他。我的机器里什么牌子的板子都有了，都像你那样挨人敲，还玩得起吗？这么弄，还能有点乐趣。比方说，你爱486，就去买块486主机板，把自己的主机板换下来，这种搞法不怕杂牌水货，坏了再换，反正便宜。我的问题在于这么搞都搞不起。</p>
+  </li>
+  <li>
+    <p>1992年10月。我现在从我哥哥那里弄了一套TurboC++，软件方面暂时没有问题了。只是286还没买，因为听说中国要加入关贸总协定，这类东西要掉价；有钱先买家具。无论如何，我是用不到486的，因为要286也不是为了追求高速度，主要是要解决内存问题。我现在软件写得出神入化，大概8088上能做到的一切，我都做到了。自己觉得该告一段落，去写小说了。</p>
+  </li>
+  <li>
+    <p>1992年11月。先有朋友把你寄来的软盘倒了一下，看看是数字，就没动它。记得原来有一套干这种事的软件，是你给的，但是盘坏过，再也找不到了。今天写了个小程序倒出来，拜读了大作，甚是有趣.</p>
+  </li>
+  <li>
+    <p>1993年3月。我终于下决心买了一台286，这些日子在改造软件，作了不少汇编工作。其核心是它在虚拟保护方式(virtualaddressprotected)下工作，以便利扩展内存(expandedmemory)。现在终于完全成功，我的软件现在可以编辑400K长的文件，可以把一部长篇小说全部调到内存里编写了。只可惜我这个机器还是低级，只有1MRAM，并且没有硬盘，所以也就到此为止了。这个程序的缺点是太低级，有大量对端口(port)的操作，虽然效率是高的，兼容性不会太好。我的XT机给山妻用了，算起来我用那台机器已经七年，就如一位老友，骤然割爱，如心头割肉</p>
+  </li>
+  <li>
+    <p>年份不详。我们的pc机还没有和Internet连上。通过Chinanet联网，每月也要交七八百的月费，我也没有这么多的钱。所以还是写信好了。</p>
+  </li>
+</ul>
+
+<hr />
+
+<p>出处：https://cloud.tencent.com/developer/article/1814559</p>
+
+
+    </div>
+
+
+
+</article>
+
+
+
+<div id="tcomment"></div>
+<script src="https://cdn.staticfile.org/twikoo/1.6.16/twikoo.all.min.js"></script>
+<script>
+twikoo.init({
+  envId: 'https://comment.ihonux.com', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  el: '#tcomment', // 容器元素
+  // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+  // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+  // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/imaegoo/twikoo/blob/main/src/client/utils/i18n/index.js
+})
+</script>
+
+
+
+
+
+
+<hr class="shaded"/>
+
+<footer>
+    <div class="row">
+        <div class="col-lg-12 footer">
+            <ul class="list-inline">
+                <li><a href="https://RetroMuseum.org">主站</a></li>
+                <li><a href="https://cm.ihonux.com">镜像</a></li>
+                <li><a href="/about.html">关于</a></li>  
+                <li><a href="/thanks.html">致谢</a></li>
+                <li><a href="/contact.html">反馈</a></li>
+                <li><a href="/memorabilia.html">大事记</a></li>
+                <li><a href="/links.html">链接</a></li>
+                <li><a href="https://about.retromuseum.org">馆长</a></li>
+            </ul>
+        <div>
+        <div class="col-lg-12 footer">
+            &copy;2026 Copyright 2021-2026 Honux. All rights reserved. <br />
+             
+            Site last generated: Sep 26, 2026 <br />
+            <!-- <p><img src="images/company_logo.png" alt="Company logo"/></p> -->
+        </div>
+    </div>
+</footer>
+
+<script async src="https://ackee.ihonux.com/tracker.js" data-ackee-server="https://ackee.ihonux.com" data-ackee-domain-id="1476884b-dbb4-4310-bf47-cf034e75a9d9" data-ackee-opts='{ "detailed": true }'></script>
+
+<script>
+    var init_page = function() {
+        var oHead = document.getElementsByTagName("HEAD").item(0);
+        var oScript= document.createElement("script");
+        oScript.type = "text/javascript";
+        oScript.src="https://computer.retromuseum.org:90/console/visit_log.php?url=" + encodeURIComponent(window.location.href) + "&t=" + Date.now();
+        oHead.appendChild(oScript);
+    }
+    window.addEventListener("load", init_page, false);
+</script>
+
+
+
+
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>
+
+
