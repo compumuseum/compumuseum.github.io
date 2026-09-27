@@ -5,8 +5,8 @@
         <description>复古电脑博物馆 在线电脑博物馆 计算机博物馆 Retro Computer Museum</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 26 Sep 2026 21:39:37 +0800</pubDate>
-        <lastBuildDate>Sat, 26 Sep 2026 21:39:37 +0800</lastBuildDate>
+        <pubDate>Sun, 27 Sep 2026 10:18:35 +0800</pubDate>
+        <lastBuildDate>Sun, 27 Sep 2026 10:18:35 +0800</lastBuildDate>
         <generator>Jekyll v3.10.0</generator>
         
         <item>
@@ -108,9 +108,501 @@
 &lt;p&gt;出处：https://cloud.tencent.com/developer/article/1814559&lt;/p&gt;
 
 </description>
-            <pubDate>Sat, 26 Sep 2026 00:00:00 +0800</pubDate>
+            <pubDate>Sun, 27 Sep 2026 00:00:00 +0800</pubDate>
             <link>http://localhost:4000/wang_xiaobo_the_first_generation_programmer_and_the_writer_best_at_programming.html</link>
             <guid isPermaLink="true">http://localhost:4000/wang_xiaobo_the_first_generation_programmer_and_the_writer_best_at_programming.html</guid>
+            
+            <category>history</category>
+            
+            <category>story</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>电脑学习机简史（12）--第四章 国产电脑学习机崛起</title>
+            <description>&lt;h3 id=&quot;第四节-中华学习机软件及外设&quot;&gt;第四节 中华学习机软件及外设&lt;/h3&gt;
+
+&lt;p&gt;为吸引更多的学生使用中华学习机，软件开发商专门开发了许多应用软件和游戏软件，还有专业的评测机构进行评测并颁奖。&lt;/p&gt;
+
+&lt;p&gt;80年代的中华学习机没有内置软驱，需单独配置5.25寸外置软驱，因录音机价格便宜，普及率高，磁带较软盘便宜不少，当年部分软件都是以磁带的形式发行。&lt;/p&gt;
+
+&lt;p&gt;用户只需要将录音机与学习机连接，启动录音机播放键，同时敲出读取命令即可读入相应程序。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-4-1.png&quot; alt=&quot;中华学习机游戏和应用程序磁带&quot; /&gt;
+    &lt;p&gt;图为中华学习机游戏和应用程序磁带（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-4-2.png&quot; alt=&quot;中华学习机应用软件部分目录&quot; /&gt;
+    &lt;p&gt;图为中华学习机应用软件部分目录（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-4-3.png&quot; alt=&quot;中华学习机5.25寸软驱&quot; /&gt;
+    &lt;p&gt;图为中华学习机5.25寸软驱（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;因中华学习机价格较PC机便宜，资金不足的学校开始使用中华学习机组建成局域网的方式建立简易机房。授课老师的电脑主机采用主流的硬件配置，通过安装相应的硬件与多台学习机联网，共享主机的硬盘和打印机，这种方式减少了机房建设的投资又能方便教学。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-4-4.png&quot; alt=&quot;采用中华学习机组成的局域网宣传图&quot; /&gt;
+    &lt;p&gt;图为采用中华学习机组成的局域网宣传图（来源：《电子世界》）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;部分内容来源于网络，如有侵权请及时联系作者处理！&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;出处：https://zhuanlan.zhihu.com/p/353109279&lt;/p&gt;
+
+</description>
+            <pubDate>Sat, 26 Sep 2026 00:00:00 +0800</pubDate>
+            <link>http://localhost:4000/a_brief_history_of_computer_learning_machines_12.html</link>
+            <guid isPermaLink="true">http://localhost:4000/a_brief_history_of_computer_learning_machines_12.html</guid>
+            
+            <category>computer</category>
+            
+            <category>history</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>电脑学习机简史（11）--第四章 国产电脑学习机崛起</title>
+            <description>&lt;h3 id=&quot;第三节-电脑学习机百花齐放&quot;&gt;第三节 电脑学习机“百花齐放”&lt;/h3&gt;
+
+&lt;p&gt;中华学习机机种不仅仅局限于CEC系列，同时期的还有XMF系列（俗称“小蜜蜂”）、天坛学习机系列、长江学习机系列、中环学习机系列、紫金学习机等以及其它品牌，这些学习机的定位都是针对中小学生计算机基础教育生产的，硬件配置不高，售价普遍都比较低，统统都被人们划分为中华学习机系列。&lt;/p&gt;
+
+&lt;p&gt;中华学习机CEC系列的成功也吸引了部分厂家，这类的学习机都是借鉴了原有中华学习机的主要功能，在硬件和外观上采取了差异化竞争的方式，让老百姓也有了更多的选择，而且软件与原有与CEC系列和APPLE II电脑兼容，也节约了后期配套软件的开发费用。&lt;/p&gt;
+
+&lt;h4 id=&quot;1小蜜蜂系列介绍&quot;&gt;&lt;strong&gt;1、“小蜜蜂”系列介绍&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;1987年，由电子工业部第48研究所参加清华大学、北京师范大学、上海复旦大学、烟台电子所和电子工业部华南计算机公司等单位组成的生产科研联合体,共同研制成功了小蜜蜂-I(XMF-I)型和小蜜蜂-G（XMF-G)型微型计算机，该机型与APPLE II/PLUS兼容。&lt;/p&gt;
+
+&lt;p&gt;“XMF-I”型微型计算机是专为中、小学及幼儿园对学生进行计算机辅助教学而设计的，同时，成年人可以用它进行自学或作为计算机教学设备，对于从事计算机应用的用户，则可以利用该机的软件资源编制应用软件，或应用扩充外围接口槽开发专用的控制系统。&lt;/p&gt;
+
+&lt;p&gt;在设计中，采用了先进的门阵列技术，大大地提高了系统的可靠性。为使家庭使用方便，本机专门设计了适合我国PAL制式的电视机接口和录音机接口，以便使用家用电视机作为显示器和用录音机作为外存贮器，构成一个计算机系统;如果选用字符显示.终端接口和软磁盘驱动器接口，连接字符显示终端和扩展箱，就可以构成-一个与一般计算机系统相同的计算机系统;本机还设有游戏机接口，亦可作为游戏机使用。&lt;/p&gt;
+
+&lt;p&gt;为了适合我国国情，普遍开展计算机应用，“XMF- I”型微型计算机设计了很强的汉字处理功能,可显示国标一、二级简、繁体汉字6768个,及汉字联想式词组(500条。&lt;/p&gt;
+
+&lt;p&gt;输入方式有拼音、全拼、偏旁部首、国标和区位等五种。&lt;/p&gt;
+
+&lt;h5 id=&quot;1小蜜蜂-ixmf-l型&quot;&gt;&lt;strong&gt;（1）小蜜蜂-I(XMF-l)型&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;p&gt;采用了65SC02处理器，该处理器与CEC系列的6502处理器兼容，CPU基本指令要更丰富一些。RAM 64K ROM 40K，固化了APPLESOFT和XMFBASIC（语句较APPLE有所增强），可处理国标一、二级汉字和繁体字，53键普通键盘，有打印机、游戏操作器和录音机接口，5种输入法（拼音、全拼、偏旁部首、国标、区位），支持DOS3.3，图像输出分辨率为192 ×280，1个PAL电视接口，1个监视器接口，外置电源。（原市场参考价920元）&lt;/p&gt;
+
+&lt;p&gt;硬件扩展需独立选购扩展箱，扩展箱内装软驱2台，扩充槽5个，更适合工业控制使用。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-3-1.png&quot; alt=&quot;小蜜蜂XMF-I型主机&quot; /&gt;
+    &lt;p&gt;图为小蜜蜂XMF-I型主机（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-3-2.png&quot; alt=&quot;小蜜蜂XMF-I型主机和扩展箱&quot; /&gt;
+    &lt;p&gt;图为小蜜蜂XMF-I型主机和扩展箱（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h5 id=&quot;2-小蜜蜂-gxmf-g型&quot;&gt;&lt;strong&gt;（2） 小蜜蜂-G（XMF-G)型&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;p&gt;与(XMF-l)型硬件类似，区别是只固化了APPLESOFT，主机内无电视接口。&lt;/p&gt;
+
+&lt;h4 id=&quot;2天坛学习机系列&quot;&gt;&lt;strong&gt;2、天坛学习机系列&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;1989年，由北京计算机软件中心和北京市计算机五厂共同研制并生产了天坛学习机，该学习机定位中小学教学、中小学企业、办公室及家庭使用。&lt;/p&gt;
+
+&lt;p&gt;该学习机型号主要有TEC-B1、TEC-B1+和TEC-B2。&lt;/p&gt;
+
+&lt;h5 id=&quot;1天坛学习机tec-b1型号&quot;&gt;&lt;strong&gt;（1）天坛学习机TEC-B1+型号：&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;p&gt;采用6502处理器（1MHZ），RAM 64K，ROM 136K，支持国标一、二级字库，固化了APPLESOFT-BASIC、整数BASIC语言，兼容中华学习机全部软件，可接NTSC/PAL/SECAM制式显示器或电视机，1个录音机接口，2个软驱接口，2个游戏操纵器接口，输入法有区位、全拼和五笔，支持英、日、俄、希腊文字录入，内置2.5W扬声器，声音可输出到电视，图像输出分辨率192×280，1个50芯扩展槽，69键键盘（带独立数字键盘），1个光笔接口，打印机接口需单独购买打印机模块。（原市场参考价995元）&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-3-3.png&quot; alt=&quot;图为天坛学习机TEC-B1+&quot; /&gt;
+    &lt;p&gt;图为天坛学习机TEC-B1+（来源：闲鱼APP）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-3-4.png&quot; alt=&quot;天坛学习机TEC-B1+开机画面&quot; /&gt;
+    &lt;p&gt;图为天坛学习机TEC-B1+开机画面（来源：闲鱼APP）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h5 id=&quot;2-天坛学习机tec-b2型号介绍&quot;&gt;&lt;strong&gt;（2） 天坛学习机TEC-B2型号介绍：&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;p&gt;硬件与TEC-B1+类似，RAM 64K（可扩展至128K），ROM 160K，固化了LOGO和FORTH语言,压缩了APPLESOFT-BASIC所占空间，（原市场参考价约1000多元）&lt;/p&gt;
+
+&lt;h4 id=&quot;3长江系列电脑学习机&quot;&gt;&lt;strong&gt;3、长江系列电脑学习机&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;由上海微电脑厂生产，长江系列主要有长江-I型和长江-II型两种。长江-I型采用6502处理器（1MHZ）, 长江-II采用65SCO2处理器（1MHZ），其余 RAM 64K（可扩充至192K） ROM 16K，主机未固化汉字需单独购买汉卡，固化了BASIC语言，2个软驱接口，1个游戏操纵器接口。&lt;/p&gt;
+
+&lt;h4 id=&quot;4中环系列电脑学习机&quot;&gt;&lt;strong&gt;4、中环系列电脑学习机&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;由天津市无线电二厂生产，该厂生产过DJS-130、135小型机和DJS-062、065微机，以及银河780超级小型机，也生产过LASER310电脑，被电子工业部定为国家“中华学习机”生产厂。&lt;/p&gt;
+
+&lt;p&gt;80年代，主要有ZH-01、ZH-02和 ZH-03三种。90年初推出升级版ZH-08&lt;/p&gt;
+
+&lt;h5 id=&quot;1-zh-01zh-02和-zh-03主要技术指标&quot;&gt;&lt;strong&gt;（1） ZH-01、ZH-02和 ZH-03主要技术指标：&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;p&gt;RAM 64K ROM 32K，DOS3.3系统，固化BASIC 、LOGO语言。&lt;/p&gt;
+
+&lt;p&gt;ZH-01和ZH-03均采用6502处理器，与中华学习机兼容， ZH-01去掉了软驱接口，未固化汉字，采用磁带软汉字系统。 ZH-03有打印机接口、电子琴接口和软驱接口，声音和图像可同步到电视，固化有国家一、二级汉字。&lt;/p&gt;
+
+&lt;p&gt;ZH-02采用Z80处理器，固化国家一级汉字，1个显示器接口，1个打印机，1个录音机接口，1个串并行接口，1个光笔接口，主要应用工业控制领域。&lt;/p&gt;
+
+&lt;h5 id=&quot;2zh-08主要技术指标&quot;&gt;&lt;strong&gt;（2）ZH-08主要技术指标&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;p&gt;与IBM-PC/XT兼容，采用8088处理器，RAM 640K, DOS3.3系统，支持dbaseⅡ与dbaseⅢ数据库，可运行BASIC、 FORTRAN 、COBOL、 PASCAL语言，硬盘支持20M或40M，双软盘，标准101键盘，支持CCDOS,1个打印接口，1个RS232接口，1个游戏卡接口。（原市场参考价4450元）。&lt;/p&gt;
+
+&lt;h4 id=&quot;5紫金系列电脑学习机&quot;&gt;&lt;strong&gt;5、紫金系列电脑学习机&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;由南京734厂研发生产，该厂之前生产过仿制的APPLE电脑，型号为“紫金I号”，1984年研发了升级版的“紫金II号”，获国家科技进步二等奖。紫金IIA是专门为普及计算机教育研发的学习型电脑，采用6502处理器，RAM 64K ROM 32K，固化BASIC语言，未固化汉字需选配汉卡，50针扩展槽和软驱接口，后又生产了紫金IIB中华学习机。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-3-5.png&quot; alt=&quot;紫金I号电脑&quot; /&gt;
+    &lt;p&gt;图为紫金I号电脑（来源：闲鱼APP）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-3-6.png&quot; alt=&quot;紫金IIA电脑&quot; /&gt;
+    &lt;p&gt;图为紫金IIA电脑（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-3-7.png&quot; alt=&quot;紫金IIB中华学习机&quot; /&gt;
+    &lt;p&gt;图为紫金IIB中华学习机（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;部分内容来源于网络，如有侵权请及时联系作者处理！&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;出处：https://zhuanlan.zhihu.com/p/353109279&lt;/p&gt;
+
+</description>
+            <pubDate>Fri, 25 Sep 2026 00:00:00 +0800</pubDate>
+            <link>http://localhost:4000/a_brief_history_of_computer_learning_machines_11.html</link>
+            <guid isPermaLink="true">http://localhost:4000/a_brief_history_of_computer_learning_machines_11.html</guid>
+            
+            <category>computer</category>
+            
+            <category>history</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>电脑学习机简史（10）--第四章 国产电脑学习机崛起</title>
+            <description>&lt;h3 id=&quot;第二节-中华学习机诞生&quot;&gt;第二节 中华学习机诞生&lt;/h3&gt;
+
+&lt;p&gt;80年代的电脑学习机基本依赖进口，由于价格、配置和应用受到诸多限制，影响了我国电脑知识的普及和教育。&lt;/p&gt;
+
+&lt;p&gt;1986年8月，电子工业部在北京召开了一次“学习机开发研讨会”，参加会议的有科学院、高等院校和微型计算机生产厂家等二十几个单位。各厂家也在会上展示了部分机种，时任电子工业部部长的李铁映出席了这次会议。&lt;/p&gt;
+
+&lt;p&gt;这次会议意义重大，明确了将微型计算机开发成为价格低廉且性能高的学习机，考虑到国情因素，定型为8位机，以满足广大青少年使用甚至是成人教育为主，要有丰富的配套软件和中文录入，希望借鉴参展的成熟机型研发一台属于中国自己的电脑学习机。&lt;/p&gt;
+
+&lt;p&gt;此次研讨会参展的机种有（只列出部分）：智神-85、TP805、PT-80、PZ-85、紫金II、LASER系列、COMX-PC1、卡西欧MX-15、CJ-900和NF-300等电脑。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-1.png&quot; alt=&quot;学习机研讨会参展的部分机种&quot; /&gt;
+    &lt;p&gt;图为学习机研讨会参展的部分机种（来源：《电子与电脑》）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;1987年部分学习机研讨会参展机种介绍&quot;&gt;&lt;strong&gt;1987年部分学习机研讨会参展机种介绍&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;h5 id=&quot;1智神-85微型计算机&quot;&gt;&lt;strong&gt;1、智神-85微型计算机&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;p&gt;智神-85微型计算机由西北电讯工程学院研发，广东市江门市无线电一厂制造，采用Z80处理器（3.58MHZ），53键机械键盘，RAM 16K（可接24K扩充RAM）ROM 24K，内置微型打印机，外接磁带录音机存取数据，可外接电视机和显示器。&lt;/p&gt;
+
+&lt;h5 id=&quot;2tp805微型计算机&quot;&gt;&lt;strong&gt;2、TP805微型计算机&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;p&gt;TP805微型计算机由北京工业大学研发和制造，采用 Z80A处理器，最大RAM可达64K。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-2.png&quot; alt=&quot;TP805主机&quot; /&gt;
+    &lt;p&gt;图为TP805主机（来源：闲鱼APP）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h5 id=&quot;3pt-80微型计算机&quot;&gt;&lt;strong&gt;3、PT-80微型计算机&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;p&gt;采用Z80A处理器；CP/M操作系统；配有软驱。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-3.png&quot; alt=&quot;PT-80主机&quot; /&gt;
+    &lt;p&gt;图为PT-80主机（来源：闲鱼APP）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h5 id=&quot;4南丰nf-300-教学电脑&quot;&gt;&lt;strong&gt;4、南丰NF-300 教学电脑&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;p&gt;由国营830厂（也生产PC-1500袖珍计算机）与重庆大学联合研发生产，采用Z80处理器（3.25MHZ）,RAM 16K ROM16K，具有配有TV、监示器接口和录音机接口。（当年市场参考价385元）&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-4.png&quot; alt=&quot;参加展览的NF300教学电脑&quot; /&gt;
+    &lt;p&gt;图为参加展览的NF300教学电脑&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;为加速我国的计算机普及教育，在“七五”期间，由国家科委、国家教委、国家计委、电子工业部、中国科协统一组织全国各方力量，自行研制适合我国国情的电脑学习机&lt;/p&gt;
+
+&lt;p&gt;1987年由清华大学主持、南京有线电厂、陕西计算机厂、深圳计算机有限公司、电子工业部第六研究所、西南（蛇口）电子公司及中国计算机公司技术服务公司等单位参加，进行联合研制和生产中华学习机研制成功。&lt;/p&gt;
+
+&lt;p&gt;中华学习机从市场上众多的机种里面选择了参考了APPLE Ⅱ电脑的硬件结构进行设计，用的同样的6502处理器和键盘主机一体化设计，软件也与APPLE Ⅱ电脑的完全兼容。&lt;/p&gt;
+
+&lt;p&gt;为什么选型参考选择的是8位电脑的APPLE Ⅱ而没有选择当时流行的16位电脑了？&lt;/p&gt;
+
+&lt;p&gt;一是APPLE Ⅱ电脑在全球市场上已经销售了很多年，技术较成熟，应用软件丰富，在国内使用的人和学习资料也很多；&lt;/p&gt;
+
+&lt;p&gt;二是从用途上来说，考虑到学习机的定位是普及中小学的计算机基础教育，不是进行科研和生产用的，主要学习BASIC语言，性能太高不实用；&lt;/p&gt;
+
+&lt;p&gt;三是从价格来说，采用APPLE Ⅱ的硬件价格相对来说要便宜；&lt;/p&gt;
+
+&lt;p&gt;四是从制造方面来说，当时的制造的技术并不先进，16位电脑对生产商的要求相对较高，不利于大规模生产；&lt;/p&gt;
+
+&lt;p&gt;五是从国内使用的环境来说，一般是家庭和学校使用，电压不稳，断电情况时有发生，就需要一款结构简单且耐用的学习机。&lt;/p&gt;
+
+&lt;p&gt;1987年9月，中华学习机CEC-I型（China Educational Computer）召开了生产定型鉴定会，正式公开亮相。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-5.png&quot; alt=&quot;中华学习机宣传广告&quot; /&gt;
+    &lt;p&gt;图为中华学习机宣传广告（来源：《电子与电脑》）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-6.png&quot; alt=&quot;中华学习机宣传广告&quot; /&gt;
+    &lt;p&gt;图为中华学习机宣传广告（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;中华学习机成功研制，标志着中国终于有了适合自己国情和计算机教育的电脑。这次的研制算是通过举全国之力研发的，寄托了教育界、科学界、工业界以及广大计算机爱好者的希望。在国内赢得了广泛的关注，获得了多家软硬件公司的支持。&lt;/p&gt;
+
+&lt;p&gt;1988年10月，中国教育电子公司成立（隶属电子工业部），负责对中华学习机的硬件和软件的开发、生产和推广工作。&lt;/p&gt;
+
+&lt;p&gt;同年，由国家教育部门和学习机研制、生产和技术服务部门等专门成立了中华学习机协会，协会积极开展资料的编写、技术交流、配套软件的开发、产品信誉评测、计算机竞赛和培训等工作，为中华学习机的健康成长起到了重要作用。&lt;/p&gt;
+
+&lt;p&gt;社会上也开始涌现出了中华学习机的培训班，各个报纸、杂志也开辟中华学习机专栏。不仅中小学、大专院校在使用，甚至企业也在使用，中华学习机走入了寻常百姓家庭。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-7.png&quot; alt=&quot;中华学习机书籍&quot; /&gt;
+    &lt;p&gt;图为中华学习机书籍&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-8.png&quot; alt=&quot;中华学习机杂志&quot; /&gt;
+    &lt;p&gt;图为中华学习机杂志（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-9.png&quot; alt=&quot;中华学习机技术参考手册&quot; /&gt;
+    &lt;p&gt;图为中华学习机技术参考手册（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;中华学习机是一个大家族，在CEC-I（普及性）型号基础上，为满足不同层次的消费者和应用，根据性能的高低和用途，中华学习机又陆续生产了CEC-IA（增强型）、CEC-E（教育型）、CEC-M（简易型）、CEC-G（游戏性）、CEC-PC/10（与IBM PC/XT兼容）、CEC-PC/20（与IBM PC/XT兼容）、CEC-2000等型号。&lt;/p&gt;
+
+&lt;p&gt;截止1990年，全国有400万多台中华学习机投入应用，销量最大的是CEC-I型号。&lt;/p&gt;
+
+&lt;p&gt;针对海外市场还生产了出口前苏联的CEC-IR型号，该型号硬件配置与CEC-I类似。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-10.png&quot; alt=&quot;中华学习机CEC-IR型号&quot; /&gt;
+    &lt;p&gt;图为中华学习机CEC-IR型号（来源：闲鱼APP）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;cec系列介绍&quot;&gt;&lt;strong&gt;CEC系列介绍&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;1中华学习机cec-i普及型介绍&quot;&gt;&lt;strong&gt;1、中华学习机CEC-I（普及型）介绍：&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;CEC-I中华学习机采用6502处理器（1MHZ）与APPLE IIe微机兼容，其功能与APPLE IIe相当且有增强。它可以运行APPLE II微机上的各种软件，共有白色、红色两种颜色。&lt;/p&gt;
+
+&lt;p&gt;内存RAM 64K,ROM 32K;主机有固化的监控程序，APPLESOFT语言、中文BASIC语言，以及LOGO语言，69键键盘，可外接5.25寸单密度软驱、录音机、游戏操纵器、打印机、内置2.5W扬声器。&lt;/p&gt;
+
+&lt;p&gt;最大特点是具有汉字系统，提供拼音和区位输入法，具有国家标准一、二级汉字，与APPLE II兼容的1个50线扩充插槽，支持DOS3.3，丰富的应用软件（约5000多种）。（原市场参考价约800元）&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-11.png&quot; alt=&quot;中华学习机CEC-I主机（白）&quot; /&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-12.png&quot; alt=&quot;中华学习机CEC-I主机（红）&quot; /&gt;
+    &lt;p&gt;图为中华学习机CEC-I主机（红白两款）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-13.png&quot; alt=&quot;南京有线电厂生产的紫金中华学习机&quot; /&gt;
+    &lt;p&gt;图为南京有线电厂生产的紫金中华学习机（来源：闲鱼APP）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-14.png&quot; alt=&quot;带包装的中华学习机&quot; /&gt;
+    &lt;p&gt;图为带包装的中华学习机（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-15.png&quot; alt=&quot;中华学习机开机画面&quot; /&gt;
+    &lt;p&gt;图为中华学习机开机画面（来源：闲鱼APP）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-16.png&quot; alt=&quot;中华学习机开机使用的5寸软驱和软盘&quot; /&gt;
+    &lt;p&gt;图为中华学习机开机使用的5寸软驱和软盘（来源：闲鱼APP）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-17.png&quot; alt=&quot;中华学习机背面接口&quot; /&gt;
+    &lt;p&gt;图为中华学习机背面接口（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;2cec-m简易型系列&quot;&gt;&lt;strong&gt;2、CEC-M（简易型）系列&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;与CEC-I相比功能基本一致，无软驱接口，不能接彩色显示器，需单独外接稳压电源，键盘采用非机械键盘，采用57键，体积更小，价格便宜。（原市场参考价约600元）&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-18.png&quot; alt=&quot;&quot; /&gt;
+    &lt;p&gt;图为中华学习机CEC-M（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;3cec-g游戏型&quot;&gt;&lt;strong&gt;3、CEC-G（游戏型）&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;与CEC-I相比功能基本一致，中华学习机无论是在游戏的种类还是图像色彩方面，与当时国内流行的任天堂游戏相比，相差太多，于是采用了差异化的产品营销方式，主机单独增加了任天堂游戏机的电路，与当时市面上的任天堂、小天才游戏机兼容，可在主机侧面单独插8位游戏卡，可接2个游戏操纵器，玩游戏时需单独拨动主机后面的开关进行切换。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-19.png&quot; alt=&quot;&quot; /&gt;
+    &lt;p&gt;图为中华学习机CEC-G主机（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-20.png&quot; alt=&quot;&quot; /&gt;
+    &lt;p&gt;图为中华学习机CEC-G主机背面（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-21.png&quot; alt=&quot;&quot; /&gt;
+    &lt;p&gt;图为中华学习机CEC-G主机侧面（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;80年代末期，国内山寨的游戏机价格接近300元，而一台学习机价格本来就很贵了，再增加一部游戏机电路，价格几乎快接近1000元了，在当时很多老百姓经济条件并不富裕的年代，该机型销量并不高。但该机型确成为今后电脑学习机的雏形，如果该机型在90年代继续推出，并将外部造型进行优化，键盘改成101键盘，配上鼠标，多研发一些教育类的软件，凭借该机型强大硬件配置和输入输入接口，绝对会成为电脑学习机市场的“终结者”，只可惜生不逢时。&lt;/p&gt;
+
+&lt;h4 id=&quot;4cec-e教育型&quot;&gt;&lt;strong&gt;4、CEC-E（教育型）&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;由陕西计算机厂生产，又叫长安CEC-E,除具备CEC-I所有功能外，增加了一个打印接口，可接2个5.25寸软驱接口，73键键盘，三种汉字输入法，改善了彩色显示输出效果，采用了新的外观造型和高可靠性键盘，可以使用电视机音响。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-22.png&quot; alt=&quot;中华学习机CEC-E&quot; /&gt;
+    &lt;p&gt;图为中华学习机CEC-E（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-23.png&quot; alt=&quot;中华学习机CEC-E背面接口&quot; /&gt;
+    &lt;p&gt;图为中华学习机CEC-E背面接口（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;5cec-ia增强型&quot;&gt;&lt;strong&gt;5、CEC-IA（增强型）&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;与CEC-I相比功能基本一致，可单独造字；每行可显示80个字符，可直连两个5.25寸软驱，RAM增加为128K;增加了五笔字型和笔形码输入法；可接PAL和NTSC制式显示器；升级了音响合成电路；提高了图像输出分辨率。（原市场参考价1950元）&lt;/p&gt;
+
+&lt;h4 id=&quot;6cec-pc系列&quot;&gt;&lt;strong&gt;6、CEC-PC系列&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;1989年推出，软件与IBM XT/PC、0520/0530电脑兼容，采用8088准16位处理器（4.77MHZ/8MHZ），RAM 640K ROM 40K，国标一、二级汉字，支持拼音、区位、王码五笔、李金凯笔形码输入，装有4个与PC/XT兼容的扩展槽口，可外接5.25寸或3.5寸软驱，支持微软鼠标，101标准键盘，光笔接口1个，RS232-C串行口1个，标准打印机接口1个，支持DOS4.0,可运行CCDOS4.0、FORTAN、BASIC 、COBOL、 PASCAL，支持dBASEⅢ数据库，可接内置硬盘（容量20M、30M、40M）,720×350绿色显示器1个。（原市场参考价4900元）&lt;/p&gt;
+
+&lt;h4 id=&quot;7cec-2000&quot;&gt;&lt;strong&gt;7、CEC-2000&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;于1992年推出，是CEC-I升级版，整体设计新颖，同样采用6502处理器，除具备与CEC-I所有功能外， RAM增加到64K ，扩充到256K, ROM 64K，可扩充到128K,侧面可单独插任天堂游戏卡，可接任天堂的光电枪，图形分辨率达到560×192 ，16种颜色，支持五笔输入，可接NTSC制式显示器，游戏机操纵接口2个，带独立数字键盘，RAM扩展接口1个，机内总线扩充接口1个，可同时外接2个5寸单密度软驱。该机型是最早支持通过软盘玩任天堂游戏的电脑学习机。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-24.png&quot; alt=&quot;中华学习机CEC-2000外包装盒&quot; /&gt;
+    &lt;p&gt;图为中华学习机CEC-2000外包装盒（来源：闲鱼APP）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-25.png&quot; alt=&quot;中华学习机CEC-2000主机&quot; /&gt;
+    &lt;p&gt;图为中华学习机CEC-2000主机（来源：闲鱼APP）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-26.png&quot; alt=&quot;中华学习机CEC-2000主机背面接口&quot; /&gt;
+    &lt;p&gt;图为中华学习机CEC-2000主机背面接口（来源：闲鱼APP）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;中华学习机为了追求质量和运行稳定，使用了大量国外的电子元件，虽然相关部门的初衷是作为教育使用，以低廉的价格销售，但恰逢当时全球电子元件开始涨价，CEC-I型从最初面世的700多元的零售价涨到了1000多元（单主机价格，不含外部设备），导致市场定价太高，超出很多普通家庭和学校的预期。&lt;/p&gt;
+
+&lt;p&gt;到了80年代末期，IBM-PC开始异军突起，面对PC机超高速的处理器、超大的内存、丰富的接口、高分辨率的画质以及各种实用的软件，中华学习机开始受到专业人士的质疑。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-27.png&quot; alt=&quot;当时流行的IBM电脑&quot; /&gt;
+    &lt;p&gt;图为当时流行的IBM电脑（来源:网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;一是中华学习机生态环境比较封闭，只能运行中华学习机专用的软件或苹果的软件，与PC机无法兼容，优秀的PC软件无法在中华学习机上使用，还要浪费人力和物力再次开发。&lt;/p&gt;
+
+&lt;p&gt;二是中华学习机的架构比较老，模仿早期的APPLE II电脑的设计，硬件性能差，只能满足基本的使用，升级空间有限，图像分辨率低。此时国内已经开始生产廉价的IBM-PC兼容电脑，电脑价格开始回落，很多计算机生产厂家开始研发自己的PC机，PC机不仅可以方便地增加内存或连接其它更好的外部设备，还可以使用更多高级的编程语言，操作更人性化。部分大中城市和沿海地区的学校已经建立了自己的机房，计算机教育方向已经开始倾向PC机,PC机被认为是未来的发展方向，有着更多的应用和光明的前途，PC机开始在国内流行起来。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-2-28.png&quot; alt=&quot;1985年中国第一台中文化、工业化、规模化生产的微型计算机长城0520CH&quot; /&gt;
+    &lt;p&gt;图为1985年中国第一台中文化、工业化、规模化生产的微型计算机长城0520CH（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;CEC系列的电脑学习机逐渐被市场所淘汰，虽然中华学习机也推出了CEC-PC系列（又叫中华PC），包括后期的CEC-286、CEC-386和CEC-486型号，不再是电脑学习机。&lt;/p&gt;
+
+&lt;p&gt;此时的微机市场上已经有很多的廉价的国产品牌可供选择，面对市场激烈的竞争, CEC的品牌还停留在学习机方向，在宣传和推广上缺乏力度，逐步走向了终点。&lt;/p&gt;
+
+&lt;p&gt;部分内容来源于网络，如有侵权请及时联系作者处理！&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;出处：https://zhuanlan.zhihu.com/p/353063389&lt;/p&gt;
+
+</description>
+            <pubDate>Sun, 20 Sep 2026 00:00:00 +0800</pubDate>
+            <link>http://localhost:4000/a_brief_history_of_computer_learning_machines_10.html</link>
+            <guid isPermaLink="true">http://localhost:4000/a_brief_history_of_computer_learning_machines_10.html</guid>
+            
+            <category>computer</category>
+            
+            <category>history</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>电脑学习机简史（9）--第四章 国产电脑学习机崛起</title>
+            <description>&lt;h3 id=&quot;第一节-第一台电脑横空出世&quot;&gt;第一节 第一台电脑横空出世&lt;/h3&gt;
+
+&lt;p&gt;由于“娃娃电脑”不能处理汉字的弊端，不利于中小学开展教学和使用，于是在1986年，中国科学院希望高级电脑技术公司研制出了适合我国国情的H-01中文教育电脑。该电脑于1986年5月通过了中国科学技术院的技术鉴定，荣获86年全国计算机应用评比二等奖。后又研发了带打印机模块的H-01B型号。&lt;/p&gt;
+
+&lt;p&gt;作为第一台国产电脑学习机，改变了我国依赖进口学习机的局面。H-01电脑主机外形与“娃娃电脑”类似，主机当时售价598元，性价比较高，由当时的北京长城无线电厂生产。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-1-1.png&quot; alt=&quot;H-01电脑宣传图&quot; /&gt;
+    &lt;p&gt;图为H-01电脑宣传图（来源：《电子与电脑》）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-1-2.png&quot; alt=&quot;H-01B电脑&quot; /&gt;
+    &lt;p&gt;图为H-01B电脑（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;主要硬件参数：CPU采用Z80；RAM 32K（可扩充至48 k）；ROM 48K;56个键盘；可使用BASIC、FORTRAN编程语言；固化汉字3755个；能使用拼音、五笔、区位码录入汉字；录音机存取数据；可接打印机（支持 FX-80,FX-10等）和游戏操纵器;屏幕分辨率336×192；乐曲演奏。&lt;/p&gt;
+
+&lt;p&gt;选用Z80处理器考虑到了当时的时代背景，一是因为美国Radio Shack公司生产的TRS-80系列计算机在国内很流行，该机采用Z80处理器；二是大部分高等院校开设了Z80的相关课程；三是Z80 电脑的技术比较成熟且相关资料比较多。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/clm/4-1-3.png&quot; alt=&quot;TRS-80电脑&quot; /&gt;
+    &lt;p&gt;图为TRS-80电脑（来源：网络）&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;H-01电脑与LASER310相比优点很多，可以看成是LASER310的升级版,增加了汉字BASIC解释程序；输出的分辨率更高；增加了汉字输入；能接标准的9针打印机。缺点是与LASER310缺乏兼容性，另外不支持软盘，只能使用外置录音机存取数据。&lt;/p&gt;
+
+&lt;p&gt;H-01电脑最大优势就是支持汉字的录入，这为今后国内电脑学习机的发展指明了方向。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;出处：https://zhuanlan.zhihu.com/p/352887904&lt;/p&gt;
+
+</description>
+            <pubDate>Tue, 15 Sep 2026 00:00:00 +0800</pubDate>
+            <link>http://localhost:4000/a_brief_history_of_computer_learning_machines_9.html</link>
+            <guid isPermaLink="true">http://localhost:4000/a_brief_history_of_computer_learning_machines_9.html</guid>
+            
+            <category>computer</category>
             
             <category>history</category>
             
@@ -151,6 +643,8 @@
             <pubDate>Sat, 05 Sep 2026 00:00:00 +0800</pubDate>
             <link>http://localhost:4000/a_brief_history_of_computer_learning_machines_8.html</link>
             <guid isPermaLink="true">http://localhost:4000/a_brief_history_of_computer_learning_machines_8.html</guid>
+            
+            <category>computer</category>
             
             <category>history</category>
             
@@ -310,6 +804,8 @@
             <link>http://localhost:4000/a_brief_history_of_computer_learning_machines_7.html</link>
             <guid isPermaLink="true">http://localhost:4000/a_brief_history_of_computer_learning_machines_7.html</guid>
             
+            <category>computer</category>
+            
             <category>history</category>
             
             
@@ -381,6 +877,8 @@
             <pubDate>Sat, 15 Aug 2026 00:00:00 +0800</pubDate>
             <link>http://localhost:4000/a_brief_history_of_computer_learning_machines_6.html</link>
             <guid isPermaLink="true">http://localhost:4000/a_brief_history_of_computer_learning_machines_6.html</guid>
+            
+            <category>computer</category>
             
             <category>history</category>
             
@@ -509,6 +1007,8 @@
             <pubDate>Wed, 05 Aug 2026 00:00:00 +0800</pubDate>
             <link>http://localhost:4000/a_brief_history_of_computer_learning_machines_5.html</link>
             <guid isPermaLink="true">http://localhost:4000/a_brief_history_of_computer_learning_machines_5.html</guid>
+            
+            <category>computer</category>
             
             <category>history</category>
             
@@ -672,339 +1172,9 @@
             <link>http://localhost:4000/a_brief_history_of_computer_learning_machines_4.html</link>
             <guid isPermaLink="true">http://localhost:4000/a_brief_history_of_computer_learning_machines_4.html</guid>
             
-            <category>history</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>电脑学习机简史（3）--第一章 计算机的普及要从娃娃抓起</title>
-            <description>&lt;h3 id=&quot;第二节-科学技术迎来春天&quot;&gt;第二节 科学技术迎来春天&lt;/h3&gt;
-
-&lt;p&gt;我国是从1956年开始计算机的研发，但由于“文化大革命”的历史原因，一些重点科研项目被迫停止，导致中国计算机科技停滞不前，远远落后于发达国家。&lt;/p&gt;
-
-&lt;p&gt;1978年3月18日，全国科学大会在北京召开，这次大会是中国科学技术发展的转折点，被誉为“我国科学史上空前的盛会”，标志着我国科技工作经过“十年动乱”后终于迎来了“科学的春天”。&lt;/p&gt;
-
-&lt;p&gt;在有6000人参加的开幕会上，中共中央副主席、国务院副总理邓小平作了重要讲话，号召“树雄心，立大志，向科学技术现代化进军”。方毅副总理作了有关发展科学技术的规划和措施的报告，大会宣读了中国科学院院长郭沫若的书面讲话：《科学的春天——在全国科学大会闭幕式上的讲话》，会上先进集体和先进科技工作者受到了表彰。&lt;/p&gt;
-
-&lt;p&gt;这次大会是中国共产党在粉碎“四人帮”之后，国家百废待兴的形势下召开的一次重要会议，也是中国科技发展史上一次具有里程碑意义的盛会。&lt;/p&gt;
-
-&lt;p&gt;邓小平在这次大会的讲话中明确指出“现代化的关键是科学技术现代化”，“知识分子是工人阶级的一部分”，重申了“科学技术是生产力”这一马克思主义基本观点。从而澄清了长期束缚科学技术发展的重大理论是非问题，打开了“文化大革命”以来长期禁锢知识分子的桎梏，迎来了科学的春天。&lt;/p&gt;
-
-&lt;p&gt;同时会上讨论了《1978-1985年中国科学院发展规划纲要(草案)》，也就是在这个会议上将计算机技术列为重点科研项目之一。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-2-1.png&quot; alt=&quot;全国科学大会照片&quot; /&gt;
-    &lt;p&gt;图为全国科学大会照片（来源：网络）&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;出处：https://zhuanlan.zhihu.com/p/352649858&lt;/p&gt;
-
-</description>
-            <pubDate>Wed, 15 Jul 2026 00:00:00 +0800</pubDate>
-            <link>http://localhost:4000/a_brief_history_of_computer_learning_machines_3.html</link>
-            <guid isPermaLink="true">http://localhost:4000/a_brief_history_of_computer_learning_machines_3.html</guid>
+            <category>computer</category>
             
             <category>history</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>电脑学习机简史（2）--第一章 计算机的普及要从娃娃抓起</title>
-            <description>&lt;h2 id=&quot;第一章-计算机的普及要从娃娃抓起&quot;&gt;第一章 计算机的普及要从娃娃抓起&lt;/h2&gt;
-
-&lt;h3 id=&quot;第一节-微处理器的诞生&quot;&gt;第一节 微处理器的诞生&lt;/h3&gt;
-
-&lt;p&gt;1971年,美国英特尔公司研发出了世界上第一个4位微处理器（型号为Intel 4004），这款4位微处理器有45条指令，每秒能执行5万条指令，运行速度为108KHz，集成的晶体管达到2300只，每个售价为200美元。&lt;/p&gt;
-
-&lt;p&gt;其中型号4004表示的含义：第一个4代表是客户订购的产品编号，第二个4代表英特尔生产的第四个芯片。英特尔公司在之前还分别研发了世界上第一个内存芯片4001，第一个动态随机存取存储器4002，第一个可擦编程只读存储器4003。&lt;/p&gt;
-
-&lt;p&gt;最初这款处理器是用来制作计算器的，但只需要外加一些存储器和键盘就能构成一台微型计算机。因为其计算性能较弱，该处理器推出后并未受到市场的欢迎。但是微处理的诞生却揭开了个人计算机的篇章，世界迎来了微型计算机时代。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-1-1.jpg&quot; alt=&quot;英特尔公司的4004处理器&quot; /&gt;
-    &lt;p&gt;图为英特尔公司的4004处理器（来源：网络）&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-1-2.jpg&quot; alt=&quot;英特尔公司的4004处理器内部结构&quot; /&gt;
-    &lt;p&gt;图为英特尔公司的4004处理器内部结构（来源：网络）&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;在1973年，英特尔公司又推出了8位微处理器8008及其改进型号8080。8008这种芯片大约集成了4800个晶体管，运算速度比4004快20倍。而升级版的8080，因为采用了复杂的指令集以及40管脚封装，8080的处理能力大为提高，其功能是8008的10倍，每秒能执行29万条指令，集成晶体管数目6000个，运行速度更是达到了史无前例的2MHz。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-1-3.jpg&quot; alt=&quot;英特尔公司的8008处理器&quot; /&gt;
-    &lt;p&gt;图为英特尔公司的8008处理器（来源：网络）&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-1-4.jpg&quot; alt=&quot;英特尔公司的8080处理器&quot; /&gt;
-    &lt;p&gt;图为英特尔公司的8080处理器（来源：网络）&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;由于8080处理器的计算性能强大，一经推出便受到市场认可，美国的MITS公司使用英特尔的8080处理器，组装了世界第一台微型计算机，名字叫牛郎星（Altair）。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-1-5.jpg&quot; alt=&quot;世界上第一台微型计算机-牛郎星&quot; /&gt;
-    &lt;p&gt;图为世界上第一台微型计算机-牛郎星（来源：网络）&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;紧接着，在1975年，摩托罗拉公司研发了8位微处理器（型号为MC6800）,同年MOS科技公司研发了8位处理器（型号为6502），在1976年Zilog科技公司研发了8位微处理器，（型号为Z-80）,随着各种微处理器的出现，越来越多的公司开始将计算机小型化，计算机开始逐步进入到家庭、学校和企业。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-1-6.jpg&quot; alt=&quot;MOS科技公司的6502处理器&quot; /&gt;
-    &lt;p&gt;图为MOS科技公司的6502处理器（来源：网络）&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-1-7.jpg&quot; alt=&quot;Commodore公司的生产的PET电脑&quot; /&gt;
-    &lt;p&gt;图为Commodore公司的生产的PET电脑（来源：网络）&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-1-8.jpg&quot; alt=&quot;Radio Shack公司生产的TRS-80电脑&quot; /&gt;
-    &lt;p&gt;图为Radio Shack公司生产的TRS-80电脑（来源：网络）&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;1977年6月5日，美国苹果公司Apple II电脑上市， APPLE II电脑采用MOS科技公司的6502处理器，由于处理器价格约为25美元，比当时的同类型处理器便宜三分之一，因此整机较其它同类型的电脑价格更便宜，且处理速度更快，吸引了大量的顾客购买，很快APPLE II电脑风靡全球，成为一代经典。&lt;/p&gt;
-
-&lt;p&gt;因为APPLE II电脑的畅销，带动了相关产业的发展，微型计算机开始渗透到了军事、科研、教育、制造、娱乐、商业、医疗、化工等领域，各种品牌和造型的电脑纷纷涌现，微型计算机的出现改变了现有世界经济格局，世界正从工业化快速向信息化转变，而微处理器的发明正是这一转变的关键。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-1-9.jpg&quot; alt=&quot;APPLE II电脑&quot; /&gt;
-    &lt;p&gt;图为APPLE II电脑（来源：网络）&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;面对国外计算机技术的飞速发展，我国也加紧了研发步伐。1973年，作为我国电子工业的主管部门，四机部（第四机械工业部，即后来的电子工业部）决定由清华大学、安徽无线电厂、四机部6所成立联合设计组，以Intel的8008为蓝本，研制DJS-050微处理器和微型计算机。项目的实施主要是由清华大学自控系（计算机系的前身）牵头。&lt;/p&gt;
-
-&lt;p&gt;设计组借助显微镜等仪器分析了8008以及1974年面市的Intel 8080和摩托罗拉6800后得出结论，依靠国内当时集成电路的研究水平和装备状况，是不具备研制类似Intel 8008、8080这样集成度的微处理器的条件。&lt;/p&gt;
-
-&lt;p&gt;于是设计组选择了化整为零的技术路径，将微处理器分解为31块芯片，这些中小规模的集成电路与当时清华自控系半导体车间的工艺水平相当。于是在四机部、北京市科委的大力支持下，清华大学多个系协作，最终研制成功DJS-050所需的所有芯片。&lt;/p&gt;
-
-&lt;p&gt;1977年4月，联合设计组研发的样机通过了有关部门的鉴定。我国第一台8位微型计算机诞生了。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-1-10.jpg&quot; alt=&quot;我国第一台微型计算机DJS-050&quot; /&gt;
-    &lt;p&gt;图为我国第一台微型计算机DJS-050（来源：网络）&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;该机的字长8位，基本指令76条，时钟主频150kHz，ROM 2K字节，直接寻址范围64K字节，最短指令执行时间2微秒。配有小键盘( 54个干簧键)，小打印机( 64种字符，每行24个字符，重7.5千克)，小光电机(重3千克)。该机与Intel公司8080系列微型计算机完全兼容。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;出处：https://zhuanlan.zhihu.com/p/352639132&lt;/p&gt;
-
-</description>
-            <pubDate>Sun, 05 Jul 2026 00:00:00 +0800</pubDate>
-            <link>http://localhost:4000/a_brief_history_of_computer_learning_machines_2.html</link>
-            <guid isPermaLink="true">http://localhost:4000/a_brief_history_of_computer_learning_machines_2.html</guid>
-            
-            <category>history</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>电脑学习机简史</title>
-            <description>&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/0-1.jpg&quot; alt=&quot;&quot; /&gt;
-    &lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;2021年春节，贾玲主演的贺岁片《你好，李焕英》，成为票房黑马，也让无数人回忆起80年代那个激情的岁月。一代人有一代人的记忆，对于80后的我们，我们记忆最深刻的就是在90年代初期，在那个人均收入不高的年代，拥有一台游戏机，为了满足这个梦想，有多少人向父母提出以学习计算机知识为“幌子”购买电脑学习机。&lt;/p&gt;
-
-&lt;p&gt;电脑学习机是我国计算机发展的一个重要分支，它是在特殊历史背景下的产物，让无数青少年对计算机的知识有了初步了解，为祖国培养了一大批计算机人才。我们用电脑学习机玩游戏、打字、学编程等，留下了一段青春中最美好的回忆。在90年代末期，随着全球电脑的价格下降和普及，电脑学习机逐步走向了被淘汰的命运。&lt;/p&gt;
-
-&lt;p&gt;在2020年11月9日上午，一则“小霸王公司申请破产的新闻”上了热搜，“小霸王”曾经是游戏机与电脑学习机的代名词，当初玩“小霸王”的这一代人，有的已经迈入不惑之年，有的已经初为人母，无数网友纷纷表示惋惜，并在网上留言怀恋起那段美好时光。后小霸王公司澄清这次是另一家授权方自身的问题与小霸王公司无关，但还是有很多人关注小霸王的近况。&lt;/p&gt;
-
-&lt;p&gt;很多人开始对电脑学习机的发展历史产生了浓厚兴趣，它是怎么诞生又是怎样发展并逐步落幕的？为了解答大家的疑问，作为一名电脑学习机的爱好者，本人花了大量精力收集相关资料并整理，向大家逐一揭示我国电脑学习机的发展历史。&lt;/p&gt;
-
-&lt;p&gt;由于这段历史跨越二十几年，时间跨度长，再加上当时信息闭塞，网上能查到的资料并不多，一部分内容是从官方的出版物获得，另一部分内容是从了解内幕的网友交流中获得，所以文中的信息与实际情况可能存在偏差，希望各位读者能够指出，我将及时修订。&lt;/p&gt;
-
-&lt;p&gt;为了让大家更直观的了解那段历史，文中引用了大量图片，图片很大部分来自于网上搜索和网友提供，还有一部分是自己的收藏，如有侵权，请及时私信我，我会及时删除。也希望当时从事电脑学习机的研发人员、管理人员、销售人员以及亲身经历过的人员等，能提供一些当年的照片、视频、技术资料、内幕等，本人会不断更新内容，让更多的年轻人真实的了解那段历史，不要让这段珍贵历史在时代的变迁中所淹没。&lt;/p&gt;
-
-&lt;p&gt;接下来，就让我们一起走进那段波澜壮阔的历史中！&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;第一章 计算机的普及要从娃娃抓起
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;a_brief_history_of_computer_learning_machines_2.html&quot;&gt;第一节 微处理器的诞生&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;a_brief_history_of_computer_learning_machines_3.html&quot;&gt;第二节 科学技术迎来春天&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;a_brief_history_of_computer_learning_machines_4.html&quot;&gt;第三节 计算机教育取得初步成效&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;a_brief_history_of_computer_learning_machines_5.html&quot;&gt;第二章 全民学习计算机&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;第三章 电脑学习机的兴起
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;a_brief_history_of_computer_learning_machines_6.html&quot;&gt;第一节 电脑学习机开始出现&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;a_brief_history_of_computer_learning_machines_7.html&quot;&gt;第二节 “娃娃机”主要型号介绍&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;a_brief_history_of_computer_learning_machines_8.html&quot;&gt;第三节 APPLE II电脑介绍&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;第四章 国产电脑学习机崛起
-    &lt;ul&gt;
-      &lt;li&gt;第一节 第一台电脑横空出世&lt;/li&gt;
-      &lt;li&gt;第二节 中华学习机诞生&lt;/li&gt;
-      &lt;li&gt;第三节 电脑学习机“百花齐放”&lt;/li&gt;
-      &lt;li&gt;第四节 中华学习机软件及外设&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;第五章 国产电脑学习机异军突起
-    &lt;ul&gt;
-      &lt;li&gt;第一节 电脑学习机的原型&lt;/li&gt;
-      &lt;li&gt;第二节 国产电脑学习机的高光时刻&lt;/li&gt;
-      &lt;li&gt;第三节 一个时代的落幕&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;第六章“小霸王”和“裕兴”发展历程
-    &lt;ul&gt;
-      &lt;li&gt;第一节 小霸王电脑学习机&lt;/li&gt;
-      &lt;li&gt;第二节 裕兴电脑学习机&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;出处：https://zhuanlan.zhihu.com/p/352496626&lt;/p&gt;
-
-</description>
-            <pubDate>Tue, 30 Jun 2026 00:00:00 +0800</pubDate>
-            <link>http://localhost:4000/a_brief_history_of_computer_learning_machines_1.html</link>
-            <guid isPermaLink="true">http://localhost:4000/a_brief_history_of_computer_learning_machines_1.html</guid>
-            
-            <category>history</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>微软 Windows 操作系统中的彩蛋</title>
-            <description>&lt;p&gt;许多西方人小时候会在复活节的时候玩一种找彩蛋的游戏。这种游戏大半部分的乐趣都花在钻爬在矮树丛里寻找彩蛋和包在塑胶球内的糖果，而另一半的乐趣当然就是好好的享用这些被找到的彩蛋和糖果了。&lt;/p&gt;
-
-&lt;p&gt;多年来，许多程序设计师将一些我们称之为复活节彩蛋的小东东隐藏在我们所使用的软件甚至网上。这些小东东的范围很广，从单纯地列出开发人员的名单到3D影音游戏皆有。&lt;/p&gt;
-
-&lt;p&gt;众所周知，已经有许多隐藏起来的小东东在我们所使用的Windows操作系统之中，诸如一些bug、安全上的漏洞和永无止境的系统资源需求等。虽然如此，其实使用Windows操作系统并不是那么的无趣和挫败。幽默的微软程序设计师将一些小东东深藏在微软这最受欢迎的操作系统里。馆长已经为你挖出了一些，请您试试看！&lt;/p&gt;
-
-&lt;h3 id=&quot;windows-31&quot;&gt;Windows 3.1&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;彩蛋内容：&lt;/strong&gt;“套娃彩蛋”展示Windows开发人员名单动画以及微软高管的卡通人像：微软前高级副总裁布拉德·希尔弗伯格、微软前首席执行官兼总裁史蒂夫·鲍威尔、微软联合创始人比尔·盖茨和微软熊。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/easter_eggs_in_microsoft_windows_3_1_1.jpg&quot; alt=&quot;Windows 3.1 中的彩蛋&quot; /&gt;
-    &lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;寻宝秘笈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;打开主群组-文件管理器&lt;/li&gt;
-  &lt;li&gt;按住CTRL+ALT+SHIFT三个按键的同时，点击帮助-关于文件管理器，然后双击Windows徽标的红、蓝、绿、黄中的其中一个。然后点击确定按钮关闭窗口。&lt;/li&gt;
-  &lt;li&gt;重复第2步，你可以看见开发人员名单。&lt;/li&gt;
-  &lt;li&gt;多次重复第2步，你可以看见左侧的卡通人像的变化。&lt;/li&gt;
-  &lt;li&gt;但是如果一直看到最后，日文版Windows 3.1会出现一句话：”Japanese Version: Where is the Japanese team ?”。不知道微软日本分部的人知道了会不会想揍他们一顿，哈哈。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/easter_eggs_in_microsoft_windows_3_1_4.jpg&quot; alt=&quot;Windows 3.1 中的彩蛋：微软前高级副总裁布拉德·希尔弗伯格&quot; /&gt;
-    &lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/easter_eggs_in_microsoft_windows_3_1_5.jpg&quot; alt=&quot;Windows 3.1 中的彩蛋：前首席执行官兼总裁史蒂夫·鲍威尔&quot; /&gt;
-    &lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/easter_eggs_in_microsoft_windows_3_1_2.jpg&quot; alt=&quot;Windows 3.1 中的彩蛋：微软联合创始人比尔·盖茨&quot; /&gt;
-    &lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/easter_eggs_in_microsoft_windows_3_1_3.jpg&quot; alt=&quot;Windows 3.1 中的彩蛋：微软熊&quot; /&gt;
-    &lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/easter_eggs_in_microsoft_windows_3_1_6.jpg&quot; alt=&quot;Windows 3.1 日文版中的彩蛋&quot; /&gt;
-    &lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
-&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/osjs/player.html?os=windows31&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;用  Windows 3.1 英文版体验彩蛋&lt;/a&gt;&lt;/b&gt; | 
-&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=win31cht&amp;amp;data=cm/data/os.json&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;用  Windows 3.1 繁体中文版体验彩蛋&lt;/a&gt;&lt;/b&gt; | 
-&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/emularity.html?machine=wps97&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;用  Windows 3.1 简体中文版体验彩蛋&lt;/a&gt;&lt;/b&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;windows-95&quot;&gt;Windows 95&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;彩蛋内容：&lt;/strong&gt;一个长达20分钟的展示，内容有Windows 95的开发人员照片、姓名和音乐记事等。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/easter_eggs_in_microsoft_windows_95.jpg&quot; alt=&quot;Windows 95 中的彩蛋&quot; /&gt;
-    &lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;寻宝秘笈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;在Windows95桌面上建立一个新文件夹“New Folder”。&lt;/li&gt;
-  &lt;li&gt;将“New Folder”改名为“and now, the moment you’ve all been waiting for”。&lt;/li&gt;
-  &lt;li&gt;再将其改名为“we proudly present for your viewing pleasure”。&lt;/li&gt;
-  &lt;li&gt;最后将其改名为“The Microsoft Windows 95 Product Team!”。&lt;/li&gt;
-  &lt;li&gt;双击该文件夹就可以在音乐的伴奏下尽情欣赏蓝天白云下的工作组名和照片了，长达20分钟哦。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;如果是中文版Windows 95，应先建一个“新文件夹”，把它改名为“New Folder”后再继续前面的操作。&lt;/li&gt;
-  &lt;li&gt;注意大小写和标点符号不要输错，单词之间都有一个空格。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
-&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/v86.html?machine=win95zh&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;用  Windows 95 中文版体验彩蛋&lt;/a&gt;&lt;/b&gt; | &lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/osjs/player.html?os=windows95&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;用  Windows 95 英文版体验彩蛋&lt;/a&gt;&lt;/b&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;windows-98&quot;&gt;Windows 98&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;彩蛋内容：&lt;/strong&gt;Windows98团队人员名单以及微软园区的图片展示。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/easter_eggs_in_microsoft_windows_98_1.jpg&quot; alt=&quot;Windows 98 中的彩蛋&quot; /&gt;
-    &lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/easter_eggs_in_microsoft_windows_98_2.jpg&quot; alt=&quot;Windows 98 中的彩蛋&quot; /&gt;
-    &lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;寻宝秘笈：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;首先在桌面创建一个指向”c:\windows\application data\microsoft\welcome\weldata.exe”的快捷方式。&lt;/li&gt;
-  &lt;li&gt;然后在快捷方式属性框中“目标”文本框中的文字后面添加”You_are_a_real_rascal”。&lt;/li&gt;
-  &lt;li&gt;再将“运行方式”改为“最小化”，点击“确定”按钮，关闭属性框。&lt;/li&gt;
-  &lt;li&gt;运行该快捷方式，就能看到Windows 98开发者的名单和雷特蒙德的微软园区的风景。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;b&gt;Tip: &lt;/b&gt;
-&lt;b&gt;&lt;a href=&quot;https://computer.retromuseum.org:86/osjs/player.html?os=windows98&quot; target=&quot;_blank&quot; onclick=&quot;return checkLinks();&quot;&gt;用  Windows 98 英文版体验彩蛋&lt;/a&gt;&lt;/b&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-</description>
-            <pubDate>Sun, 21 Dec 2025 00:00:00 +0800</pubDate>
-            <link>http://localhost:4000/easter_eggs_in_microsoft_windows_operating_system.html</link>
-            <guid isPermaLink="true">http://localhost:4000/easter_eggs_in_microsoft_windows_operating_system.html</guid>
-            
-            <category>history</category>
-            
-            <category>windows</category>
             
             
         </item>
