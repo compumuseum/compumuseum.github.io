@@ -5,9 +5,131 @@
         <description>复古电脑博物馆 在线电脑博物馆 计算机博物馆 Retro Computer Museum</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 03 Oct 2026 20:06:20 +0800</pubDate>
-        <lastBuildDate>Sat, 03 Oct 2026 20:06:20 +0800</lastBuildDate>
+        <pubDate>Fri, 20 Nov 2026 19:44:43 +0800</pubDate>
+        <lastBuildDate>Fri, 20 Nov 2026 19:44:43 +0800</lastBuildDate>
         <generator>Jekyll v3.10.0</generator>
+        
+        <item>
+            <title>「千禧前夜：Windows 1.0–XP 在线体验馆」建设纪实</title>
+            <description>&lt;p&gt;2026 年 11 月 20 日，Windows 1.0 发布四十一年周年，也是「千禧前夜：Windows 1.0–XP 在线体验馆」正式上线的日子。我们把这座在线体验馆的故事写下来，既是纪念，也是一份交代：这些机器是怎么来的，又是怎么做到「点一下就能亲手开机」的。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;一缘起&quot;&gt;一、缘起&lt;/h2&gt;
+
+&lt;p&gt;1985 年的今天，微软发布 Windows 1.0。四十一年后，我们把二十台机器从 1.0 一路排到 XP，做成了一座可以真正开机的在线体验馆。&lt;/p&gt;
+
+&lt;p&gt;这件事的起点很朴素：博物馆里有不少老系统，但「有」和「能摸到」是两回事。用户在自己的电脑上看一张 Windows 3.1 的截图，和亲手在程序管理器里双击一个图标，是完全不同的体验。我们想做的，是后者——让访客打开浏览器，就能开一台 1994 年的机器，用当年的鼠标和键盘，走一遍当年的路。&lt;/p&gt;
+
+&lt;p&gt;最终展示的二十台展品，横跨 1985 到 2001：从平铺窗口的 1.0、重叠窗口的 2.03，到繁体中文的 3.0a、简体中文的 3.2；从 NT 内核的第一代 NT 3.1，到开始菜单与任务栏的 95、蓝屏的 98 SE、活动目录的 2000 Server；再到从未发布的 Neptune 5111、XP 前身 Whistler 2505，最后停在 Luna 蓝的 XP。馆里还藏了一台罕见的机器——NT 3.51 内核的 Citrix WinFrame 1.8。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/20261120/windows-exhibit.jpg&quot; alt=&quot;体验馆门户全貌&quot; /&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;二机器的来源&quot;&gt;二、机器的来源&lt;/h2&gt;
+
+&lt;p&gt;拿原始光盘或软盘镜像，在虚机里从头装。NT 3.1 用 1993 年的 CD 走完整链路，配 isapc 主板、486 CPU、32MB 内存。3.1 繁中、3.2 简中、1.04、WFW 3.11、3.0a、2.03、NT 3.51 都是这样装出来的。装完做冷启动验证：关机再开，确认能独立启动，而不是依赖安装过程的临时状态。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/20261120/winnt351-setup-partition.png&quot; alt=&quot;NT 3.51 全新安装：分区]&quot; /&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/20261120/win30a-copydisk.png&quot; alt=&quot;Windows 3.0a：软盘复制阶段&quot; /&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;安装步骤里有不少时代细节。WinFrame 1.8 中途弹许可警告，Citrix 管理工具要单独挂 Tools CD；NT 3.51 先 FDISK、格式化，再进图形安装；3.0a 得一张张复制软盘，装完还要改 CONFIG.SYS 才认键盘。这些步骤现在看很繁琐，但每台机器都是真装出来的。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/20261120/winframe18-license-warning.png&quot; alt=&quot;WinFrame 1.8：许可警告&quot; /&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;装完系统只是第一步。当年的安装程序只装核心组件，盘上真正好用的东西往往没进来，所以我们还会逐张翻原始介质，把值得展示的应用软件补齐。&lt;/p&gt;
+
+&lt;h2 id=&quot;三让机器能用&quot;&gt;三、让机器能用&lt;/h2&gt;
+
+&lt;p&gt;机器装好了，还得让人用得动。这一段是建设过程里最耗神的部分。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;鼠标。&lt;/strong&gt; 访客进 Win95 及更早的系统，画面正常、键盘可用，指针不动。Win98 之后一切正常。排查分三轮：先抓包确认前端发出了指针事件，排除链路；再用 Win98 做对照，一度误以为平台无责；最后用户指出在 VMware 图形界面里手动打开同一台 Win95，鼠标完全正常。这推翻了「客机内部坏了」的判断。决定性实验是在同一条 VNC 连接里用键盘打开画图程序，指针依然纹丝不动，责任落在输入通道。根因是 VMware 内置 VNC 注入绝对坐标，Win95 没有对应的 VMMOUSE.VXD 驱动。解法是改相对指针，配合浏览器 Pointer Lock 做闭环，指针增益设为负值以抵消驱动加速。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/20261120/win30a-kbdebug.png&quot; alt=&quot;鼠标排查中的键盘对照实验&quot; /&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;启动速度。&lt;/strong&gt; 最初采用固定延时 14 秒，为的是避开「BIOS 也是 720×400，早送按键会丢」的问题。点击到可用桌面约 33 秒。优化后不再盲等，改为检测画面是否静止：DOS 提示符静止时相邻两帧只差 20 字节，滚屏时差两万多字节，差三个数量级，阈值取 1024。另加两道保险：必须见过滚屏（避免 SeaBIOS 交接处的假静止），且连续五次判定静止。点击到看到画面从 19 秒降到约 0.5 秒，到可用桌面约 25 秒。抓帧走 QMP 而不是 VNC，避免和前端抢连接。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;快照。&lt;/strong&gt; Win2KPro 接入时 VNC 配好了但不监听端口。原因是重建快照会连同 vmx 配置文件一起回滚，刚写进去的 VNC 设置被冲掉。正确顺序：写配置、关机、删旧快照、重建基线。&lt;/p&gt;
+
+&lt;h2 id=&quot;四门户界面&quot;&gt;四、门户界面&lt;/h2&gt;
+
+&lt;p&gt;门户按年代做时间轴，二十台机器从 1985 排到 2001。每张卡片写版本名、年份、一句话说明，右上角是年份角标。页面顶部常驻一句提示：「这些机器每 30 分钟恢复一次出厂状态，可以随便折腾，不会坏。」目的是先消除访客对弄坏机器的顾虑。&lt;/p&gt;
+
+&lt;p&gt;卡片上的主操作是开机按钮。点击后前端立刻连上 VNC，访客从通电自检开始看：BIOS、DOS 提示符滚屏、短暂黑屏、Windows 启动沙漏，最后到桌面。这段等待保留下来，因为开机过程本身也是展品的一部分。按钮状态跟机器同步：可用、使用中、正在开机、维护中。&lt;/p&gt;
+
+&lt;p&gt;视觉用博物馆展签的思路，深色背景配琥珀色点缀，字标放在浅色底上。静态文件每次从磁盘读取，改完刷新即生效，不用重启服务。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/20261120/portal_full.jpg&quot; alt=&quot;体验馆门户全貌&quot; /&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;五排队机制&quot;&gt;五、排队机制&lt;/h2&gt;
+
+&lt;p&gt;一台机器同时只能服务一个访客，VMware VNC 不支持多客户端。资源也不够：十三台机器全部开机需 3824MB 内存，加 VMware 进程开销，服务器必然爆内存。因此排队是设计的一部分。三条原则：按需唤醒、按内存预算放行、单机严格独占。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/20261120/portal-bar-full.png&quot; alt=&quot;状态条：满员提示&quot; /&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;六复古网络驿站&quot;&gt;六、复古网络驿站&lt;/h2&gt;
+
+&lt;p&gt;展机里有当年的浏览器，但没有可访问的内容。于是建了一个只对虚机开放的静态站点。&lt;/p&gt;
+
+&lt;p&gt;设计原则是适配老浏览器，不要求它们迁就新标准。协议用 HTTP/1.0，每个响应带 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Connection: close&lt;/code&gt;；不用 gzip，IE4 以前不认；不用 JS、Cookie 和框架，只保留基本标签；编码统一 GB2312，连 404 页也用 GB2312，否则 IE3 显示乱码。&lt;/p&gt;
+
+&lt;p&gt;隔离不依赖防火墙。VMware Host-Only 网段不下发默认网关，虚机物理上出不了网。服务只绑虚拟网卡宿主地址和回环，物理网卡不监听。应用层再加来源白名单兜底，其余请求返回 403。&lt;/p&gt;
+
+&lt;p&gt;踩过两个坑。一是中文文件名：IE5 在 GB2312 页面里把中文 URL 以裸 GBK 字节写进请求行，服务端按 ISO-8859-1 解码后直接 404。修法是先做百分号解码拿到字节，再按 utf-8、gbk、gb18030 依次尝试。二是 80 端口曾有两个进程同时监听，请求随机分发，导致改了代码时好时坏；关掉旧进程后恢复正常。&lt;/p&gt;
+
+&lt;p&gt;从 Windows 95 起，几台展品里搭好了复古网络驿站。用那个年代的浏览器，重新拨号上一次互联网。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;../images/dnbwg/20261120/retro-web-in-winxp.png&quot; alt=&quot;复古网络驿站&quot; /&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;七附记&quot;&gt;七、附记&lt;/h2&gt;
+
+&lt;p&gt;两件与布展相关的查找工作。&lt;/p&gt;
+
+&lt;p&gt;Win2K 的 IE 支持 Flash 上限为 10.3.183.x，IE5 只能配 Flash 9。Adobe 官网已不下发老版本，最后从 archive.org 取回 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flashplayer9r28_winax.exe&lt;/code&gt;，签名有效，版本号匹配。&lt;/p&gt;
+
+&lt;p&gt;Java applet 分两条路线。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;applet&amp;gt;&lt;/code&gt; 标签只认微软的 MSJVM，最高到 JDK 1.1.4；&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;object&amp;gt;&lt;/code&gt; 写法才认 Sun Java Plug-in。为没有虚拟机的环境找安装包时拿到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;msjavx86.exe&lt;/code&gt;（5.00.3809），包里有个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;javaie30.cab&lt;/code&gt;，专门给 IE3 补几个缺失的系统组件，一个包覆盖 IE3 到 IE6。&lt;/p&gt;
+
+&lt;h2 id=&quot;八开一台吧&quot;&gt;八、开一台吧&lt;/h2&gt;
+
+&lt;p&gt;二十台机器，1985 到 2001。打开浏览器，点一下就能开机。&lt;/p&gt;
+
+&lt;p&gt;欢迎来试。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+</description>
+            <pubDate>Fri, 20 Nov 2026 00:00:00 +0800</pubDate>
+            <link>http://localhost:4000/millennium_eve_windows_retro_expo_build_log.html</link>
+            <guid isPermaLink="true">http://localhost:4000/millennium_eve_windows_retro_expo_build_log.html</guid>
+            
+            <category>blog</category>
+            
+            
+        </item>
         
         <item>
             <title>第一代程序员王小波，最会编程的作家</title>
@@ -1007,170 +1129,6 @@
             <pubDate>Wed, 05 Aug 2026 00:00:00 +0800</pubDate>
             <link>http://localhost:4000/a_brief_history_of_computer_learning_machines_5.html</link>
             <guid isPermaLink="true">http://localhost:4000/a_brief_history_of_computer_learning_machines_5.html</guid>
-            
-            <category>computer</category>
-            
-            <category>history</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>电脑学习机简史（4）--第一章 计算机的普及要从娃娃抓起</title>
-            <description>&lt;h3 id=&quot;第三节-计算机教育取得初步成效&quot;&gt;第三节 计算机教育取得初步成效&lt;/h3&gt;
-
-&lt;p&gt;为响应这次科学大会精神，北京和上海是在全国最早开始中小学计算机教育试点的城市。&lt;/p&gt;
-
-&lt;p&gt;北京的景山学校是国内率先开展中小学计算机教育的学校，景山学校将当时国际上比较热门的BASIC语言做为教学内容，但当时编程教程都是以大学教育为主，没有针对中小学的教程，于是学校的老师借鉴国内外教材，编写了学校自己的《微电脑学习手册》。&lt;/p&gt;
-
-&lt;p&gt;在1985年，学校正式成立了计算机的教研组，计算机的教学工作走入了正轨，到1986年从学校毕业的初高中学生都接受过计算机知识的教育。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-3-1.png&quot; alt=&quot;北京景山学校编写的计算机教材&quot; /&gt;
-    &lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-3-2.png&quot; alt=&quot;北京景山学校编写的计算机教材&quot; /&gt;
-    &lt;p&gt;图为北京景山学校编写的计算机教材&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-3-3.png&quot; alt=&quot;北京景山学校教学用的计算机&quot; /&gt;
-    &lt;p&gt;图为北京景山学校教学用的计算机（来源：网络）&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;上海市是最早在中国福利会少年宫从事少年儿童电子计算机教育活动，刚开始由于担心学生对计算机这个新鲜事物的接纳程度，尤其是学编程，需要了解一些英文单词，便试着组织了一些教学工作，发现学生对计算机学习抱有很大热情，很多学生还能独立开发一些软件，反响远超预期，于是积极筹建教学机房，开展计算机教育活动。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-3-4.png&quot; alt=&quot;中国福利会儿童计算机活动中心学生计算机操作&quot; /&gt;
-    &lt;p&gt;图为中国福利会儿童计算机活动中心学生计算机操作（来源：《电子与电脑》）&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;1981年，教育部派代表团参加了在瑞士洛桑举行的第三届世界计算机教育应用大会。这次大会意义重大，正是这场大会让中国的计算机教育发生了转变。&lt;/p&gt;
-
-&lt;p&gt;在大会上，代表团深刻体会到了中国在计算机教育与发达国家的巨大差距。会上前苏联科学院院士伊尔肖夫提出了“程序设计是人类第二文化”，引起参会者的巨大反响。代表团回国后立即向教育部提出“要在我国中学开展计算机教学实验。”&lt;/p&gt;
-
-&lt;p&gt;1982年，教育部决定在在北大附中、北师大附中、清华附中、复旦附中、华东师大第二附中等五所大学的附属中学开展中学计算机教育实验工作，主要学习BASIC语言和计算机基本原理，这一年中国正式开启了中学阶段的计算机试点教育。&lt;/p&gt;
-
-&lt;p&gt;1983年6月1日，上海市成立了我国第一个儿童计算机中心—中国福利会儿童计算机活动中心，为了解决师资力量不足的问题，上海市教育部门专门组织高等学校编写了一批计算机教材，在上海的广大青少年中掀起了一股学习计算机的热潮。&lt;/p&gt;
-
-&lt;p&gt;1983年10月1日，邓小平应邀为中北京景山小学题词，北京景山学校是1960年春天创办的一所专门进行教学改革试验的学校。他写道“教育要面向现代化，面向世界，面向未来”。这“三个面向”为我国教育体制改革和发展指明了方向，也为计算机的普及与教育工作提供了指导依据。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-3-5.png&quot; alt=&quot;邓小平为北京景山小学题词&quot; /&gt;
-    &lt;p&gt;图为邓小平为北京景山小学题词（来源：网络）&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;1984年2月，邓小平在视察了深圳、珠海和厦门经济特区后，乘火车一行来到了上海视察，期间参观了上海市微电子技术及其应用汇报展览的现场，在听取了有关介绍和参观了展出的图片和实物之后，观看了两名学生的计算机操作表演。&lt;/p&gt;
-
-&lt;p&gt;其中一个男孩叫李劲，是一名初中生，女孩叫丛霖，是一名小学生。两个学生都曾在上海国际福利儿童计算机活动中心举办的上海市少年计算机程序设计竞赛中获得过奖项，此时年仅13岁的李劲，熟练地按下回车键，程序开始运行，屏幕上出现“热烈欢迎”的字样，并出现一个机器人开始演唱，然后，刻着“中国制造”的火箭发射升空，并打出最后的字幕“中国，飞向宇宙”。&lt;/p&gt;
-
-&lt;p&gt;邓小平看完展示，非常高兴，当场对陪同的人员提出了影响国人学习计算机的重要言论“计算机的普及要从娃娃抓起”。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-3-6.png&quot; alt=&quot;邓小平观看计算机操作展示&quot; /&gt;
-    &lt;p&gt;图为邓小平观看计算机操作展示（来源：网络）&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-3-7.png&quot; alt=&quot;邓小平观看计算机操作展示&quot; /&gt;
-    &lt;p&gt;图为邓小平观看计算机操作展示（来源：网络）&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;这次视察同时也改变了李劲的人生，受此鼓舞，李劲勤奋学习，高一连跳两级入读清华，并只用7年时间完成本科到博士的学业。1994年6月1日，23岁的李劲在儿童节那天成了中国最年轻的博士，有人戏称他为“娃娃博士”。&lt;/p&gt;
-
-&lt;p&gt;此后赴美在南加州大学做博士后，并先后就职于夏普和微软的研究院，李劲成为微软亚洲研究院9位创始成员之一，在多媒体编码、云计算和存储等细分领域取得了丰硕成果，成为享誉全球的顶尖IT技术专家。现为依瞳科技公司CTO，依旧从事着他所热爱的计算机事业，成为80年代计算机教育成果的优秀代表。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-3-8.png&quot; alt=&quot;现在的李劲&quot; /&gt;
-    &lt;p&gt;图为现在的李劲（来源：网络）&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;随后下发的《中共中央国务院关于深化教育改革全面推进素质教育的决定》指出：“在高中阶段的学校和有条件的初中、小学普及计算机操作和信息技术教育。”文件下达后，全国各中小学开始安排计算机课程教学。&lt;/p&gt;
-
-&lt;p&gt;1984年5月6日，由中国电子学会计算机学会举办了中国首届青少年计算机程序设计竞赛，全国各地踊跃报名，共8000多名学生参加。由于BASIC语言结构简单、普及率高，成为此次比赛的参赛语言，BASIC语言也逐渐成为日后电脑学习机的标配编程语言。最终经计算机专家评选出了含初中组和高中组的共53名优胜者。这次竞赛结果让部分计算机专家也颇为吃惊，我国青少年计算机程序水平远超预期，也为我国今后开展计算机竞赛和计算机教育奠定了基础。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-3-9.png&quot; alt=&quot;1984年程序竞赛试题&quot; /&gt;
-    &lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;../images/dnbwg/clm/1-3-10.png&quot; alt=&quot;1984年程序竞赛试题&quot; /&gt;
-    &lt;p&gt;图为1984年程序竞赛试题&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;1984年5月28日，教育部发出《中小学进行计算机教育试点工作》的通知。6月教育部拨款20万元购置300台计算机及配套设备，装备30所小学作为试验点。&lt;/p&gt;
-
-&lt;p&gt;同年，教育部发布了《中学电子计算机选修课教学纲要（试行）》（84版），其中规定计算机选修课的教学目的和内容是：&lt;/p&gt;
-
-&lt;p&gt;1.初步了解计算机的基本工作原理和对人类的影响;&lt;/p&gt;
-
-&lt;p&gt;2.掌握基本的BASIC语言并初步具备读、写程序和上机调试的能力;&lt;/p&gt;
-
-&lt;p&gt;3.初步培养逻辑思维和分析问题与解决问题的能力。&lt;/p&gt;
-
-&lt;p&gt;为更好开展计算机教育活动，1987年2月，成立了全国中学计算机教育研究中心，“研究中心”设北京部和上海部，分别挂靠北京师范大学和华东师范大学。其任务为:&lt;/p&gt;
-
-&lt;p&gt;1.参与制订全国中学计算机教育事业的发展规划、有关政策和实施措施，了解各地工作开展的情况，组织试验和推广交流经验。&lt;/p&gt;
-
-&lt;p&gt;2.组织研究、论证和评价中学计算机系列硬件的研制、选型和开发。&lt;/p&gt;
-
-&lt;p&gt;3.组织并参与中学计算机教学软件的研制、开发和评价。&lt;/p&gt;
-
-&lt;p&gt;4.培训中小学计算教育的骨干教师和管理人员。&lt;/p&gt;
-
-&lt;p&gt;5.组织编写中学计算机教育的教材、教学参考资料。&lt;/p&gt;
-
-&lt;p&gt;6.了解国外、国内信息动态，接受委托组织国外、国内学科学术交流活动。&lt;/p&gt;
-
-&lt;p&gt;从此，全国青少年计算机教育开始正式在中华大地上实施。&lt;/p&gt;
-
-&lt;h4 id=&quot;第一章参考资料&quot;&gt;第一章参考资料：&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;DJS-050, https://baike.baidu.com/item/DJS-050%E5%BE%AE%E5%9E%8B%E8%AE%A1%E7%AE%97%E6%9C%BA/4347680?fr=aladdin&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;见“微”知著四十年 处理器历史全面回顾, http://cpu.zol.com.cn/258/2582059.html&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;“科学的春天”——1978年全国科学大会, http://www.bulletin.cas.cn/publish_article/2018/4/20180423.htm#&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;全国科学大会, https://baike.baidu.com/item/%E5%85%A8%E5%9B%BD%E7%A7%91%E5%AD%A6%E5%A4%A7%E4%BC%9A/10437437?fr=aladdin&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;计算机普及要从娃娃抓起，作者：周新英&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;沙有威专栏｜北京景山学校编程教育30年历史回顾, https://baijiahao.baidu.com/s?id=1651232476646553271&amp;amp;wfr=spider&amp;amp;for=pc&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;《全国中小学计算机教育资料汇编》&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;李劲：当年电脑娃娃如今微软英才, http://tech.sina.com.cn/other/2004-02-11/1509290949.shtml&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;“计算机要从娃娃抓起”亲历者李劲博士：欲攀巅峰，先要适应寂寞, http://e.zslib.com.cn/Information/Detail?subscribearId=1192822&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;依瞳科技, https://www.apulis.cn/member/jinli&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;罗强编著.从珠算到神威蓝光系统[M]. 2014&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;出处：https://zhuanlan.zhihu.com/p/352771164&lt;/p&gt;
-
-</description>
-            <pubDate>Sat, 25 Jul 2026 00:00:00 +0800</pubDate>
-            <link>http://localhost:4000/a_brief_history_of_computer_learning_machines_4.html</link>
-            <guid isPermaLink="true">http://localhost:4000/a_brief_history_of_computer_learning_machines_4.html</guid>
             
             <category>computer</category>
             

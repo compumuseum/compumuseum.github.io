@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="2026 年 11 月 20 日，Windows 1.0 发布四十一年周年，也是「千禧前夜：Windows 1.0–XP 在线体验馆」正式上线的日子。我们把这座在线体验馆的故事写下来，既是纪念，也是一份交代：这些机器是怎么来的，又是怎么做到「点一下就能亲手开机」的。">
+<meta name="keywords" content="blog,  ">
+<title>「千禧前夜：Windows 1.0–XP 在线体验馆」建设纪实 | 复古电脑博物馆 | 在线电脑博物馆 | 计算机博物馆 | Retro Computer Museum</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="/js/jquery.min.js"></script>
+
+<script src="/js/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="/js/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="documentation-theme-jekyll" href="http://localhost:4000/feed.xml">
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" style="padding-top: 6px;">
+                <img src="/images/logo.png" style="display: inline-block; width: 40px;" alt="LOGO">
+                <img src="/images/title.png" class="nav-site-title" alt="电脑博物馆" style="display: inline-block; height: 40px;">
+                <!-- <span class="projectTitle"> 复古电脑博物馆</span> -->
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <!-- <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li> -->
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="news.html">传奇故事</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/" target="_blank" rel="noopener" onclick="return checkLinks();">电脑博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/famicn/" target="_blank" rel="noopener" onclick="return checkLinks();">家用游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:89/" target="_blank" rel="noopener" onclick="return checkLinks();">DOS游戏博物馆</a></li>
+                
+                
+                
+                <li><a href="https://cpu.retromuseum.org/" target="_blank" rel="noopener" onclick="return checkLinks();">CPU博物馆</a></li>
+                
+                
+                
+                <li><a href="https://computer.retromuseum.org:86/flash-archive/" target="_blank" rel="noopener" onclick="return checkLinks();">Flash档案馆</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="搜索...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="「千禧前夜：Windows 1.0–XP 在线体验馆」建设纪实">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+
+        <!-- Content Column -->
+        <div class="col-md-12" id="tg-sb-content">
+            <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">「千禧前夜：Windows 1.0–XP 在线体验馆」建设纪实</h1>
+        <p class="post-meta"><time datetime="2026-11-20T00:00:00+08:00" itemprop="datePublished">Nov 20, 2026</time> /
+            
+            
+            
+            <a href="tag_blog.html">blog</a>
+            
+            
+            
+
+        </p>
+
+
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+
+        
+        <div class="summary">2026 年 11 月 20 日，Windows 1.0 发布四十一年周年，也是「千禧前夜：Windows 1.0–XP 在线体验馆」正式上线的日子。我们把这座在线体验馆的故事写下来，既是纪念，也是一份交代：这些机器是怎么来的，又是怎么做到「点一下就能亲手开机」的。</div>
+        
+
+        <p>2026 年 11 月 20 日，Windows 1.0 发布四十一年周年，也是「千禧前夜：Windows 1.0–XP 在线体验馆」正式上线的日子。我们把这座在线体验馆的故事写下来，既是纪念，也是一份交代：这些机器是怎么来的，又是怎么做到「点一下就能亲手开机」的。</p>
+
+<hr />
+
+<h2 id="一缘起">一、缘起</h2>
+
+<p>1985 年的今天，微软发布 Windows 1.0。四十一年后，我们把二十台机器从 1.0 一路排到 XP，做成了一座可以真正开机的在线体验馆。</p>
+
+<p>这件事的起点很朴素：博物馆里有不少老系统，但「有」和「能摸到」是两回事。用户在自己的电脑上看一张 Windows 3.1 的截图，和亲手在程序管理器里双击一个图标，是完全不同的体验。我们想做的，是后者——让访客打开浏览器，就能开一台 1994 年的机器，用当年的鼠标和键盘，走一遍当年的路。</p>
+
+<p>最终展示的二十台展品，横跨 1985 到 2001：从平铺窗口的 1.0、重叠窗口的 2.03，到繁体中文的 3.0a、简体中文的 3.2；从 NT 内核的第一代 NT 3.1，到开始菜单与任务栏的 95、蓝屏的 98 SE、活动目录的 2000 Server；再到从未发布的 Neptune 5111、XP 前身 Whistler 2505，最后停在 Luna 蓝的 XP。馆里还藏了一台罕见的机器——NT 3.51 内核的 Citrix WinFrame 1.8。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/20261120/windows-exhibit.jpg" alt="体验馆门户全貌" />
+    <p></p>
+</div>
+
+<h2 id="二机器的来源">二、机器的来源</h2>
+
+<p>拿原始光盘或软盘镜像，在虚机里从头装。NT 3.1 用 1993 年的 CD 走完整链路，配 isapc 主板、486 CPU、32MB 内存。3.1 繁中、3.2 简中、1.04、WFW 3.11、3.0a、2.03、NT 3.51 都是这样装出来的。装完做冷启动验证：关机再开，确认能独立启动，而不是依赖安装过程的临时状态。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/20261120/winnt351-setup-partition.png" alt="NT 3.51 全新安装：分区]" />
+    <p></p>
+</div>
+
+<div align="center">
+    <img src="../images/dnbwg/20261120/win30a-copydisk.png" alt="Windows 3.0a：软盘复制阶段" />
+    <p></p>
+</div>
+
+<p>安装步骤里有不少时代细节。WinFrame 1.8 中途弹许可警告，Citrix 管理工具要单独挂 Tools CD；NT 3.51 先 FDISK、格式化，再进图形安装；3.0a 得一张张复制软盘，装完还要改 CONFIG.SYS 才认键盘。这些步骤现在看很繁琐，但每台机器都是真装出来的。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/20261120/winframe18-license-warning.png" alt="WinFrame 1.8：许可警告" />
+    <p></p>
+</div>
+
+<p>装完系统只是第一步。当年的安装程序只装核心组件，盘上真正好用的东西往往没进来，所以我们还会逐张翻原始介质，把值得展示的应用软件补齐。</p>
+
+<h2 id="三让机器能用">三、让机器能用</h2>
+
+<p>机器装好了，还得让人用得动。这一段是建设过程里最耗神的部分。</p>
+
+<p><strong>鼠标。</strong> 访客进 Win95 及更早的系统，画面正常、键盘可用，指针不动。Win98 之后一切正常。排查分三轮：先抓包确认前端发出了指针事件，排除链路；再用 Win98 做对照，一度误以为平台无责；最后用户指出在 VMware 图形界面里手动打开同一台 Win95，鼠标完全正常。这推翻了「客机内部坏了」的判断。决定性实验是在同一条 VNC 连接里用键盘打开画图程序，指针依然纹丝不动，责任落在输入通道。根因是 VMware 内置 VNC 注入绝对坐标，Win95 没有对应的 VMMOUSE.VXD 驱动。解法是改相对指针，配合浏览器 Pointer Lock 做闭环，指针增益设为负值以抵消驱动加速。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/20261120/win30a-kbdebug.png" alt="鼠标排查中的键盘对照实验" />
+    <p></p>
+</div>
+
+<p><strong>启动速度。</strong> 最初采用固定延时 14 秒，为的是避开「BIOS 也是 720×400，早送按键会丢」的问题。点击到可用桌面约 33 秒。优化后不再盲等，改为检测画面是否静止：DOS 提示符静止时相邻两帧只差 20 字节，滚屏时差两万多字节，差三个数量级，阈值取 1024。另加两道保险：必须见过滚屏（避免 SeaBIOS 交接处的假静止），且连续五次判定静止。点击到看到画面从 19 秒降到约 0.5 秒，到可用桌面约 25 秒。抓帧走 QMP 而不是 VNC，避免和前端抢连接。</p>
+
+<p><strong>快照。</strong> Win2KPro 接入时 VNC 配好了但不监听端口。原因是重建快照会连同 vmx 配置文件一起回滚，刚写进去的 VNC 设置被冲掉。正确顺序：写配置、关机、删旧快照、重建基线。</p>
+
+<h2 id="四门户界面">四、门户界面</h2>
+
+<p>门户按年代做时间轴，二十台机器从 1985 排到 2001。每张卡片写版本名、年份、一句话说明，右上角是年份角标。页面顶部常驻一句提示：「这些机器每 30 分钟恢复一次出厂状态，可以随便折腾，不会坏。」目的是先消除访客对弄坏机器的顾虑。</p>
+
+<p>卡片上的主操作是开机按钮。点击后前端立刻连上 VNC，访客从通电自检开始看：BIOS、DOS 提示符滚屏、短暂黑屏、Windows 启动沙漏，最后到桌面。这段等待保留下来，因为开机过程本身也是展品的一部分。按钮状态跟机器同步：可用、使用中、正在开机、维护中。</p>
+
+<p>视觉用博物馆展签的思路，深色背景配琥珀色点缀，字标放在浅色底上。静态文件每次从磁盘读取，改完刷新即生效，不用重启服务。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/20261120/portal_full.jpg" alt="体验馆门户全貌" />
+    <p></p>
+</div>
+
+<h2 id="五排队机制">五、排队机制</h2>
+
+<p>一台机器同时只能服务一个访客，VMware VNC 不支持多客户端。资源也不够：十三台机器全部开机需 3824MB 内存，加 VMware 进程开销，服务器必然爆内存。因此排队是设计的一部分。三条原则：按需唤醒、按内存预算放行、单机严格独占。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/20261120/portal-bar-full.png" alt="状态条：满员提示" />
+    <p></p>
+</div>
+
+<h2 id="六复古网络驿站">六、复古网络驿站</h2>
+
+<p>展机里有当年的浏览器，但没有可访问的内容。于是建了一个只对虚机开放的静态站点。</p>
+
+<p>设计原则是适配老浏览器，不要求它们迁就新标准。协议用 HTTP/1.0，每个响应带 <code class="language-plaintext highlighter-rouge">Connection: close</code>；不用 gzip，IE4 以前不认；不用 JS、Cookie 和框架，只保留基本标签；编码统一 GB2312，连 404 页也用 GB2312，否则 IE3 显示乱码。</p>
+
+<p>隔离不依赖防火墙。VMware Host-Only 网段不下发默认网关，虚机物理上出不了网。服务只绑虚拟网卡宿主地址和回环，物理网卡不监听。应用层再加来源白名单兜底，其余请求返回 403。</p>
+
+<p>踩过两个坑。一是中文文件名：IE5 在 GB2312 页面里把中文 URL 以裸 GBK 字节写进请求行，服务端按 ISO-8859-1 解码后直接 404。修法是先做百分号解码拿到字节，再按 utf-8、gbk、gb18030 依次尝试。二是 80 端口曾有两个进程同时监听，请求随机分发，导致改了代码时好时坏；关掉旧进程后恢复正常。</p>
+
+<p>从 Windows 95 起，几台展品里搭好了复古网络驿站。用那个年代的浏览器，重新拨号上一次互联网。</p>
+
+<div align="center">
+    <img src="../images/dnbwg/20261120/retro-web-in-winxp.png" alt="复古网络驿站" />
+    <p></p>
+</div>
+
+<h2 id="七附记">七、附记</h2>
+
+<p>两件与布展相关的查找工作。</p>
+
+<p>Win2K 的 IE 支持 Flash 上限为 10.3.183.x，IE5 只能配 Flash 9。Adobe 官网已不下发老版本，最后从 archive.org 取回 <code class="language-plaintext highlighter-rouge">flashplayer9r28_winax.exe</code>，签名有效，版本号匹配。</p>
+
+<p>Java applet 分两条路线。<code class="language-plaintext highlighter-rouge">&lt;applet&gt;</code> 标签只认微软的 MSJVM，最高到 JDK 1.1.4；<code class="language-plaintext highlighter-rouge">&lt;object&gt;</code> 写法才认 Sun Java Plug-in。为没有虚拟机的环境找安装包时拿到 <code class="language-plaintext highlighter-rouge">msjavx86.exe</code>（5.00.3809），包里有个 <code class="language-plaintext highlighter-rouge">javaie30.cab</code>，专门给 IE3 补几个缺失的系统组件，一个包覆盖 IE3 到 IE6。</p>
+
+<h2 id="八开一台吧">八、开一台吧</h2>
+
+<p>二十台机器，1985 到 2001。打开浏览器，点一下就能开机。</p>
+
+<p>欢迎来试。</p>
+
+<hr />
+
+
+    </div>
+
+
+
+</article>
+
+
+
+<div id="tcomment"></div>
+<script src="https://cdn.staticfile.org/twikoo/1.6.16/twikoo.all.min.js"></script>
+<script>
+twikoo.init({
+  envId: 'https://comment.ihonux.com', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  el: '#tcomment', // 容器元素
+  // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+  // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+  // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/imaegoo/twikoo/blob/main/src/client/utils/i18n/index.js
+})
+</script>
+
+
+
+
+
+
+<hr class="shaded"/>
+
+<footer>
+    <div class="row">
+        <div class="col-lg-12 footer">
+            <ul class="list-inline">
+                <li><a href="https://RetroMuseum.org">主站</a></li>
+                <li><a href="https://cm.ihonux.com">镜像</a></li>
+                <li><a href="/about.html">关于</a></li>  
+                <li><a href="/thanks.html">致谢</a></li>
+                <li><a href="/contact.html">反馈</a></li>
+                <li><a href="/feedback.html">来信</a></li>
+                <li><a href="/memorabilia.html">大事记</a></li>
+                <li><a href="/links.html">链接</a></li>
+                <li><a href="https://about.retromuseum.org">馆长</a></li>
+            </ul>
+        <div>
+        <div class="col-lg-12 footer">
+            &copy;2026 Copyright 2021-2026 Honux. All rights reserved. <br />
+             
+            Site last generated: Nov 20, 2026 <br />
+            <!-- <p><img src="images/company_logo.png" alt="Company logo"/></p> -->
+        </div>
+    </div>
+</footer>
+
+<script async src="https://ackee.ihonux.com/tracker.js" data-ackee-server="https://ackee.ihonux.com" data-ackee-domain-id="1476884b-dbb4-4310-bf47-cf034e75a9d9" data-ackee-opts='{ "detailed": true }'></script>
+
+<script>
+    var init_page = function() {
+        var oHead = document.getElementsByTagName("HEAD").item(0);
+        var oScript= document.createElement("script");
+        oScript.type = "text/javascript";
+        oScript.src="https://computer.retromuseum.org:90/console/visit_log.php?url=" + encodeURIComponent(window.location.href) + "&t=" + Date.now();
+        oHead.appendChild(oScript);
+    }
+    window.addEventListener("load", init_page, false);
+</script>
+
+
+
+
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>
+
+
