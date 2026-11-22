@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="云端的计算机博物馆，在网页模拟器中重现电脑发展史">
+<meta name="keywords" content="电脑, 计算机, 博物馆, 网页, 浏览器, 模拟器, 游戏, 历史">
+<title>千禧年中文Linux体验馆 - 复古电脑博物馆| 在线电脑博物馆 | 计算机博物馆 | Retro Computer Museum</title>
+<style>
+  html,body{margin:0;height:100%;background:#12151c;overflow:hidden}
+  #stage{position:fixed;inset:0}
+  #frame{display:block;width:100%;height:100%;border:0;background:#12151c}
+  #veil{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+        background:#12151c;color:#e8b866;text-align:center;
+        font:15px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;
+        transition:opacity .25s}
+  #veil.hidden{opacity:0;pointer-events:none}
+  .box{max-width:420px;padding:0 24px}
+  .spin{width:38px;height:38px;margin:0 auto 22px;border:3px solid rgba(232,184,102,.22);
+        border-top-color:#e8b866;border-radius:50%;animation:rot .9s linear infinite}
+  @keyframes rot{to{transform:rotate(360deg)}}
+  h1{margin:0 0 8px;font-size:19px;font-weight:600;letter-spacing:.5px}
+  .desc{margin:0;color:#98a0b0;font-size:14px}
+  #retry{margin-top:20px;padding:9px 24px;border:1px solid #e8b866;border-radius:6px;
+         background:transparent;color:#e8b866;font-size:14px;cursor:pointer}
+  #retry:hover{background:rgba(232,184,102,.12)}
+  #retry[hidden]{display:none}
+  .fatal .spin{display:none}
+  .fatal h1{color:#e07a5f}
+</style>
+</head>
+<body>
+<div id="stage">
+  <iframe id="frame" title="中文 Linux 馆" allowfullscreen referrerpolicy="no-referrer"></iframe>
+  <div id="veil" role="status" aria-live="polite">
+    <div class="box">
+      <div class="spin"></div>
+      <h1 id="title">正在连接 Linux 馆…</h1>
+      <p class="desc" id="desc">首次进入需要几秒钟，请稍候。</p>
+      <button id="retry" hidden>重新连接</button>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  "use strict";
+  // 目标地址拆开拼接：静态页面源码里不出现完整 URL；地址栏始终显示本站地址。
+  var BASE = ["https://computer.retromuseum.org", ":8089/"].join("");
+  // 展品白名单，来自 portal.conf.json 的 vms；非法值回落首页。
+  var VMS = ["happylinux", "xteamlinux", "bluepointlinux",
+             "redflaglinux", "turbolinux", "clextensions"];
+  var vm = new URLSearchParams(location.search).get("vm");
+  var TARGET = BASE + ((vm && VMS.indexOf(vm) >= 0)
+    ? "viewer.html?vm=" + encodeURIComponent(vm) : "");
+  var PING_TIMEOUT = 6000;   // 连通性探测超时
+  var LOAD_TIMEOUT = 20000;  // iframe 文档加载超时
+
+  var frame = document.getElementById("frame");
+  var veil  = document.getElementById("veil");
+  var title = document.getElementById("title");
+  var desc  = document.getElementById("desc");
+  var retry = document.getElementById("retry");
+  var loadTimer = null;
+
+  function showLoading() {
+    veil.className = "";
+    title.textContent = "正在连接 Linux 馆…";
+    desc.textContent  = "首次进入需要几秒钟，请稍候。";
+    retry.hidden = true;
+  }
+
+  function fail() {
+    clearTimeout(loadTimer);
+    frame.src = "about:blank";
+    veil.className = "fatal";
+    title.textContent = "暂时无法连接到 Linux 馆";
+    desc.textContent  = "服务可能正在维护或网络不通，请稍后再试。";
+    retry.hidden = false;
+  }
+
+  // no-cors 探测：只要网络层连得上就 resolve（含任意 HTTP 状态），连不上才 reject。
+  // 无需目标站配合，也不读取响应内容。
+  function probe() {
+    return new Promise(function (resolve) {
+      var ctl = ("AbortController" in window) ? new AbortController() : null;
+      var done = false;
+      var timer = setTimeout(function () {
+        if (done) return;
+        done = true;
+        if (ctl) ctl.abort();
+        resolve(false);
+      }, PING_TIMEOUT);
+      try {
+        fetch(TARGET, { mode: "no-cors", cache: "no-store",
+                        signal: ctl ? ctl.signal : undefined })
+          .then(function () {
+            if (done) return;
+            done = true; clearTimeout(timer); resolve(true);
+          })
+          .catch(function () {
+            if (done) return;
+            done = true; clearTimeout(timer); resolve(false);
+          });
+      } catch (e) {
+        if (done) return;
+        done = true; clearTimeout(timer); resolve(false);
+      }
+    });
+  }
+
+  function start() {
+    showLoading();
+    frame.onload = null;
+    frame.src = "about:blank";
+    probe().then(function (ok) {
+      if (!ok) { fail(); return; }
+      frame.onload = function () {
+        clearTimeout(loadTimer);
+        veil.className = "hidden";
+      };
+      frame.src = TARGET;
+      loadTimer = setTimeout(function () {
+        if (veil.className.indexOf("hidden") === -1) fail();
+      }, LOAD_TIMEOUT);
+    });
+  }
+
+  retry.addEventListener("click", start);
+  start();
+})();
+</script>
+
+<script async src="https://ackee.ihonux.com/tracker.js" data-ackee-server="https://ackee.ihonux.com" data-ackee-domain-id="1476884b-dbb4-4310-bf47-cf034e75a9d9" data-ackee-opts='{ "detailed": true }'></script>
+<script>
+    var init_page = function() {
+        var oHead = document.getElementsByTagName("HEAD").item(0);
+        var oScript= document.createElement("script");
+        oScript.type = "text/javascript";
+        oScript.src="https://computer.retromuseum.org:90/console/visit_log.php?url=" + encodeURIComponent(window.location.href) + "&t=" + Date.now();
+        oHead.appendChild(oScript);
+    }
+    window.addEventListener("load", init_page, false);
+</script>
+</body>
+</html>
