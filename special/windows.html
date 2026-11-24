@@ -3,9 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="云端的计算机博物馆，在网页模拟器中重现电脑发展史">
-<meta name="keywords" content="电脑, 计算机, 博物馆, 网页, 浏览器, 模拟器, 游戏, 历史">
-<title>千禧前夜：Windows 1.0–XP 在线体验馆 - 复古电脑博物馆| 在线电脑博物馆 | 计算机博物馆 | Retro Computer Museum</title>
+<title>RetroMuseum · Windows 馆</title>
 <style>
   html,body{margin:0;height:100%;background:#12151c;overflow:hidden}
   #stage{position:fixed;inset:0}
@@ -45,7 +43,15 @@
 (function () {
   "use strict";
   // 目标地址拆开拼接：静态页面源码里不出现完整 URL；地址栏始终显示本站地址。
-  var TARGET = ["https://computer.retromuseum.org", ":8655/"].join("");
+  var BASE = ["https://computer.retromuseum.org", ":8655/"].join("");
+  // 无参数 -> 门户首页；?vm=xxx -> 直达该展品的 viewer.html。
+  // 展品名只做转义后拼接，避免注入额外路径或参数。
+  var vm = "";
+  try {
+    vm = (new URLSearchParams(location.search).get("vm") || "").trim();
+  } catch (e) {}
+  if (vm && !/^[A-Za-z0-9_-]+$/.test(vm)) vm = "";   // 非法 vm 视作未传
+  var TARGET = vm ? (BASE + "viewer.html?vm=" + encodeURIComponent(vm)) : BASE;
   var PING_TIMEOUT = 6000;   // 连通性探测超时
   var LOAD_TIMEOUT = 20000;  // iframe 文档加载超时
 
@@ -122,18 +128,6 @@
   retry.addEventListener("click", start);
   start();
 })();
-</script>
-
-<script async src="https://ackee.ihonux.com/tracker.js" data-ackee-server="https://ackee.ihonux.com" data-ackee-domain-id="1476884b-dbb4-4310-bf47-cf034e75a9d9" data-ackee-opts='{ "detailed": true }'></script>
-<script>
-    var init_page = function() {
-        var oHead = document.getElementsByTagName("HEAD").item(0);
-        var oScript= document.createElement("script");
-        oScript.type = "text/javascript";
-        oScript.src="https://computer.retromuseum.org:90/console/visit_log.php?url=" + encodeURIComponent(window.location.href) + "&t=" + Date.now();
-        oHead.appendChild(oScript);
-    }
-    window.addEventListener("load", init_page, false);
 </script>
 </body>
 </html>
